@@ -1,0 +1,1540 @@
+|mainmodule
+CH0 => CH0.IN1
+CH1 => ~NO_FANOUT~
+CH2 => CH2.IN2
+CH3 => CH3.IN2
+CH4 => CH4.IN2
+CH5 => CH5.IN2
+CH6 => CH6.IN2
+CH7 => CH7.IN2
+BT0 => NBT0.IN1
+BT1 => ~NO_FANOUT~
+BT2 => ~NO_FANOUT~
+BT3 => ~NO_FANOUT~
+CLKIN => CLKIN.IN1
+LED0 << <GND>
+LED1 << <GND>
+LED2 << <GND>
+LED3 << <GND>
+LED4 << <GND>
+LED5 << <GND>
+LED6 << <GND>
+COL0 << multiplex35to5:shipartillerydisplaymux_0.OUT0
+COL1 << multiplex35to5:shipartillerydisplaymux_0.OUT1
+COL2 << multiplex35to5:shipartillerydisplaymux_0.OUT2
+COL3 << multiplex35to5:shipartillerydisplaymux_0.OUT3
+COL4 << multiplex35to5:shipartillerydisplaymux_0.OUT4
+LIN0 << WideNand0.DB_MAX_OUTPUT_PORT_TYPE
+LIN1 << WideNand1.DB_MAX_OUTPUT_PORT_TYPE
+LIN2 << WideNand2.DB_MAX_OUTPUT_PORT_TYPE
+LIN3 << WideNand3.DB_MAX_OUTPUT_PORT_TYPE
+LIN4 << WideNand4.DB_MAX_OUTPUT_PORT_TYPE
+LIN5 << WideNand5.DB_MAX_OUTPUT_PORT_TYPE
+LIN6 << WideNand6.DB_MAX_OUTPUT_PORT_TYPE
+SGDA << <GND>
+SGDB << <GND>
+SGDC << <GND>
+SGDD << <GND>
+SGDE << <GND>
+SGDF << <GND>
+SGDG << <GND>
+CLKOUT << comb.DB_MAX_OUTPUT_PORT_TYPE
+CLKDIVOUT << comb.DB_MAX_OUTPUT_PORT_TYPE
+RLED << shipgunner:shpart_0.RLED
+GLED << shipgunner:shpart_0.GLED
+
+
+|mainmodule|binpower20clockdivider:clk_div_0
+CLKTODIVIDE => CLKTODIVIDE.IN1
+DIVIDEDCLK <= tff_gate:ff19.q
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff00
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff01
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff02
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff03
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff04
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff05
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff06
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff07
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff08
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff09
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff10
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff11
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff12
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff13
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff14
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff15
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff16
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff17
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff18
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff19
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|bin3bcount:bin_3bc_0
+IPTCLK => IPTCLK.IN1
+A <= tff_gate:ff01.q
+B <= tff_gate:ff00.q
+C <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|bin3bcount:bin_3bc_0|tff_gate:ff00
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|bin3bcount:bin_3bc_0|tff_gate:ff01
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|tablememory7by5:shiparrangement_0
+cell0_0S => cell0_0S.IN1
+cell1_0S => cell1_0S.IN1
+cell2_0S => cell2_0S.IN1
+cell3_0S => cell3_0S.IN1
+cell4_0S => cell4_0S.IN1
+cell5_0S => cell5_0S.IN1
+cell6_0S => cell6_0S.IN1
+cell0_1S => cell0_1S.IN1
+cell1_1S => cell1_1S.IN1
+cell2_1S => cell2_1S.IN1
+cell3_1S => cell3_1S.IN1
+cell4_1S => cell4_1S.IN1
+cell5_1S => cell5_1S.IN1
+cell6_1S => cell6_1S.IN1
+cell0_2S => cell0_2S.IN1
+cell1_2S => cell1_2S.IN1
+cell2_2S => cell2_2S.IN1
+cell3_2S => cell3_2S.IN1
+cell4_2S => cell4_2S.IN1
+cell5_2S => cell5_2S.IN1
+cell6_2S => cell6_2S.IN1
+cell0_3S => cell0_3S.IN1
+cell1_3S => cell1_3S.IN1
+cell2_3S => cell2_3S.IN1
+cell3_3S => cell3_3S.IN1
+cell4_3S => cell4_3S.IN1
+cell5_3S => cell5_3S.IN1
+cell6_3S => cell6_3S.IN1
+cell0_4S => cell0_4S.IN1
+cell1_4S => cell1_4S.IN1
+cell2_4S => cell2_4S.IN1
+cell3_4S => cell3_4S.IN1
+cell4_4S => cell4_4S.IN1
+cell5_4S => cell5_4S.IN1
+cell6_4S => cell6_4S.IN1
+cell0_0R => cell0_0R.IN1
+cell1_0R => cell1_0R.IN1
+cell2_0R => cell2_0R.IN1
+cell3_0R => cell3_0R.IN1
+cell4_0R => cell4_0R.IN1
+cell5_0R => cell5_0R.IN1
+cell6_0R => cell6_0R.IN1
+cell0_1R => cell0_1R.IN1
+cell1_1R => cell1_1R.IN1
+cell2_1R => cell2_1R.IN1
+cell3_1R => cell3_1R.IN1
+cell4_1R => cell4_1R.IN1
+cell5_1R => cell5_1R.IN1
+cell6_1R => cell6_1R.IN1
+cell0_2R => cell0_2R.IN1
+cell1_2R => cell1_2R.IN1
+cell2_2R => cell2_2R.IN1
+cell3_2R => cell3_2R.IN1
+cell4_2R => cell4_2R.IN1
+cell5_2R => cell5_2R.IN1
+cell6_2R => cell6_2R.IN1
+cell0_3R => cell0_3R.IN1
+cell1_3R => cell1_3R.IN1
+cell2_3R => cell2_3R.IN1
+cell3_3R => cell3_3R.IN1
+cell4_3R => cell4_3R.IN1
+cell5_3R => cell5_3R.IN1
+cell6_3R => cell6_3R.IN1
+cell0_4R => cell0_4R.IN1
+cell1_4R => cell1_4R.IN1
+cell2_4R => cell2_4R.IN1
+cell3_4R => cell3_4R.IN1
+cell4_4R => cell4_4R.IN1
+cell5_4R => cell5_4R.IN1
+cell6_4R => cell6_4R.IN1
+cell0_0Q <= srlt_gate:cell0_0.q
+cell1_0Q <= srlt_gate:cell1_0.q
+cell2_0Q <= srlt_gate:cell2_0.q
+cell3_0Q <= srlt_gate:cell3_0.q
+cell4_0Q <= srlt_gate:cell4_0.q
+cell5_0Q <= srlt_gate:cell5_0.q
+cell6_0Q <= srlt_gate:cell6_0.q
+cell0_1Q <= srlt_gate:cell0_1.q
+cell1_1Q <= srlt_gate:cell1_1.q
+cell2_1Q <= srlt_gate:cell2_1.q
+cell3_1Q <= srlt_gate:cell3_1.q
+cell4_1Q <= srlt_gate:cell4_1.q
+cell5_1Q <= srlt_gate:cell5_1.q
+cell6_1Q <= srlt_gate:cell6_1.q
+cell0_2Q <= srlt_gate:cell0_2.q
+cell1_2Q <= srlt_gate:cell1_2.q
+cell2_2Q <= srlt_gate:cell2_2.q
+cell3_2Q <= srlt_gate:cell3_2.q
+cell4_2Q <= srlt_gate:cell4_2.q
+cell5_2Q <= srlt_gate:cell5_2.q
+cell6_2Q <= srlt_gate:cell6_2.q
+cell0_3Q <= srlt_gate:cell0_3.q
+cell1_3Q <= srlt_gate:cell1_3.q
+cell2_3Q <= srlt_gate:cell2_3.q
+cell3_3Q <= srlt_gate:cell3_3.q
+cell4_3Q <= srlt_gate:cell4_3.q
+cell5_3Q <= srlt_gate:cell5_3.q
+cell6_3Q <= srlt_gate:cell6_3.q
+cell0_4Q <= srlt_gate:cell0_4.q
+cell1_4Q <= srlt_gate:cell1_4.q
+cell2_4Q <= srlt_gate:cell2_4.q
+cell3_4Q <= srlt_gate:cell3_4.q
+cell4_4Q <= srlt_gate:cell4_4.q
+cell5_4Q <= srlt_gate:cell5_4.q
+cell6_4Q <= srlt_gate:cell6_4.q
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell0_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell1_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell2_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell3_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell4_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell5_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell6_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell0_1
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell1_1
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell2_1
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell3_1
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell4_1
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell5_1
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell6_1
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell0_2
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell1_2
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell2_2
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell3_2
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell4_2
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell5_2
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell6_2
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell0_3
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell1_3
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell2_3
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell3_3
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell4_3
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell5_3
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell6_3
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell0_4
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell1_4
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell2_4
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell3_4
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell4_4
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell5_4
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell6_4
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0
+cell0_0S => cell0_0S.IN1
+cell1_0S => cell1_0S.IN1
+cell2_0S => cell2_0S.IN1
+cell3_0S => cell3_0S.IN1
+cell4_0S => cell4_0S.IN1
+cell5_0S => cell5_0S.IN1
+cell6_0S => cell6_0S.IN1
+cell0_1S => cell0_1S.IN1
+cell1_1S => cell1_1S.IN1
+cell2_1S => cell2_1S.IN1
+cell3_1S => cell3_1S.IN1
+cell4_1S => cell4_1S.IN1
+cell5_1S => cell5_1S.IN1
+cell6_1S => cell6_1S.IN1
+cell0_2S => cell0_2S.IN1
+cell1_2S => cell1_2S.IN1
+cell2_2S => cell2_2S.IN1
+cell3_2S => cell3_2S.IN1
+cell4_2S => cell4_2S.IN1
+cell5_2S => cell5_2S.IN1
+cell6_2S => cell6_2S.IN1
+cell0_3S => cell0_3S.IN1
+cell1_3S => cell1_3S.IN1
+cell2_3S => cell2_3S.IN1
+cell3_3S => cell3_3S.IN1
+cell4_3S => cell4_3S.IN1
+cell5_3S => cell5_3S.IN1
+cell6_3S => cell6_3S.IN1
+cell0_4S => cell0_4S.IN1
+cell1_4S => cell1_4S.IN1
+cell2_4S => cell2_4S.IN1
+cell3_4S => cell3_4S.IN1
+cell4_4S => cell4_4S.IN1
+cell5_4S => cell5_4S.IN1
+cell6_4S => cell6_4S.IN1
+cell0_0R => cell0_0R.IN1
+cell1_0R => cell1_0R.IN1
+cell2_0R => cell2_0R.IN1
+cell3_0R => cell3_0R.IN1
+cell4_0R => cell4_0R.IN1
+cell5_0R => cell5_0R.IN1
+cell6_0R => cell6_0R.IN1
+cell0_1R => cell0_1R.IN1
+cell1_1R => cell1_1R.IN1
+cell2_1R => cell2_1R.IN1
+cell3_1R => cell3_1R.IN1
+cell4_1R => cell4_1R.IN1
+cell5_1R => cell5_1R.IN1
+cell6_1R => cell6_1R.IN1
+cell0_2R => cell0_2R.IN1
+cell1_2R => cell1_2R.IN1
+cell2_2R => cell2_2R.IN1
+cell3_2R => cell3_2R.IN1
+cell4_2R => cell4_2R.IN1
+cell5_2R => cell5_2R.IN1
+cell6_2R => cell6_2R.IN1
+cell0_3R => cell0_3R.IN1
+cell1_3R => cell1_3R.IN1
+cell2_3R => cell2_3R.IN1
+cell3_3R => cell3_3R.IN1
+cell4_3R => cell4_3R.IN1
+cell5_3R => cell5_3R.IN1
+cell6_3R => cell6_3R.IN1
+cell0_4R => cell0_4R.IN1
+cell1_4R => cell1_4R.IN1
+cell2_4R => cell2_4R.IN1
+cell3_4R => cell3_4R.IN1
+cell4_4R => cell4_4R.IN1
+cell5_4R => cell5_4R.IN1
+cell6_4R => cell6_4R.IN1
+cell0_0Q <= srlt_gate:cell0_0.q
+cell1_0Q <= srlt_gate:cell1_0.q
+cell2_0Q <= srlt_gate:cell2_0.q
+cell3_0Q <= srlt_gate:cell3_0.q
+cell4_0Q <= srlt_gate:cell4_0.q
+cell5_0Q <= srlt_gate:cell5_0.q
+cell6_0Q <= srlt_gate:cell6_0.q
+cell0_1Q <= srlt_gate:cell0_1.q
+cell1_1Q <= srlt_gate:cell1_1.q
+cell2_1Q <= srlt_gate:cell2_1.q
+cell3_1Q <= srlt_gate:cell3_1.q
+cell4_1Q <= srlt_gate:cell4_1.q
+cell5_1Q <= srlt_gate:cell5_1.q
+cell6_1Q <= srlt_gate:cell6_1.q
+cell0_2Q <= srlt_gate:cell0_2.q
+cell1_2Q <= srlt_gate:cell1_2.q
+cell2_2Q <= srlt_gate:cell2_2.q
+cell3_2Q <= srlt_gate:cell3_2.q
+cell4_2Q <= srlt_gate:cell4_2.q
+cell5_2Q <= srlt_gate:cell5_2.q
+cell6_2Q <= srlt_gate:cell6_2.q
+cell0_3Q <= srlt_gate:cell0_3.q
+cell1_3Q <= srlt_gate:cell1_3.q
+cell2_3Q <= srlt_gate:cell2_3.q
+cell3_3Q <= srlt_gate:cell3_3.q
+cell4_3Q <= srlt_gate:cell4_3.q
+cell5_3Q <= srlt_gate:cell5_3.q
+cell6_3Q <= srlt_gate:cell6_3.q
+cell0_4Q <= srlt_gate:cell0_4.q
+cell1_4Q <= srlt_gate:cell1_4.q
+cell2_4Q <= srlt_gate:cell2_4.q
+cell3_4Q <= srlt_gate:cell3_4.q
+cell4_4Q <= srlt_gate:cell4_4.q
+cell5_4Q <= srlt_gate:cell5_4.q
+cell6_4Q <= srlt_gate:cell6_4.q
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_1
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_1
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_1
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_1
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_1
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_1
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_1
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_2
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_2
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_2
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_2
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_2
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_2
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_2
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_3
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_3
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_3
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_3
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_3
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_3
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_3
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_4
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_4
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_4
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_4
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_4
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_4
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_4
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|multiplex35to1:shipcoordinate_mux_0
+IN0_0 => WideAnd0.IN0
+IN0_1 => WideAnd7.IN0
+IN0_2 => WideAnd14.IN0
+IN0_3 => WideAnd21.IN0
+IN0_4 => WideAnd28.IN0
+IN1_0 => WideAnd1.IN0
+IN1_1 => WideAnd8.IN0
+IN1_2 => WideAnd15.IN0
+IN1_3 => WideAnd22.IN0
+IN1_4 => WideAnd29.IN0
+IN2_0 => WideAnd2.IN0
+IN2_1 => WideAnd9.IN0
+IN2_2 => WideAnd16.IN0
+IN2_3 => WideAnd23.IN0
+IN2_4 => WideAnd30.IN0
+IN3_0 => WideAnd3.IN0
+IN3_1 => WideAnd10.IN0
+IN3_2 => WideAnd17.IN0
+IN3_3 => WideAnd24.IN0
+IN3_4 => WideAnd31.IN0
+IN4_0 => WideAnd4.IN0
+IN4_1 => WideAnd11.IN0
+IN4_2 => WideAnd18.IN0
+IN4_3 => WideAnd25.IN0
+IN4_4 => WideAnd32.IN0
+IN5_0 => WideAnd5.IN0
+IN5_1 => WideAnd12.IN0
+IN5_2 => WideAnd19.IN0
+IN5_3 => WideAnd26.IN0
+IN5_4 => WideAnd33.IN0
+IN6_0 => WideAnd6.IN0
+IN6_1 => WideAnd13.IN0
+IN6_2 => WideAnd20.IN0
+IN6_3 => WideAnd27.IN0
+IN6_4 => WideAnd34.IN0
+SEL0 => WideAnd21.IN1
+SEL0 => WideAnd22.IN1
+SEL0 => WideAnd23.IN1
+SEL0 => WideAnd24.IN1
+SEL0 => WideAnd25.IN1
+SEL0 => WideAnd26.IN1
+SEL0 => WideAnd27.IN1
+SEL0 => WideAnd28.IN1
+SEL0 => WideAnd29.IN1
+SEL0 => WideAnd30.IN1
+SEL0 => WideAnd31.IN1
+SEL0 => WideAnd32.IN1
+SEL0 => WideAnd33.IN1
+SEL0 => WideAnd34.IN1
+SEL0 => WideAnd0.IN1
+SEL0 => WideAnd1.IN1
+SEL0 => WideAnd2.IN1
+SEL0 => WideAnd3.IN1
+SEL0 => WideAnd4.IN1
+SEL0 => WideAnd5.IN1
+SEL0 => WideAnd6.IN1
+SEL0 => WideAnd7.IN1
+SEL0 => WideAnd8.IN1
+SEL0 => WideAnd9.IN1
+SEL0 => WideAnd10.IN1
+SEL0 => WideAnd11.IN1
+SEL0 => WideAnd12.IN1
+SEL0 => WideAnd13.IN1
+SEL0 => WideAnd14.IN1
+SEL0 => WideAnd15.IN1
+SEL0 => WideAnd16.IN1
+SEL0 => WideAnd17.IN1
+SEL0 => WideAnd18.IN1
+SEL0 => WideAnd19.IN1
+SEL0 => WideAnd20.IN1
+SEL1 => WideAnd7.IN2
+SEL1 => WideAnd8.IN2
+SEL1 => WideAnd9.IN2
+SEL1 => WideAnd10.IN2
+SEL1 => WideAnd11.IN2
+SEL1 => WideAnd12.IN2
+SEL1 => WideAnd13.IN2
+SEL1 => WideAnd14.IN2
+SEL1 => WideAnd15.IN2
+SEL1 => WideAnd16.IN2
+SEL1 => WideAnd17.IN2
+SEL1 => WideAnd18.IN2
+SEL1 => WideAnd19.IN2
+SEL1 => WideAnd20.IN2
+SEL1 => WideAnd0.IN2
+SEL1 => WideAnd1.IN2
+SEL1 => WideAnd2.IN2
+SEL1 => WideAnd3.IN2
+SEL1 => WideAnd4.IN2
+SEL1 => WideAnd5.IN2
+SEL1 => WideAnd6.IN2
+SEL1 => WideAnd21.IN2
+SEL1 => WideAnd22.IN2
+SEL1 => WideAnd23.IN2
+SEL1 => WideAnd24.IN2
+SEL1 => WideAnd25.IN2
+SEL1 => WideAnd26.IN2
+SEL1 => WideAnd27.IN2
+SEL1 => WideAnd28.IN2
+SEL1 => WideAnd29.IN2
+SEL1 => WideAnd30.IN2
+SEL1 => WideAnd31.IN2
+SEL1 => WideAnd32.IN2
+SEL1 => WideAnd33.IN2
+SEL1 => WideAnd34.IN2
+SEL2 => WideAnd0.IN3
+SEL2 => WideAnd1.IN3
+SEL2 => WideAnd2.IN3
+SEL2 => WideAnd3.IN3
+SEL2 => WideAnd4.IN3
+SEL2 => WideAnd5.IN3
+SEL2 => WideAnd6.IN3
+SEL2 => WideAnd14.IN3
+SEL2 => WideAnd15.IN3
+SEL2 => WideAnd16.IN3
+SEL2 => WideAnd17.IN3
+SEL2 => WideAnd18.IN3
+SEL2 => WideAnd19.IN3
+SEL2 => WideAnd20.IN3
+SEL2 => WideAnd28.IN3
+SEL2 => WideAnd29.IN3
+SEL2 => WideAnd30.IN3
+SEL2 => WideAnd31.IN3
+SEL2 => WideAnd32.IN3
+SEL2 => WideAnd33.IN3
+SEL2 => WideAnd34.IN3
+SEL2 => WideAnd7.IN3
+SEL2 => WideAnd8.IN3
+SEL2 => WideAnd9.IN3
+SEL2 => WideAnd10.IN3
+SEL2 => WideAnd11.IN3
+SEL2 => WideAnd12.IN3
+SEL2 => WideAnd13.IN3
+SEL2 => WideAnd21.IN3
+SEL2 => WideAnd22.IN3
+SEL2 => WideAnd23.IN3
+SEL2 => WideAnd24.IN3
+SEL2 => WideAnd25.IN3
+SEL2 => WideAnd26.IN3
+SEL2 => WideAnd27.IN3
+SEL3 => WideAnd3.IN4
+SEL3 => WideAnd4.IN4
+SEL3 => WideAnd5.IN4
+SEL3 => WideAnd6.IN4
+SEL3 => WideAnd10.IN4
+SEL3 => WideAnd11.IN4
+SEL3 => WideAnd12.IN4
+SEL3 => WideAnd13.IN4
+SEL3 => WideAnd17.IN4
+SEL3 => WideAnd18.IN4
+SEL3 => WideAnd19.IN4
+SEL3 => WideAnd20.IN4
+SEL3 => WideAnd24.IN4
+SEL3 => WideAnd25.IN4
+SEL3 => WideAnd26.IN4
+SEL3 => WideAnd27.IN4
+SEL3 => WideAnd31.IN4
+SEL3 => WideAnd32.IN4
+SEL3 => WideAnd33.IN4
+SEL3 => WideAnd34.IN4
+SEL3 => WideAnd0.IN4
+SEL3 => WideAnd1.IN4
+SEL3 => WideAnd2.IN4
+SEL3 => WideAnd7.IN4
+SEL3 => WideAnd8.IN4
+SEL3 => WideAnd9.IN4
+SEL3 => WideAnd14.IN4
+SEL3 => WideAnd15.IN4
+SEL3 => WideAnd16.IN4
+SEL3 => WideAnd21.IN4
+SEL3 => WideAnd22.IN4
+SEL3 => WideAnd23.IN4
+SEL3 => WideAnd28.IN4
+SEL3 => WideAnd29.IN4
+SEL3 => WideAnd30.IN4
+SEL4 => WideAnd1.IN5
+SEL4 => WideAnd2.IN5
+SEL4 => WideAnd5.IN5
+SEL4 => WideAnd6.IN5
+SEL4 => WideAnd8.IN5
+SEL4 => WideAnd9.IN5
+SEL4 => WideAnd12.IN5
+SEL4 => WideAnd13.IN5
+SEL4 => WideAnd15.IN5
+SEL4 => WideAnd16.IN5
+SEL4 => WideAnd19.IN5
+SEL4 => WideAnd20.IN5
+SEL4 => WideAnd22.IN5
+SEL4 => WideAnd23.IN5
+SEL4 => WideAnd26.IN5
+SEL4 => WideAnd27.IN5
+SEL4 => WideAnd29.IN5
+SEL4 => WideAnd30.IN5
+SEL4 => WideAnd33.IN5
+SEL4 => WideAnd34.IN5
+SEL4 => WideAnd0.IN5
+SEL4 => WideAnd3.IN5
+SEL4 => WideAnd4.IN5
+SEL4 => WideAnd7.IN5
+SEL4 => WideAnd10.IN5
+SEL4 => WideAnd11.IN5
+SEL4 => WideAnd14.IN5
+SEL4 => WideAnd17.IN5
+SEL4 => WideAnd18.IN5
+SEL4 => WideAnd21.IN5
+SEL4 => WideAnd24.IN5
+SEL4 => WideAnd25.IN5
+SEL4 => WideAnd28.IN5
+SEL4 => WideAnd31.IN5
+SEL4 => WideAnd32.IN5
+SEL5 => WideAnd0.IN6
+SEL5 => WideAnd2.IN6
+SEL5 => WideAnd4.IN6
+SEL5 => WideAnd6.IN6
+SEL5 => WideAnd7.IN6
+SEL5 => WideAnd9.IN6
+SEL5 => WideAnd11.IN6
+SEL5 => WideAnd13.IN6
+SEL5 => WideAnd14.IN6
+SEL5 => WideAnd16.IN6
+SEL5 => WideAnd18.IN6
+SEL5 => WideAnd20.IN6
+SEL5 => WideAnd21.IN6
+SEL5 => WideAnd23.IN6
+SEL5 => WideAnd25.IN6
+SEL5 => WideAnd27.IN6
+SEL5 => WideAnd28.IN6
+SEL5 => WideAnd30.IN6
+SEL5 => WideAnd32.IN6
+SEL5 => WideAnd34.IN6
+SEL5 => WideAnd1.IN6
+SEL5 => WideAnd3.IN6
+SEL5 => WideAnd5.IN6
+SEL5 => WideAnd8.IN6
+SEL5 => WideAnd10.IN6
+SEL5 => WideAnd12.IN6
+SEL5 => WideAnd15.IN6
+SEL5 => WideAnd17.IN6
+SEL5 => WideAnd19.IN6
+SEL5 => WideAnd22.IN6
+SEL5 => WideAnd24.IN6
+SEL5 => WideAnd26.IN6
+SEL5 => WideAnd29.IN6
+SEL5 => WideAnd31.IN6
+SEL5 => WideAnd33.IN6
+OUT <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|shipgunner:shpart_0
+IPTSHIP => comb.IN1
+IPTSHIP => comb.IN1
+NBT0 => actionrequested.IN0
+CH0 => actionrequested.IN1
+NCH0 => comb.IN0
+NCH0 => comb.IN0
+OUT <= comb.DB_MAX_OUTPUT_PORT_TYPE
+RLED <= srlt_gate:rlight_0.q
+GLED <= srlt_gate:glight_0.q
+
+
+|mainmodule|shipgunner:shpart_0|srlt_gate:rlight_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|shipgunner:shpart_0|srlt_gate:glight_0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
+
+
+|mainmodule|multiplex1to35:artiptmux_0
+IPT => WideAnd0.IN0
+IPT => WideAnd1.IN0
+IPT => WideAnd2.IN0
+IPT => WideAnd3.IN0
+IPT => WideAnd4.IN0
+IPT => WideAnd5.IN0
+IPT => WideAnd6.IN0
+IPT => WideAnd7.IN0
+IPT => WideAnd8.IN0
+IPT => WideAnd9.IN0
+IPT => WideAnd10.IN0
+IPT => WideAnd11.IN0
+IPT => WideAnd12.IN0
+IPT => WideAnd13.IN0
+IPT => WideAnd14.IN0
+IPT => WideAnd15.IN0
+IPT => WideAnd16.IN0
+IPT => WideAnd17.IN0
+IPT => WideAnd18.IN0
+IPT => WideAnd19.IN0
+IPT => WideAnd20.IN0
+IPT => WideAnd21.IN0
+IPT => WideAnd22.IN0
+IPT => WideAnd23.IN0
+IPT => WideAnd24.IN0
+IPT => WideAnd25.IN0
+IPT => WideAnd26.IN0
+IPT => WideAnd27.IN0
+IPT => WideAnd28.IN0
+IPT => WideAnd29.IN0
+IPT => WideAnd30.IN0
+IPT => WideAnd31.IN0
+IPT => WideAnd32.IN0
+IPT => WideAnd33.IN0
+IPT => WideAnd34.IN0
+SEL0 => WideAnd21.IN1
+SEL0 => WideAnd22.IN1
+SEL0 => WideAnd23.IN1
+SEL0 => WideAnd24.IN1
+SEL0 => WideAnd25.IN1
+SEL0 => WideAnd26.IN1
+SEL0 => WideAnd27.IN1
+SEL0 => WideAnd28.IN1
+SEL0 => WideAnd29.IN1
+SEL0 => WideAnd30.IN1
+SEL0 => WideAnd31.IN1
+SEL0 => WideAnd32.IN1
+SEL0 => WideAnd33.IN1
+SEL0 => WideAnd34.IN1
+SEL0 => WideAnd0.IN1
+SEL0 => WideAnd1.IN1
+SEL0 => WideAnd2.IN1
+SEL0 => WideAnd3.IN1
+SEL0 => WideAnd4.IN1
+SEL0 => WideAnd5.IN1
+SEL0 => WideAnd6.IN1
+SEL0 => WideAnd7.IN1
+SEL0 => WideAnd8.IN1
+SEL0 => WideAnd9.IN1
+SEL0 => WideAnd10.IN1
+SEL0 => WideAnd11.IN1
+SEL0 => WideAnd12.IN1
+SEL0 => WideAnd13.IN1
+SEL0 => WideAnd14.IN1
+SEL0 => WideAnd15.IN1
+SEL0 => WideAnd16.IN1
+SEL0 => WideAnd17.IN1
+SEL0 => WideAnd18.IN1
+SEL0 => WideAnd19.IN1
+SEL0 => WideAnd20.IN1
+SEL1 => WideAnd7.IN2
+SEL1 => WideAnd8.IN2
+SEL1 => WideAnd9.IN2
+SEL1 => WideAnd10.IN2
+SEL1 => WideAnd11.IN2
+SEL1 => WideAnd12.IN2
+SEL1 => WideAnd13.IN2
+SEL1 => WideAnd14.IN2
+SEL1 => WideAnd15.IN2
+SEL1 => WideAnd16.IN2
+SEL1 => WideAnd17.IN2
+SEL1 => WideAnd18.IN2
+SEL1 => WideAnd19.IN2
+SEL1 => WideAnd20.IN2
+SEL1 => WideAnd0.IN2
+SEL1 => WideAnd1.IN2
+SEL1 => WideAnd2.IN2
+SEL1 => WideAnd3.IN2
+SEL1 => WideAnd4.IN2
+SEL1 => WideAnd5.IN2
+SEL1 => WideAnd6.IN2
+SEL1 => WideAnd21.IN2
+SEL1 => WideAnd22.IN2
+SEL1 => WideAnd23.IN2
+SEL1 => WideAnd24.IN2
+SEL1 => WideAnd25.IN2
+SEL1 => WideAnd26.IN2
+SEL1 => WideAnd27.IN2
+SEL1 => WideAnd28.IN2
+SEL1 => WideAnd29.IN2
+SEL1 => WideAnd30.IN2
+SEL1 => WideAnd31.IN2
+SEL1 => WideAnd32.IN2
+SEL1 => WideAnd33.IN2
+SEL1 => WideAnd34.IN2
+SEL2 => WideAnd0.IN3
+SEL2 => WideAnd1.IN3
+SEL2 => WideAnd2.IN3
+SEL2 => WideAnd3.IN3
+SEL2 => WideAnd4.IN3
+SEL2 => WideAnd5.IN3
+SEL2 => WideAnd6.IN3
+SEL2 => WideAnd14.IN3
+SEL2 => WideAnd15.IN3
+SEL2 => WideAnd16.IN3
+SEL2 => WideAnd17.IN3
+SEL2 => WideAnd18.IN3
+SEL2 => WideAnd19.IN3
+SEL2 => WideAnd20.IN3
+SEL2 => WideAnd28.IN3
+SEL2 => WideAnd29.IN3
+SEL2 => WideAnd30.IN3
+SEL2 => WideAnd31.IN3
+SEL2 => WideAnd32.IN3
+SEL2 => WideAnd33.IN3
+SEL2 => WideAnd34.IN3
+SEL2 => WideAnd7.IN3
+SEL2 => WideAnd8.IN3
+SEL2 => WideAnd9.IN3
+SEL2 => WideAnd10.IN3
+SEL2 => WideAnd11.IN3
+SEL2 => WideAnd12.IN3
+SEL2 => WideAnd13.IN3
+SEL2 => WideAnd21.IN3
+SEL2 => WideAnd22.IN3
+SEL2 => WideAnd23.IN3
+SEL2 => WideAnd24.IN3
+SEL2 => WideAnd25.IN3
+SEL2 => WideAnd26.IN3
+SEL2 => WideAnd27.IN3
+SEL3 => WideAnd3.IN4
+SEL3 => WideAnd4.IN4
+SEL3 => WideAnd5.IN4
+SEL3 => WideAnd6.IN4
+SEL3 => WideAnd10.IN4
+SEL3 => WideAnd11.IN4
+SEL3 => WideAnd12.IN4
+SEL3 => WideAnd13.IN4
+SEL3 => WideAnd17.IN4
+SEL3 => WideAnd18.IN4
+SEL3 => WideAnd19.IN4
+SEL3 => WideAnd20.IN4
+SEL3 => WideAnd24.IN4
+SEL3 => WideAnd25.IN4
+SEL3 => WideAnd26.IN4
+SEL3 => WideAnd27.IN4
+SEL3 => WideAnd31.IN4
+SEL3 => WideAnd32.IN4
+SEL3 => WideAnd33.IN4
+SEL3 => WideAnd34.IN4
+SEL3 => WideAnd0.IN4
+SEL3 => WideAnd1.IN4
+SEL3 => WideAnd2.IN4
+SEL3 => WideAnd7.IN4
+SEL3 => WideAnd8.IN4
+SEL3 => WideAnd9.IN4
+SEL3 => WideAnd14.IN4
+SEL3 => WideAnd15.IN4
+SEL3 => WideAnd16.IN4
+SEL3 => WideAnd21.IN4
+SEL3 => WideAnd22.IN4
+SEL3 => WideAnd23.IN4
+SEL3 => WideAnd28.IN4
+SEL3 => WideAnd29.IN4
+SEL3 => WideAnd30.IN4
+SEL4 => WideAnd1.IN5
+SEL4 => WideAnd2.IN5
+SEL4 => WideAnd5.IN5
+SEL4 => WideAnd6.IN5
+SEL4 => WideAnd8.IN5
+SEL4 => WideAnd9.IN5
+SEL4 => WideAnd12.IN5
+SEL4 => WideAnd13.IN5
+SEL4 => WideAnd15.IN5
+SEL4 => WideAnd16.IN5
+SEL4 => WideAnd19.IN5
+SEL4 => WideAnd20.IN5
+SEL4 => WideAnd22.IN5
+SEL4 => WideAnd23.IN5
+SEL4 => WideAnd26.IN5
+SEL4 => WideAnd27.IN5
+SEL4 => WideAnd29.IN5
+SEL4 => WideAnd30.IN5
+SEL4 => WideAnd33.IN5
+SEL4 => WideAnd34.IN5
+SEL4 => WideAnd0.IN5
+SEL4 => WideAnd3.IN5
+SEL4 => WideAnd4.IN5
+SEL4 => WideAnd7.IN5
+SEL4 => WideAnd10.IN5
+SEL4 => WideAnd11.IN5
+SEL4 => WideAnd14.IN5
+SEL4 => WideAnd17.IN5
+SEL4 => WideAnd18.IN5
+SEL4 => WideAnd21.IN5
+SEL4 => WideAnd24.IN5
+SEL4 => WideAnd25.IN5
+SEL4 => WideAnd28.IN5
+SEL4 => WideAnd31.IN5
+SEL4 => WideAnd32.IN5
+SEL5 => WideAnd0.IN6
+SEL5 => WideAnd2.IN6
+SEL5 => WideAnd4.IN6
+SEL5 => WideAnd6.IN6
+SEL5 => WideAnd7.IN6
+SEL5 => WideAnd9.IN6
+SEL5 => WideAnd11.IN6
+SEL5 => WideAnd13.IN6
+SEL5 => WideAnd14.IN6
+SEL5 => WideAnd16.IN6
+SEL5 => WideAnd18.IN6
+SEL5 => WideAnd20.IN6
+SEL5 => WideAnd21.IN6
+SEL5 => WideAnd23.IN6
+SEL5 => WideAnd25.IN6
+SEL5 => WideAnd27.IN6
+SEL5 => WideAnd28.IN6
+SEL5 => WideAnd30.IN6
+SEL5 => WideAnd32.IN6
+SEL5 => WideAnd34.IN6
+SEL5 => WideAnd1.IN6
+SEL5 => WideAnd3.IN6
+SEL5 => WideAnd5.IN6
+SEL5 => WideAnd8.IN6
+SEL5 => WideAnd10.IN6
+SEL5 => WideAnd12.IN6
+SEL5 => WideAnd15.IN6
+SEL5 => WideAnd17.IN6
+SEL5 => WideAnd19.IN6
+SEL5 => WideAnd22.IN6
+SEL5 => WideAnd24.IN6
+SEL5 => WideAnd26.IN6
+SEL5 => WideAnd29.IN6
+SEL5 => WideAnd31.IN6
+SEL5 => WideAnd33.IN6
+OUT0_0 <= WideAnd0.DB_MAX_OUTPUT_PORT_TYPE
+OUT0_1 <= WideAnd7.DB_MAX_OUTPUT_PORT_TYPE
+OUT0_2 <= WideAnd14.DB_MAX_OUTPUT_PORT_TYPE
+OUT0_3 <= WideAnd21.DB_MAX_OUTPUT_PORT_TYPE
+OUT0_4 <= WideAnd28.DB_MAX_OUTPUT_PORT_TYPE
+OUT1_0 <= WideAnd1.DB_MAX_OUTPUT_PORT_TYPE
+OUT1_1 <= WideAnd8.DB_MAX_OUTPUT_PORT_TYPE
+OUT1_2 <= WideAnd15.DB_MAX_OUTPUT_PORT_TYPE
+OUT1_3 <= WideAnd22.DB_MAX_OUTPUT_PORT_TYPE
+OUT1_4 <= WideAnd29.DB_MAX_OUTPUT_PORT_TYPE
+OUT2_0 <= WideAnd2.DB_MAX_OUTPUT_PORT_TYPE
+OUT2_1 <= WideAnd9.DB_MAX_OUTPUT_PORT_TYPE
+OUT2_2 <= WideAnd16.DB_MAX_OUTPUT_PORT_TYPE
+OUT2_3 <= WideAnd23.DB_MAX_OUTPUT_PORT_TYPE
+OUT2_4 <= WideAnd30.DB_MAX_OUTPUT_PORT_TYPE
+OUT3_0 <= WideAnd3.DB_MAX_OUTPUT_PORT_TYPE
+OUT3_1 <= WideAnd10.DB_MAX_OUTPUT_PORT_TYPE
+OUT3_2 <= WideAnd17.DB_MAX_OUTPUT_PORT_TYPE
+OUT3_3 <= WideAnd24.DB_MAX_OUTPUT_PORT_TYPE
+OUT3_4 <= WideAnd31.DB_MAX_OUTPUT_PORT_TYPE
+OUT4_0 <= WideAnd4.DB_MAX_OUTPUT_PORT_TYPE
+OUT4_1 <= WideAnd11.DB_MAX_OUTPUT_PORT_TYPE
+OUT4_2 <= WideAnd18.DB_MAX_OUTPUT_PORT_TYPE
+OUT4_3 <= WideAnd25.DB_MAX_OUTPUT_PORT_TYPE
+OUT4_4 <= WideAnd32.DB_MAX_OUTPUT_PORT_TYPE
+OUT5_0 <= WideAnd5.DB_MAX_OUTPUT_PORT_TYPE
+OUT5_1 <= WideAnd12.DB_MAX_OUTPUT_PORT_TYPE
+OUT5_2 <= WideAnd19.DB_MAX_OUTPUT_PORT_TYPE
+OUT5_3 <= WideAnd26.DB_MAX_OUTPUT_PORT_TYPE
+OUT5_4 <= WideAnd33.DB_MAX_OUTPUT_PORT_TYPE
+OUT6_0 <= WideAnd6.DB_MAX_OUTPUT_PORT_TYPE
+OUT6_1 <= WideAnd13.DB_MAX_OUTPUT_PORT_TYPE
+OUT6_2 <= WideAnd20.DB_MAX_OUTPUT_PORT_TYPE
+OUT6_3 <= WideAnd27.DB_MAX_OUTPUT_PORT_TYPE
+OUT6_4 <= WideAnd34.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|multiplex35to5:shipartillerydisplaymux_0
+IN0_0 => OUT0wire0.IN1
+IN0_1 => OUT1wire0.IN1
+IN0_2 => OUT2wire0.IN1
+IN0_3 => OUT3wire0.IN1
+IN0_4 => OUT4wire0.IN1
+IN1_0 => OUT0wire1.IN1
+IN1_1 => OUT1wire1.IN1
+IN1_2 => OUT2wire1.IN1
+IN1_3 => OUT3wire1.IN1
+IN1_4 => OUT4wire1.IN1
+IN2_0 => OUT0wire2.IN1
+IN2_1 => OUT1wire2.IN1
+IN2_2 => OUT2wire2.IN1
+IN2_3 => OUT3wire2.IN1
+IN2_4 => OUT4wire2.IN1
+IN3_0 => OUT0wire3.IN1
+IN3_1 => OUT1wire3.IN1
+IN3_2 => OUT2wire3.IN1
+IN3_3 => OUT3wire3.IN1
+IN3_4 => OUT4wire3.IN1
+IN4_0 => OUT0wire4.IN1
+IN4_1 => OUT1wire4.IN1
+IN4_2 => OUT2wire4.IN1
+IN4_3 => OUT3wire4.IN1
+IN4_4 => OUT4wire4.IN1
+IN5_0 => OUT0wire5.IN1
+IN5_1 => OUT1wire5.IN1
+IN5_2 => OUT2wire5.IN1
+IN5_3 => OUT3wire5.IN1
+IN5_4 => OUT4wire5.IN1
+IN6_0 => OUT0wire6.IN1
+IN6_1 => OUT1wire6.IN1
+IN6_2 => OUT2wire6.IN1
+IN6_3 => OUT3wire6.IN1
+IN6_4 => OUT4wire6.IN1
+SEL0 => WideAnd4.IN0
+SEL0 => WideAnd5.IN0
+SEL0 => WideAnd6.IN0
+SEL0 => WideAnd0.IN0
+SEL0 => WideAnd1.IN0
+SEL0 => WideAnd2.IN0
+SEL0 => WideAnd3.IN0
+SEL1 => WideAnd2.IN1
+SEL1 => WideAnd3.IN1
+SEL1 => WideAnd6.IN1
+SEL1 => WideAnd0.IN1
+SEL1 => WideAnd1.IN1
+SEL1 => WideAnd4.IN1
+SEL1 => WideAnd5.IN1
+SEL2 => WideAnd1.IN2
+SEL2 => WideAnd3.IN2
+SEL2 => WideAnd5.IN2
+SEL2 => WideAnd0.IN2
+SEL2 => WideAnd2.IN2
+SEL2 => WideAnd4.IN2
+SEL2 => WideAnd6.IN2
+OUT0 <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+OUT1 <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+OUT2 <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+OUT3 <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+OUT4 <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,1073 @@
+Analysis & Synthesis report for mainmodule
+Wed Sep 27 17:28:39 2023
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Logic Cells Representing Combinational Loops
+  9. General Register Statistics
+ 10. Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:glight_0"
+ 11. Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:rlight_0"
+ 12. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_4"
+ 13. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_4"
+ 14. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_4"
+ 15. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_4"
+ 16. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_4"
+ 17. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_4"
+ 18. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_4"
+ 19. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_3"
+ 20. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_3"
+ 21. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_3"
+ 22. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_3"
+ 23. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_3"
+ 24. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_3"
+ 25. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_3"
+ 26. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_2"
+ 27. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_2"
+ 28. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_2"
+ 29. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_2"
+ 30. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_2"
+ 31. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_2"
+ 32. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_2"
+ 33. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_1"
+ 34. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_1"
+ 35. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_1"
+ 36. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_1"
+ 37. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_1"
+ 38. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_1"
+ 39. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_1"
+ 40. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_0"
+ 41. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_0"
+ 42. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_0"
+ 43. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_0"
+ 44. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_0"
+ 45. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_0"
+ 46. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_0"
+ 47. Port Connectivity Checks: "tablememory7by5:shiparrangement_0"
+ 48. Port Connectivity Checks: "bin3bcount:bin_3bc_0|tff_gate:ff01"
+ 49. Port Connectivity Checks: "bin3bcount:bin_3bc_0|tff_gate:ff00"
+ 50. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff19"
+ 51. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff18"
+ 52. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff17"
+ 53. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff16"
+ 54. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff15"
+ 55. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff14"
+ 56. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff13"
+ 57. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff12"
+ 58. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff11"
+ 59. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff10"
+ 60. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff09"
+ 61. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff08"
+ 62. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff07"
+ 63. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff06"
+ 64. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff05"
+ 65. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff04"
+ 66. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff03"
+ 67. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff02"
+ 68. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff01"
+ 69. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff00"
+ 70. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++---------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                              ;
++-----------------------------+---------------------------------------------+
+; Analysis & Synthesis Status ; Successful - Wed Sep 27 17:28:39 2023       ;
+; Quartus Prime Version       ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name               ; mainmodule                                  ;
+; Top-level Entity Name       ; mainmodule                                  ;
+; Family                      ; MAX II                                      ;
+; Total logic elements        ; 74                                          ;
+; Total pins                  ; 43                                          ;
+; Total virtual pins          ; 0                                           ;
+; UFM blocks                  ; 0 / 1 ( 0 % )                               ;
++-----------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EPM240T100C5       ;                    ;
+; Top-level entity name                                            ; mainmodule         ; mainmodule         ;
+; Family name                                                      ; MAX II             ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 6           ;
+; Maximum allowed            ; 6           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                       ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                         ; Library ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------+---------+
+; tff_gate.v                       ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/tff_gate.v               ;         ;
+; tablememory7by5.v                ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/tablememory7by5.v        ;         ;
+; srlt_gate.v                      ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/srlt_gate.v              ;         ;
+; shipgunner.v                     ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/shipgunner.v             ;         ;
+; multiplex35to5.v                 ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/multiplex35to5.v         ;         ;
+; multiplex35to1.v                 ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/multiplex35to1.v         ;         ;
+; multiplex1to35.v                 ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/multiplex1to35.v         ;         ;
+; mainmodule.v                     ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/mainmodule.v             ;         ;
+; binpower20clockdivider.v         ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/binpower20clockdivider.v ;         ;
+; bin3bcount.v                     ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/bin3bcount.v             ;         ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Total logic elements                        ; 74    ;
+;     -- Combinational with no register       ; 52    ;
+;     -- Register only                        ; 0     ;
+;     -- Combinational with a register        ; 22    ;
+;                                             ;       ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 33    ;
+;     -- 3 input functions                    ; 19    ;
+;     -- 2 input functions                    ; 0     ;
+;     -- 1 input functions                    ; 22    ;
+;     -- 0 input functions                    ; 0     ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 74    ;
+;     -- arithmetic mode                      ; 0     ;
+;     -- qfbk mode                            ; 0     ;
+;     -- register cascade mode                ; 0     ;
+;     -- synchronous clear/load mode          ; 0     ;
+;     -- asynchronous clear/load mode         ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 22    ;
+; I/O pins                                    ; 43    ;
+; Maximum fan-out node                        ; CH0   ;
+; Maximum fan-out                             ; 15    ;
+; Total fan-out                               ; 249   ;
+; Average fan-out                             ; 2.13  ;
++---------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                     ;
++-----------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
+; Compilation Hierarchy Node                    ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                        ; Entity Name            ; Library Name ;
++-----------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
+; |mainmodule                                   ; 74 (7)      ; 22           ; 0          ; 43   ; 0            ; 52 (7)       ; 0 (0)             ; 22 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule                                                ; mainmodule             ; work         ;
+;    |bin3bcount:bin_3bc_0|                     ; 2 (0)       ; 2            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin3bcount:bin_3bc_0                           ; bin3bcount             ; work         ;
+;       |tff_gate:ff00|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin3bcount:bin_3bc_0|tff_gate:ff00             ; tff_gate               ; work         ;
+;       |tff_gate:ff01|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin3bcount:bin_3bc_0|tff_gate:ff01             ; tff_gate               ; work         ;
+;    |binpower20clockdivider:clk_div_0|         ; 20 (0)      ; 20           ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 20 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0               ; binpower20clockdivider ; work         ;
+;       |tff_gate:ff00|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff00 ; tff_gate               ; work         ;
+;       |tff_gate:ff01|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff01 ; tff_gate               ; work         ;
+;       |tff_gate:ff02|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff02 ; tff_gate               ; work         ;
+;       |tff_gate:ff03|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff03 ; tff_gate               ; work         ;
+;       |tff_gate:ff04|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff04 ; tff_gate               ; work         ;
+;       |tff_gate:ff05|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff05 ; tff_gate               ; work         ;
+;       |tff_gate:ff06|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff06 ; tff_gate               ; work         ;
+;       |tff_gate:ff07|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff07 ; tff_gate               ; work         ;
+;       |tff_gate:ff08|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff08 ; tff_gate               ; work         ;
+;       |tff_gate:ff09|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff09 ; tff_gate               ; work         ;
+;       |tff_gate:ff10|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff10 ; tff_gate               ; work         ;
+;       |tff_gate:ff11|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff11 ; tff_gate               ; work         ;
+;       |tff_gate:ff12|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff12 ; tff_gate               ; work         ;
+;       |tff_gate:ff13|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff13 ; tff_gate               ; work         ;
+;       |tff_gate:ff14|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff14 ; tff_gate               ; work         ;
+;       |tff_gate:ff15|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff15 ; tff_gate               ; work         ;
+;       |tff_gate:ff16|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff16 ; tff_gate               ; work         ;
+;       |tff_gate:ff17|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff17 ; tff_gate               ; work         ;
+;       |tff_gate:ff18|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff18 ; tff_gate               ; work         ;
+;       |tff_gate:ff19|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff19 ; tff_gate               ; work         ;
+;    |multiplex35to1:shipcoordinate_mux_0|      ; 8 (8)       ; 0            ; 0          ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to1:shipcoordinate_mux_0            ; multiplex35to1         ; work         ;
+;    |multiplex35to5:shipartillerydisplaymux_0| ; 10 (10)     ; 0            ; 0          ; 0    ; 0            ; 10 (10)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to5:shipartillerydisplaymux_0       ; multiplex35to5         ; work         ;
+;    |shipgunner:shpart_0|                      ; 2 (0)       ; 0            ; 0          ; 0    ; 0            ; 2 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0                            ; shipgunner             ; work         ;
+;       |srlt_gate:glight_0|                    ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:glight_0         ; srlt_gate              ; work         ;
+;       |srlt_gate:rlight_0|                    ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:rlight_0         ; srlt_gate              ; work         ;
+;    |tablememory7by5:shotsfired_0|             ; 25 (0)      ; 0            ; 0          ; 0    ; 0            ; 25 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0                   ; tablememory7by5        ; work         ;
+;       |srlt_gate:cell0_3|                     ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_2|                     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_3|                     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_0|                     ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_1|                     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_3|                     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_0|                     ; 4 (4)       ; 0            ; 0          ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_0|                     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_2|                     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_2|                     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_3|                     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_4|                     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell6_2|                     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_2 ; srlt_gate              ; work         ;
++-----------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------+
+; Logic Cells Representing Combinational Loops                   ;
++-----------------------------------------------------------+----+
+; Logic Cell Name                                           ;    ;
++-----------------------------------------------------------+----+
+; tablememory7by5:shotsfired_0|srlt_gate:cell2_0|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell3_0|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell4_0|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell2_1|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell1_2|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell4_2|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell5_2|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell6_2|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell0_3|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell1_3|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell2_3|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell5_3|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell5_4|nor2_out~0 ;    ;
+; shipgunner:shpart_0|srlt_gate:rlight_0|nor2_out~0         ;    ;
+; shipgunner:shpart_0|srlt_gate:glight_0|nor2_out~0         ;    ;
+; Number of logic cells representing combinational loops    ; 15 ;
++-----------------------------------------------------------+----+
+Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 22    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:glight_0"                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:rlight_0"                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_4"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_4"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_4"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_4"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_4"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_4"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_4"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_3"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_3"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_3"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_3"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_3"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_3"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_3"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_2"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_2"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_2"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_2"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_2"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_2"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_2"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_1"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_1"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_1"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_1"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_1"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_1"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_1"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_0"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_0"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_0"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_0"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_0"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_0"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_0"                                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tablememory7by5:shiparrangement_0"                                                                                                              ;
++----------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                                                                      ;
++----------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; cell2_0S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell3_0S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell4_0S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell2_1S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell1_2S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell4_2S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell5_2S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell6_2S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell0_3S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell1_3S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell2_3S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell5_3S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell5_4S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell0_0R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell1_0R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell5_0R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell6_0R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell0_1R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell1_1R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell3_1R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell4_1R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell5_1R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell6_1R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell0_2R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell2_2R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell3_2R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell3_3R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell4_3R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell6_3R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell0_4R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell1_4R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell2_4R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell3_4R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell4_4R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell6_4R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; cell0_0S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell1_0S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell5_0S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell6_0S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell0_1S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell1_1S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell3_1S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell4_1S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell5_1S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell6_1S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell0_2S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell2_2S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell3_2S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell3_3S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell4_3S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell6_3S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell0_4S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell1_4S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell2_4S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell3_4S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell4_4S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell6_4S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell2_0R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell3_0R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell4_0R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell2_1R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell1_2R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell4_2R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell5_2R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell6_2R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell0_3R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell1_3R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell2_3R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell5_3R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; cell5_4R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++----------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bin3bcount:bin_3bc_0|tff_gate:ff01"                                                                      ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------+
+; Port Connectivity Checks: "bin3bcount:bin_3bc_0|tff_gate:ff00" ;
++------+-------+----------+--------------------------------------+
+; Port ; Type  ; Severity ; Details                              ;
++------+-------+----------+--------------------------------------+
+; t    ; Input ; Info     ; Stuck at VCC                         ;
++------+-------+----------+--------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff19"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff18"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff17"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff16"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff15"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff14"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff13"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff12"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff11"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff10"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff09"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff08"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff07"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff06"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff05"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff04"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff03"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff02"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff01"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff00"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Wed Sep 27 17:28:22 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TEC498P2 -c mainmodule
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file tff_gate.v
+    Info (12023): Found entity 1: tff_gate File: E:/JL/TEC498P2/ProjectFiles/tff_gate.v Line: 19
+Info (12021): Found 1 design units, including 1 entities, in source file tablememory7by5.v
+    Info (12023): Found entity 1: tablememory7by5 File: E:/JL/TEC498P2/ProjectFiles/tablememory7by5.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file srlt_gate.v
+    Info (12023): Found entity 1: srlt_gate File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file srff_gate.v
+    Info (12023): Found entity 1: srff_gate File: E:/JL/TEC498P2/ProjectFiles/srff_gate.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file shipgunner.v
+    Info (12023): Found entity 1: shipgunner File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file multiplex35to5.v
+    Info (12023): Found entity 1: multiplex35to5 File: E:/JL/TEC498P2/ProjectFiles/multiplex35to5.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file multiplex35to1.v
+    Info (12023): Found entity 1: multiplex35to1 File: E:/JL/TEC498P2/ProjectFiles/multiplex35to1.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file multiplex1to35.v
+    Info (12023): Found entity 1: multiplex1to35 File: E:/JL/TEC498P2/ProjectFiles/multiplex1to35.v Line: 1
+Warning (10275): Verilog HDL Module Instantiation warning at mainmodule.v(426): ignored dangling comma in List of Port Connections File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 426
+Info (12021): Found 1 design units, including 1 entities, in source file mainmodule.v
+    Info (12023): Found entity 1: mainmodule File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file binpower20clockdivider.v
+    Info (12023): Found entity 1: binpower20clockdivider File: E:/JL/TEC498P2/ProjectFiles/binpower20clockdivider.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file bin3bcount.v
+    Info (12023): Found entity 1: bin3bcount File: E:/JL/TEC498P2/ProjectFiles/bin3bcount.v Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(22): created implicit net for "NIPTART" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 22
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(22): created implicit net for "IPTART" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 22
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(29): created implicit net for "rreset" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 29
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(30): created implicit net for "greset" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 30
+Info (12127): Elaborating entity "mainmodule" for the top level hierarchy
+Warning (10034): Output port "LED0" at mainmodule.v(20) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+Warning (10034): Output port "LED1" at mainmodule.v(20) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+Warning (10034): Output port "LED2" at mainmodule.v(20) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+Warning (10034): Output port "LED3" at mainmodule.v(20) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+Warning (10034): Output port "LED4" at mainmodule.v(20) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+Warning (10034): Output port "LED5" at mainmodule.v(20) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+Warning (10034): Output port "LED6" at mainmodule.v(20) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+Warning (10034): Output port "SGDA" at mainmodule.v(26) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+Warning (10034): Output port "SGDB" at mainmodule.v(26) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+Warning (10034): Output port "SGDC" at mainmodule.v(26) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+Warning (10034): Output port "SGDD" at mainmodule.v(26) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+Warning (10034): Output port "SGDE" at mainmodule.v(26) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+Warning (10034): Output port "SGDF" at mainmodule.v(26) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+Warning (10034): Output port "SGDG" at mainmodule.v(26) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+Info (12128): Elaborating entity "binpower20clockdivider" for hierarchy "binpower20clockdivider:clk_div_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 87
+Info (12128): Elaborating entity "tff_gate" for hierarchy "binpower20clockdivider:clk_div_0|tff_gate:ff00" File: E:/JL/TEC498P2/ProjectFiles/binpower20clockdivider.v Line: 13
+Info (12128): Elaborating entity "bin3bcount" for hierarchy "bin3bcount:bin_3bc_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 94
+Info (12128): Elaborating entity "tablememory7by5" for hierarchy "tablememory7by5:shiparrangement_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 185
+Info (12128): Elaborating entity "srlt_gate" for hierarchy "tablememory7by5:shiparrangement_0|srlt_gate:cell0_0" File: E:/JL/TEC498P2/ProjectFiles/tablememory7by5.v Line: 45
+Info (12128): Elaborating entity "multiplex35to1" for hierarchy "multiplex35to1:shipcoordinate_mux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 363
+Info (12128): Elaborating entity "shipgunner" for hierarchy "shipgunner:shpart_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 373
+Info (12128): Elaborating entity "multiplex1to35" for hierarchy "multiplex1to35:artiptmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 426
+Info (12128): Elaborating entity "multiplex35to5" for hierarchy "multiplex35to5:shipartillerydisplaymux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 481
+Info (13014): Ignored 41 buffer(s)
+    Info (13019): Ignored 41 SOFT buffer(s)
+Warning (12241): 59 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "LED0" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+    Warning (13410): Pin "LED1" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+    Warning (13410): Pin "LED2" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+    Warning (13410): Pin "LED3" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+    Warning (13410): Pin "LED4" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+    Warning (13410): Pin "LED5" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+    Warning (13410): Pin "LED6" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+    Warning (13410): Pin "SGDA" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+    Warning (13410): Pin "SGDB" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+    Warning (13410): Pin "SGDC" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+    Warning (13410): Pin "SGDD" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+    Warning (13410): Pin "SGDE" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+    Warning (13410): Pin "SGDF" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+    Warning (13410): Pin "SGDG" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+Warning (21074): Design contains 4 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "CH1" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
+    Warning (15610): No output dependent on input pin "BT1" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
+    Warning (15610): No output dependent on input pin "BT2" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
+    Warning (15610): No output dependent on input pin "BT3" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
+Info (21057): Implemented 117 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 13 input pins
+    Info (21059): Implemented 30 output pins
+    Info (21061): Implemented 74 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 41 warnings
+    Info: Peak virtual memory: 4702 megabytes
+    Info: Processing ended: Wed Sep 27 17:28:40 2023
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:30
+
+

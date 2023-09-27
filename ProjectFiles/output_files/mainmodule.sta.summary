@@ -1,0 +1,273 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'bin3bcount:bin_3bc_0|tff_gate:ff00|q'
+Slack : -1.277
+TNS   : -1.277
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff00|q'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff08|q'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff12|q'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff16|q'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff02|q'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff04|q'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff06|q'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff14|q'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff18|q'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff10|q'
+Slack : 0.468
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff05|q'
+Slack : 0.807
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff03|q'
+Slack : 0.808
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff13|q'
+Slack : 0.808
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff09|q'
+Slack : 0.825
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff17|q'
+Slack : 0.828
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff01|q'
+Slack : 0.833
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff19|q'
+Slack : 0.999
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff07|q'
+Slack : 1.180
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff11|q'
+Slack : 1.213
+TNS   : 0.000
+
+Type  : Setup 'binpower20clockdivider:clk_div_0|tff_gate:ff15|q'
+Slack : 1.269
+TNS   : 0.000
+
+Type  : Setup 'CLKIN'
+Slack : 1.681
+TNS   : 0.000
+
+Type  : Hold 'CLKIN'
+Slack : -1.735
+TNS   : -1.735
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff15|q'
+Slack : -1.323
+TNS   : -1.323
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff11|q'
+Slack : -1.267
+TNS   : -1.267
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff07|q'
+Slack : -1.234
+TNS   : -1.234
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff19|q'
+Slack : -1.053
+TNS   : -1.053
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff01|q'
+Slack : -0.887
+TNS   : -0.887
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff17|q'
+Slack : -0.882
+TNS   : -0.882
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff09|q'
+Slack : -0.879
+TNS   : -0.879
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff03|q'
+Slack : -0.862
+TNS   : -0.862
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff13|q'
+Slack : -0.862
+TNS   : -0.862
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff05|q'
+Slack : -0.861
+TNS   : -0.861
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff10|q'
+Slack : -0.522
+TNS   : -0.522
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff02|q'
+Slack : -0.521
+TNS   : -0.521
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff04|q'
+Slack : -0.521
+TNS   : -0.521
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff06|q'
+Slack : -0.521
+TNS   : -0.521
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff14|q'
+Slack : -0.521
+TNS   : -0.521
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff18|q'
+Slack : -0.521
+TNS   : -0.521
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff00|q'
+Slack : -0.520
+TNS   : -0.520
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff08|q'
+Slack : -0.520
+TNS   : -0.520
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff12|q'
+Slack : -0.520
+TNS   : -0.520
+
+Type  : Hold 'binpower20clockdivider:clk_div_0|tff_gate:ff16|q'
+Slack : -0.520
+TNS   : -0.520
+
+Type  : Hold 'bin3bcount:bin_3bc_0|tff_gate:ff00|q'
+Slack : 1.723
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'BT0'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'CLKIN'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'bin3bcount:bin_3bc_0|tff_gate:ff00|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff00|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff01|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff02|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff03|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff04|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff05|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff06|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff07|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff08|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff09|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff10|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff11|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff12|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff13|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff14|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff15|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff16|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff17|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff18|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'binpower20clockdivider:clk_div_0|tff_gate:ff19|q'
+Slack : 0.234
+TNS   : 0.000
+
+------------------------------------------------------------
