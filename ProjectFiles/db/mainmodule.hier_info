@@ -1,47 +1,47 @@
 |mainmodule
 CH0 => CH0.IN1
-CH1 => ~NO_FANOUT~
-CH2 => CH2.IN2
-CH3 => CH3.IN2
-CH4 => CH4.IN2
-CH5 => CH5.IN2
-CH6 => CH6.IN2
-CH7 => CH7.IN2
+CH1 => CH1.IN1
+CH2 => CH2.IN3
+CH3 => CH3.IN3
+CH4 => CH4.IN3
+CH5 => CH5.IN3
+CH6 => CH6.IN3
+CH7 => CH7.IN3
 BT0 => NBT0.IN1
 BT1 => ~NO_FANOUT~
 BT2 => ~NO_FANOUT~
 BT3 => ~NO_FANOUT~
 CLKIN => CLKIN.IN1
-LED0 << <GND>
-LED1 << <GND>
-LED2 << <GND>
-LED3 << <GND>
-LED4 << <GND>
-LED5 << <GND>
-LED6 << <GND>
-COL0 << multiplex35to5:shipartillerydisplaymux_0.OUT0
-COL1 << multiplex35to5:shipartillerydisplaymux_0.OUT1
-COL2 << multiplex35to5:shipartillerydisplaymux_0.OUT2
-COL3 << multiplex35to5:shipartillerydisplaymux_0.OUT3
-COL4 << multiplex35to5:shipartillerydisplaymux_0.OUT4
-LIN0 << WideNand0.DB_MAX_OUTPUT_PORT_TYPE
-LIN1 << WideNand1.DB_MAX_OUTPUT_PORT_TYPE
-LIN2 << WideNand2.DB_MAX_OUTPUT_PORT_TYPE
-LIN3 << WideNand3.DB_MAX_OUTPUT_PORT_TYPE
-LIN4 << WideNand4.DB_MAX_OUTPUT_PORT_TYPE
-LIN5 << WideNand5.DB_MAX_OUTPUT_PORT_TYPE
-LIN6 << WideNand6.DB_MAX_OUTPUT_PORT_TYPE
-SGDA << <GND>
-SGDB << <GND>
-SGDC << <GND>
-SGDD << <GND>
-SGDE << <GND>
-SGDF << <GND>
-SGDG << <GND>
-CLKOUT << comb.DB_MAX_OUTPUT_PORT_TYPE
-CLKDIVOUT << comb.DB_MAX_OUTPUT_PORT_TYPE
-RLED << shipgunner:shpart_0.RLED
-GLED << shipgunner:shpart_0.GLED
+LED0 <= <GND>
+LED1 <= <GND>
+LED2 <= <GND>
+LED3 <= <GND>
+LED4 <= <GND>
+LED5 <= <GND>
+LED6 <= <GND>
+COL0 <= multiplex35to5:shipartillerydisplaymux_0.OUT0
+COL1 <= multiplex35to5:shipartillerydisplaymux_0.OUT1
+COL2 <= multiplex35to5:shipartillerydisplaymux_0.OUT2
+COL3 <= multiplex35to5:shipartillerydisplaymux_0.OUT3
+COL4 <= multiplex35to5:shipartillerydisplaymux_0.OUT4
+LIN0 <= WideNand0.DB_MAX_OUTPUT_PORT_TYPE
+LIN1 <= WideNand1.DB_MAX_OUTPUT_PORT_TYPE
+LIN2 <= WideNand2.DB_MAX_OUTPUT_PORT_TYPE
+LIN3 <= WideNand3.DB_MAX_OUTPUT_PORT_TYPE
+LIN4 <= WideNand4.DB_MAX_OUTPUT_PORT_TYPE
+LIN5 <= WideNand5.DB_MAX_OUTPUT_PORT_TYPE
+LIN6 <= WideNand6.DB_MAX_OUTPUT_PORT_TYPE
+SGDA <= <GND>
+SGDB <= <GND>
+SGDC <= <GND>
+SGDD <= <GND>
+SGDE <= <GND>
+SGDF <= <GND>
+SGDG <= <GND>
+CLKOUT <= comb.DB_MAX_OUTPUT_PORT_TYPE
+CLKDIVOUT <= comb.DB_MAX_OUTPUT_PORT_TYPE
+RLED <= shipgunner:shpart_0.RLED
+GLED <= shipgunner:shpart_0.GLED
 
 
 |mainmodule|binpower20clockdivider:clk_div_0
@@ -1536,5 +1536,77 @@ OUT1 <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
 OUT2 <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
 OUT3 <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
 OUT4 <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|decodermode:mode_dec0
+A => comb.DATAIN
+SEGA <= <VCC>
+SEGB <= <VCC>
+SEGC <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGD <= <GND>
+SEGE <= <VCC>
+SEGF <= <VCC>
+SEGG <= <VCC>
+
+
+|mainmodule|decodercolumn:column_dec0
+A => and1wire.IN0
+A => WideAnd2.IN0
+A => WideAnd3.IN0
+A => xor0wire.IN0
+A => WideAnd0.IN0
+A => WideAnd1.IN0
+B => WideAnd0.IN1
+B => xor0wire.IN1
+B => and0wire.IN0
+B => and1wire.IN1
+B => WideAnd1.IN1
+B => WideAnd2.IN1
+B => WideAnd3.IN1
+C => and0wire.IN1
+C => WideAnd1.IN2
+C => WideAnd3.IN2
+C => WideAnd0.IN2
+C => WideAnd2.IN2
+SEGA <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGB <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGC <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+SEGD <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGE <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGF <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGG <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|decoderline:line_dec0
+A => and0wire.IN0
+A => WideAnd0.IN0
+A => WideAnd1.IN0
+A => and7wire.IN0
+A => and8wire.IN0
+A => comb.IN0
+A => and2wire.IN0
+A => and4wire.IN0
+B => and2wire.IN1
+B => and3wire.IN0
+B => and5wire.IN0
+B => comb.IN1
+B => WideAnd0.IN1
+B => WideAnd1.IN1
+B => and8wire.IN1
+C => and0wire.IN1
+C => and3wire.IN1
+C => and4wire.IN1
+C => WideAnd1.IN2
+C => comb.IN1
+C => WideAnd0.IN2
+C => and5wire.IN1
+C => and7wire.IN1
+SEGA <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGB <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+SEGC <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGD <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+SEGE <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGF <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGG <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
 
 

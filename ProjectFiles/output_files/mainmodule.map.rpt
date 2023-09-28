@@ -1,6 +1,6 @@
 Analysis & Synthesis report for mainmodule
-Wed Sep 27 17:28:39 2023
-Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Thu Sep 28 17:37:35 2023
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
 ---------------------
@@ -15,67 +15,70 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Logic Cells Representing Combinational Loops
   9. General Register Statistics
- 10. Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:glight_0"
- 11. Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:rlight_0"
- 12. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_4"
- 13. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_4"
- 14. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_4"
- 15. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_4"
- 16. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_4"
- 17. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_4"
- 18. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_4"
- 19. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_3"
- 20. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_3"
- 21. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_3"
- 22. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_3"
- 23. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_3"
- 24. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_3"
- 25. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_3"
- 26. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_2"
- 27. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_2"
- 28. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_2"
- 29. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_2"
- 30. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_2"
- 31. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_2"
- 32. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_2"
- 33. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_1"
- 34. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_1"
- 35. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_1"
- 36. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_1"
- 37. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_1"
- 38. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_1"
- 39. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_1"
- 40. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_0"
- 41. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_0"
- 42. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_0"
- 43. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_0"
- 44. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_0"
- 45. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_0"
- 46. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_0"
- 47. Port Connectivity Checks: "tablememory7by5:shiparrangement_0"
- 48. Port Connectivity Checks: "bin3bcount:bin_3bc_0|tff_gate:ff01"
- 49. Port Connectivity Checks: "bin3bcount:bin_3bc_0|tff_gate:ff00"
- 50. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff19"
- 51. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff18"
- 52. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff17"
- 53. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff16"
- 54. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff15"
- 55. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff14"
- 56. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff13"
- 57. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff12"
- 58. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff11"
- 59. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff10"
- 60. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff09"
- 61. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff08"
- 62. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff07"
- 63. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff06"
- 64. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff05"
- 65. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff04"
- 66. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff03"
- 67. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff02"
- 68. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff01"
- 69. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff00"
- 70. Analysis & Synthesis Messages
+ 10. Port Connectivity Checks: "decoderline:line_dec0"
+ 11. Port Connectivity Checks: "decodercolumn:column_dec0"
+ 12. Port Connectivity Checks: "decodermode:mode_dec0"
+ 13. Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:glight_0"
+ 14. Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:rlight_0"
+ 15. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_4"
+ 16. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_4"
+ 17. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_4"
+ 18. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_4"
+ 19. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_4"
+ 20. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_4"
+ 21. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_4"
+ 22. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_3"
+ 23. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_3"
+ 24. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_3"
+ 25. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_3"
+ 26. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_3"
+ 27. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_3"
+ 28. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_3"
+ 29. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_2"
+ 30. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_2"
+ 31. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_2"
+ 32. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_2"
+ 33. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_2"
+ 34. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_2"
+ 35. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_2"
+ 36. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_1"
+ 37. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_1"
+ 38. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_1"
+ 39. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_1"
+ 40. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_1"
+ 41. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_1"
+ 42. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_1"
+ 43. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_0"
+ 44. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_0"
+ 45. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_0"
+ 46. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_0"
+ 47. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_0"
+ 48. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_0"
+ 49. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_0"
+ 50. Port Connectivity Checks: "tablememory7by5:shiparrangement_0"
+ 51. Port Connectivity Checks: "bin3bcount:bin_3bc_0|tff_gate:ff01"
+ 52. Port Connectivity Checks: "bin3bcount:bin_3bc_0|tff_gate:ff00"
+ 53. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff19"
+ 54. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff18"
+ 55. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff17"
+ 56. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff16"
+ 57. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff15"
+ 58. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff14"
+ 59. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff13"
+ 60. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff12"
+ 61. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff11"
+ 62. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff10"
+ 63. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff09"
+ 64. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff08"
+ 65. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff07"
+ 66. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff06"
+ 67. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff05"
+ 68. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff04"
+ 69. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff03"
+ 70. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff02"
+ 71. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff01"
+ 72. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff00"
+ 73. Analysis & Synthesis Messages
 
 
 
@@ -102,8 +105,8 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Wed Sep 27 17:28:39 2023       ;
-; Quartus Prime Version       ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Analysis & Synthesis Status ; Successful - Thu Sep 28 17:37:35 2023       ;
+; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name               ; mainmodule                                  ;
 ; Top-level Entity Name       ; mainmodule                                  ;
 ; Family                      ; MAX II                                      ;
@@ -201,22 +204,25 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                       ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                         ; Library ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------+---------+
-; tff_gate.v                       ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/tff_gate.v               ;         ;
-; tablememory7by5.v                ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/tablememory7by5.v        ;         ;
-; srlt_gate.v                      ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/srlt_gate.v              ;         ;
-; shipgunner.v                     ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/shipgunner.v             ;         ;
-; multiplex35to5.v                 ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/multiplex35to5.v         ;         ;
-; multiplex35to1.v                 ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/multiplex35to1.v         ;         ;
-; multiplex1to35.v                 ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/multiplex1to35.v         ;         ;
-; mainmodule.v                     ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/mainmodule.v             ;         ;
-; binpower20clockdivider.v         ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/binpower20clockdivider.v ;         ;
-; bin3bcount.v                     ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/bin3bcount.v             ;         ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                          ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                            ; Library ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
+; tff_gate.v                       ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tff_gate.v               ;         ;
+; tablememory7by5.v                ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tablememory7by5.v        ;         ;
+; srlt_gate.v                      ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v              ;         ;
+; shipgunner.v                     ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v             ;         ;
+; multiplex35to5.v                 ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex35to5.v         ;         ;
+; multiplex35to1.v                 ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex35to1.v         ;         ;
+; multiplex1to35.v                 ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex1to35.v         ;         ;
+; mainmodule.v                     ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v             ;         ;
+; binpower20clockdivider.v         ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower20clockdivider.v ;         ;
+; bin3bcount.v                     ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/bin3bcount.v             ;         ;
+; decodermode.v                    ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decodermode.v            ;         ;
+; decodercolumn.v                  ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decodercolumn.v          ;         ;
+; decoderline.v                    ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decoderline.v            ;         ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -344,6 +350,51 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "decoderline:line_dec0"                                                              ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; SEGA ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGB ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGC ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGD ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGE ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGF ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGG ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "decodercolumn:column_dec0"                                                          ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; SEGA ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGB ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGC ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGD ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGE ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGF ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGG ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "decodermode:mode_dec0"                                                              ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; SEGA ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGB ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGC ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGD ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGE ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGF ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; SEGG ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
@@ -981,93 +1032,102 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Wed Sep 27 17:28:22 2023
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Thu Sep 28 17:37:26 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TEC498P2 -c mainmodule
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file tff_gate.v
-    Info (12023): Found entity 1: tff_gate File: E:/JL/TEC498P2/ProjectFiles/tff_gate.v Line: 19
+    Info (12023): Found entity 1: tff_gate File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tff_gate.v Line: 19
 Info (12021): Found 1 design units, including 1 entities, in source file tablememory7by5.v
-    Info (12023): Found entity 1: tablememory7by5 File: E:/JL/TEC498P2/ProjectFiles/tablememory7by5.v Line: 1
+    Info (12023): Found entity 1: tablememory7by5 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tablememory7by5.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file srlt_gate.v
-    Info (12023): Found entity 1: srlt_gate File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 1
+    Info (12023): Found entity 1: srlt_gate File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file srff_gate.v
-    Info (12023): Found entity 1: srff_gate File: E:/JL/TEC498P2/ProjectFiles/srff_gate.v Line: 1
+    Info (12023): Found entity 1: srff_gate File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srff_gate.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file shipgunner.v
-    Info (12023): Found entity 1: shipgunner File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 1
+    Info (12023): Found entity 1: shipgunner File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex35to5.v
-    Info (12023): Found entity 1: multiplex35to5 File: E:/JL/TEC498P2/ProjectFiles/multiplex35to5.v Line: 1
+    Info (12023): Found entity 1: multiplex35to5 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex35to5.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex35to1.v
-    Info (12023): Found entity 1: multiplex35to1 File: E:/JL/TEC498P2/ProjectFiles/multiplex35to1.v Line: 1
+    Info (12023): Found entity 1: multiplex35to1 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex35to1.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex1to35.v
-    Info (12023): Found entity 1: multiplex1to35 File: E:/JL/TEC498P2/ProjectFiles/multiplex1to35.v Line: 1
-Warning (10275): Verilog HDL Module Instantiation warning at mainmodule.v(426): ignored dangling comma in List of Port Connections File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 426
+    Info (12023): Found entity 1: multiplex1to35 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex1to35.v Line: 1
+Warning (10275): Verilog HDL Module Instantiation warning at mainmodule.v(430): ignored dangling comma in List of Port Connections File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 430
 Info (12021): Found 1 design units, including 1 entities, in source file mainmodule.v
-    Info (12023): Found entity 1: mainmodule File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 2
+    Info (12023): Found entity 1: mainmodule File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file binpower20clockdivider.v
-    Info (12023): Found entity 1: binpower20clockdivider File: E:/JL/TEC498P2/ProjectFiles/binpower20clockdivider.v Line: 1
+    Info (12023): Found entity 1: binpower20clockdivider File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower20clockdivider.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bin3bcount.v
-    Info (12023): Found entity 1: bin3bcount File: E:/JL/TEC498P2/ProjectFiles/bin3bcount.v Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(22): created implicit net for "NIPTART" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 22
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(22): created implicit net for "IPTART" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 22
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(29): created implicit net for "rreset" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 29
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(30): created implicit net for "greset" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 30
+    Info (12023): Found entity 1: bin3bcount File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/bin3bcount.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file decodermode.v
+    Info (12023): Found entity 1: decodermode File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decodermode.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file decodercolumn.v
+    Info (12023): Found entity 1: decodercolumn File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decodercolumn.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file decoderline.v
+    Info (12023): Found entity 1: decoderline File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decoderline.v Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(22): created implicit net for "NIPTART" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 22
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(22): created implicit net for "IPTART" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 22
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(29): created implicit net for "rreset" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 29
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(30): created implicit net for "greset" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 30
 Info (12127): Elaborating entity "mainmodule" for the top level hierarchy
-Warning (10034): Output port "LED0" at mainmodule.v(20) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-Warning (10034): Output port "LED1" at mainmodule.v(20) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-Warning (10034): Output port "LED2" at mainmodule.v(20) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-Warning (10034): Output port "LED3" at mainmodule.v(20) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-Warning (10034): Output port "LED4" at mainmodule.v(20) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-Warning (10034): Output port "LED5" at mainmodule.v(20) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-Warning (10034): Output port "LED6" at mainmodule.v(20) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-Warning (10034): Output port "SGDA" at mainmodule.v(26) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-Warning (10034): Output port "SGDB" at mainmodule.v(26) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-Warning (10034): Output port "SGDC" at mainmodule.v(26) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-Warning (10034): Output port "SGDD" at mainmodule.v(26) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-Warning (10034): Output port "SGDE" at mainmodule.v(26) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-Warning (10034): Output port "SGDF" at mainmodule.v(26) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-Warning (10034): Output port "SGDG" at mainmodule.v(26) has no driver File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-Info (12128): Elaborating entity "binpower20clockdivider" for hierarchy "binpower20clockdivider:clk_div_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 87
-Info (12128): Elaborating entity "tff_gate" for hierarchy "binpower20clockdivider:clk_div_0|tff_gate:ff00" File: E:/JL/TEC498P2/ProjectFiles/binpower20clockdivider.v Line: 13
-Info (12128): Elaborating entity "bin3bcount" for hierarchy "bin3bcount:bin_3bc_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 94
-Info (12128): Elaborating entity "tablememory7by5" for hierarchy "tablememory7by5:shiparrangement_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 185
-Info (12128): Elaborating entity "srlt_gate" for hierarchy "tablememory7by5:shiparrangement_0|srlt_gate:cell0_0" File: E:/JL/TEC498P2/ProjectFiles/tablememory7by5.v Line: 45
-Info (12128): Elaborating entity "multiplex35to1" for hierarchy "multiplex35to1:shipcoordinate_mux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 363
-Info (12128): Elaborating entity "shipgunner" for hierarchy "shipgunner:shpart_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 373
-Info (12128): Elaborating entity "multiplex1to35" for hierarchy "multiplex1to35:artiptmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 426
-Info (12128): Elaborating entity "multiplex35to5" for hierarchy "multiplex35to5:shipartillerydisplaymux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 481
+Warning (10034): Output port "LED0" at mainmodule.v(20) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+Warning (10034): Output port "LED1" at mainmodule.v(20) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+Warning (10034): Output port "LED2" at mainmodule.v(20) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+Warning (10034): Output port "LED3" at mainmodule.v(20) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+Warning (10034): Output port "LED4" at mainmodule.v(20) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+Warning (10034): Output port "LED5" at mainmodule.v(20) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+Warning (10034): Output port "LED6" at mainmodule.v(20) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+Warning (10034): Output port "SGDA" at mainmodule.v(26) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+Warning (10034): Output port "SGDB" at mainmodule.v(26) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+Warning (10034): Output port "SGDC" at mainmodule.v(26) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+Warning (10034): Output port "SGDD" at mainmodule.v(26) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+Warning (10034): Output port "SGDE" at mainmodule.v(26) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+Warning (10034): Output port "SGDF" at mainmodule.v(26) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+Warning (10034): Output port "SGDG" at mainmodule.v(26) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+Info (12128): Elaborating entity "binpower20clockdivider" for hierarchy "binpower20clockdivider:clk_div_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 91
+Info (12128): Elaborating entity "tff_gate" for hierarchy "binpower20clockdivider:clk_div_0|tff_gate:ff00" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower20clockdivider.v Line: 13
+Info (12128): Elaborating entity "bin3bcount" for hierarchy "bin3bcount:bin_3bc_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 98
+Info (12128): Elaborating entity "tablememory7by5" for hierarchy "tablememory7by5:shiparrangement_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 189
+Info (12128): Elaborating entity "srlt_gate" for hierarchy "tablememory7by5:shiparrangement_0|srlt_gate:cell0_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tablememory7by5.v Line: 45
+Info (12128): Elaborating entity "multiplex35to1" for hierarchy "multiplex35to1:shipcoordinate_mux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 367
+Info (12128): Elaborating entity "shipgunner" for hierarchy "shipgunner:shpart_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 377
+Info (12128): Elaborating entity "multiplex1to35" for hierarchy "multiplex1to35:artiptmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 430
+Info (12128): Elaborating entity "multiplex35to5" for hierarchy "multiplex35to5:shipartillerydisplaymux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 485
+Info (12128): Elaborating entity "decodermode" for hierarchy "decodermode:mode_dec0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 496
+Info (12128): Elaborating entity "decodercolumn" for hierarchy "decodercolumn:column_dec0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 509
+Info (12128): Elaborating entity "decoderline" for hierarchy "decoderline:line_dec0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 522
 Info (13014): Ignored 41 buffer(s)
     Info (13019): Ignored 41 SOFT buffer(s)
 Warning (12241): 59 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LED0" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-    Warning (13410): Pin "LED1" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-    Warning (13410): Pin "LED2" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-    Warning (13410): Pin "LED3" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-    Warning (13410): Pin "LED4" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-    Warning (13410): Pin "LED5" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-    Warning (13410): Pin "LED6" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-    Warning (13410): Pin "SGDA" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-    Warning (13410): Pin "SGDB" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-    Warning (13410): Pin "SGDC" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-    Warning (13410): Pin "SGDD" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-    Warning (13410): Pin "SGDE" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-    Warning (13410): Pin "SGDF" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-    Warning (13410): Pin "SGDG" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+    Warning (13410): Pin "LED0" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+    Warning (13410): Pin "LED1" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+    Warning (13410): Pin "LED2" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+    Warning (13410): Pin "LED3" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+    Warning (13410): Pin "LED4" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+    Warning (13410): Pin "LED5" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+    Warning (13410): Pin "LED6" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
+    Warning (13410): Pin "SGDA" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+    Warning (13410): Pin "SGDB" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+    Warning (13410): Pin "SGDC" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+    Warning (13410): Pin "SGDD" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+    Warning (13410): Pin "SGDE" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+    Warning (13410): Pin "SGDF" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
+    Warning (13410): Pin "SGDG" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
 Warning (21074): Design contains 4 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "CH1" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
-    Warning (15610): No output dependent on input pin "BT1" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
-    Warning (15610): No output dependent on input pin "BT2" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
-    Warning (15610): No output dependent on input pin "BT3" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
+    Warning (15610): No output dependent on input pin "CH1" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
+    Warning (15610): No output dependent on input pin "BT1" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
+    Warning (15610): No output dependent on input pin "BT2" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
+    Warning (15610): No output dependent on input pin "BT3" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
 Info (21057): Implemented 117 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 13 input pins
     Info (21059): Implemented 30 output pins
     Info (21061): Implemented 74 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 41 warnings
-    Info: Peak virtual memory: 4702 megabytes
-    Info: Processing ended: Wed Sep 27 17:28:40 2023
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:30
+    Info: Peak virtual memory: 341 megabytes
+    Info: Processing ended: Thu Sep 28 17:37:36 2023
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:12
 
 

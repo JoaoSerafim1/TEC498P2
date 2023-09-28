@@ -1,6 +1,6 @@
 Timing Analyzer report for mainmodule
-Wed Sep 27 17:29:03 2023
-Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Thu Sep 28 17:38:01 2023
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
 ---------------------
@@ -97,7 +97,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------+
 ; Timing Analyzer Summary                                                     ;
 +-----------------------+-----------------------------------------------------+
-; Quartus Prime Version ; Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Quartus Prime Version ; Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Timing Analyzer       ; Legacy Timing Analyzer                              ;
 ; Revision Name         ; mainmodule                                          ;
 ; Device Family         ; MAX II                                              ;
@@ -914,8 +914,8 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +--------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
-    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Wed Sep 27 17:28:52 2023
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Thu Sep 28 17:37:47 2023
 Info: Command: quartus_sta TEC498P2 -c mainmodule
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -951,37 +951,37 @@ Info (332105): Deriving Clocks
     Info (332105): create_clock -period 1.000 -name binpower20clockdivider:clk_div_0|tff_gate:ff01|q binpower20clockdivider:clk_div_0|tff_gate:ff01|q
     Info (332105): create_clock -period 1.000 -name binpower20clockdivider:clk_div_0|tff_gate:ff00|q binpower20clockdivider:clk_div_0|tff_gate:ff00|q
     Info (332105): create_clock -period 1.000 -name CLKIN CLKIN
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
     Warning (332126): Node "shotsfired_0|cell5_4|nor1_out~0|combout"
     Warning (332126): Node "shotsfired_0|cell5_4|nor1_out~0|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
     Warning (332126): Node "shotsfired_0|cell0_3|nor1_out~2|combout"
     Warning (332126): Node "shotsfired_0|cell0_3|nor1_out~2|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
     Warning (332126): Node "shotsfired_0|cell2_3|nor1_out~0|combout"
     Warning (332126): Node "shotsfired_0|cell2_3|nor1_out~0|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
     Warning (332126): Node "shotsfired_0|cell5_3|nor1_out~0|combout"
     Warning (332126): Node "shotsfired_0|cell5_3|nor1_out~0|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
     Warning (332126): Node "shotsfired_0|cell1_3|nor1_out~1|combout"
     Warning (332126): Node "shotsfired_0|cell1_3|nor1_out~1|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
     Warning (332126): Node "shotsfired_0|cell5_2|nor1_out~0|combout"
     Warning (332126): Node "shotsfired_0|cell5_2|nor1_out~0|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
     Warning (332126): Node "shotsfired_0|cell6_2|nor1_out~1|combout"
     Warning (332126): Node "shotsfired_0|cell6_2|nor1_out~1|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
     Warning (332126): Node "shotsfired_0|cell4_2|nor1_out~1|combout"
     Warning (332126): Node "shotsfired_0|cell4_2|nor1_out~1|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
     Warning (332126): Node "shotsfired_0|cell2_1|nor1_out~1|combout"
     Warning (332126): Node "shotsfired_0|cell2_1|nor1_out~1|datac"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
     Warning (332126): Node "shotsfired_0|cell4_0|nor1_out~0|combout"
     Warning (332126): Node "shotsfired_0|cell4_0|nor1_out~0|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
     Warning (332126): Node "shotsfired_0|cell3_0|nor1_out~2|combout"
     Warning (332126): Node "shotsfired_0|cell3_0|nor1_out~2|datad"
 Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
@@ -1069,9 +1069,9 @@ Info (332001): The selected device family is not supported by the report_metasta
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 37 warnings
-    Info: Peak virtual memory: 4696 megabytes
-    Info: Processing ended: Wed Sep 27 17:29:03 2023
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 363 megabytes
+    Info: Processing ended: Thu Sep 28 17:38:01 2023
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:01
 
 
