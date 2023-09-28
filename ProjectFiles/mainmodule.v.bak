@@ -67,11 +67,7 @@ module mainmodule (
 	A6muxtoshotsfired, B6muxtoshotsfired, C6muxtoshotsfired, D6muxtoshotsfired, E6muxtoshotsfired,
 	A7muxtoshotsfired, B7muxtoshotsfired, C7muxtoshotsfired, D7muxtoshotsfired, E7muxtoshotsfired,
 	
-	shipiptwire, gunnertoart,
-	
-	SEGAmodemux, SEGBmodemux, SEGCmodemux, SEGDmodemux, SEGEmodemux, SEGFmodemux, SEGGmodemux,
-	SEGAcolumnmux, SEGBcolumnmux, SEGCcolumnmux, SEGDcolumnmux, SEGEcolumnmux, SEGFcolumnmux, SEGGcolumnmux,
-	SEGAlinemux, SEGBlinemux, SEGClinemux, SEGDlinemux, SEGElinemux, SEGFlinemux, SEGGlinemux;
+	shipiptwire, gunnertoart;
 	
 
 //Negacao dos botoes
@@ -482,43 +478,6 @@ multiplex35to5 shipartillerydisplaymux_0 (
 		.OUT2 (COL2),
 		.OUT3 (COL3),
 		.OUT4 (COL4)
-);
-
-decodermode mode_dec0 (
-		.A (CH1),
-		.SEGA (SEGAmodemux),
-		.SEGB (SEGBmodemux),
-		.SEGC (SEGCmodemux),
-		.SEGD (SEGDmodemux),
-		.SEGE (SEGEmodemux),
-		.SEGF (SEGFmodemux),
-		.SEGG (SEGGmodemux)
-);
-
-decodercolumn column_dec0 (
-		.A (CH7),
-		.B (CH6),
-		.C (CH5),
-		.SEGA (SEGAcolumnmux),
-		.SEGB (SEGBcolumnmux),
-		.SEGC (SEGCcolumnmux),
-		.SEGD (SEGDcolumnmux),
-		.SEGE (SEGEcolumnmux),
-		.SEGF (SEGFcolumnmux),
-		.SEGG (SEGGcolumnmux)
-);
-
-decoderline line_dec0 (
-		.A (CH4),
-		.B (CH3),
-		.C (CH2),
-		.SEGA (SEGAlinemux),
-		.SEGB (SEGBlinemux),
-		.SEGC (SEGClinemux),
-		.SEGD (SEGDlinemux),
-		.SEGE (SEGElinemux),
-		.SEGF (SEGFlinemux),
-		.SEGG (SEGGlinemux)
 );
 
 nand (LIN0, NcountA, NcountB, NcountC);

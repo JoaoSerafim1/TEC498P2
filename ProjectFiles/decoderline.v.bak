@@ -1,0 +1,4 @@
+module decoderline (
+	A, B, C,
+	SEGA, SEGB, SEGC, SEGD, SEGE, SEGF, SEGG;
+);
