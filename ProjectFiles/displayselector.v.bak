@@ -1,0 +1,20 @@
+module displayselector (
+	SEL0, SEL1,
+	
+	OUT0, OUT1, OUT2, OUT3;
+);
+
+	input
+	SEL0, SEL1;
+	
+	output
+	OUT0, OUT1, OUT2, OUT3;
+	
+	wire
+	NSEL0, NSEL1;
+	
+
+not (NSEL0, SEL0);
+not (NSEL1, SEL1);
+	
+nand
