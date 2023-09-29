@@ -29,12 +29,12 @@ and (and6wire, A, NB, C);
 and (and7wire, A, NC);
 and (and8wire, A, NB);
 
-or (SEGA, B, and0wire);
-or (SEGB, and1wire, and2wire, and3wire, and4wire);
-or (SEGC, A, C);
-or (SEGD, and2wire, and5wire, and6wire);
-or (SEGE, and5wire);
-or (SEGF, and7wire, and8wire);
-or (SEGG, and2wire, and7wire, and8wire);
+nor (SEGA, B, and0wire);
+nor (SEGB, and1wire, and2wire, and3wire, and4wire);
+nor (SEGC, A, C);
+nor (SEGD, and2wire, and5wire, and6wire);
+nor (SEGE, and5wire);
+nor (SEGF, and7wire, and8wire);
+nor (SEGG, and2wire, and7wire, and8wire);
 
 endmodule
