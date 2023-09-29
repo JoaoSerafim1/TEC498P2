@@ -1,5 +1,5 @@
 Fitter report for mainmodule
-Thu Sep 28 17:37:40 2023
+Fri Sep 29 17:32:02 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -10,14 +10,14 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   2. Fitter Summary
   3. Fitter Settings
   4. Parallel Compilation
-  5. Pin-Out File
-  6. Fitter Resource Usage Summary
-  7. Input Pins
-  8. Output Pins
-  9. I/O Bank Usage
- 10. All Package Pins
- 11. Output Pin Default Load For Reported TCO
- 12. I/O Assignment Warnings
+  5. Ignored Assignments
+  6. Pin-Out File
+  7. Fitter Resource Usage Summary
+  8. Input Pins
+  9. Output Pins
+ 10. I/O Bank Usage
+ 11. All Package Pins
+ 12. Output Pin Default Load For Reported TCO
  13. Fitter Resource Utilization by Entity
  14. Delay Chain Summary
  15. Control Signals
@@ -29,8 +29,10 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
  21. LAB Signals Sourced Out
  22. LAB Distinct Inputs
  23. Fitter Device Options
- 24. Fitter Messages
- 25. Fitter Suppressed Messages
+ 24. Estimated Delay Added for Hold Timing Summary
+ 25. Estimated Delay Added for Hold Timing Details
+ 26. Fitter Messages
+ 27. Fitter Suppressed Messages
 
 
 
@@ -57,15 +59,15 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------+
 ; Fitter Summary                                                      ;
 +-----------------------+---------------------------------------------+
-; Fitter Status         ; Successful - Thu Sep 28 17:37:40 2023       ;
+; Fitter Status         ; Successful - Fri Sep 29 17:32:02 2023       ;
 ; Quartus Prime Version ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name         ; mainmodule                                  ;
 ; Top-level Entity Name ; mainmodule                                  ;
 ; Family                ; MAX II                                      ;
 ; Device                ; EPM240T100C5                                ;
 ; Timing Models         ; Final                                       ;
-; Total logic elements  ; 74 / 240 ( 31 % )                           ;
-; Total pins            ; 43 / 80 ( 54 % )                            ;
+; Total logic elements  ; 179 / 240 ( 75 % )                          ;
+; Total pins            ; 41 / 80 ( 51 % )                            ;
 ; Total virtual pins    ; 0                                           ;
 ; UFM blocks            ; 0 / 1 ( 0 % )                               ;
 +-----------------------+---------------------------------------------+
@@ -128,14 +130,29 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 6           ;
 ; Maximum allowed            ; 6           ;
 ;                            ;             ;
-; Average used               ; 1.02        ;
+; Average used               ; 1.03        ;
 ; Maximum used               ; 6           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.4%      ;
-;     Processors 3-6         ;   0.3%      ;
+;     Processor 2            ;   0.6%      ;
+;     Processors 3-6         ;   0.5%      ;
 +----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------+
+; Ignored Assignments                                                                    ;
++----------+----------------+--------------+------------+---------------+----------------+
+; Name     ; Ignored Entity ; Ignored From ; Ignored To ; Ignored Value ; Ignored Source ;
++----------+----------------+--------------+------------+---------------+----------------+
+; Location ;                ;              ; LED0       ; PIN_54        ; QSF Assignment ;
+; Location ;                ;              ; LED1       ; PIN_55        ; QSF Assignment ;
+; Location ;                ;              ; LED2       ; PIN_57        ; QSF Assignment ;
+; Location ;                ;              ; LED3       ; PIN_61        ; QSF Assignment ;
+; Location ;                ;              ; LED4       ; PIN_67        ; QSF Assignment ;
+; Location ;                ;              ; LED5       ; PIN_69        ; QSF Assignment ;
+; Location ;                ;              ; LED6       ; PIN_71        ; QSF Assignment ;
++----------+----------------+--------------+------------+---------------+----------------+
 
 
 +--------------+
@@ -144,53 +161,53 @@ https://fpgasoftware.intel.com/eula.
 The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/output_files/mainmodule.pin.
 
 
-+------------------------------------------------------------------+
-; Fitter Resource Usage Summary                                    ;
-+---------------------------------------------+--------------------+
-; Resource                                    ; Usage              ;
-+---------------------------------------------+--------------------+
-; Total logic elements                        ; 74 / 240 ( 31 % )  ;
-;     -- Combinational with no register       ; 52                 ;
-;     -- Register only                        ; 0                  ;
-;     -- Combinational with a register        ; 22                 ;
-;                                             ;                    ;
-; Logic element usage by number of LUT inputs ;                    ;
-;     -- 4 input functions                    ; 33                 ;
-;     -- 3 input functions                    ; 19                 ;
-;     -- 2 input functions                    ; 0                  ;
-;     -- 1 input functions                    ; 22                 ;
-;     -- 0 input functions                    ; 0                  ;
-;                                             ;                    ;
-; Logic elements by mode                      ;                    ;
-;     -- normal mode                          ; 74                 ;
-;     -- arithmetic mode                      ; 0                  ;
-;     -- qfbk mode                            ; 0                  ;
-;     -- register cascade mode                ; 0                  ;
-;     -- synchronous clear/load mode          ; 0                  ;
-;     -- asynchronous clear/load mode         ; 0                  ;
-;                                             ;                    ;
-; Total registers                             ; 22 / 240 ( 9 % )   ;
-; Total LABs                                  ; 17 / 24 ( 71 % )   ;
-; Logic elements in carry chains              ; 0                  ;
-; Virtual pins                                ; 0                  ;
-; I/O pins                                    ; 43 / 80 ( 54 % )   ;
-;     -- Clock pins                           ; 3 / 4 ( 75 % )     ;
-;                                             ;                    ;
-; UFM blocks                                  ; 0 / 1 ( 0 % )      ;
-;                                             ;                    ;
-;     -- Total Fixed Point DSP Blocks         ; 0                  ;
-;     -- Total Floating Point DSP Blocks      ; 0                  ;
-;                                             ;                    ;
-; Global signals                              ; 1                  ;
-;     -- Global clocks                        ; 1 / 4 ( 25 % )     ;
-; JTAGs                                       ; 0 / 1 ( 0 % )      ;
-; Average interconnect usage (total/H/V)      ; 6.4% / 5.6% / 7.2% ;
-; Peak interconnect usage (total/H/V)         ; 6.4% / 5.6% / 7.2% ;
-; Maximum fan-out                             ; 15                 ;
-; Highest non-global fan-out                  ; 15                 ;
-; Total fan-out                               ; 249                ;
-; Average fan-out                             ; 2.13               ;
-+---------------------------------------------+--------------------+
++---------------------------------------------------------------------+
+; Fitter Resource Usage Summary                                       ;
++---------------------------------------------+-----------------------+
+; Resource                                    ; Usage                 ;
++---------------------------------------------+-----------------------+
+; Total logic elements                        ; 179 / 240 ( 75 % )    ;
+;     -- Combinational with no register       ; 153                   ;
+;     -- Register only                        ; 0                     ;
+;     -- Combinational with a register        ; 26                    ;
+;                                             ;                       ;
+; Logic element usage by number of LUT inputs ;                       ;
+;     -- 4 input functions                    ; 126                   ;
+;     -- 3 input functions                    ; 19                    ;
+;     -- 2 input functions                    ; 9                     ;
+;     -- 1 input functions                    ; 25                    ;
+;     -- 0 input functions                    ; 0                     ;
+;                                             ;                       ;
+; Logic elements by mode                      ;                       ;
+;     -- normal mode                          ; 179                   ;
+;     -- arithmetic mode                      ; 0                     ;
+;     -- qfbk mode                            ; 0                     ;
+;     -- register cascade mode                ; 0                     ;
+;     -- synchronous clear/load mode          ; 0                     ;
+;     -- asynchronous clear/load mode         ; 0                     ;
+;                                             ;                       ;
+; Total registers                             ; 26 / 240 ( 11 % )     ;
+; Total LABs                                  ; 20 / 24 ( 83 % )      ;
+; Logic elements in carry chains              ; 0                     ;
+; Virtual pins                                ; 0                     ;
+; I/O pins                                    ; 41 / 80 ( 51 % )      ;
+;     -- Clock pins                           ; 1 / 4 ( 25 % )        ;
+;                                             ;                       ;
+; UFM blocks                                  ; 0 / 1 ( 0 % )         ;
+;                                             ;                       ;
+;     -- Total Fixed Point DSP Blocks         ; 0                     ;
+;     -- Total Floating Point DSP Blocks      ; 0                     ;
+;                                             ;                       ;
+; Global signals                              ; 2                     ;
+;     -- Global clocks                        ; 2 / 4 ( 50 % )        ;
+; JTAGs                                       ; 0 / 1 ( 0 % )         ;
+; Average interconnect usage (total/H/V)      ; 17.6% / 18.9% / 16.2% ;
+; Peak interconnect usage (total/H/V)         ; 17.6% / 18.9% / 16.2% ;
+; Maximum fan-out                             ; 44                    ;
+; Highest non-global fan-out                  ; 44                    ;
+; Total fan-out                               ; 656                   ;
+; Average fan-out                             ; 2.98                  ;
++---------------------------------------------+-----------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -198,18 +215,18 @@ The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/
 +-------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+-----------------+----------+--------------+--------------+----------------------+----------------+
 ; Name  ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Combinational Fan-Out ; Registered Fan-Out ; Global ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Location assigned by ; Slow Slew Rate ;
 +-------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+-----------------+----------+--------------+--------------+----------------------+----------------+
-; BT0   ; 52    ; 2        ; 8            ; 1            ; 4           ; 7                     ; 0                  ; yes    ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; BT1   ; 50    ; 1        ; 7            ; 0            ; 1           ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; BT0   ; 52    ; 2        ; 8            ; 1            ; 4           ; 4                     ; 0                  ; yes    ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; BT1   ; 50    ; 1        ; 7            ; 0            ; 1           ; 2                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
 ; BT2   ; 48    ; 1        ; 6            ; 0            ; 0           ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
 ; BT3   ; 44    ; 1        ; 6            ; 0            ; 2           ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; CH0   ; 42    ; 1        ; 5            ; 0            ; 0           ; 15                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; CH1   ; 40    ; 1        ; 5            ; 0            ; 2           ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; CH2   ; 38    ; 1        ; 4            ; 0            ; 0           ; 13                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; CH3   ; 36    ; 1        ; 4            ; 0            ; 2           ; 10                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; CH4   ; 34    ; 1        ; 3            ; 0            ; 1           ; 11                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; CH5   ; 30    ; 1        ; 3            ; 0            ; 3           ; 8                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; CH6   ; 33    ; 1        ; 3            ; 0            ; 2           ; 11                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; CH7   ; 35    ; 1        ; 3            ; 0            ; 0           ; 6                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; CH0   ; 42    ; 1        ; 5            ; 0            ; 0           ; 44                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; CH1   ; 40    ; 1        ; 5            ; 0            ; 2           ; 9                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; CH2   ; 38    ; 1        ; 4            ; 0            ; 0           ; 31                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; CH3   ; 36    ; 1        ; 4            ; 0            ; 2           ; 31                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; CH4   ; 34    ; 1        ; 3            ; 0            ; 1           ; 35                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; CH5   ; 30    ; 1        ; 3            ; 0            ; 3           ; 36                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; CH6   ; 33    ; 1        ; 3            ; 0            ; 2           ; 16                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; CH7   ; 35    ; 1        ; 3            ; 0            ; 0           ; 27                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
 ; CLKIN ; 12    ; 1        ; 1            ; 3            ; 3           ; 2                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
 +-------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+-----------------+----------+--------------+--------------+----------------------+----------------+
 
@@ -227,14 +244,7 @@ The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/
 ; COL3      ; 82    ; 2        ; 6            ; 5            ; 1           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
 ; COL4      ; 78    ; 2        ; 7            ; 5            ; 3           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
 ; GLED      ; 72    ; 2        ; 8            ; 4            ; 2           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
-; LED0      ; 54    ; 2        ; 8            ; 1            ; 2           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
-; LED1      ; 55    ; 2        ; 8            ; 1            ; 1           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
-; LED2      ; 57    ; 2        ; 8            ; 2            ; 3           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
-; LED3      ; 61    ; 2        ; 8            ; 2            ; 1           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
-; LED4      ; 67    ; 2        ; 8            ; 3            ; 2           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
-; LED5      ; 69    ; 2        ; 8            ; 3            ; 0           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
-; LED6      ; 71    ; 2        ; 8            ; 4            ; 3           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
-; LIN0      ; 85    ; 2        ; 5            ; 5            ; 0           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; yes                    ; User                 ; 10 pF ; -                    ; -                   ;
+; LIN0      ; 85    ; 2        ; 5            ; 5            ; 0           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
 ; LIN1      ; 83    ; 2        ; 6            ; 5            ; 2           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
 ; LIN2      ; 84    ; 2        ; 6            ; 5            ; 3           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
 ; LIN3      ; 87    ; 2        ; 5            ; 5            ; 2           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
@@ -242,13 +252,18 @@ The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/
 ; LIN5      ; 91    ; 2        ; 4            ; 5            ; 2           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
 ; LIN6      ; 89    ; 2        ; 4            ; 5            ; 0           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
 ; RLED      ; 86    ; 2        ; 5            ; 5            ; 1           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
-; SGDA      ; 64    ; 2        ; 8            ; 3            ; 4           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; Fitter               ; 10 pF ; -                    ; -                   ;
-; SGDB      ; 5     ; 1        ; 1            ; 4            ; 3           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; Fitter               ; 10 pF ; -                    ; -                   ;
-; SGDC      ; 7     ; 1        ; 1            ; 3            ; 1           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; Fitter               ; 10 pF ; -                    ; -                   ;
-; SGDD      ; 26    ; 1        ; 2            ; 0            ; 3           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; Fitter               ; 10 pF ; -                    ; -                   ;
-; SGDE      ; 14    ; 1        ; 1            ; 2            ; 0           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; Fitter               ; 10 pF ; -                    ; -                   ;
-; SGDF      ; 16    ; 1        ; 1            ; 2            ; 2           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; Fitter               ; 10 pF ; -                    ; -                   ;
-; SGDG      ; 3     ; 1        ; 1            ; 4            ; 1           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; Fitter               ; 10 pF ; -                    ; -                   ;
+; SGD1      ; 88    ; 2        ; 5            ; 5            ; 3           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
+; SGD2      ; 66    ; 2        ; 8            ; 3            ; 3           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
+; SGD3      ; 68    ; 2        ; 8            ; 3            ; 1           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
+; SGD4      ; 37    ; 1        ; 4            ; 0            ; 1           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
+; SGDA      ; 90    ; 2        ; 4            ; 5            ; 1           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
+; SGDB      ; 70    ; 2        ; 8            ; 4            ; 4           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
+; SGDC      ; 41    ; 1        ; 5            ; 0            ; 1           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
+; SGDD      ; 98    ; 2        ; 2            ; 5            ; 0           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
+; SGDE      ; 100   ; 2        ; 2            ; 5            ; 2           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
+; SGDF      ; 92    ; 2        ; 3            ; 5            ; 0           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
+; SGDG      ; 39    ; 1        ; 5            ; 0            ; 3           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
+; SGDP      ; 96    ; 2        ; 3            ; 5            ; 2           ; no              ; no             ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 16mA             ; no                     ; User                 ; 10 pF ; -                    ; -                   ;
 +-----------+-------+----------+--------------+--------------+-------------+-----------------+----------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+------------------------+----------------------+-------+----------------------+---------------------+
 
 
@@ -257,8 +272,8 @@ The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/
 +----------+------------------+---------------+--------------+
 ; I/O Bank ; Usage            ; VCCIO Voltage ; VREF Voltage ;
 +----------+------------------+---------------+--------------+
-; 1        ; 18 / 38 ( 47 % ) ; 3.3V          ; --           ;
-; 2        ; 25 / 42 ( 60 % ) ; 3.3V          ; --           ;
+; 1        ; 15 / 38 ( 39 % ) ; 3.3V          ; --           ;
+; 2        ; 26 / 42 ( 62 % ) ; 3.3V          ; --           ;
 +----------+------------------+---------------+--------------+
 
 
@@ -269,20 +284,20 @@ The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/
 +----------+------------+----------+----------------+--------+--------------+-----------+------------+-----------------+----------+--------------+
 ; 1        ; 83         ; 2        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
 ; 2        ; 0          ; 1        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
-; 3        ; 1          ; 1        ; SGDG           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; N               ; no       ; Off          ;
+; 3        ; 1          ; 1        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
 ; 4        ; 2          ; 1        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
-; 5        ; 3          ; 1        ; SGDB           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; N               ; no       ; Off          ;
+; 5        ; 3          ; 1        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
 ; 6        ; 4          ; 1        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
-; 7        ; 5          ; 1        ; SGDC           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; N               ; no       ; Off          ;
+; 7        ; 5          ; 1        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
 ; 8        ; 6          ; 1        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
 ; 9        ;            ; 1        ; VCCIO1         ; power  ;              ; 3.3V      ; --         ;                 ; --       ; --           ;
 ; 10       ;            ;          ; GNDIO          ; gnd    ;              ;           ; --         ;                 ; --       ; --           ;
 ; 11       ;            ;          ; GNDINT         ; gnd    ;              ;           ; --         ;                 ; --       ; --           ;
 ; 12       ; 7          ; 1        ; CLKIN          ; input  ; 3.3-V LVTTL  ;           ; Row I/O    ; Y               ; no       ; Off          ;
 ; 13       ;            ;          ; VCCINT         ; power  ;              ; 2.5V/3.3V ; --         ;                 ; --       ; --           ;
-; 14       ; 8          ; 1        ; SGDE           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; N               ; no       ; Off          ;
+; 14       ; 8          ; 1        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
 ; 15       ; 9          ; 1        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
-; 16       ; 10         ; 1        ; SGDF           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; N               ; no       ; Off          ;
+; 16       ; 10         ; 1        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
 ; 17       ; 11         ; 1        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
 ; 18       ; 12         ; 1        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
 ; 19       ; 13         ; 1        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
@@ -292,7 +307,7 @@ The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/
 ; 23       ; 17         ; 1        ; #TDI           ; input  ;              ;           ; --         ;                 ; --       ; --           ;
 ; 24       ; 18         ; 1        ; #TCK           ; input  ;              ;           ; --         ;                 ; --       ; --           ;
 ; 25       ; 19         ; 1        ; #TDO           ; output ;              ;           ; --         ;                 ; --       ; --           ;
-; 26       ; 20         ; 1        ; SGDD           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; N               ; no       ; Off          ;
+; 26       ; 20         ; 1        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
 ; 27       ; 21         ; 1        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
 ; 28       ; 22         ; 1        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
 ; 29       ; 23         ; 1        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
@@ -303,11 +318,11 @@ The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/
 ; 34       ; 26         ; 1        ; CH4            ; input  ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 35       ; 27         ; 1        ; CH7            ; input  ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 36       ; 28         ; 1        ; CH3            ; input  ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
-; 37       ; 29         ; 1        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
+; 37       ; 29         ; 1        ; SGD4           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 38       ; 30         ; 1        ; CH2            ; input  ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
-; 39       ; 31         ; 1        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
+; 39       ; 31         ; 1        ; SGDG           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 40       ; 32         ; 1        ; CH1            ; input  ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
-; 41       ; 33         ; 1        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
+; 41       ; 33         ; 1        ; SGDC           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 42       ; 34         ; 1        ; CH0            ; input  ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 43       ; 35         ; 1        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
 ; 44       ; 36         ; 1        ; BT3            ; input  ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
@@ -320,24 +335,24 @@ The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/
 ; 51       ; 41         ; 1        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
 ; 52       ; 42         ; 2        ; BT0            ; input  ; 3.3-V LVTTL  ;           ; Row I/O    ; Y               ; no       ; Off          ;
 ; 53       ; 43         ; 2        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
-; 54       ; 44         ; 2        ; LED0           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; Y               ; no       ; Off          ;
-; 55       ; 45         ; 2        ; LED1           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; Y               ; no       ; Off          ;
+; 54       ; 44         ; 2        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
+; 55       ; 45         ; 2        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
 ; 56       ; 46         ; 2        ; CLKOUT         ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; Y               ; no       ; Off          ;
-; 57       ; 47         ; 2        ; LED2           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; Y               ; no       ; Off          ;
+; 57       ; 47         ; 2        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
 ; 58       ; 48         ; 2        ; CLKDIVOUT      ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; Y               ; no       ; Off          ;
 ; 59       ;            ; 2        ; VCCIO2         ; power  ;              ; 3.3V      ; --         ;                 ; --       ; --           ;
 ; 60       ;            ;          ; GNDIO          ; gnd    ;              ;           ; --         ;                 ; --       ; --           ;
-; 61       ; 49         ; 2        ; LED3           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; Y               ; no       ; Off          ;
+; 61       ; 49         ; 2        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
 ; 62       ; 50         ; 2        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
 ; 63       ;            ;          ; VCCINT         ; power  ;              ; 2.5V/3.3V ; --         ;                 ; --       ; --           ;
-; 64       ; 51         ; 2        ; SGDA           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; N               ; no       ; Off          ;
+; 64       ; 51         ; 2        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
 ; 65       ;            ;          ; GNDINT         ; gnd    ;              ;           ; --         ;                 ; --       ; --           ;
-; 66       ; 52         ; 2        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
-; 67       ; 53         ; 2        ; LED4           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; Y               ; no       ; Off          ;
-; 68       ; 54         ; 2        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
-; 69       ; 55         ; 2        ; LED5           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; Y               ; no       ; Off          ;
-; 70       ; 56         ; 2        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
-; 71       ; 57         ; 2        ; LED6           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; Y               ; no       ; Off          ;
+; 66       ; 52         ; 2        ; SGD2           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; Y               ; no       ; Off          ;
+; 67       ; 53         ; 2        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
+; 68       ; 54         ; 2        ; SGD3           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; Y               ; no       ; Off          ;
+; 69       ; 55         ; 2        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
+; 70       ; 56         ; 2        ; SGDB           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; Y               ; no       ; Off          ;
+; 71       ; 57         ; 2        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
 ; 72       ; 58         ; 2        ; GLED           ; output ; 3.3-V LVTTL  ;           ; Row I/O    ; Y               ; no       ; Off          ;
 ; 73       ; 59         ; 2        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
 ; 74       ; 60         ; 2        ; GND*           ;        ;              ;           ; Row I/O    ;                 ; no       ; Off          ;
@@ -354,19 +369,19 @@ The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/
 ; 85       ; 69         ; 2        ; LIN0           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 86       ; 70         ; 2        ; RLED           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 87       ; 71         ; 2        ; LIN3           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
-; 88       ; 72         ; 2        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
+; 88       ; 72         ; 2        ; SGD1           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 89       ; 73         ; 2        ; LIN6           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
-; 90       ; 74         ; 2        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
+; 90       ; 74         ; 2        ; SGDA           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 91       ; 75         ; 2        ; LIN5           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
-; 92       ; 76         ; 2        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
+; 92       ; 76         ; 2        ; SGDF           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 93       ;            ;          ; GNDIO          ; gnd    ;              ;           ; --         ;                 ; --       ; --           ;
 ; 94       ;            ; 2        ; VCCIO2         ; power  ;              ; 3.3V      ; --         ;                 ; --       ; --           ;
 ; 95       ; 77         ; 2        ; COL2           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
-; 96       ; 78         ; 2        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
+; 96       ; 78         ; 2        ; SGDP           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 97       ; 79         ; 2        ; COL0           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
-; 98       ; 80         ; 2        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
+; 98       ; 80         ; 2        ; SGDD           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 99       ; 81         ; 2        ; COL1           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
-; 100      ; 82         ; 2        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
+; 100      ; 82         ; 2        ; SGDE           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 +----------+------------+----------+----------------+--------+--------------+-----------+------------+-----------------+----------+--------------+
 Note: Pin directions (input, output or bidir) are based on device operating in user mode.
 
@@ -387,71 +402,81 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 Note: User assignments will override these defaults. The user specified values are listed in the Output Pins and Bidir Pins tables.
 
 
-+----------------------------------------+
-; I/O Assignment Warnings                ;
-+----------+-----------------------------+
-; Pin Name ; Reason                      ;
-+----------+-----------------------------+
-; SGDA     ; Missing location assignment ;
-; SGDB     ; Missing location assignment ;
-; SGDC     ; Missing location assignment ;
-; SGDD     ; Missing location assignment ;
-; SGDE     ; Missing location assignment ;
-; SGDF     ; Missing location assignment ;
-; SGDG     ; Missing location assignment ;
-+----------+-----------------------------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                   ;
-+-----------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
-; Compilation Hierarchy Node                    ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                        ; Entity Name            ; Library Name ;
-+-----------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
-; |mainmodule                                   ; 74 (7)      ; 22           ; 0          ; 43   ; 0            ; 52 (7)       ; 0 (0)             ; 22 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule                                                ; mainmodule             ; work         ;
-;    |bin3bcount:bin_3bc_0|                     ; 2 (0)       ; 2            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin3bcount:bin_3bc_0                           ; bin3bcount             ; work         ;
-;       |tff_gate:ff00|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin3bcount:bin_3bc_0|tff_gate:ff00             ; tff_gate               ; work         ;
-;       |tff_gate:ff01|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin3bcount:bin_3bc_0|tff_gate:ff01             ; tff_gate               ; work         ;
-;    |binpower20clockdivider:clk_div_0|         ; 20 (0)      ; 20           ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 20 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0               ; binpower20clockdivider ; work         ;
-;       |tff_gate:ff00|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff00 ; tff_gate               ; work         ;
-;       |tff_gate:ff01|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff01 ; tff_gate               ; work         ;
-;       |tff_gate:ff02|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff02 ; tff_gate               ; work         ;
-;       |tff_gate:ff03|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff03 ; tff_gate               ; work         ;
-;       |tff_gate:ff04|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff04 ; tff_gate               ; work         ;
-;       |tff_gate:ff05|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff05 ; tff_gate               ; work         ;
-;       |tff_gate:ff06|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff06 ; tff_gate               ; work         ;
-;       |tff_gate:ff07|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff07 ; tff_gate               ; work         ;
-;       |tff_gate:ff08|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff08 ; tff_gate               ; work         ;
-;       |tff_gate:ff09|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff09 ; tff_gate               ; work         ;
-;       |tff_gate:ff10|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff10 ; tff_gate               ; work         ;
-;       |tff_gate:ff11|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff11 ; tff_gate               ; work         ;
-;       |tff_gate:ff12|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff12 ; tff_gate               ; work         ;
-;       |tff_gate:ff13|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff13 ; tff_gate               ; work         ;
-;       |tff_gate:ff14|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff14 ; tff_gate               ; work         ;
-;       |tff_gate:ff15|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff15 ; tff_gate               ; work         ;
-;       |tff_gate:ff16|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff16 ; tff_gate               ; work         ;
-;       |tff_gate:ff17|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff17 ; tff_gate               ; work         ;
-;       |tff_gate:ff18|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff18 ; tff_gate               ; work         ;
-;       |tff_gate:ff19|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff19 ; tff_gate               ; work         ;
-;    |multiplex35to1:shipcoordinate_mux_0|      ; 8 (8)       ; 0            ; 0          ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to1:shipcoordinate_mux_0            ; multiplex35to1         ; work         ;
-;    |multiplex35to5:shipartillerydisplaymux_0| ; 10 (10)     ; 0            ; 0          ; 0    ; 0            ; 10 (10)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to5:shipartillerydisplaymux_0       ; multiplex35to5         ; work         ;
-;    |shipgunner:shpart_0|                      ; 2 (0)       ; 0            ; 0          ; 0    ; 0            ; 2 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0                            ; shipgunner             ; work         ;
-;       |srlt_gate:glight_0|                    ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:glight_0         ; srlt_gate              ; work         ;
-;       |srlt_gate:rlight_0|                    ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:rlight_0         ; srlt_gate              ; work         ;
-;    |tablememory7by5:shotsfired_0|             ; 25 (0)      ; 0            ; 0          ; 0    ; 0            ; 25 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0                   ; tablememory7by5        ; work         ;
-;       |srlt_gate:cell0_3|                     ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_3 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell1_2|                     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_2 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell1_3|                     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_3 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell2_0|                     ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_0 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell2_1|                     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_1 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell2_3|                     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_3 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell3_0|                     ; 4 (4)       ; 0            ; 0          ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_0 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell4_0|                     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_0 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell4_2|                     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_2 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell5_2|                     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_2 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell5_3|                     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_3 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell5_4|                     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_4 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell6_2|                     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_2 ; srlt_gate              ; work         ;
-+-----------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                             ;
++-----------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
+; Compilation Hierarchy Node              ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                        ; Entity Name            ; Library Name ;
++-----------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
+; |mainmodule                             ; 179 (24)    ; 26           ; 0          ; 41   ; 0            ; 153 (24)     ; 0 (0)             ; 26 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule                                                ; mainmodule             ; work         ;
+;    |bin2bselector:shpsel_0|             ; 2 (0)       ; 2            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0                         ; bin2bselector          ; work         ;
+;       |tff_gate:ff00|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0|tff_gate:ff00           ; tff_gate               ; work         ;
+;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0|tff_gate:ff01           ; tff_gate               ; work         ;
+;    |bin3bcount:bin3bc_0|                ; 2 (0)       ; 2            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin3bcount:bin3bc_0                            ; bin3bcount             ; work         ;
+;       |tff_gate:ff00|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin3bcount:bin3bc_0|tff_gate:ff00              ; tff_gate               ; work         ;
+;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin3bcount:bin3bc_0|tff_gate:ff01              ; tff_gate               ; work         ;
+;    |binpower18clockdivider:clkdiv_0|    ; 18 (0)      ; 18           ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 18 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0                ; binpower18clockdivider ; work         ;
+;       |tff_gate:ff00|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff00  ; tff_gate               ; work         ;
+;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff01  ; tff_gate               ; work         ;
+;       |tff_gate:ff02|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff02  ; tff_gate               ; work         ;
+;       |tff_gate:ff03|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff03  ; tff_gate               ; work         ;
+;       |tff_gate:ff04|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff04  ; tff_gate               ; work         ;
+;       |tff_gate:ff05|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff05  ; tff_gate               ; work         ;
+;       |tff_gate:ff06|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff06  ; tff_gate               ; work         ;
+;       |tff_gate:ff07|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff07  ; tff_gate               ; work         ;
+;       |tff_gate:ff08|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff08  ; tff_gate               ; work         ;
+;       |tff_gate:ff09|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff09  ; tff_gate               ; work         ;
+;       |tff_gate:ff10|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff10  ; tff_gate               ; work         ;
+;       |tff_gate:ff11|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff11  ; tff_gate               ; work         ;
+;       |tff_gate:ff12|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff12  ; tff_gate               ; work         ;
+;       |tff_gate:ff13|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff13  ; tff_gate               ; work         ;
+;       |tff_gate:ff14|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff14  ; tff_gate               ; work         ;
+;       |tff_gate:ff15|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff15  ; tff_gate               ; work         ;
+;       |tff_gate:ff16|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff16  ; tff_gate               ; work         ;
+;       |tff_gate:ff17|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff17  ; tff_gate               ; work         ;
+;    |binpower4buttonbouncer:btnbnc_0|    ; 7 (2)       ; 4            ; 0          ; 0    ; 0            ; 3 (2)        ; 0 (0)             ; 4 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0                ; binpower4buttonbouncer ; work         ;
+;       |tff_gate:ff00|                   ; 2 (2)       ; 1            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff00  ; tff_gate               ; work         ;
+;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff01  ; tff_gate               ; work         ;
+;       |tff_gate:ff02|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff02  ; tff_gate               ; work         ;
+;       |tff_gate:ff03|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff03  ; tff_gate               ; work         ;
+;    |decoderline:linedec_0|              ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|decoderline:linedec_0                          ; decoderline            ; work         ;
+;    |displayselector:sevsegdplsel_0|     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|displayselector:sevsegdplsel_0                 ; displayselector        ; work         ;
+;    |multiplex140to35:shparrmux_0|       ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex140to35:shparrmux_0                   ; multiplex140to35       ; work         ;
+;    |multiplex21to7:decmux_0|            ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex21to7:decmux_0                        ; multiplex21to7         ; work         ;
+;    |multiplex35to1:shipcoordinatemux_0| ; 19 (19)     ; 0            ; 0          ; 0    ; 0            ; 19 (19)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to1:shipcoordinatemux_0             ; multiplex35to1         ; work         ;
+;    |multiplex35to5:displayfinalmux_0|   ; 37 (37)     ; 0            ; 0          ; 0    ; 0            ; 37 (37)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to5:displayfinalmux_0               ; multiplex35to5         ; work         ;
+;    |shipgunner:shpart_0|                ; 4 (2)       ; 0            ; 0          ; 0    ; 0            ; 4 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0                            ; shipgunner             ; work         ;
+;       |srlt_gate:glight_0|              ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:glight_0         ; srlt_gate              ; work         ;
+;       |srlt_gate:rlight_0|              ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:rlight_0         ; srlt_gate              ; work         ;
+;    |tablememory7by5:shotsfired_0|       ; 60 (0)      ; 0            ; 0          ; 0    ; 0            ; 60 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0                   ; tablememory7by5        ; work         ;
+;       |srlt_gate:cell0_0|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell0_3|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell0_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_0|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_2|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_3|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_0|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_3|               ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_0|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_2|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_3|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_0|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_2|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_3|               ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_2|               ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_3|               ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell6_2|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell6_3|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_3 ; srlt_gate              ; work         ;
++-----------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -460,17 +485,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------+----------+---------------+
 ; Name      ; Pin Type ; Pad to Core 0 ;
 +-----------+----------+---------------+
-; CH1       ; Input    ; (0)           ;
-; BT1       ; Input    ; (0)           ;
 ; BT2       ; Input    ; (0)           ;
 ; BT3       ; Input    ; (0)           ;
-; LED0      ; Output   ; --            ;
-; LED1      ; Output   ; --            ;
-; LED2      ; Output   ; --            ;
-; LED3      ; Output   ; --            ;
-; LED4      ; Output   ; --            ;
-; LED5      ; Output   ; --            ;
-; LED6      ; Output   ; --            ;
 ; COL0      ; Output   ; --            ;
 ; COL1      ; Output   ; --            ;
 ; COL2      ; Output   ; --            ;
@@ -483,6 +499,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; LIN4      ; Output   ; --            ;
 ; LIN5      ; Output   ; --            ;
 ; LIN6      ; Output   ; --            ;
+; RLED      ; Output   ; --            ;
+; GLED      ; Output   ; --            ;
 ; SGDA      ; Output   ; --            ;
 ; SGDB      ; Output   ; --            ;
 ; SGDC      ; Output   ; --            ;
@@ -490,19 +508,24 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SGDE      ; Output   ; --            ;
 ; SGDF      ; Output   ; --            ;
 ; SGDG      ; Output   ; --            ;
+; SGDP      ; Output   ; --            ;
+; SGD1      ; Output   ; --            ;
+; SGD2      ; Output   ; --            ;
+; SGD3      ; Output   ; --            ;
+; SGD4      ; Output   ; --            ;
 ; CLKOUT    ; Output   ; --            ;
 ; CLKDIVOUT ; Output   ; --            ;
-; RLED      ; Output   ; --            ;
-; GLED      ; Output   ; --            ;
-; CLKIN     ; Input    ; (0)           ;
-; CH2       ; Input    ; (1)           ;
-; CH5       ; Input    ; (1)           ;
-; CH4       ; Input    ; (1)           ;
-; CH7       ; Input    ; (1)           ;
-; BT0       ; Input    ; (0)           ;
-; CH3       ; Input    ; (1)           ;
-; CH6       ; Input    ; (1)           ;
 ; CH0       ; Input    ; (1)           ;
+; CH1       ; Input    ; (1)           ;
+; CH6       ; Input    ; (1)           ;
+; CH5       ; Input    ; (1)           ;
+; CH2       ; Input    ; (1)           ;
+; CH4       ; Input    ; (1)           ;
+; CH3       ; Input    ; (1)           ;
+; CH7       ; Input    ; (1)           ;
+; CLKIN     ; Input    ; (0)           ;
+; BT0       ; Input    ; (0)           ;
+; BT1       ; Input    ; (0)           ;
 +-----------+----------+---------------+
 
 
@@ -512,137 +535,148 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name                                             ; Location    ; Fan-Out ; Usage ; Global ; Global Resource Used ; Global Line Name ;
 +--------------------------------------------------+-------------+---------+-------+--------+----------------------+------------------+
 ; CLKIN                                            ; PIN_12      ; 2       ; Clock ; no     ; --                   ; --               ;
-; bin3bcount:bin_3bc_0|tff_gate:ff00|q             ; LC_X5_Y4_N1 ; 13      ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff00|q ; LC_X2_Y3_N4 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff01|q ; LC_X2_Y3_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff02|q ; LC_X3_Y3_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff03|q ; LC_X3_Y3_N8 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff04|q ; LC_X4_Y3_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff05|q ; LC_X4_Y3_N3 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff06|q ; LC_X5_Y3_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff07|q ; LC_X5_Y3_N3 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff08|q ; LC_X4_Y2_N4 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff09|q ; LC_X4_Y2_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff10|q ; LC_X3_Y2_N3 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff11|q ; LC_X3_Y2_N1 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff12|q ; LC_X3_Y1_N4 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff13|q ; LC_X3_Y1_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff14|q ; LC_X4_Y1_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff15|q ; LC_X4_Y1_N8 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff16|q ; LC_X3_Y4_N4 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff17|q ; LC_X3_Y4_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff18|q ; LC_X4_Y4_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower20clockdivider:clk_div_0|tff_gate:ff19|q ; LC_X4_Y4_N8 ; 14      ; Clock ; no     ; --                   ; --               ;
+; bin2bselector:shpsel_0|tff_gate:ff00|q           ; LC_X3_Y4_N4 ; 22      ; Clock ; no     ; --                   ; --               ;
+; bin3bcount:bin3bc_0|tff_gate:ff00|q              ; LC_X4_Y2_N3 ; 17      ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q  ; LC_X2_Y1_N4 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q  ; LC_X2_Y1_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff02|q  ; LC_X3_Y1_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q  ; LC_X4_Y1_N7 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q  ; LC_X4_Y1_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q  ; LC_X5_Y2_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q  ; LC_X6_Y2_N3 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q  ; LC_X6_Y2_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q  ; LC_X5_Y4_N4 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q  ; LC_X5_Y4_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q  ; LC_X4_Y4_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q  ; LC_X5_Y3_N4 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q  ; LC_X5_Y3_N3 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q  ; LC_X4_Y3_N1 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q  ; LC_X4_Y3_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q  ; LC_X3_Y3_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q  ; LC_X2_Y3_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q  ; LC_X2_Y3_N8 ; 20      ; Clock ; yes    ; Global Clock         ; GCLK2            ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q  ; LC_X7_Y3_N9 ; 3       ; Clock ; no     ; --                   ; --               ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q  ; LC_X6_Y3_N7 ; 4       ; Clock ; no     ; --                   ; --               ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q  ; LC_X6_Y3_N3 ; 4       ; Clock ; no     ; --                   ; --               ;
+; binpower4buttonbouncer:btnbnc_0|togglecondition0 ; LC_X7_Y3_N6 ; 2       ; Clock ; no     ; --                   ; --               ;
 +--------------------------------------------------+-------------+---------+-------+--------+----------------------+------------------+
 
 
-+---------------------------------------------------------------------+
-; Global & Other Fast Signals                                         ;
-+------+----------+---------+----------------------+------------------+
-; Name ; Location ; Fan-Out ; Global Resource Used ; Global Line Name ;
-+------+----------+---------+----------------------+------------------+
-; BT0  ; PIN_52   ; 7       ; Global Clock         ; GCLK3            ;
-+------+----------+---------+----------------------+------------------+
++-------------------------------------------------------------------------------------------------------------------+
+; Global & Other Fast Signals                                                                                       ;
++-------------------------------------------------+-------------+---------+----------------------+------------------+
+; Name                                            ; Location    ; Fan-Out ; Global Resource Used ; Global Line Name ;
++-------------------------------------------------+-------------+---------+----------------------+------------------+
+; BT0                                             ; PIN_52      ; 4       ; Global Clock         ; GCLK3            ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; LC_X2_Y3_N8 ; 20      ; Global Clock         ; GCLK2            ;
++-------------------------------------------------+-------------+---------+----------------------+------------------+
 
 
-+-------------------------------------------+
-; Routing Usage Summary                     ;
-+-----------------------+-------------------+
-; Routing Resource Type ; Usage             ;
-+-----------------------+-------------------+
-; C4s                   ; 47 / 784 ( 6 % )  ;
-; Direct links          ; 12 / 888 ( 1 % )  ;
-; Global clocks         ; 1 / 4 ( 25 % )    ;
-; LAB clocks            ; 1 / 32 ( 3 % )    ;
-; LUT chains            ; 1 / 216 ( < 1 % ) ;
-; Local interconnects   ; 80 / 888 ( 9 % )  ;
-; R4s                   ; 30 / 704 ( 4 % )  ;
-+-----------------------+-------------------+
++--------------------------------------------+
+; Routing Usage Summary                      ;
++-----------------------+--------------------+
+; Routing Resource Type ; Usage              ;
++-----------------------+--------------------+
+; C4s                   ; 104 / 784 ( 13 % ) ;
+; Direct links          ; 39 / 888 ( 4 % )   ;
+; Global clocks         ; 2 / 4 ( 50 % )     ;
+; LAB clocks            ; 3 / 32 ( 9 % )     ;
+; LUT chains            ; 19 / 216 ( 9 % )   ;
+; Local interconnects   ; 251 / 888 ( 28 % ) ;
+; R4s                   ; 106 / 704 ( 15 % ) ;
++-----------------------+--------------------+
 
 
 +---------------------------------------------------------------------------+
 ; LAB Logic Elements                                                        ;
 +--------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 4.35) ; Number of LABs  (Total = 17) ;
+; Number of Logic Elements  (Average = 8.95) ; Number of LABs  (Total = 20) ;
 +--------------------------------------------+------------------------------+
 ; 1                                          ; 1                            ;
-; 2                                          ; 10                           ;
+; 2                                          ; 1                            ;
 ; 3                                          ; 0                            ;
-; 4                                          ; 1                            ;
+; 4                                          ; 0                            ;
 ; 5                                          ; 0                            ;
 ; 6                                          ; 0                            ;
-; 7                                          ; 0                            ;
+; 7                                          ; 1                            ;
 ; 8                                          ; 0                            ;
 ; 9                                          ; 1                            ;
-; 10                                         ; 4                            ;
+; 10                                         ; 16                           ;
 +--------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 0.65) ; Number of LABs  (Total = 17) ;
+; LAB-wide Signals  (Average = 0.75) ; Number of LABs  (Total = 20) ;
 +------------------------------------+------------------------------+
-; 1 Clock                            ; 11                           ;
+; 1 Clock                            ; 14                           ;
+; 2 Clocks                           ; 1                            ;
 +------------------------------------+------------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                        ;
 +---------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 4.35) ; Number of LABs  (Total = 17) ;
+; Number of Signals Sourced  (Average = 8.95) ; Number of LABs  (Total = 20) ;
 +---------------------------------------------+------------------------------+
 ; 0                                           ; 0                            ;
 ; 1                                           ; 1                            ;
-; 2                                           ; 10                           ;
+; 2                                           ; 1                            ;
 ; 3                                           ; 0                            ;
-; 4                                           ; 1                            ;
+; 4                                           ; 0                            ;
 ; 5                                           ; 0                            ;
 ; 6                                           ; 0                            ;
-; 7                                           ; 0                            ;
+; 7                                           ; 1                            ;
 ; 8                                           ; 0                            ;
 ; 9                                           ; 1                            ;
-; 10                                          ; 4                            ;
+; 10                                          ; 16                           ;
 +---------------------------------------------+------------------------------+
 
 
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 2.18) ; Number of LABs  (Total = 17) ;
+; Number of Signals Sourced Out  (Average = 4.50) ; Number of LABs  (Total = 20) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
-; 1                                               ; 11                           ;
+; 1                                               ; 2                            ;
 ; 2                                               ; 2                            ;
 ; 3                                               ; 2                            ;
-; 4                                               ; 0                            ;
-; 5                                               ; 0                            ;
-; 6                                               ; 1                            ;
-; 7                                               ; 0                            ;
-; 8                                               ; 0                            ;
+; 4                                               ; 5                            ;
+; 5                                               ; 3                            ;
+; 6                                               ; 3                            ;
+; 7                                               ; 1                            ;
+; 8                                               ; 1                            ;
 ; 9                                               ; 0                            ;
 ; 10                                              ; 1                            ;
 +-------------------------------------------------+------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; LAB Distinct Inputs                                                        ;
-+---------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 3.53) ; Number of LABs  (Total = 17) ;
-+---------------------------------------------+------------------------------+
-; 0                                           ; 0                            ;
-; 1                                           ; 10                           ;
-; 2                                           ; 0                            ;
-; 3                                           ; 2                            ;
-; 4                                           ; 0                            ;
-; 5                                           ; 0                            ;
-; 6                                           ; 0                            ;
-; 7                                           ; 1                            ;
-; 8                                           ; 1                            ;
-; 9                                           ; 2                            ;
-; 10                                          ; 0                            ;
-; 11                                          ; 1                            ;
-+---------------------------------------------+------------------------------+
++-----------------------------------------------------------------------------+
+; LAB Distinct Inputs                                                         ;
++----------------------------------------------+------------------------------+
+; Number of Distinct Inputs  (Average = 10.05) ; Number of LABs  (Total = 20) ;
++----------------------------------------------+------------------------------+
+; 0                                            ; 0                            ;
+; 1                                            ; 2                            ;
+; 2                                            ; 0                            ;
+; 3                                            ; 0                            ;
+; 4                                            ; 1                            ;
+; 5                                            ; 1                            ;
+; 6                                            ; 0                            ;
+; 7                                            ; 1                            ;
+; 8                                            ; 2                            ;
+; 9                                            ; 2                            ;
+; 10                                           ; 1                            ;
+; 11                                           ; 1                            ;
+; 12                                           ; 1                            ;
+; 13                                           ; 3                            ;
+; 14                                           ; 2                            ;
+; 15                                           ; 1                            ;
+; 16                                           ; 0                            ;
+; 17                                           ; 2                            ;
++----------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------------+
@@ -657,6 +691,29 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Configuration scheme                         ; Passive Serial           ;
 ; Reserve all unused pins                      ; As output driving ground ;
 +----------------------------------------------+--------------------------+
+
+
++------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Summary              ;
++-----------------+----------------------+-------------------+
+; Source Clock(s) ; Destination Clock(s) ; Delay Added in ns ;
++-----------------+----------------------+-------------------+
+Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
+This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Details                                                                         ;
++-------------------------------------------------+-------------------------------------------------+-------------------+
+; Source Register                                 ; Destination Register                            ; Delay Added in ns ;
++-------------------------------------------------+-------------------------------------------------+-------------------+
+; BT1                                             ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.487             ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff03|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.463             ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.463             ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.463             ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.463             ;
++-------------------------------------------------+-------------------------------------------------+-------------------+
+Note: This table only shows the top 5 path(s) that have the largest delay added for hold.
 
 
 +-----------------+
@@ -675,92 +732,191 @@ Info (176444): Device migration not selected. If you intend to use device migrat
     Info (176445): Device EPM570T100C5 is compatible
     Info (176445): Device EPM570T100I5 is compatible
     Info (176445): Device EPM570T100A5 is compatible
-Critical Warning (169085): No exact pin location assignment(s) for 7 pins of 43 total pins. For the list of pins please refer to the I/O Assignment Warnings table in the fitter report.
-Warning (335093): The Timing Analyzer is analyzing 4 combinational loops as latches. For more details, run the Check Timing command in the Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
+Warning (335093): The Timing Analyzer is analyzing 2 combinational loops as latches. For more details, run the Check Timing command in the Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'mainmodule.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
 Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
-    Warning (332126): Node "shotsfired_0|cell5_4|nor1_out~0|combout"
-    Warning (332126): Node "shotsfired_0|cell5_4|nor1_out~0|dataa"
+    Warning (332126): Node "shotsfired_0|cell5_4|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell5_4|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell4_4|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell4_4|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell3_4|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell3_4|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell2_4|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell2_4|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell1_4|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell1_4|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell0_4|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell0_4|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell6_3|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell6_3|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell3_3|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell3_3|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 8 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell4_3|nor1_out|combout"
+    Warning (332126): Node "shotsfired_0|cell4_3|nor1_out~1|dataa"
+    Warning (332126): Node "shotsfired_0|cell4_3|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell4_3|nor1_out|datab"
+    Warning (332126): Node "shotsfired_0|cell4_3|nor1_out|datac"
+    Warning (332126): Node "shotsfired_0|cell4_3|nor1_out~0|dataa"
+    Warning (332126): Node "shotsfired_0|cell4_3|nor1_out~0|combout"
+    Warning (332126): Node "shotsfired_0|cell4_3|nor1_out|dataa"
+Warning (332125): Found combinational loop of 8 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell2_3|nor1_out|combout"
+    Warning (332126): Node "shotsfired_0|cell2_3|nor1_out~1|dataa"
+    Warning (332126): Node "shotsfired_0|cell2_3|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell2_3|nor1_out|datab"
+    Warning (332126): Node "shotsfired_0|cell2_3|nor1_out|datac"
+    Warning (332126): Node "shotsfired_0|cell2_3|nor1_out~0|dataa"
+    Warning (332126): Node "shotsfired_0|cell2_3|nor1_out~0|combout"
+    Warning (332126): Node "shotsfired_0|cell2_3|nor1_out|dataa"
+Warning (332125): Found combinational loop of 5 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell0_3|nor1_out|combout"
+    Warning (332126): Node "shotsfired_0|cell0_3|nor1_out|datab"
+    Warning (332126): Node "shotsfired_0|cell0_3|nor1_out~0|dataa"
+    Warning (332126): Node "shotsfired_0|cell0_3|nor1_out~0|combout"
+    Warning (332126): Node "shotsfired_0|cell0_3|nor1_out|dataa"
+Warning (332125): Found combinational loop of 8 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell5_3|nor1_out|combout"
+    Warning (332126): Node "shotsfired_0|cell5_3|nor1_out~1|dataa"
+    Warning (332126): Node "shotsfired_0|cell5_3|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell5_3|nor1_out|datab"
+    Warning (332126): Node "shotsfired_0|cell5_3|nor1_out|datac"
+    Warning (332126): Node "shotsfired_0|cell5_3|nor1_out~0|dataa"
+    Warning (332126): Node "shotsfired_0|cell5_3|nor1_out~0|combout"
+    Warning (332126): Node "shotsfired_0|cell5_3|nor1_out|dataa"
 Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
     Warning (332126): Node "shotsfired_0|cell1_3|nor1_out~1|combout"
     Warning (332126): Node "shotsfired_0|cell1_3|nor1_out~1|dataa"
 Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
-    Warning (332126): Node "shotsfired_0|cell5_3|nor1_out~0|combout"
-    Warning (332126): Node "shotsfired_0|cell5_3|nor1_out~0|dataa"
-Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
-    Warning (332126): Node "shotsfired_0|cell2_3|nor1_out~0|combout"
-    Warning (332126): Node "shotsfired_0|cell2_3|nor1_out~0|dataa"
-Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
-    Warning (332126): Node "shotsfired_0|cell0_3|nor1_out~2|combout"
-    Warning (332126): Node "shotsfired_0|cell0_3|nor1_out~2|dataa"
+    Warning (332126): Node "shotsfired_0|cell6_2|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell6_2|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 8 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell5_2|nor1_out|combout"
+    Warning (332126): Node "shotsfired_0|cell5_2|nor1_out~1|dataa"
+    Warning (332126): Node "shotsfired_0|cell5_2|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell5_2|nor1_out|datab"
+    Warning (332126): Node "shotsfired_0|cell5_2|nor1_out|datac"
+    Warning (332126): Node "shotsfired_0|cell5_2|nor1_out~0|dataa"
+    Warning (332126): Node "shotsfired_0|cell5_2|nor1_out~0|combout"
+    Warning (332126): Node "shotsfired_0|cell5_2|nor1_out|dataa"
 Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
     Warning (332126): Node "shotsfired_0|cell4_2|nor1_out~1|combout"
     Warning (332126): Node "shotsfired_0|cell4_2|nor1_out~1|dataa"
 Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
-    Warning (332126): Node "shotsfired_0|cell6_2|nor1_out~1|combout"
-    Warning (332126): Node "shotsfired_0|cell6_2|nor1_out~1|dataa"
+    Warning (332126): Node "shotsfired_0|cell3_2|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell3_2|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 5 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell1_2|nor1_out|combout"
+    Warning (332126): Node "shotsfired_0|cell1_2|nor1_out|datab"
+    Warning (332126): Node "shotsfired_0|cell1_2|nor1_out~0|dataa"
+    Warning (332126): Node "shotsfired_0|cell1_2|nor1_out~0|combout"
+    Warning (332126): Node "shotsfired_0|cell1_2|nor1_out|dataa"
 Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
-    Warning (332126): Node "shotsfired_0|cell5_2|nor1_out~0|combout"
-    Warning (332126): Node "shotsfired_0|cell5_2|nor1_out~0|dataa"
+    Warning (332126): Node "shotsfired_0|cell5_1|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell5_1|nor1_out~1|dataa"
 Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
-    Warning (332126): Node "shotsfired_0|cell2_1|nor1_out~1|combout"
-    Warning (332126): Node "shotsfired_0|cell2_1|nor1_out~1|dataa"
+    Warning (332126): Node "shotsfired_0|cell3_1|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell3_1|nor1_out~1|dataa"
 Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
-    Warning (332126): Node "shotsfired_0|cell4_0|nor1_out~0|combout"
-    Warning (332126): Node "shotsfired_0|cell4_0|nor1_out~0|dataa"
+    Warning (332126): Node "shotsfired_0|cell4_1|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell4_1|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 5 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell2_1|nor1_out|combout"
+    Warning (332126): Node "shotsfired_0|cell2_1|nor1_out|datab"
+    Warning (332126): Node "shotsfired_0|cell2_1|nor1_out~0|dataa"
+    Warning (332126): Node "shotsfired_0|cell2_1|nor1_out~0|combout"
+    Warning (332126): Node "shotsfired_0|cell2_1|nor1_out|dataa"
 Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
-    Warning (332126): Node "shotsfired_0|cell3_0|nor1_out~2|combout"
-    Warning (332126): Node "shotsfired_0|cell3_0|nor1_out~2|dataa"
+    Warning (332126): Node "shotsfired_0|cell1_1|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell1_1|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell4_0|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell4_0|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell3_0|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell3_0|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell2_0|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell2_0|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell1_0|nor1_out~1|combout"
+    Warning (332126): Node "shotsfired_0|cell1_0|nor1_out~1|dataa"
+Warning (332125): Found combinational loop of 5 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "shotsfired_0|cell0_0|nor1_out|combout"
+    Warning (332126): Node "shotsfired_0|cell0_0|nor1_out|datab"
+    Warning (332126): Node "shotsfired_0|cell0_0|nor1_out~0|dataa"
+    Warning (332126): Node "shotsfired_0|cell0_0|nor1_out~0|combout"
+    Warning (332126): Node "shotsfired_0|cell0_0|nor1_out|dataa"
 Info (332128): Timing requirements not specified -- optimizing circuit to achieve the following default global requirements
     Info (332127): Assuming a default timing requirement
-Info (332111): Found 23 clocks
+Info (332111): Found 26 clocks
     Info (332111):   Period   Clock Name
     Info (332111): ======== ============
-    Info (332111):    1.000 bin3bcount:bin_3bc_0|tff_gate:ff00|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff00|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff01|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff02|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff03|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff04|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff05|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff06|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff07|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff08|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff09|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff10|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff11|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff12|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff13|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff14|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff15|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff16|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff17|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff18|q
-    Info (332111):    1.000 binpower20clockdivider:clk_div_0|tff_gate:ff19|q
+    Info (332111):    1.000 bin2bselector:shpsel_0|tff_gate:ff00|q
+    Info (332111):    1.000 bin3bcount:bin3bc_0|tff_gate:ff00|q
+    Info (332111):    1.000 binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q
+    Info (332111):    1.000 binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q
+    Info (332111):    1.000 binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff00|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff01|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff02|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff03|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff04|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff05|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff06|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff07|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff08|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff09|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff10|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff11|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff12|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff13|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff14|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff15|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff16|q
+    Info (332111):    1.000 binpower18clockdivider:clkdiv_0|tff_gate:ff17|q
     Info (332111):    1.000          BT0
+    Info (332111):    1.000          BT1
     Info (332111):    1.000        CLKIN
 Info (186079): Completed User Assigned Global Signals Promotion Operation
-Info (186216): Automatically promoted some destinations of signal "BT0" to use Global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
-    Info (186217): Destination "tablememory7by5:shotsfired_0|srlt_gate:cell3_0|nor1_out~0" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
-    Info (186217): Destination "tablememory7by5:shotsfired_0|srlt_gate:cell2_0|nor1_out~0" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
-    Info (186217): Destination "tablememory7by5:shotsfired_0|srlt_gate:cell0_3|nor1_out~1" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
-    Info (186217): Destination "tablememory7by5:shotsfired_0|srlt_gate:cell1_3|nor1_out~0" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
-    Info (186217): Destination "tablememory7by5:shotsfired_0|srlt_gate:cell3_0|nor1_out~3" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
-Info (186228): Pin "BT0" drives global clock, but is not placed in a dedicated clock pin position File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
+Info (186216): Automatically promoted some destinations of signal "binpower18clockdivider:clkdiv_0|tff_gate:ff17|q" to use Global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tff_gate.v Line: 19
+    Info (186217): Destination "CLKDIVOUT" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 37
+    Info (186217): Destination "binpower18clockdivider:clkdiv_0|tff_gate:ff17|q" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tff_gate.v Line: 19
+    Info (186217): Destination "WideNand0~0" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 784
+    Info (186217): Destination "WideNand0~1" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 784
+    Info (186217): Destination "WideNand0~2" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 784
+    Info (186217): Destination "WideNand0~3" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 784
+    Info (186217): Destination "WideNand0~4" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 784
+    Info (186217): Destination "WideNand0~5" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 784
+    Info (186217): Destination "multiplex35to5:displayfinalmux_0|WideOr1~4" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex35to5.v Line: 96
+    Info (186217): Destination "WideNand0~6" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 784
+    Info (186218): Limited to 10 non-global destinations
+Info (186216): Automatically promoted some destinations of signal "BT0" to use Global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 23
+    Info (186217): Destination "shipgunner:shpart_0|shipshot~0" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 19
+    Info (186217): Destination "shipgunner:shpart_0|shipshot" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 19
+Info (186228): Pin "BT0" drives global clock, but is not placed in a dedicated clock pin position File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 23
 Info (186079): Completed Auto Global Promotion Operation
 Info (176234): Starting register packing
 Info (186468): Started processing fast register assignments
 Info (186469): Finished processing fast register assignments
 Info (176235): Finished register packing
-Info (176214): Statistics of I/O pins that need to be placed that use the same VCCIO and VREF, before I/O pin placement
-    Info (176211): Number of I/O pins in group: 7 (unused VREF, 3.3V VCCIO, 0 input, 7 output, 0 bidirectional)
-        Info (176212): I/O standards used: 3.3-V LVTTL.
-Info (176215): I/O bank details before I/O pin placement
-    Info (176214): Statistics of I/O banks
-        Info (176213): I/O bank number 1 does not use VREF pins and has undetermined VCCIO pins. 12 total pin(s) used --  26 pins available
-        Info (176213): I/O bank number 2 does not use VREF pins and has 3.3V VCCIO pins. 24 total pin(s) used --  18 pins available
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Warning (15705): Ignored locations or region assignments to the following nodes
+    Warning (15706): Node "LED0" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LED1" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LED2" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LED3" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LED4" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LED5" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LED6" is assigned to location or region, but does not exist in design
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:00
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -768,20 +924,21 @@ Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
 Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
 Info (170193): Fitter routing operations beginning
-Info (170195): Router estimated average interconnect usage is 6% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 6% of the available device resources in the region that extends from location X0_Y0 to location X8_Y5
+Info (170195): Router estimated average interconnect usage is 14% of the available device resources
+    Info (170196): Router estimated peak interconnect usage is 14% of the available device resources in the region that extends from location X0_Y0 to location X8_Y5
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.13 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.19 seconds.
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
+Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (169174): The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
 Info (144001): Generated suppressed messages file /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/output_files/mainmodule.fit.smsg
-Info: Quartus Prime Fitter was successful. 0 errors, 39 warnings
-    Info: Peak virtual memory: 970 megabytes
-    Info: Processing ended: Thu Sep 28 17:37:41 2023
+Info: Quartus Prime Fitter was successful. 0 errors, 134 warnings
+    Info: Peak virtual memory: 983 megabytes
+    Info: Processing ended: Fri Sep 29 17:32:03 2023
     Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Total CPU time (on all processors): 00:00:03
 
 
 +----------------------------+

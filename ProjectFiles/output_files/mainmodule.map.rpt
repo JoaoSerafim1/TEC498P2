@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mainmodule
-Thu Sep 28 17:37:35 2023
+Fri Sep 29 17:31:57 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -15,69 +15,69 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Logic Cells Representing Combinational Loops
   9. General Register Statistics
- 10. Port Connectivity Checks: "decoderline:line_dec0"
- 11. Port Connectivity Checks: "decodercolumn:column_dec0"
- 12. Port Connectivity Checks: "decodermode:mode_dec0"
- 13. Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:glight_0"
- 14. Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:rlight_0"
- 15. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_4"
- 16. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_4"
- 17. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_4"
- 18. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_4"
- 19. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_4"
- 20. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_4"
- 21. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_4"
- 22. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_3"
- 23. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_3"
- 24. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_3"
- 25. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_3"
- 26. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_3"
- 27. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_3"
- 28. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_3"
- 29. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_2"
- 30. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_2"
- 31. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_2"
- 32. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_2"
- 33. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_2"
- 34. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_2"
- 35. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_2"
- 36. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_1"
- 37. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_1"
- 38. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_1"
- 39. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_1"
- 40. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_1"
- 41. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_1"
- 42. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_1"
- 43. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_0"
- 44. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_0"
- 45. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_0"
- 46. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_0"
- 47. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_0"
- 48. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_0"
- 49. Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_0"
- 50. Port Connectivity Checks: "tablememory7by5:shiparrangement_0"
- 51. Port Connectivity Checks: "bin3bcount:bin_3bc_0|tff_gate:ff01"
- 52. Port Connectivity Checks: "bin3bcount:bin_3bc_0|tff_gate:ff00"
- 53. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff19"
- 54. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff18"
- 55. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff17"
- 56. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff16"
- 57. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff15"
- 58. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff14"
- 59. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff13"
- 60. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff12"
- 61. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff11"
- 62. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff10"
- 63. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff09"
- 64. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff08"
- 65. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff07"
- 66. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff06"
- 67. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff05"
- 68. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff04"
- 69. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff03"
- 70. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff02"
- 71. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff01"
- 72. Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff00"
+ 10. Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:glight_0"
+ 11. Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:rlight_0"
+ 12. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_4"
+ 13. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_4"
+ 14. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_4"
+ 15. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_4"
+ 16. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_4"
+ 17. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_4"
+ 18. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_4"
+ 19. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_3"
+ 20. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_3"
+ 21. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_3"
+ 22. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_3"
+ 23. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_3"
+ 24. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_3"
+ 25. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_3"
+ 26. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_2"
+ 27. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_2"
+ 28. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_2"
+ 29. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_2"
+ 30. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_2"
+ 31. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_2"
+ 32. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_2"
+ 33. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_1"
+ 34. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_1"
+ 35. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_1"
+ 36. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_1"
+ 37. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_1"
+ 38. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_1"
+ 39. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_1"
+ 40. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_0"
+ 41. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_0"
+ 42. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_0"
+ 43. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_0"
+ 44. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_0"
+ 45. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_0"
+ 46. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_0"
+ 47. Port Connectivity Checks: "multiplex140to35:shparrmux_0"
+ 48. Port Connectivity Checks: "bin2bselector:shpsel_0|tff_gate:ff01"
+ 49. Port Connectivity Checks: "bin2bselector:shpsel_0|tff_gate:ff00"
+ 50. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff03"
+ 51. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff02"
+ 52. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff01"
+ 53. Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff01"
+ 54. Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff00"
+ 55. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff17"
+ 56. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff16"
+ 57. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff15"
+ 58. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff14"
+ 59. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff13"
+ 60. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff12"
+ 61. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff11"
+ 62. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff10"
+ 63. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff09"
+ 64. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff08"
+ 65. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff07"
+ 66. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff06"
+ 67. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff05"
+ 68. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff04"
+ 69. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff03"
+ 70. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff02"
+ 71. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff01"
+ 72. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff00"
  73. Analysis & Synthesis Messages
 
 
@@ -105,13 +105,13 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Thu Sep 28 17:37:35 2023       ;
+; Analysis & Synthesis Status ; Successful - Fri Sep 29 17:31:57 2023       ;
 ; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name               ; mainmodule                                  ;
 ; Top-level Entity Name       ; mainmodule                                  ;
 ; Family                      ; MAX II                                      ;
-; Total logic elements        ; 74                                          ;
-; Total pins                  ; 43                                          ;
+; Total logic elements        ; 179                                         ;
+; Total pins                  ; 41                                          ;
 ; Total virtual pins          ; 0                                           ;
 ; UFM blocks                  ; 0 / 1 ( 0 % )                               ;
 +-----------------------------+---------------------------------------------+
@@ -217,11 +217,17 @@ https://fpgasoftware.intel.com/eula.
 ; multiplex35to1.v                 ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex35to1.v         ;         ;
 ; multiplex1to35.v                 ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex1to35.v         ;         ;
 ; mainmodule.v                     ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v             ;         ;
-; binpower20clockdivider.v         ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower20clockdivider.v ;         ;
 ; bin3bcount.v                     ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/bin3bcount.v             ;         ;
 ; decodermode.v                    ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decodermode.v            ;         ;
 ; decodercolumn.v                  ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decodercolumn.v          ;         ;
 ; decoderline.v                    ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decoderline.v            ;         ;
+; multiplex21to7.v                 ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex21to7.v         ;         ;
+; displayselector.v                ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/displayselector.v        ;         ;
+; binpower18clockdivider.v         ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower18clockdivider.v ;         ;
+; binpower4buttonbouncer.v         ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v ;         ;
+; multiplex140to35.v               ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex140to35.v       ;         ;
+; bin2bselector.v                  ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/bin2bselector.v          ;         ;
+; multiplex70to35.v                ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex70to35.v        ;         ;
 +----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
 
 
@@ -230,85 +236,110 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Total logic elements                        ; 74    ;
-;     -- Combinational with no register       ; 52    ;
+; Total logic elements                        ; 179   ;
+;     -- Combinational with no register       ; 153   ;
 ;     -- Register only                        ; 0     ;
-;     -- Combinational with a register        ; 22    ;
+;     -- Combinational with a register        ; 26    ;
 ;                                             ;       ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 33    ;
+;     -- 4 input functions                    ; 126   ;
 ;     -- 3 input functions                    ; 19    ;
-;     -- 2 input functions                    ; 0     ;
-;     -- 1 input functions                    ; 22    ;
+;     -- 2 input functions                    ; 9     ;
+;     -- 1 input functions                    ; 25    ;
 ;     -- 0 input functions                    ; 0     ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 74    ;
+;     -- normal mode                          ; 179   ;
 ;     -- arithmetic mode                      ; 0     ;
 ;     -- qfbk mode                            ; 0     ;
 ;     -- register cascade mode                ; 0     ;
 ;     -- synchronous clear/load mode          ; 0     ;
 ;     -- asynchronous clear/load mode         ; 0     ;
 ;                                             ;       ;
-; Total registers                             ; 22    ;
-; I/O pins                                    ; 43    ;
+; Total registers                             ; 26    ;
+; I/O pins                                    ; 41    ;
 ; Maximum fan-out node                        ; CH0   ;
-; Maximum fan-out                             ; 15    ;
-; Total fan-out                               ; 249   ;
-; Average fan-out                             ; 2.13  ;
+; Maximum fan-out                             ; 44    ;
+; Total fan-out                               ; 656   ;
+; Average fan-out                             ; 2.98  ;
 +---------------------------------------------+-------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                     ;
-+-----------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
-; Compilation Hierarchy Node                    ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                        ; Entity Name            ; Library Name ;
-+-----------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
-; |mainmodule                                   ; 74 (7)      ; 22           ; 0          ; 43   ; 0            ; 52 (7)       ; 0 (0)             ; 22 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule                                                ; mainmodule             ; work         ;
-;    |bin3bcount:bin_3bc_0|                     ; 2 (0)       ; 2            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin3bcount:bin_3bc_0                           ; bin3bcount             ; work         ;
-;       |tff_gate:ff00|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin3bcount:bin_3bc_0|tff_gate:ff00             ; tff_gate               ; work         ;
-;       |tff_gate:ff01|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin3bcount:bin_3bc_0|tff_gate:ff01             ; tff_gate               ; work         ;
-;    |binpower20clockdivider:clk_div_0|         ; 20 (0)      ; 20           ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 20 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0               ; binpower20clockdivider ; work         ;
-;       |tff_gate:ff00|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff00 ; tff_gate               ; work         ;
-;       |tff_gate:ff01|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff01 ; tff_gate               ; work         ;
-;       |tff_gate:ff02|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff02 ; tff_gate               ; work         ;
-;       |tff_gate:ff03|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff03 ; tff_gate               ; work         ;
-;       |tff_gate:ff04|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff04 ; tff_gate               ; work         ;
-;       |tff_gate:ff05|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff05 ; tff_gate               ; work         ;
-;       |tff_gate:ff06|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff06 ; tff_gate               ; work         ;
-;       |tff_gate:ff07|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff07 ; tff_gate               ; work         ;
-;       |tff_gate:ff08|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff08 ; tff_gate               ; work         ;
-;       |tff_gate:ff09|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff09 ; tff_gate               ; work         ;
-;       |tff_gate:ff10|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff10 ; tff_gate               ; work         ;
-;       |tff_gate:ff11|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff11 ; tff_gate               ; work         ;
-;       |tff_gate:ff12|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff12 ; tff_gate               ; work         ;
-;       |tff_gate:ff13|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff13 ; tff_gate               ; work         ;
-;       |tff_gate:ff14|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff14 ; tff_gate               ; work         ;
-;       |tff_gate:ff15|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff15 ; tff_gate               ; work         ;
-;       |tff_gate:ff16|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff16 ; tff_gate               ; work         ;
-;       |tff_gate:ff17|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff17 ; tff_gate               ; work         ;
-;       |tff_gate:ff18|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff18 ; tff_gate               ; work         ;
-;       |tff_gate:ff19|                         ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff19 ; tff_gate               ; work         ;
-;    |multiplex35to1:shipcoordinate_mux_0|      ; 8 (8)       ; 0            ; 0          ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to1:shipcoordinate_mux_0            ; multiplex35to1         ; work         ;
-;    |multiplex35to5:shipartillerydisplaymux_0| ; 10 (10)     ; 0            ; 0          ; 0    ; 0            ; 10 (10)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to5:shipartillerydisplaymux_0       ; multiplex35to5         ; work         ;
-;    |shipgunner:shpart_0|                      ; 2 (0)       ; 0            ; 0          ; 0    ; 0            ; 2 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0                            ; shipgunner             ; work         ;
-;       |srlt_gate:glight_0|                    ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:glight_0         ; srlt_gate              ; work         ;
-;       |srlt_gate:rlight_0|                    ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:rlight_0         ; srlt_gate              ; work         ;
-;    |tablememory7by5:shotsfired_0|             ; 25 (0)      ; 0            ; 0          ; 0    ; 0            ; 25 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0                   ; tablememory7by5        ; work         ;
-;       |srlt_gate:cell0_3|                     ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_3 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell1_2|                     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_2 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell1_3|                     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_3 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell2_0|                     ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_0 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell2_1|                     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_1 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell2_3|                     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_3 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell3_0|                     ; 4 (4)       ; 0            ; 0          ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_0 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell4_0|                     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_0 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell4_2|                     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_2 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell5_2|                     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_2 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell5_3|                     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_3 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell5_4|                     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_4 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell6_2|                     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_2 ; srlt_gate              ; work         ;
-+-----------------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                               ;
++-----------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
+; Compilation Hierarchy Node              ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                        ; Entity Name            ; Library Name ;
++-----------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
+; |mainmodule                             ; 179 (24)    ; 26           ; 0          ; 41   ; 0            ; 153 (24)     ; 0 (0)             ; 26 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule                                                ; mainmodule             ; work         ;
+;    |bin2bselector:shpsel_0|             ; 2 (0)       ; 2            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0                         ; bin2bselector          ; work         ;
+;       |tff_gate:ff00|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0|tff_gate:ff00           ; tff_gate               ; work         ;
+;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0|tff_gate:ff01           ; tff_gate               ; work         ;
+;    |bin3bcount:bin3bc_0|                ; 2 (0)       ; 2            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin3bcount:bin3bc_0                            ; bin3bcount             ; work         ;
+;       |tff_gate:ff00|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin3bcount:bin3bc_0|tff_gate:ff00              ; tff_gate               ; work         ;
+;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin3bcount:bin3bc_0|tff_gate:ff01              ; tff_gate               ; work         ;
+;    |binpower18clockdivider:clkdiv_0|    ; 18 (0)      ; 18           ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 18 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0                ; binpower18clockdivider ; work         ;
+;       |tff_gate:ff00|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff00  ; tff_gate               ; work         ;
+;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff01  ; tff_gate               ; work         ;
+;       |tff_gate:ff02|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff02  ; tff_gate               ; work         ;
+;       |tff_gate:ff03|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff03  ; tff_gate               ; work         ;
+;       |tff_gate:ff04|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff04  ; tff_gate               ; work         ;
+;       |tff_gate:ff05|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff05  ; tff_gate               ; work         ;
+;       |tff_gate:ff06|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff06  ; tff_gate               ; work         ;
+;       |tff_gate:ff07|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff07  ; tff_gate               ; work         ;
+;       |tff_gate:ff08|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff08  ; tff_gate               ; work         ;
+;       |tff_gate:ff09|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff09  ; tff_gate               ; work         ;
+;       |tff_gate:ff10|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff10  ; tff_gate               ; work         ;
+;       |tff_gate:ff11|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff11  ; tff_gate               ; work         ;
+;       |tff_gate:ff12|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff12  ; tff_gate               ; work         ;
+;       |tff_gate:ff13|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff13  ; tff_gate               ; work         ;
+;       |tff_gate:ff14|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff14  ; tff_gate               ; work         ;
+;       |tff_gate:ff15|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff15  ; tff_gate               ; work         ;
+;       |tff_gate:ff16|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff16  ; tff_gate               ; work         ;
+;       |tff_gate:ff17|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff17  ; tff_gate               ; work         ;
+;    |binpower4buttonbouncer:btnbnc_0|    ; 7 (2)       ; 4            ; 0          ; 0    ; 0            ; 3 (2)        ; 0 (0)             ; 4 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0                ; binpower4buttonbouncer ; work         ;
+;       |tff_gate:ff00|                   ; 2 (2)       ; 1            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff00  ; tff_gate               ; work         ;
+;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff01  ; tff_gate               ; work         ;
+;       |tff_gate:ff02|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff02  ; tff_gate               ; work         ;
+;       |tff_gate:ff03|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff03  ; tff_gate               ; work         ;
+;    |decoderline:linedec_0|              ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|decoderline:linedec_0                          ; decoderline            ; work         ;
+;    |displayselector:sevsegdplsel_0|     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|displayselector:sevsegdplsel_0                 ; displayselector        ; work         ;
+;    |multiplex140to35:shparrmux_0|       ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex140to35:shparrmux_0                   ; multiplex140to35       ; work         ;
+;    |multiplex21to7:decmux_0|            ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex21to7:decmux_0                        ; multiplex21to7         ; work         ;
+;    |multiplex35to1:shipcoordinatemux_0| ; 19 (19)     ; 0            ; 0          ; 0    ; 0            ; 19 (19)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to1:shipcoordinatemux_0             ; multiplex35to1         ; work         ;
+;    |multiplex35to5:displayfinalmux_0|   ; 37 (37)     ; 0            ; 0          ; 0    ; 0            ; 37 (37)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to5:displayfinalmux_0               ; multiplex35to5         ; work         ;
+;    |shipgunner:shpart_0|                ; 4 (2)       ; 0            ; 0          ; 0    ; 0            ; 4 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0                            ; shipgunner             ; work         ;
+;       |srlt_gate:glight_0|              ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:glight_0         ; srlt_gate              ; work         ;
+;       |srlt_gate:rlight_0|              ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:rlight_0         ; srlt_gate              ; work         ;
+;    |tablememory7by5:shotsfired_0|       ; 60 (0)      ; 0            ; 0          ; 0    ; 0            ; 60 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0                   ; tablememory7by5        ; work         ;
+;       |srlt_gate:cell0_0|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell0_3|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell0_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_0|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_2|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_3|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_0|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_3|               ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_0|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_2|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_3|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_0|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_2|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_3|               ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_2|               ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_3|               ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell6_2|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell6_3|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_3 ; srlt_gate              ; work         ;
++-----------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -317,22 +348,37 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------------+----+
 ; Logic Cell Name                                           ;    ;
 +-----------------------------------------------------------+----+
+; tablememory7by5:shotsfired_0|srlt_gate:cell0_0|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell1_0|nor2_out~0 ;    ;
 ; tablememory7by5:shotsfired_0|srlt_gate:cell2_0|nor2_out~0 ;    ;
 ; tablememory7by5:shotsfired_0|srlt_gate:cell3_0|nor2_out~0 ;    ;
 ; tablememory7by5:shotsfired_0|srlt_gate:cell4_0|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell1_1|nor2_out~0 ;    ;
 ; tablememory7by5:shotsfired_0|srlt_gate:cell2_1|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell3_1|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell4_1|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell5_1|nor2_out~0 ;    ;
 ; tablememory7by5:shotsfired_0|srlt_gate:cell1_2|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell3_2|nor2_out~0 ;    ;
 ; tablememory7by5:shotsfired_0|srlt_gate:cell4_2|nor2_out~0 ;    ;
 ; tablememory7by5:shotsfired_0|srlt_gate:cell5_2|nor2_out~0 ;    ;
 ; tablememory7by5:shotsfired_0|srlt_gate:cell6_2|nor2_out~0 ;    ;
 ; tablememory7by5:shotsfired_0|srlt_gate:cell0_3|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell1_3|nor2_out~0 ;    ;
 ; tablememory7by5:shotsfired_0|srlt_gate:cell2_3|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell3_3|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell4_3|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell6_3|nor2_out~0 ;    ;
 ; tablememory7by5:shotsfired_0|srlt_gate:cell5_3|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell1_3|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell0_4|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell1_4|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell2_4|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell3_4|nor2_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell4_4|nor2_out~0 ;    ;
 ; tablememory7by5:shotsfired_0|srlt_gate:cell5_4|nor2_out~0 ;    ;
 ; shipgunner:shpart_0|srlt_gate:rlight_0|nor2_out~0         ;    ;
 ; shipgunner:shpart_0|srlt_gate:glight_0|nor2_out~0         ;    ;
-; Number of logic cells representing combinational loops    ; 15 ;
+; Number of logic cells representing combinational loops    ; 30 ;
 +-----------------------------------------------------------+----+
 Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
@@ -342,7 +388,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 22    ;
+; Total registers                              ; 26    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -350,51 +396,6 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
-
-
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "decoderline:line_dec0"                                                              ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; SEGA ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGB ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGC ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGD ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGE ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGF ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGG ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "decodercolumn:column_dec0"                                                          ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; SEGA ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGB ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGC ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGD ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGE ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGF ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGG ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "decodermode:mode_dec0"                                                              ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; SEGA ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGB ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGC ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGD ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGE ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGF ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; SEGG ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
@@ -416,7 +417,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_4"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_4"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -425,7 +426,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_4"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_4"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -434,7 +435,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_4"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_4"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -443,7 +444,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_4"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_4"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -452,7 +453,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_4"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_4"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -461,7 +462,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_4"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_4"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -470,7 +471,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_4"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_4"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -479,7 +480,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_3"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_3"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -488,7 +489,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_3"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_3"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -497,7 +498,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_3"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_3"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -506,7 +507,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_3"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_3"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -515,7 +516,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_3"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_3"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -524,7 +525,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_3"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_3"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -533,7 +534,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_3"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_3"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -542,7 +543,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_2"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_2"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -551,7 +552,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_2"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_2"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -560,7 +561,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_2"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_2"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -569,7 +570,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_2"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_2"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -578,7 +579,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_2"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_2"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -587,7 +588,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_2"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_2"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -596,7 +597,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_2"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_2"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -605,7 +606,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_1"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_1"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -614,7 +615,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_1"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_1"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -623,7 +624,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_1"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_1"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -632,7 +633,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_1"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_1"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -641,7 +642,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_1"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_1"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -650,7 +651,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_1"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_1"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -659,7 +660,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_1"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_1"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -668,7 +669,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell6_0"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_0"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -677,7 +678,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell5_0"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_0"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -686,7 +687,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell4_0"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_0"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -695,7 +696,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell3_0"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_0"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -704,7 +705,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell2_0"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_0"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -713,7 +714,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell1_0"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_0"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -722,7 +723,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0|srlt_gate:cell0_0"                                                     ;
+; Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_0"                                                          ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -730,86 +731,156 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "tablememory7by5:shiparrangement_0"                                                                                                              ;
-+----------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
-; Port     ; Type  ; Severity ; Details                                                                                                                                      ;
-+----------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
-; cell2_0S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell3_0S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell4_0S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell2_1S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell1_2S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell4_2S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell5_2S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell6_2S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell0_3S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell1_3S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell2_3S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell5_3S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell5_4S ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell0_0R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell1_0R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell5_0R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell6_0R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell0_1R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell1_1R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell3_1R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell4_1R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell5_1R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell6_1R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell0_2R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell2_2R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell3_2R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell3_3R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell4_3R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell6_3R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell0_4R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell1_4R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell2_4R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell3_4R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell4_4R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell6_4R ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
-; cell0_0S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell1_0S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell5_0S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell6_0S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell0_1S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell1_1S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell3_1S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell4_1S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell5_1S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell6_1S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell0_2S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell2_2S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell3_2S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell3_3S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell4_3S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell6_3S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell0_4S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell1_4S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell2_4S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell3_4S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell4_4S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell6_4S ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell2_0R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell3_0R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell4_0R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell2_1R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell1_2R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell4_2R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell5_2R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell6_2R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell0_3R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell1_3R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell2_3R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell5_3R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; cell5_4R ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-+----------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "multiplex140to35:shparrmux_0"                                                                                                                 ;
++--------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                                                                                                                      ;
++--------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; IPT003 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT012 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT013 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT020 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT021 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT023 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT030 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT040 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT042 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT052 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT053 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT054 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT062 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT110 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT120 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT121 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT123 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT124 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT130 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT132 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT134 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT142 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT144 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT151 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT152 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT153 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT200 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT210 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT211 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT213 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT220 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT223 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT232 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT233 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT234 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT241 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT251 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT252 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT253 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT304 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT312 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT313 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT314 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT321 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT324 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT330 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT331 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT332 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT343 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT344 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT353 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT363 ; Input ; Info     ; Stuck at VCC                                                                                                                                 ;
+; IPT000 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT001 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT002 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT004 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT010 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT011 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT014 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT022 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT024 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT031 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT032 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT033 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT034 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT041 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT043 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT044 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT050 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT051 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT060 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT061 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT063 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT064 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT100 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT101 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT102 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT103 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT104 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT111 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT112 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT113 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT114 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT122 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT131 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT133 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT140 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT141 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT143 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT150 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT154 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT160 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT161 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT162 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT163 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT164 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT201 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT202 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT203 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT204 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT212 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT214 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT221 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT222 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT224 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT230 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT231 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT240 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT242 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT243 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT244 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT250 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT254 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT260 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT261 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT262 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT263 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT264 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT300 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT301 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT302 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT303 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT310 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT311 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT320 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT322 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT323 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT333 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT334 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT340 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT341 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT342 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT350 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT351 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT352 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT354 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT360 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT361 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT362 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; IPT364 ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++--------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "bin3bcount:bin_3bc_0|tff_gate:ff01"                                                                      ;
+; Port Connectivity Checks: "bin2bselector:shpsel_0|tff_gate:ff01"                                                                    ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -818,17 +889,64 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------+
-; Port Connectivity Checks: "bin3bcount:bin_3bc_0|tff_gate:ff00" ;
-+------+-------+----------+--------------------------------------+
-; Port ; Type  ; Severity ; Details                              ;
-+------+-------+----------+--------------------------------------+
-; t    ; Input ; Info     ; Stuck at VCC                         ;
-+------+-------+----------+--------------------------------------+
++------------------------------------------------------------------+
+; Port Connectivity Checks: "bin2bselector:shpsel_0|tff_gate:ff00" ;
++------+-------+----------+----------------------------------------+
+; Port ; Type  ; Severity ; Details                                ;
++------+-------+----------+----------------------------------------+
+; t    ; Input ; Info     ; Stuck at VCC                           ;
++------+-------+----------+----------------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff19"                                                          ;
+; Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff03"                                                           ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff02" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; t    ; Input ; Info     ; Stuck at VCC                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff01" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; t    ; Input ; Info     ; Stuck at VCC                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff01"                                                                       ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------+
+; Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff00" ;
++------+-------+----------+-------------------------------------+
+; Port ; Type  ; Severity ; Details                             ;
++------+-------+----------+-------------------------------------+
+; t    ; Input ; Info     ; Stuck at VCC                        ;
++------+-------+----------+-------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff17"                                                           ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -838,127 +956,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff18"                                                          ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
-; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff17"                                                          ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
-; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff16"                                                          ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
-; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff15"                                                          ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
-; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff14"                                                          ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
-; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff13"                                                          ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
-; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff12"                                                          ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
-; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff11"                                                          ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
-; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff10"                                                          ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
-; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff09"                                                          ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
-; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff08"                                                          ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
-; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff07"                                                          ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
-; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff06"                                                          ;
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff16"                                                           ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -968,7 +966,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff05"                                                          ;
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff15"                                                           ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -978,7 +976,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff04"                                                          ;
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff14"                                                           ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -988,7 +986,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff03"                                                          ;
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff13"                                                           ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -998,7 +996,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff02"                                                          ;
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff12"                                                           ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -1008,7 +1006,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff01"                                                          ;
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff11"                                                           ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -1018,7 +1016,107 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binpower20clockdivider:clk_div_0|tff_gate:ff00"                                                          ;
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff10"                                                           ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff09"                                                           ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff08"                                                           ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff07"                                                           ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff06"                                                           ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff05"                                                           ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff04"                                                           ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff03"                                                           ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff02"                                                           ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff01"                                                           ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; t    ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff00"                                                           ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -1033,7 +1131,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Sep 28 17:37:26 2023
+    Info: Processing started: Fri Sep 29 17:31:46 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TEC498P2 -c mainmodule
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -1053,7 +1151,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file multipl
     Info (12023): Found entity 1: multiplex35to1 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex35to1.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex1to35.v
     Info (12023): Found entity 1: multiplex1to35 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex1to35.v Line: 1
-Warning (10275): Verilog HDL Module Instantiation warning at mainmodule.v(430): ignored dangling comma in List of Port Connections File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 430
+Warning (10275): Verilog HDL Module Instantiation warning at mainmodule.v(499): ignored dangling comma in List of Port Connections File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 499
 Info (12021): Found 1 design units, including 1 entities, in source file mainmodule.v
     Info (12023): Found entity 1: mainmodule File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file binpower20clockdivider.v
@@ -1066,68 +1164,71 @@ Info (12021): Found 1 design units, including 1 entities, in source file decoder
     Info (12023): Found entity 1: decodercolumn File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decodercolumn.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file decoderline.v
     Info (12023): Found entity 1: decoderline File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decoderline.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file multiplex21to7.v
+    Info (12023): Found entity 1: multiplex21to7 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex21to7.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file displayselector.v
+    Info (12023): Found entity 1: displayselector File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/displayselector.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file binpower18clockdivider.v
+    Info (12023): Found entity 1: binpower18clockdivider File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower18clockdivider.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file binpower4buttonbouncer.v
+    Info (12023): Found entity 1: binpower4buttonbouncer File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file multiplex140to35.v
+    Info (12023): Found entity 1: multiplex140to35 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file bin2bselector.v
+    Info (12023): Found entity 1: bin2bselector File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/bin2bselector.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file multiplex70to35.v
+    Info (12023): Found entity 1: multiplex70to35 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 1
 Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(22): created implicit net for "NIPTART" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 22
 Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(22): created implicit net for "IPTART" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 22
 Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(29): created implicit net for "rreset" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 29
 Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(30): created implicit net for "greset" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(25): created implicit net for "Nconditionbit0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 25
+Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(26): created implicit net for "Nconditionbit1" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 26
+Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(27): created implicit net for "Nconditionbit2" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 27
+Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(28): created implicit net for "Nconditionbit3" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 28
+Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(35): created implicit net for "togglecondition2" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 35
+Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(129): created implicit net for "bitsel0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 129
+Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(130): created implicit net for "bitsel1" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 130
+Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(131): created implicit net for "bitsel2" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 131
+Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(132): created implicit net for "bitsel3" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 132
+Warning (10236): Verilog HDL Implicit Net warning at multiplex70to35.v(98): created implicit net for "bitsel0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 98
+Warning (10236): Verilog HDL Implicit Net warning at multiplex70to35.v(99): created implicit net for "bitsel1" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 99
 Info (12127): Elaborating entity "mainmodule" for the top level hierarchy
-Warning (10034): Output port "LED0" at mainmodule.v(20) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-Warning (10034): Output port "LED1" at mainmodule.v(20) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-Warning (10034): Output port "LED2" at mainmodule.v(20) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-Warning (10034): Output port "LED3" at mainmodule.v(20) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-Warning (10034): Output port "LED4" at mainmodule.v(20) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-Warning (10034): Output port "LED5" at mainmodule.v(20) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-Warning (10034): Output port "LED6" at mainmodule.v(20) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-Warning (10034): Output port "SGDA" at mainmodule.v(26) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-Warning (10034): Output port "SGDB" at mainmodule.v(26) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-Warning (10034): Output port "SGDC" at mainmodule.v(26) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-Warning (10034): Output port "SGDD" at mainmodule.v(26) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-Warning (10034): Output port "SGDE" at mainmodule.v(26) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-Warning (10034): Output port "SGDF" at mainmodule.v(26) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-Warning (10034): Output port "SGDG" at mainmodule.v(26) has no driver File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-Info (12128): Elaborating entity "binpower20clockdivider" for hierarchy "binpower20clockdivider:clk_div_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 91
-Info (12128): Elaborating entity "tff_gate" for hierarchy "binpower20clockdivider:clk_div_0|tff_gate:ff00" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower20clockdivider.v Line: 13
-Info (12128): Elaborating entity "bin3bcount" for hierarchy "bin3bcount:bin_3bc_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 98
-Info (12128): Elaborating entity "tablememory7by5" for hierarchy "tablememory7by5:shiparrangement_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 189
-Info (12128): Elaborating entity "srlt_gate" for hierarchy "tablememory7by5:shiparrangement_0|srlt_gate:cell0_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tablememory7by5.v Line: 45
-Info (12128): Elaborating entity "multiplex35to1" for hierarchy "multiplex35to1:shipcoordinate_mux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 367
-Info (12128): Elaborating entity "shipgunner" for hierarchy "shipgunner:shpart_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 377
-Info (12128): Elaborating entity "multiplex1to35" for hierarchy "multiplex1to35:artiptmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 430
-Info (12128): Elaborating entity "multiplex35to5" for hierarchy "multiplex35to5:shipartillerydisplaymux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 485
-Info (12128): Elaborating entity "decodermode" for hierarchy "decodermode:mode_dec0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 496
-Info (12128): Elaborating entity "decodercolumn" for hierarchy "decodercolumn:column_dec0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 509
-Info (12128): Elaborating entity "decoderline" for hierarchy "decoderline:line_dec0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 522
-Info (13014): Ignored 41 buffer(s)
-    Info (13019): Ignored 41 SOFT buffer(s)
+Info (12128): Elaborating entity "binpower18clockdivider" for hierarchy "binpower18clockdivider:clkdiv_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 106
+Info (12128): Elaborating entity "tff_gate" for hierarchy "binpower18clockdivider:clkdiv_0|tff_gate:ff00" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower18clockdivider.v Line: 13
+Info (12128): Elaborating entity "bin3bcount" for hierarchy "bin3bcount:bin3bc_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 113
+Info (12128): Elaborating entity "binpower4buttonbouncer" for hierarchy "binpower4buttonbouncer:btnbnc_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 123
+Info (12128): Elaborating entity "bin2bselector" for hierarchy "bin2bselector:shpsel_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 129
+Info (12128): Elaborating entity "multiplex140to35" for hierarchy "multiplex140to35:shparrmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 258
+Info (12128): Elaborating entity "tablememory7by5" for hierarchy "tablememory7by5:shotsfired_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 383
+Info (12128): Elaborating entity "srlt_gate" for hierarchy "tablememory7by5:shotsfired_0|srlt_gate:cell0_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tablememory7by5.v Line: 45
+Info (12128): Elaborating entity "multiplex35to1" for hierarchy "multiplex35to1:shipcoordinatemux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 436
+Info (12128): Elaborating entity "shipgunner" for hierarchy "shipgunner:shpart_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 446
+Info (12128): Elaborating entity "multiplex1to35" for hierarchy "multiplex1to35:artiptmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 499
+Info (12128): Elaborating entity "decodermode" for hierarchy "decodermode:modedec_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 510
+Info (12128): Elaborating entity "decodercolumn" for hierarchy "decodercolumn:columndec_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 523
+Info (12128): Elaborating entity "decoderline" for hierarchy "decoderline:linedec_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 536
+Info (12128): Elaborating entity "multiplex21to7" for hierarchy "multiplex21to7:decmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 573
+Info (12128): Elaborating entity "displayselector" for hierarchy "displayselector:sevsegdplsel_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 590
+Info (12128): Elaborating entity "multiplex70to35" for hierarchy "multiplex70to35:displayselmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 727
+Info (12128): Elaborating entity "multiplex35to5" for hierarchy "multiplex35to5:displayfinalmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 782
+Info (13014): Ignored 45 buffer(s)
+    Info (13019): Ignored 45 SOFT buffer(s)
 Warning (12241): 59 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LED0" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-    Warning (13410): Pin "LED1" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-    Warning (13410): Pin "LED2" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-    Warning (13410): Pin "LED3" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-    Warning (13410): Pin "LED4" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-    Warning (13410): Pin "LED5" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-    Warning (13410): Pin "LED6" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 20
-    Warning (13410): Pin "SGDA" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-    Warning (13410): Pin "SGDB" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-    Warning (13410): Pin "SGDC" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-    Warning (13410): Pin "SGDD" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-    Warning (13410): Pin "SGDE" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-    Warning (13410): Pin "SGDF" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-    Warning (13410): Pin "SGDG" is stuck at GND File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 26
-Warning (21074): Design contains 4 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "CH1" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
-    Warning (15610): No output dependent on input pin "BT1" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
-    Warning (15610): No output dependent on input pin "BT2" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
-    Warning (15610): No output dependent on input pin "BT3" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 16
-Info (21057): Implemented 117 device resources after synthesis - the final resource count might be different
+    Warning (13410): Pin "SGDP" is stuck at VCC File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 34
+    Warning (13410): Pin "SGD1" is stuck at VCC File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 35
+Warning (21074): Design contains 2 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "BT2" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 23
+    Warning (15610): No output dependent on input pin "BT3" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 23
+Info (21057): Implemented 220 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 13 input pins
-    Info (21059): Implemented 30 output pins
-    Info (21061): Implemented 74 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 41 warnings
-    Info: Peak virtual memory: 341 megabytes
-    Info: Processing ended: Thu Sep 28 17:37:36 2023
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:12
+    Info (21059): Implemented 28 output pins
+    Info (21061): Implemented 179 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 24 warnings
+    Info: Peak virtual memory: 350 megabytes
+    Info: Processing ended: Fri Sep 29 17:31:58 2023
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:13
 
 

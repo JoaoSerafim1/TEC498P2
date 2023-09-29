@@ -1,0 +1,31 @@
+module binpower4buttonbouncer (
+	IPTBTN,
+	IPTCLK,
+	OUT
+);
+
+
+tff_gate ff00 (
+		.t (IPTBTN),
+		.clk (IPTCLK),
+		.qbar (togtoqbar00),
+		.q(OUT)
+);
+
+tff_gate ff01 (
+		.t (1'b1),
+		.clk (togtoqbar00),
+		.qbar (togtoqbar01)
+);
+
+tff_gate ff02 (
+		.t (1'b1),
+		.clk (togtoqbar01),
+		.qbar (togtoqbar02)
+);
+
+tff_gate ff03 (
+		.t (1'b1),
+		.clk (togtoqbar02),
+		.q (A)
+);

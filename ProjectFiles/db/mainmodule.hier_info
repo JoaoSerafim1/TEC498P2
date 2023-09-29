@@ -1,6 +1,6 @@
 |mainmodule
-CH0 => CH0.IN1
-CH1 => CH1.IN1
+CH0 => CH0.IN2
+CH1 => CH1.IN2
 CH2 => CH2.IN3
 CH3 => CH3.IN3
 CH4 => CH4.IN3
@@ -8,22 +8,15 @@ CH5 => CH5.IN3
 CH6 => CH6.IN3
 CH7 => CH7.IN3
 BT0 => NBT0.IN1
-BT1 => ~NO_FANOUT~
+BT1 => NBT1.IN1
 BT2 => ~NO_FANOUT~
 BT3 => ~NO_FANOUT~
 CLKIN => CLKIN.IN1
-LED0 <= <GND>
-LED1 <= <GND>
-LED2 <= <GND>
-LED3 <= <GND>
-LED4 <= <GND>
-LED5 <= <GND>
-LED6 <= <GND>
-COL0 <= multiplex35to5:shipartillerydisplaymux_0.OUT0
-COL1 <= multiplex35to5:shipartillerydisplaymux_0.OUT1
-COL2 <= multiplex35to5:shipartillerydisplaymux_0.OUT2
-COL3 <= multiplex35to5:shipartillerydisplaymux_0.OUT3
-COL4 <= multiplex35to5:shipartillerydisplaymux_0.OUT4
+COL0 <= multiplex35to5:displayfinalmux_0.OUT0
+COL1 <= multiplex35to5:displayfinalmux_0.OUT1
+COL2 <= multiplex35to5:displayfinalmux_0.OUT2
+COL3 <= multiplex35to5:displayfinalmux_0.OUT3
+COL4 <= multiplex35to5:displayfinalmux_0.OUT4
 LIN0 <= WideNand0.DB_MAX_OUTPUT_PORT_TYPE
 LIN1 <= WideNand1.DB_MAX_OUTPUT_PORT_TYPE
 LIN2 <= WideNand2.DB_MAX_OUTPUT_PORT_TYPE
@@ -31,536 +24,415 @@ LIN3 <= WideNand3.DB_MAX_OUTPUT_PORT_TYPE
 LIN4 <= WideNand4.DB_MAX_OUTPUT_PORT_TYPE
 LIN5 <= WideNand5.DB_MAX_OUTPUT_PORT_TYPE
 LIN6 <= WideNand6.DB_MAX_OUTPUT_PORT_TYPE
-SGDA <= <GND>
-SGDB <= <GND>
-SGDC <= <GND>
-SGDD <= <GND>
-SGDE <= <GND>
-SGDF <= <GND>
-SGDG <= <GND>
-CLKOUT <= comb.DB_MAX_OUTPUT_PORT_TYPE
-CLKDIVOUT <= comb.DB_MAX_OUTPUT_PORT_TYPE
 RLED <= shipgunner:shpart_0.RLED
 GLED <= shipgunner:shpart_0.GLED
+SGDA <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDB <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDC <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDD <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDE <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDF <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDG <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDP <= <VCC>
+SGD1 <= <VCC>
+SGD2 <= displayselector:sevsegdplsel_0.OUT2
+SGD3 <= displayselector:sevsegdplsel_0.OUT1
+SGD4 <= displayselector:sevsegdplsel_0.OUT0
+CLKOUT <= comb.DB_MAX_OUTPUT_PORT_TYPE
+CLKDIVOUT <= comb.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0
+|mainmodule|binpower18clockdivider:clkdiv_0
 CLKTODIVIDE => CLKTODIVIDE.IN1
-DIVIDEDCLK <= tff_gate:ff19.q
+DIVIDEDCLK <= tff_gate:ff17.q
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff00
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff00
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff01
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff01
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff02
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff02
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff03
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff03
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff04
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff04
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff05
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff05
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff06
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff06
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff07
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff07
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff08
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff08
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff09
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff09
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff10
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff10
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff11
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff11
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff12
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff12
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff13
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff13
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff14
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff14
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff15
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff15
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff16
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff16
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff17
+|mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff17
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff18
-clk => q~reg0.CLK
-t => q~reg0.ENA
-q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|mainmodule|binpower20clockdivider:clk_div_0|tff_gate:ff19
-clk => q~reg0.CLK
-t => q~reg0.ENA
-q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|mainmodule|bin3bcount:bin_3bc_0
+|mainmodule|bin3bcount:bin3bc_0
 IPTCLK => IPTCLK.IN1
 A <= tff_gate:ff01.q
 B <= tff_gate:ff00.q
 C <= comb.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|bin3bcount:bin_3bc_0|tff_gate:ff00
+|mainmodule|bin3bcount:bin3bc_0|tff_gate:ff00
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|bin3bcount:bin_3bc_0|tff_gate:ff01
+|mainmodule|bin3bcount:bin3bc_0|tff_gate:ff01
 clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|tablememory7by5:shiparrangement_0
-cell0_0S => cell0_0S.IN1
-cell1_0S => cell1_0S.IN1
-cell2_0S => cell2_0S.IN1
-cell3_0S => cell3_0S.IN1
-cell4_0S => cell4_0S.IN1
-cell5_0S => cell5_0S.IN1
-cell6_0S => cell6_0S.IN1
-cell0_1S => cell0_1S.IN1
-cell1_1S => cell1_1S.IN1
-cell2_1S => cell2_1S.IN1
-cell3_1S => cell3_1S.IN1
-cell4_1S => cell4_1S.IN1
-cell5_1S => cell5_1S.IN1
-cell6_1S => cell6_1S.IN1
-cell0_2S => cell0_2S.IN1
-cell1_2S => cell1_2S.IN1
-cell2_2S => cell2_2S.IN1
-cell3_2S => cell3_2S.IN1
-cell4_2S => cell4_2S.IN1
-cell5_2S => cell5_2S.IN1
-cell6_2S => cell6_2S.IN1
-cell0_3S => cell0_3S.IN1
-cell1_3S => cell1_3S.IN1
-cell2_3S => cell2_3S.IN1
-cell3_3S => cell3_3S.IN1
-cell4_3S => cell4_3S.IN1
-cell5_3S => cell5_3S.IN1
-cell6_3S => cell6_3S.IN1
-cell0_4S => cell0_4S.IN1
-cell1_4S => cell1_4S.IN1
-cell2_4S => cell2_4S.IN1
-cell3_4S => cell3_4S.IN1
-cell4_4S => cell4_4S.IN1
-cell5_4S => cell5_4S.IN1
-cell6_4S => cell6_4S.IN1
-cell0_0R => cell0_0R.IN1
-cell1_0R => cell1_0R.IN1
-cell2_0R => cell2_0R.IN1
-cell3_0R => cell3_0R.IN1
-cell4_0R => cell4_0R.IN1
-cell5_0R => cell5_0R.IN1
-cell6_0R => cell6_0R.IN1
-cell0_1R => cell0_1R.IN1
-cell1_1R => cell1_1R.IN1
-cell2_1R => cell2_1R.IN1
-cell3_1R => cell3_1R.IN1
-cell4_1R => cell4_1R.IN1
-cell5_1R => cell5_1R.IN1
-cell6_1R => cell6_1R.IN1
-cell0_2R => cell0_2R.IN1
-cell1_2R => cell1_2R.IN1
-cell2_2R => cell2_2R.IN1
-cell3_2R => cell3_2R.IN1
-cell4_2R => cell4_2R.IN1
-cell5_2R => cell5_2R.IN1
-cell6_2R => cell6_2R.IN1
-cell0_3R => cell0_3R.IN1
-cell1_3R => cell1_3R.IN1
-cell2_3R => cell2_3R.IN1
-cell3_3R => cell3_3R.IN1
-cell4_3R => cell4_3R.IN1
-cell5_3R => cell5_3R.IN1
-cell6_3R => cell6_3R.IN1
-cell0_4R => cell0_4R.IN1
-cell1_4R => cell1_4R.IN1
-cell2_4R => cell2_4R.IN1
-cell3_4R => cell3_4R.IN1
-cell4_4R => cell4_4R.IN1
-cell5_4R => cell5_4R.IN1
-cell6_4R => cell6_4R.IN1
-cell0_0Q <= srlt_gate:cell0_0.q
-cell1_0Q <= srlt_gate:cell1_0.q
-cell2_0Q <= srlt_gate:cell2_0.q
-cell3_0Q <= srlt_gate:cell3_0.q
-cell4_0Q <= srlt_gate:cell4_0.q
-cell5_0Q <= srlt_gate:cell5_0.q
-cell6_0Q <= srlt_gate:cell6_0.q
-cell0_1Q <= srlt_gate:cell0_1.q
-cell1_1Q <= srlt_gate:cell1_1.q
-cell2_1Q <= srlt_gate:cell2_1.q
-cell3_1Q <= srlt_gate:cell3_1.q
-cell4_1Q <= srlt_gate:cell4_1.q
-cell5_1Q <= srlt_gate:cell5_1.q
-cell6_1Q <= srlt_gate:cell6_1.q
-cell0_2Q <= srlt_gate:cell0_2.q
-cell1_2Q <= srlt_gate:cell1_2.q
-cell2_2Q <= srlt_gate:cell2_2.q
-cell3_2Q <= srlt_gate:cell3_2.q
-cell4_2Q <= srlt_gate:cell4_2.q
-cell5_2Q <= srlt_gate:cell5_2.q
-cell6_2Q <= srlt_gate:cell6_2.q
-cell0_3Q <= srlt_gate:cell0_3.q
-cell1_3Q <= srlt_gate:cell1_3.q
-cell2_3Q <= srlt_gate:cell2_3.q
-cell3_3Q <= srlt_gate:cell3_3.q
-cell4_3Q <= srlt_gate:cell4_3.q
-cell5_3Q <= srlt_gate:cell5_3.q
-cell6_3Q <= srlt_gate:cell6_3.q
-cell0_4Q <= srlt_gate:cell0_4.q
-cell1_4Q <= srlt_gate:cell1_4.q
-cell2_4Q <= srlt_gate:cell2_4.q
-cell3_4Q <= srlt_gate:cell3_4.q
-cell4_4Q <= srlt_gate:cell4_4.q
-cell5_4Q <= srlt_gate:cell5_4.q
-cell6_4Q <= srlt_gate:cell6_4.q
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell0_0
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell1_0
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell2_0
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell3_0
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell4_0
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell5_0
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell6_0
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell0_1
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell1_1
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell2_1
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell3_1
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell4_1
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell5_1
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell6_1
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell0_2
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell1_2
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell2_2
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell3_2
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell4_2
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell5_2
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell6_2
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell0_3
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell1_3
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell2_3
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell3_3
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell4_3
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell5_3
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell6_3
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell0_4
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell1_4
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell2_4
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell3_4
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell4_4
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell5_4
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
-
-
-|mainmodule|tablememory7by5:shiparrangement_0|srlt_gate:cell6_4
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
+|mainmodule|binpower4buttonbouncer:btnbnc_0
+IPTBTN => togglecondition0.IN1
+IPTBTN => togglecondition1.IN1
+IPTCLK => IPTCLK.IN1
+OUTBTN <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff00
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff01
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff02
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff03
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|bin2bselector:shpsel_0
+IPTCLK => IPTCLK.IN1
+A <= tff_gate:ff01.q
+B <= tff_gate:ff00.q
+
+
+|mainmodule|bin2bselector:shpsel_0|tff_gate:ff00
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|bin2bselector:shpsel_0|tff_gate:ff01
+clk => q~reg0.CLK
+t => q~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|multiplex140to35:shparrmux_0
+IPT000 => IPT000wire.IN1
+IPT001 => IPT001wire.IN1
+IPT002 => IPT002wire.IN1
+IPT003 => IPT003wire.IN1
+IPT004 => IPT004wire.IN1
+IPT010 => IPT010wire.IN1
+IPT011 => IPT011wire.IN1
+IPT012 => IPT012wire.IN1
+IPT013 => IPT013wire.IN1
+IPT014 => IPT014wire.IN1
+IPT020 => IPT020wire.IN1
+IPT021 => IPT021wire.IN1
+IPT022 => IPT022wire.IN1
+IPT023 => IPT023wire.IN1
+IPT024 => IPT024wire.IN1
+IPT030 => IPT030wire.IN1
+IPT031 => IPT031wire.IN1
+IPT032 => IPT032wire.IN1
+IPT033 => IPT033wire.IN1
+IPT034 => IPT034wire.IN1
+IPT040 => IPT040wire.IN1
+IPT041 => IPT041wire.IN1
+IPT042 => IPT042wire.IN1
+IPT043 => IPT043wire.IN1
+IPT044 => IPT044wire.IN1
+IPT050 => IPT050wire.IN1
+IPT051 => IPT051wire.IN1
+IPT052 => IPT052wire.IN1
+IPT053 => IPT053wire.IN1
+IPT054 => IPT054wire.IN1
+IPT060 => IPT060wire.IN1
+IPT061 => IPT061wire.IN1
+IPT062 => IPT062wire.IN1
+IPT063 => IPT063wire.IN1
+IPT064 => IPT064wire.IN1
+IPT100 => IPT100wire.IN1
+IPT101 => IPT101wire.IN1
+IPT102 => IPT102wire.IN1
+IPT103 => IPT103wire.IN1
+IPT104 => IPT104wire.IN1
+IPT110 => IPT110wire.IN1
+IPT111 => IPT111wire.IN1
+IPT112 => IPT112wire.IN1
+IPT113 => IPT113wire.IN1
+IPT114 => IPT114wire.IN1
+IPT120 => IPT120wire.IN1
+IPT121 => IPT121wire.IN1
+IPT122 => IPT122wire.IN1
+IPT123 => IPT123wire.IN1
+IPT124 => IPT124wire.IN1
+IPT130 => IPT130wire.IN1
+IPT131 => IPT131wire.IN1
+IPT132 => IPT132wire.IN1
+IPT133 => IPT133wire.IN1
+IPT134 => IPT134wire.IN1
+IPT140 => IPT140wire.IN1
+IPT141 => IPT141wire.IN1
+IPT142 => IPT142wire.IN1
+IPT143 => IPT143wire.IN1
+IPT144 => IPT144wire.IN1
+IPT150 => IPT150wire.IN1
+IPT151 => IPT151wire.IN1
+IPT152 => IPT152wire.IN1
+IPT153 => IPT153wire.IN1
+IPT154 => IPT154wire.IN1
+IPT160 => IPT160wire.IN1
+IPT161 => IPT161wire.IN1
+IPT162 => IPT162wire.IN1
+IPT163 => IPT163wire.IN1
+IPT164 => IPT164wire.IN1
+IPT200 => IPT200wire.IN1
+IPT201 => IPT201wire.IN1
+IPT202 => IPT202wire.IN1
+IPT203 => IPT203wire.IN1
+IPT204 => IPT204wire.IN1
+IPT210 => IPT210wire.IN1
+IPT211 => IPT211wire.IN1
+IPT212 => IPT212wire.IN1
+IPT213 => IPT213wire.IN1
+IPT214 => IPT214wire.IN1
+IPT220 => IPT220wire.IN1
+IPT221 => IPT221wire.IN1
+IPT222 => IPT222wire.IN1
+IPT223 => IPT223wire.IN1
+IPT224 => IPT224wire.IN1
+IPT230 => IPT230wire.IN1
+IPT231 => IPT231wire.IN1
+IPT232 => IPT232wire.IN1
+IPT233 => IPT233wire.IN1
+IPT234 => IPT234wire.IN1
+IPT240 => IPT240wire.IN1
+IPT241 => IPT241wire.IN1
+IPT242 => IPT242wire.IN1
+IPT243 => IPT243wire.IN1
+IPT244 => IPT244wire.IN1
+IPT250 => IPT250wire.IN1
+IPT251 => IPT251wire.IN1
+IPT252 => IPT252wire.IN1
+IPT253 => IPT253wire.IN1
+IPT254 => IPT254wire.IN1
+IPT260 => IPT260wire.IN1
+IPT261 => IPT261wire.IN1
+IPT262 => IPT262wire.IN1
+IPT263 => IPT263wire.IN1
+IPT264 => IPT264wire.IN1
+IPT300 => IPT300wire.IN1
+IPT301 => IPT301wire.IN1
+IPT302 => IPT302wire.IN1
+IPT303 => IPT303wire.IN1
+IPT304 => IPT304wire.IN1
+IPT310 => IPT310wire.IN1
+IPT311 => IPT311wire.IN1
+IPT312 => IPT312wire.IN1
+IPT313 => IPT313wire.IN1
+IPT314 => IPT314wire.IN1
+IPT320 => IPT320wire.IN1
+IPT321 => IPT321wire.IN1
+IPT322 => IPT322wire.IN1
+IPT323 => IPT323wire.IN1
+IPT324 => IPT324wire.IN1
+IPT330 => IPT330wire.IN1
+IPT331 => IPT331wire.IN1
+IPT332 => IPT332wire.IN1
+IPT333 => IPT333wire.IN1
+IPT334 => IPT334wire.IN1
+IPT340 => IPT340wire.IN1
+IPT341 => IPT341wire.IN1
+IPT342 => IPT342wire.IN1
+IPT343 => IPT343wire.IN1
+IPT344 => IPT344wire.IN1
+IPT350 => IPT350wire.IN1
+IPT351 => IPT351wire.IN1
+IPT352 => IPT352wire.IN1
+IPT353 => IPT353wire.IN1
+IPT354 => IPT354wire.IN1
+IPT360 => IPT360wire.IN1
+IPT361 => IPT361wire.IN1
+IPT362 => IPT362wire.IN1
+IPT363 => IPT363wire.IN1
+IPT364 => IPT364wire.IN1
+SEL0 => bitsel2.IN0
+SEL0 => bitsel3.IN0
+SEL0 => bitsel0.IN0
+SEL0 => bitsel1.IN0
+SEL1 => bitsel1.IN1
+SEL1 => bitsel3.IN1
+SEL1 => bitsel0.IN1
+SEL1 => bitsel2.IN1
+OUT00 <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+OUT01 <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+OUT02 <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+OUT03 <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+OUT04 <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+OUT10 <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+OUT11 <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+OUT12 <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+OUT13 <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+OUT14 <= WideOr9.DB_MAX_OUTPUT_PORT_TYPE
+OUT20 <= WideOr10.DB_MAX_OUTPUT_PORT_TYPE
+OUT21 <= WideOr11.DB_MAX_OUTPUT_PORT_TYPE
+OUT22 <= WideOr12.DB_MAX_OUTPUT_PORT_TYPE
+OUT23 <= WideOr13.DB_MAX_OUTPUT_PORT_TYPE
+OUT24 <= WideOr14.DB_MAX_OUTPUT_PORT_TYPE
+OUT30 <= WideOr15.DB_MAX_OUTPUT_PORT_TYPE
+OUT31 <= WideOr16.DB_MAX_OUTPUT_PORT_TYPE
+OUT32 <= WideOr17.DB_MAX_OUTPUT_PORT_TYPE
+OUT33 <= WideOr18.DB_MAX_OUTPUT_PORT_TYPE
+OUT34 <= WideOr19.DB_MAX_OUTPUT_PORT_TYPE
+OUT40 <= WideOr20.DB_MAX_OUTPUT_PORT_TYPE
+OUT41 <= WideOr21.DB_MAX_OUTPUT_PORT_TYPE
+OUT42 <= WideOr22.DB_MAX_OUTPUT_PORT_TYPE
+OUT43 <= WideOr23.DB_MAX_OUTPUT_PORT_TYPE
+OUT44 <= WideOr24.DB_MAX_OUTPUT_PORT_TYPE
+OUT50 <= WideOr25.DB_MAX_OUTPUT_PORT_TYPE
+OUT51 <= WideOr26.DB_MAX_OUTPUT_PORT_TYPE
+OUT52 <= WideOr27.DB_MAX_OUTPUT_PORT_TYPE
+OUT53 <= WideOr28.DB_MAX_OUTPUT_PORT_TYPE
+OUT54 <= WideOr29.DB_MAX_OUTPUT_PORT_TYPE
+OUT60 <= WideOr30.DB_MAX_OUTPUT_PORT_TYPE
+OUT61 <= WideOr31.DB_MAX_OUTPUT_PORT_TYPE
+OUT62 <= WideOr32.DB_MAX_OUTPUT_PORT_TYPE
+OUT63 <= WideOr33.DB_MAX_OUTPUT_PORT_TYPE
+OUT64 <= WideOr34.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |mainmodule|tablememory7by5:shotsfired_0
@@ -916,7 +788,7 @@ s => nor2_out.IN0
 r => nor1_out.IN1
 
 
-|mainmodule|multiplex35to1:shipcoordinate_mux_0
+|mainmodule|multiplex35to1:shipcoordinatemux_0
 IN0_0 => WideAnd0.IN0
 IN0_1 => WideAnd7.IN0
 IN0_2 => WideAnd14.IN0
@@ -1474,7 +1346,242 @@ OUT6_3 <= WideAnd27.DB_MAX_OUTPUT_PORT_TYPE
 OUT6_4 <= WideAnd34.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|multiplex35to5:shipartillerydisplaymux_0
+|mainmodule|decodermode:modedec_0
+A => SEGC.DATAIN
+SEGA <= <GND>
+SEGB <= <GND>
+SEGC <= A.DB_MAX_OUTPUT_PORT_TYPE
+SEGD <= <VCC>
+SEGE <= <GND>
+SEGF <= <GND>
+SEGG <= <GND>
+
+
+|mainmodule|decodercolumn:columndec_0
+A => and1wire.IN0
+A => WideAnd2.IN0
+A => xor0wire.IN0
+A => WideAnd3.IN0
+A => WideAnd0.IN0
+A => WideAnd1.IN0
+A => and5wire.IN0
+B => WideAnd1.IN1
+B => xor0wire.IN1
+B => and0wire.IN0
+B => and1wire.IN1
+B => WideAnd0.IN1
+B => WideAnd2.IN1
+B => WideAnd3.IN1
+C => and0wire.IN1
+C => WideAnd0.IN2
+C => and5wire.IN1
+C => WideAnd3.IN2
+C => WideAnd1.IN2
+C => WideAnd2.IN2
+SEGA <= and0wire.DB_MAX_OUTPUT_PORT_TYPE
+SEGB <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGC <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+SEGD <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGE <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGF <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGG <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|decoderline:linedec_0
+A => and0wire.IN0
+A => WideAnd0.IN0
+A => WideAnd1.IN0
+A => and7wire.IN0
+A => and8wire.IN0
+A => comb.IN0
+A => and2wire.IN0
+A => and4wire.IN0
+B => and2wire.IN1
+B => and3wire.IN0
+B => and5wire.IN0
+B => comb.IN1
+B => WideAnd0.IN1
+B => WideAnd1.IN1
+B => and8wire.IN1
+C => and0wire.IN1
+C => and3wire.IN1
+C => and4wire.IN1
+C => WideAnd1.IN2
+C => comb.IN1
+C => WideAnd0.IN2
+C => and5wire.IN1
+C => and7wire.IN1
+SEGA <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGB <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+SEGC <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGD <= WideNor1.DB_MAX_OUTPUT_PORT_TYPE
+SEGE <= and5wire.DB_MAX_OUTPUT_PORT_TYPE
+SEGF <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SEGG <= WideNor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|multiplex21to7:decmux_0
+IN00 => OUT0wire0.IN1
+IN01 => OUT1wire0.IN1
+IN02 => OUT2wire0.IN1
+IN03 => OUT3wire0.IN1
+IN04 => OUT4wire0.IN1
+IN05 => OUT5wire0.IN1
+IN06 => OUT6wire0.IN1
+IN07 => OUT0wire1.IN1
+IN08 => OUT1wire1.IN1
+IN09 => OUT2wire1.IN1
+IN10 => OUT3wire1.IN1
+IN11 => OUT4wire1.IN1
+IN12 => OUT5wire1.IN1
+IN13 => OUT6wire1.IN1
+IN14 => OUT0wire2.IN1
+IN15 => OUT1wire2.IN1
+IN16 => OUT2wire2.IN1
+IN17 => OUT3wire2.IN1
+IN18 => OUT4wire2.IN1
+IN19 => OUT5wire2.IN1
+IN20 => OUT6wire2.IN1
+SEL0 => bitsel2.IN0
+SEL0 => bitsel0.IN0
+SEL0 => bitsel1.IN0
+SEL1 => bitsel1.IN1
+SEL1 => bitsel0.IN1
+SEL1 => bitsel2.IN1
+OUT0 <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+OUT1 <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+OUT2 <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+OUT3 <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+OUT4 <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+OUT5 <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+OUT6 <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|displayselector:sevsegdplsel_0
+SEL0 => comb.IN0
+SEL0 => comb.IN0
+SEL0 => comb.IN0
+SEL1 => comb.IN1
+SEL1 => comb.IN1
+SEL1 => comb.IN1
+OUT0 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT1 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT2 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|multiplex70to35:displayselmux_0
+IPT000 => IPT000wire.IN1
+IPT001 => IPT001wire.IN1
+IPT002 => IPT002wire.IN1
+IPT003 => IPT003wire.IN1
+IPT004 => IPT004wire.IN1
+IPT010 => IPT010wire.IN1
+IPT011 => IPT011wire.IN1
+IPT012 => IPT012wire.IN1
+IPT013 => IPT013wire.IN1
+IPT014 => IPT014wire.IN1
+IPT020 => IPT020wire.IN1
+IPT021 => IPT021wire.IN1
+IPT022 => IPT022wire.IN1
+IPT023 => IPT023wire.IN1
+IPT024 => IPT024wire.IN1
+IPT030 => IPT030wire.IN1
+IPT031 => IPT031wire.IN1
+IPT032 => IPT032wire.IN1
+IPT033 => IPT033wire.IN1
+IPT034 => IPT034wire.IN1
+IPT040 => IPT040wire.IN1
+IPT041 => IPT041wire.IN1
+IPT042 => IPT042wire.IN1
+IPT043 => IPT043wire.IN1
+IPT044 => IPT044wire.IN1
+IPT050 => IPT050wire.IN1
+IPT051 => IPT051wire.IN1
+IPT052 => IPT052wire.IN1
+IPT053 => IPT053wire.IN1
+IPT054 => IPT054wire.IN1
+IPT060 => IPT060wire.IN1
+IPT061 => IPT061wire.IN1
+IPT062 => IPT062wire.IN1
+IPT063 => IPT063wire.IN1
+IPT064 => IPT064wire.IN1
+IPT100 => IPT100wire.IN1
+IPT101 => IPT101wire.IN1
+IPT102 => IPT102wire.IN1
+IPT103 => IPT103wire.IN1
+IPT104 => IPT104wire.IN1
+IPT110 => IPT110wire.IN1
+IPT111 => IPT111wire.IN1
+IPT112 => IPT112wire.IN1
+IPT113 => IPT113wire.IN1
+IPT114 => IPT114wire.IN1
+IPT120 => IPT120wire.IN1
+IPT121 => IPT121wire.IN1
+IPT122 => IPT122wire.IN1
+IPT123 => IPT123wire.IN1
+IPT124 => IPT124wire.IN1
+IPT130 => IPT130wire.IN1
+IPT131 => IPT131wire.IN1
+IPT132 => IPT132wire.IN1
+IPT133 => IPT133wire.IN1
+IPT134 => IPT134wire.IN1
+IPT140 => IPT140wire.IN1
+IPT141 => IPT141wire.IN1
+IPT142 => IPT142wire.IN1
+IPT143 => IPT143wire.IN1
+IPT144 => IPT144wire.IN1
+IPT150 => IPT150wire.IN1
+IPT151 => IPT151wire.IN1
+IPT152 => IPT152wire.IN1
+IPT153 => IPT153wire.IN1
+IPT154 => IPT154wire.IN1
+IPT160 => IPT160wire.IN1
+IPT161 => IPT161wire.IN1
+IPT162 => IPT162wire.IN1
+IPT163 => IPT163wire.IN1
+IPT164 => IPT164wire.IN1
+SEL => bitsel1.IN0
+SEL => bitsel0.IN0
+ENABLE => bitsel0.IN1
+ENABLE => bitsel1.IN1
+OUT00 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT01 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT02 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT03 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT04 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT10 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT11 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT12 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT13 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT14 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT20 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT21 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT22 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT23 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT24 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT30 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT31 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT32 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT33 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT34 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT40 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT41 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT42 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT43 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT44 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT50 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT51 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT52 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT53 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT54 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT60 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT61 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT62 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT63 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT64 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|multiplex35to5:displayfinalmux_0
 IN0_0 => OUT0wire0.IN1
 IN0_1 => OUT1wire0.IN1
 IN0_2 => OUT2wire0.IN1
@@ -1536,77 +1643,5 @@ OUT1 <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
 OUT2 <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
 OUT3 <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
 OUT4 <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|mainmodule|decodermode:mode_dec0
-A => comb.DATAIN
-SEGA <= <VCC>
-SEGB <= <VCC>
-SEGC <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SEGD <= <GND>
-SEGE <= <VCC>
-SEGF <= <VCC>
-SEGG <= <VCC>
-
-
-|mainmodule|decodercolumn:column_dec0
-A => and1wire.IN0
-A => WideAnd2.IN0
-A => WideAnd3.IN0
-A => xor0wire.IN0
-A => WideAnd0.IN0
-A => WideAnd1.IN0
-B => WideAnd0.IN1
-B => xor0wire.IN1
-B => and0wire.IN0
-B => and1wire.IN1
-B => WideAnd1.IN1
-B => WideAnd2.IN1
-B => WideAnd3.IN1
-C => and0wire.IN1
-C => WideAnd1.IN2
-C => WideAnd3.IN2
-C => WideAnd0.IN2
-C => WideAnd2.IN2
-SEGA <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SEGB <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SEGC <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
-SEGD <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SEGE <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SEGF <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SEGG <= comb.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|mainmodule|decoderline:line_dec0
-A => and0wire.IN0
-A => WideAnd0.IN0
-A => WideAnd1.IN0
-A => and7wire.IN0
-A => and8wire.IN0
-A => comb.IN0
-A => and2wire.IN0
-A => and4wire.IN0
-B => and2wire.IN1
-B => and3wire.IN0
-B => and5wire.IN0
-B => comb.IN1
-B => WideAnd0.IN1
-B => WideAnd1.IN1
-B => and8wire.IN1
-C => and0wire.IN1
-C => and3wire.IN1
-C => and4wire.IN1
-C => WideAnd1.IN2
-C => comb.IN1
-C => WideAnd0.IN2
-C => and5wire.IN1
-C => and7wire.IN1
-SEGA <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SEGB <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
-SEGC <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SEGD <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
-SEGE <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SEGF <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SEGG <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
 
 
