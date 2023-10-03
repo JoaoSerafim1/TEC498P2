@@ -1,7 +1,7 @@
 //Modulo principal (entidade de maior nivel); Instancia todos os demais modulos e os liga
 module mainmodule (
 	CH0, CH1, CH2, CH3, CH4, CH5, CH6, CH7,
-	BT0, BT1, BT2, BT3,
+	BT0, BT1, //BT2, BT3,
 	
 	CLKIN,
 	
@@ -20,7 +20,7 @@ module mainmodule (
 	//Declara elementos de entrada (chaves HH e botoes)
 	input
 	CH0, CH1, CH2, CH3, CH4, CH5, CH6, CH7,
-	BT0, BT1, BT2, BT3,
+	BT0, BT1, //BT2, BT3,
 	CLKIN;
 	
 	//Declara elementos de saida (LED Sequencial, Matrix de LED e Display de 7 Segmentos)
@@ -39,14 +39,17 @@ module mainmodule (
 	//Declara os fios utilizados para conectar os modulos
 	//Fios de negacao dos botoes
 	wire
-	NCH0,
-	NBT0, NBT1, NBT2, NBT3,
+	NCH0, NCH1,
+	NBT0, NBT1,
+	//NBT2, NBT3,
 	
 	clkdivwire,
 	
 	countA, countB, countC,
 	
 	NcountA, NcountB, NcountC,
+	
+	enableNBT0, enableNBT1,
 	
 	bouncedbutton1,
 	
@@ -93,12 +96,14 @@ module mainmodule (
 	SGDAenable, SGDBenable, SGDCenable, SGDDenable, SGDEenable, SGDFenable, SGDGenable;
 	
 
-//Negacao dos botoes e da chave 0
+//Negacao das chaves e botoes aplicaveis
+not (NCH0, CH0);
+not (NCH1, CH1);
+
 not (NBT0, BT0);
 not (NBT1, BT1);
-not (NBT2, BT2);
-not (NBT3, BT3);
-not (NCH0, CH0);
+//not (NBT2, BT2);
+//not (NBT3, BT3);
 
 binpower18clockdivider clkdiv_0 (
 		.CLKTODIVIDE (CLKIN),
@@ -116,8 +121,10 @@ not (NcountA, countA);
 not (NcountB, countB);
 not (NcountC, countC);
 
+and (enableNBT1, NBT1, CH0, NCH1);
+
 binpower4buttonbouncer btnbnc_0 (
-		.IPTBTN (NBT1),
+		.IPTBTN (enableNBT1),
 		.IPTCLK (clkdivwire),
 		.OUTBTN (bouncedbutton1)
 );
@@ -435,10 +442,11 @@ multiplex35to1 shipcoordinatemux_0 (
 		.OUT (shipiptwire)
 );
 
+and (enableNBT0, NBT0, CH0, CH1);
+
 shipgunner shpart_0 (
 		.IPTSHIP (shipiptwire),
-		.NBT0 (NBT0),
-		.CH0 (CH0),
+		.BTNIPT (enableNBT0),
 		.NCH0 (NCH0),
 		.OUT (gunnertoart),
 		.RLED (RLED),
