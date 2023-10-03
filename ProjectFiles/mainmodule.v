@@ -140,6 +140,12 @@ not (NcountC, countC);
 buttonenabler btnebl_0 (
 		.CH0 (CH0),
 		.CH1 (CH1),
+		.CH2 (CH2),
+		.CH3 (CH3),
+		.CH4 (CH4),
+		.CH5 (CH5),
+		.CH6 (CH6),
+		.CH7 (CH7),
 		.NCH0 (NCH0),
 		.NCH1 (NCH1),
 		.IPT0 (NBT0),
