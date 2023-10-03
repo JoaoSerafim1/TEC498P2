@@ -1,7 +1,7 @@
 //Modulo principal (entidade de maior nivel); Instancia todos os demais modulos e os liga
 module mainmodule (
 	CH0, CH1, CH2, CH3, CH4, CH5, CH6, CH7,
-	BT0, BT1, //BT2, BT3,
+	BT0, BT1,
 	
 	CLKIN,
 	
@@ -15,7 +15,7 @@ module mainmodule (
 	SGD1, SGD2, SGD3, SGD4,
 	
 	CLKOUT, CLKDIVOUT
-); //Declara todos os elementos de entrada e saida (nao ior(LIN0, LIN0and);nclui fios)
+); //Declara todos os elementos de entrada e saida
 	
 	//Declara elementos de entrada (chaves HH e botoes)
 	input
@@ -23,36 +23,45 @@ module mainmodule (
 	BT0, BT1, //BT2, BT3,
 	CLKIN;
 	
-	//Declara elementos de saida (LED Sequencial, Matrix de LED e Display de 7 Segmentos)
+	//Declara elementos de saida
 	output
+	//Matriz de LEDs
 	COL0, COL1, COL2, COL3, COL4,
 	LIN0, LIN1, LIN2, LIN3, LIN4, LIN5, LIN6,
 	
+	//LED RGB
 	RLED, GLED,
-
+	
+	//Display de 7 segmentos
 	SGDA, SGDB, SGDC, SGDD, SGDE, SGDF, SGDG,
 	SGDP,
 	SGD1, SGD2, SGD3, SGD4,
 	
+	//Clock (para teste)
 	CLKOUT, CLKDIVOUT;
 	
 	//Declara os fios utilizados para conectar os modulos
-	//Fios de negacao dos botoes
 	wire
+	//Fios de negacao das chaves e dos botoes
 	NCH0, NCH1,
 	NBT0, NBT1,
-	//NBT2, NBT3,
 	
+	//Fio do clock dividido
 	clkdivwire,
 	
+	//Fios do contador de 3 bits
 	countA, countB, countC,
 	
+	//Fios da negacao do contador de 3 bits
 	NcountA, NcountB, NcountC,
 	
+	//Botao 1 contrado pelo debouncer
+	debouncedbutton1,
+	
+	//Fios da permissao de uso dos botoes
 	enableNBT0, enableNBT1,
 	
-	bouncedbutton1,
-	
+	//Fios que conectam a saida da matriz da artilharia ao multiplex da fonte de exibicao (atilharia ou posicionamento)
 	A1artcoordstomux, B1artcoordstomux, C1artcoordstomux, D1artcoordstomux, E1artcoordstomux,
 	A2artcoordstomux, B2artcoordstomux, C2artcoordstomux, D2artcoordstomux, E2artcoordstomux,
 	A3artcoordstomux, B3artcoordstomux, C3artcoordstomux, D3artcoordstomux, E3artcoordstomux,
@@ -61,6 +70,7 @@ module mainmodule (
 	A6artcoordstomux, B6artcoordstomux, C6artcoordstomux, D6artcoordstomux, E6artcoordstomux,
 	A7artcoordstomux, B7artcoordstomux, C7artcoordstomux, D7artcoordstomux, E7artcoordstomux,
 	
+	//Fios que conectam a saida da matriz de posicionamento das embarcacoes ao multiplex da fonte de exibicao(atilharia ou posicionamento) e da verificacao de tiro
 	A1shipcoordstomux, B1shipcoordstomux, C1shipcoordstomux, D1shipcoordstomux, E1shipcoordstomux,
 	A2shipcoordstomux, B2shipcoordstomux, C2shipcoordstomux, D2shipcoordstomux, E2shipcoordstomux,
 	A3shipcoordstomux, B3shipcoordstomux, C3shipcoordstomux, D3shipcoordstomux, E3shipcoordstomux,
@@ -69,16 +79,10 @@ module mainmodule (
 	A6shipcoordstomux, B6shipcoordstomux, C6shipcoordstomux, D6shipcoordstomux, E6shipcoordstomux,
 	A7shipcoordstomux, B7shipcoordstomux, C7shipcoordstomux, D7shipcoordstomux, E7shipcoordstomux,
 	
+	//Fios seletores do posicionamento das embarcacoes
 	shiparrangementsel0, shiparrangementsel1,
 	
-	A1displaycoordstomux, B1displaycoordstomux, C1displaycoordstomux, D1displaycoordstomux, E1displaycoordstomux,
-	A2displaycoordstomux, B2displaycoordstomux, C2displaycoordstomux, D2displaycoordstomux, E2displaycoordstomux,
-	A3displaycoordstomux, B3displaycoordstomux, C3displaycoordstomux, D3displaycoordstomux, E3displaycoordstomux,
-	A4displaycoordstomux, B4displaycoordstomux, C4displaycoordstomux, D4displaycoordstomux, E4displaycoordstomux,
-	A5displaycoordstomux, B5displaycoordstomux, C5displaycoordstomux, D5displaycoordstomux, E5displaycoordstomux,
-	A6displaycoordstomux, B6displaycoordstomux, C6displaycoordstomux, D6displaycoordstomux, E6displaycoordstomux,
-	A7displaycoordstomux, B7displaycoordstomux, C7displaycoordstomux, D7displaycoordstomux, E7displaycoordstomux,
-	
+	//Fios que conectam a saida do modulo de ataque com o a entrada da matriz de registro de tiros (por meio de multiplex)
 	A1muxtoshotsfired, B1muxtoshotsfired, C1muxtoshotsfired, D1muxtoshotsfired, E1muxtoshotsfired,
 	A2muxtoshotsfired, B2muxtoshotsfired, C2muxtoshotsfired, D2muxtoshotsfired, E2muxtoshotsfired,
 	A3muxtoshotsfired, B3muxtoshotsfired, C3muxtoshotsfired, D3muxtoshotsfired, E3muxtoshotsfired,
@@ -87,29 +91,40 @@ module mainmodule (
 	A6muxtoshotsfired, B6muxtoshotsfired, C6muxtoshotsfired, D6muxtoshotsfired, E6muxtoshotsfired,
 	A7muxtoshotsfired, B7muxtoshotsfired, C7muxtoshotsfired, D7muxtoshotsfired, E7muxtoshotsfired,
 	
+	//Fios da entrada da possivel embarcacao no quadrado selecionado e saida do modulo de ataque
 	shipiptwire, gunnertoart,
 	
+	//Fios do multiplex do sequenciador da matriz de LEDs
+	A1displaycoordstomux, B1displaycoordstomux, C1displaycoordstomux, D1displaycoordstomux, E1displaycoordstomux,
+	A2displaycoordstomux, B2displaycoordstomux, C2displaycoordstomux, D2displaycoordstomux, E2displaycoordstomux,
+	A3displaycoordstomux, B3displaycoordstomux, C3displaycoordstomux, D3displaycoordstomux, E3displaycoordstomux,
+	A4displaycoordstomux, B4displaycoordstomux, C4displaycoordstomux, D4displaycoordstomux, E4displaycoordstomux,
+	A5displaycoordstomux, B5displaycoordstomux, C5displaycoordstomux, D5displaycoordstomux, E5displaycoordstomux,
+	A6displaycoordstomux, B6displaycoordstomux, C6displaycoordstomux, D6displaycoordstomux, E6displaycoordstomux,
+	A7displaycoordstomux, B7displaycoordstomux, C7displaycoordstomux, D7displaycoordstomux, E7displaycoordstomux,
+	
+	//Fios dos elementos do display de 7 segmentos
 	SEGAmodemux, SEGBmodemux, SEGCmodemux, SEGDmodemux, SEGEmodemux, SEGFmodemux, SEGGmodemux,
 	SEGAcolumnmux, SEGBcolumnmux, SEGCcolumnmux, SEGDcolumnmux, SEGEcolumnmux, SEGFcolumnmux, SEGGcolumnmux,
 	SEGAlinemux, SEGBlinemux, SEGClinemux, SEGDlinemux, SEGElinemux, SEGFlinemux, SEGGlinemux,
 	
+	//Fios da permissao de uso dos segmentos do display de 7 segmentos
 	SGDAenable, SGDBenable, SGDCenable, SGDDenable, SGDEenable, SGDFenable, SGDGenable;
 	
 
 //Negacao das chaves e botoes aplicaveis
 not (NCH0, CH0);
 not (NCH1, CH1);
-
 not (NBT0, BT0);
 not (NBT1, BT1);
-//not (NBT2, BT2);
-//not (NBT3, BT3);
 
+//Instacia do divisor de clock (2 elevado a 18)
 binpower18clockdivider clkdiv_0 (
 		.CLKTODIVIDE (CLKIN),
 		.DIVIDEDCLK (clkdivwire)
 );
 
+//Instancia do contador binario que passa mais 2 divisoes de clock (C mantem o clock atual)
 bin3bcount bin3bc_0 (
 		.IPTCLK (clkdivwire),
 		.A (countA),
@@ -117,20 +132,31 @@ bin3bcount bin3bc_0 (
 		.C (countC)
 );
 
+//Negacao das saidas do contador
 not (NcountA, countA);
 not (NcountB, countB);
 not (NcountC, countC);
 
-and (enableNBT1, NBT1, CH0, NCH1);
+buttonenabler btnebl_0 (
+		.CH0 (CH0),
+		.CH1 (CH1),
+		.NCH0 (NCH0),
+		.NCH1 (NCH1),
+		.IPT0 (NBT0),
+		.IPT1 (NBT1),
+		
+		.OUT0 (enableNBT0),
+		.OUT1 (enableNBT1)
+);
 
 binpower4buttonbouncer btnbnc_0 (
 		.IPTBTN (enableNBT1),
 		.IPTCLK (clkdivwire),
-		.OUTBTN (bouncedbutton1)
+		.OUTBTN (debouncedbutton1)
 );
 
 bin2bselector shpsel_0 (
-		.IPTCLK (bouncedbutton1),
+		.IPTCLK (debouncedbutton1),
 		.A (shiparrangementsel0),
 		.B (shiparrangementsel1)
 );
@@ -442,13 +468,25 @@ multiplex35to1 shipcoordinatemux_0 (
 		.OUT (shipiptwire)
 );
 
-and (enableNBT0, NBT0, CH0, CH1);
+bin6switchregister changedinputchk_0 (
+	.IPT0 (CH7),
+	.IPT1 (CH6),
+	.IPT2 (CH5),
+	.IPT3 (CH4),
+	.IPT4 (CH3), 
+	.IPT5 (CH2),
+	
+	.SETBTN (enableNBT0),
+	
+	.MATCHHTEST (matchlastwire)
+);
 
 shipgunner shpart_0 (
 		.IPTSHIP (shipiptwire),
 		.BTNIPT (enableNBT0),
 		.NCH0 (NCH0),
 		.OUT (gunnertoart),
+		.ENABLELED (matchlastwire),
 		.RLED (RLED),
 		.GLED (GLED)
 );
