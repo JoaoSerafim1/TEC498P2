@@ -1,12 +1,12 @@
 |mainmodule
 CH0 => CH0.IN2
 CH1 => CH1.IN3
-CH2 => CH2.IN4
-CH3 => CH3.IN4
-CH4 => CH4.IN4
-CH5 => CH5.IN4
-CH6 => CH6.IN4
-CH7 => CH7.IN4
+CH2 => CH2.IN5
+CH3 => CH3.IN5
+CH4 => CH4.IN5
+CH5 => CH5.IN5
+CH6 => CH6.IN5
+CH7 => CH7.IN5
 BT0 => NBT0.IN1
 BT1 => NBT1.IN1
 CLKIN => CLKIN.IN1
@@ -193,15 +193,27 @@ qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |mainmodule|buttonenabler:btnebl_0
-CH0 => WideAnd0.IN0
-CH0 => WideAnd1.IN1
-CH1 => WideAnd0.IN1
+CH0 => WideAnd3.IN2
+CH0 => WideAnd4.IN1
+CH1 => WideAnd3.IN3
+CH7 => WideOr0.IN0
+CH6 => WideOr0.IN1
+CH5 => WideOr0.IN2
+CH4 => WideAnd1.IN0
+CH4 => WideAnd2.IN0
+CH4 => WideAnd0.IN0
+CH3 => WideAnd1.IN1
+CH3 => WideAnd2.IN1
+CH3 => WideAnd0.IN1
+CH2 => WideAnd2.IN2
+CH2 => WideAnd0.IN2
+CH2 => WideAnd1.IN2
 NCH0 => NCH0.IN1
-NCH1 => WideAnd1.IN2
-IPT0 => WideAnd0.IN2
-IPT1 => WideAnd1.IN3
+NCH1 => WideAnd4.IN2
+IPT0 => WideAnd3.IN4
+IPT1 => WideAnd4.IN3
 OUT0 <= comb.DB_MAX_OUTPUT_PORT_TYPE
-OUT1 <= WideAnd1.DB_MAX_OUTPUT_PORT_TYPE
+OUT1 <= WideAnd4.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |mainmodule|buttonenabler:btnebl_0|srlt_gate:gamestatus_0
