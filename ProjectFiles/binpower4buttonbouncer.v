@@ -63,6 +63,10 @@ tff_gate ff03 (
 		.q (conditionbit3)
 );
 
-or (OUTBTN, togglecondition0);
+srlt_gate sr00 (
+		.q (OUTBTN),
+		.s (togglecondition0),
+		.r (togglecondition1)
+);
 
 endmodule
