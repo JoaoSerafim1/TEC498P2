@@ -1,0 +1,5 @@
+module bin6switchregister (
+	IPT0, IPT1, IPT2, IPT3, IPT4, IPT5,
+	SETBTN,
+	OUT0, OUT1, OUT2, OUT3, OUT4, OUT5
+);
