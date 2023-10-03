@@ -106,11 +106,11 @@ CH1                          : 40        : input  : 3.3-V LVTTL       :         
 SGDC                         : 41        : output : 3.3-V LVTTL       :         : 1         : Y              
 CH0                          : 42        : input  : 3.3-V LVTTL       :         : 1         : Y              
 GND*                         : 43        :        :                   :         : 1         :                
-BT3                          : 44        : input  : 3.3-V LVTTL       :         : 1         : Y              
+GND*                         : 44        :        :                   :         : 1         :                
 VCCIO1                       : 45        : power  :                   : 3.3V    : 1         :                
 GNDIO                        : 46        : gnd    :                   :         :           :                
 GND*                         : 47        :        :                   :         : 1         :                
-BT2                          : 48        : input  : 3.3-V LVTTL       :         : 1         : Y              
+GND*                         : 48        :        :                   :         : 1         :                
 GND*                         : 49        :        :                   :         : 1         :                
 BT1                          : 50        : input  : 3.3-V LVTTL       :         : 1         : Y              
 GND*                         : 51        :        :                   :         : 1         :                

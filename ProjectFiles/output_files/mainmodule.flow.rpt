@@ -1,5 +1,5 @@
 Flow report for mainmodule
-Fri Sep 29 17:32:19 2023
+Mon Oct  2 15:29:25 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,15 +41,15 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------+
 ; Flow Summary                                                        ;
 +-----------------------+---------------------------------------------+
-; Flow Status           ; Successful - Fri Sep 29 17:32:06 2023       ;
+; Flow Status           ; Successful - Mon Oct  2 15:29:12 2023       ;
 ; Quartus Prime Version ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name         ; mainmodule                                  ;
 ; Top-level Entity Name ; mainmodule                                  ;
 ; Family                ; MAX II                                      ;
 ; Device                ; EPM240T100C5                                ;
 ; Timing Models         ; Final                                       ;
-; Total logic elements  ; 179 / 240 ( 75 % )                          ;
-; Total pins            ; 41 / 80 ( 51 % )                            ;
+; Total logic elements  ; 180 / 240 ( 75 % )                          ;
+; Total pins            ; 39 / 80 ( 49 % )                            ;
 ; Total virtual pins    ; 0                                           ;
 ; UFM blocks            ; 0 / 1 ( 0 % )                               ;
 +-----------------------+---------------------------------------------+
@@ -60,7 +60,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/29/2023 17:31:46 ;
+; Start date & time ; 10/02/2023 15:28:53 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; mainmodule          ;
 +-------------------+---------------------+
@@ -71,7 +71,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------+---------------------------------+---------------+-------------+------------+
 ; Assignment Name                       ; Value                           ; Default Value ; Entity Name ; Section Id ;
 +---------------------------------------+---------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID                 ; 159209604667056.169601950604783 ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID                 ; 159209604667056.169627133316239 ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP                ; 85                              ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP                ; 0                               ; --            ; --          ; --         ;
 ; POWER_EXT_SUPPLY_VOLTAGE_TO_REGULATOR ; 3.3V                            ; --            ; --          ; --         ;
@@ -86,8 +86,8 @@ https://fpgasoftware.intel.com/eula.
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 350 MB              ; 00:00:13                           ;
-; Fitter               ; 00:00:03     ; 1.0                     ; 983 MB              ; 00:00:02                           ;
-; Assembler            ; 00:00:01     ; 1.0                     ; 334 MB              ; 00:00:00                           ;
+; Fitter               ; 00:00:03     ; 1.0                     ; 988 MB              ; 00:00:02                           ;
+; Assembler            ; 00:00:01     ; 1.0                     ; 338 MB              ; 00:00:00                           ;
 ; Timing Analyzer      ; 00:00:11     ; 1.0                     ; 372 MB              ; 00:00:01                           ;
 ; Total                ; 00:00:26     ; --                      ; --                  ; 00:00:16                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+

@@ -1,5 +1,5 @@
 |mainmodule
-CH0 => CH0.IN2
+CH0 => CH0.IN1
 CH1 => CH1.IN2
 CH2 => CH2.IN3
 CH3 => CH3.IN3
@@ -7,10 +7,8 @@ CH4 => CH4.IN3
 CH5 => CH5.IN3
 CH6 => CH6.IN3
 CH7 => CH7.IN3
-BT0 => NBT0.IN1
-BT1 => NBT1.IN1
-BT2 => ~NO_FANOUT~
-BT3 => ~NO_FANOUT~
+BT0 => WideAnd1.IN0
+BT1 => WideAnd0.IN0
 CLKIN => CLKIN.IN1
 COL0 <= multiplex35to5:displayfinalmux_0.OUT0
 COL1 <= multiplex35to5:displayfinalmux_0.OUT1
@@ -195,10 +193,10 @@ qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |mainmodule|binpower4buttonbouncer:btnbnc_0
-IPTBTN => togglecondition0.IN1
-IPTBTN => togglecondition1.IN1
+IPTBTN => comb.IN1
+IPTBTN => comb.IN1
 IPTCLK => IPTCLK.IN1
-OUTBTN <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUTBTN <= srlt_gate:sr00.q
 
 
 |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff00
@@ -227,6 +225,13 @@ clk => q~reg0.CLK
 t => q~reg0.ENA
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s => nor2_out.IN0
+r => nor1_out.IN1
 
 
 |mainmodule|bin2bselector:shpsel_0
@@ -1038,10 +1043,10 @@ OUT <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |mainmodule|shipgunner:shpart_0
-IPTSHIP => comb.IN1
-IPTSHIP => comb.IN1
-NBT0 => actionrequested.IN0
-CH0 => actionrequested.IN1
+IPTSHIP => comb.IN0
+IPTSHIP => comb.IN0
+BTNIPT => comb.IN1
+BTNIPT => comb.IN1
 NCH0 => comb.IN0
 NCH0 => comb.IN0
 OUT <= comb.DB_MAX_OUTPUT_PORT_TYPE

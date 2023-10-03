@@ -1,5 +1,5 @@
 Fitter report for mainmodule
-Fri Sep 29 17:32:02 2023
+Mon Oct  2 15:29:08 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -59,15 +59,15 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------+
 ; Fitter Summary                                                      ;
 +-----------------------+---------------------------------------------+
-; Fitter Status         ; Successful - Fri Sep 29 17:32:02 2023       ;
+; Fitter Status         ; Successful - Mon Oct  2 15:29:08 2023       ;
 ; Quartus Prime Version ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name         ; mainmodule                                  ;
 ; Top-level Entity Name ; mainmodule                                  ;
 ; Family                ; MAX II                                      ;
 ; Device                ; EPM240T100C5                                ;
 ; Timing Models         ; Final                                       ;
-; Total logic elements  ; 179 / 240 ( 75 % )                          ;
-; Total pins            ; 41 / 80 ( 51 % )                            ;
+; Total logic elements  ; 180 / 240 ( 75 % )                          ;
+; Total pins            ; 39 / 80 ( 49 % )                            ;
 ; Total virtual pins    ; 0                                           ;
 ; UFM blocks            ; 0 / 1 ( 0 % )                               ;
 +-----------------------+---------------------------------------------+
@@ -130,13 +130,13 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 6           ;
 ; Maximum allowed            ; 6           ;
 ;                            ;             ;
-; Average used               ; 1.03        ;
+; Average used               ; 1.05        ;
 ; Maximum used               ; 6           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.6%      ;
-;     Processors 3-6         ;   0.5%      ;
+;     Processor 2            ;   1.0%      ;
+;     Processors 3-6         ;   0.9%      ;
 +----------------------------+-------------+
 
 
@@ -145,6 +145,8 @@ https://fpgasoftware.intel.com/eula.
 +----------+----------------+--------------+------------+---------------+----------------+
 ; Name     ; Ignored Entity ; Ignored From ; Ignored To ; Ignored Value ; Ignored Source ;
 +----------+----------------+--------------+------------+---------------+----------------+
+; Location ;                ;              ; BT2        ; PIN_48        ; QSF Assignment ;
+; Location ;                ;              ; BT3        ; PIN_44        ; QSF Assignment ;
 ; Location ;                ;              ; LED0       ; PIN_54        ; QSF Assignment ;
 ; Location ;                ;              ; LED1       ; PIN_55        ; QSF Assignment ;
 ; Location ;                ;              ; LED2       ; PIN_57        ; QSF Assignment ;
@@ -166,20 +168,20 @@ The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/
 +---------------------------------------------+-----------------------+
 ; Resource                                    ; Usage                 ;
 +---------------------------------------------+-----------------------+
-; Total logic elements                        ; 179 / 240 ( 75 % )    ;
-;     -- Combinational with no register       ; 153                   ;
+; Total logic elements                        ; 180 / 240 ( 75 % )    ;
+;     -- Combinational with no register       ; 154                   ;
 ;     -- Register only                        ; 0                     ;
 ;     -- Combinational with a register        ; 26                    ;
 ;                                             ;                       ;
 ; Logic element usage by number of LUT inputs ;                       ;
-;     -- 4 input functions                    ; 126                   ;
-;     -- 3 input functions                    ; 19                    ;
-;     -- 2 input functions                    ; 9                     ;
+;     -- 4 input functions                    ; 129                   ;
+;     -- 3 input functions                    ; 18                    ;
+;     -- 2 input functions                    ; 8                     ;
 ;     -- 1 input functions                    ; 25                    ;
 ;     -- 0 input functions                    ; 0                     ;
 ;                                             ;                       ;
 ; Logic elements by mode                      ;                       ;
-;     -- normal mode                          ; 179                   ;
+;     -- normal mode                          ; 180                   ;
 ;     -- arithmetic mode                      ; 0                     ;
 ;     -- qfbk mode                            ; 0                     ;
 ;     -- register cascade mode                ; 0                     ;
@@ -190,7 +192,7 @@ The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/
 ; Total LABs                                  ; 20 / 24 ( 83 % )      ;
 ; Logic elements in carry chains              ; 0                     ;
 ; Virtual pins                                ; 0                     ;
-; I/O pins                                    ; 41 / 80 ( 51 % )      ;
+; I/O pins                                    ; 39 / 80 ( 49 % )      ;
 ;     -- Clock pins                           ; 1 / 4 ( 25 % )        ;
 ;                                             ;                       ;
 ; UFM blocks                                  ; 0 / 1 ( 0 % )         ;
@@ -201,12 +203,12 @@ The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/
 ; Global signals                              ; 2                     ;
 ;     -- Global clocks                        ; 2 / 4 ( 50 % )        ;
 ; JTAGs                                       ; 0 / 1 ( 0 % )         ;
-; Average interconnect usage (total/H/V)      ; 17.6% / 18.9% / 16.2% ;
-; Peak interconnect usage (total/H/V)         ; 17.6% / 18.9% / 16.2% ;
-; Maximum fan-out                             ; 44                    ;
-; Highest non-global fan-out                  ; 44                    ;
-; Total fan-out                               ; 656                   ;
-; Average fan-out                             ; 2.98                  ;
+; Average interconnect usage (total/H/V)      ; 18.7% / 20.7% / 16.6% ;
+; Peak interconnect usage (total/H/V)         ; 18.7% / 20.7% / 16.6% ;
+; Maximum fan-out                             ; 46                    ;
+; Highest non-global fan-out                  ; 46                    ;
+; Total fan-out                               ; 663                   ;
+; Average fan-out                             ; 3.03                  ;
 +---------------------------------------------+-----------------------+
 
 
@@ -215,12 +217,10 @@ The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/
 +-------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+-----------------+----------+--------------+--------------+----------------------+----------------+
 ; Name  ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Combinational Fan-Out ; Registered Fan-Out ; Global ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Location assigned by ; Slow Slew Rate ;
 +-------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+-----------------+----------+--------------+--------------+----------------------+----------------+
-; BT0   ; 52    ; 2        ; 8            ; 1            ; 4           ; 4                     ; 0                  ; yes    ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; BT1   ; 50    ; 1        ; 7            ; 0            ; 1           ; 2                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; BT2   ; 48    ; 1        ; 6            ; 0            ; 0           ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; BT3   ; 44    ; 1        ; 6            ; 0            ; 2           ; 0                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; CH0   ; 42    ; 1        ; 5            ; 0            ; 0           ; 44                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
-; CH1   ; 40    ; 1        ; 5            ; 0            ; 2           ; 9                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; BT0   ; 52    ; 2        ; 8            ; 1            ; 4           ; 2                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; BT1   ; 50    ; 1        ; 7            ; 0            ; 1           ; 1                     ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; CH0   ; 42    ; 1        ; 5            ; 0            ; 0           ; 46                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
+; CH1   ; 40    ; 1        ; 5            ; 0            ; 2           ; 12                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
 ; CH2   ; 38    ; 1        ; 4            ; 0            ; 0           ; 31                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
 ; CH3   ; 36    ; 1        ; 4            ; 0            ; 2           ; 31                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
 ; CH4   ; 34    ; 1        ; 3            ; 0            ; 1           ; 35                    ; 0                  ; no     ; no              ; no       ; Off          ; 3.3-V LVTTL  ; User                 ; no             ;
@@ -272,7 +272,7 @@ The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/
 +----------+------------------+---------------+--------------+
 ; I/O Bank ; Usage            ; VCCIO Voltage ; VREF Voltage ;
 +----------+------------------+---------------+--------------+
-; 1        ; 15 / 38 ( 39 % ) ; 3.3V          ; --           ;
+; 1        ; 13 / 38 ( 34 % ) ; 3.3V          ; --           ;
 ; 2        ; 26 / 42 ( 62 % ) ; 3.3V          ; --           ;
 +----------+------------------+---------------+--------------+
 
@@ -325,11 +325,11 @@ The pin-out file can be found in /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/
 ; 41       ; 33         ; 1        ; SGDC           ; output ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 42       ; 34         ; 1        ; CH0            ; input  ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 43       ; 35         ; 1        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
-; 44       ; 36         ; 1        ; BT3            ; input  ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
+; 44       ; 36         ; 1        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
 ; 45       ;            ; 1        ; VCCIO1         ; power  ;              ; 3.3V      ; --         ;                 ; --       ; --           ;
 ; 46       ;            ;          ; GNDIO          ; gnd    ;              ;           ; --         ;                 ; --       ; --           ;
 ; 47       ; 37         ; 1        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
-; 48       ; 38         ; 1        ; BT2            ; input  ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
+; 48       ; 38         ; 1        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
 ; 49       ; 39         ; 1        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
 ; 50       ; 40         ; 1        ; BT1            ; input  ; 3.3-V LVTTL  ;           ; Column I/O ; Y               ; no       ; Off          ;
 ; 51       ; 41         ; 1        ; GND*           ;        ;              ;           ; Column I/O ;                 ; no       ; Off          ;
@@ -407,7 +407,7 @@ Note: User assignments will override these defaults. The user specified values a
 +-----------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
 ; Compilation Hierarchy Node              ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                        ; Entity Name            ; Library Name ;
 +-----------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
-; |mainmodule                             ; 179 (24)    ; 26           ; 0          ; 41   ; 0            ; 153 (24)     ; 0 (0)             ; 26 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule                                                ; mainmodule             ; work         ;
+; |mainmodule                             ; 180 (25)    ; 26           ; 0          ; 39   ; 0            ; 154 (25)     ; 0 (0)             ; 26 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule                                                ; mainmodule             ; work         ;
 ;    |bin2bselector:shpsel_0|             ; 2 (0)       ; 2            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0                         ; bin2bselector          ; work         ;
 ;       |tff_gate:ff00|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0|tff_gate:ff00           ; tff_gate               ; work         ;
 ;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0|tff_gate:ff01           ; tff_gate               ; work         ;
@@ -433,8 +433,9 @@ Note: User assignments will override these defaults. The user specified values a
 ;       |tff_gate:ff15|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff15  ; tff_gate               ; work         ;
 ;       |tff_gate:ff16|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff16  ; tff_gate               ; work         ;
 ;       |tff_gate:ff17|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff17  ; tff_gate               ; work         ;
-;    |binpower4buttonbouncer:btnbnc_0|    ; 7 (2)       ; 4            ; 0          ; 0    ; 0            ; 3 (2)        ; 0 (0)             ; 4 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0                ; binpower4buttonbouncer ; work         ;
-;       |tff_gate:ff00|                   ; 2 (2)       ; 1            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff00  ; tff_gate               ; work         ;
+;    |binpower4buttonbouncer:btnbnc_0|    ; 8 (3)       ; 4            ; 0          ; 0    ; 0            ; 4 (3)        ; 0 (0)             ; 4 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0                ; binpower4buttonbouncer ; work         ;
+;       |srlt_gate:sr00|                  ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00 ; srlt_gate              ; work         ;
+;       |tff_gate:ff00|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff00  ; tff_gate               ; work         ;
 ;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff01  ; tff_gate               ; work         ;
 ;       |tff_gate:ff02|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff02  ; tff_gate               ; work         ;
 ;       |tff_gate:ff03|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff03  ; tff_gate               ; work         ;
@@ -444,7 +445,7 @@ Note: User assignments will override these defaults. The user specified values a
 ;    |multiplex21to7:decmux_0|            ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex21to7:decmux_0                        ; multiplex21to7         ; work         ;
 ;    |multiplex35to1:shipcoordinatemux_0| ; 19 (19)     ; 0            ; 0          ; 0    ; 0            ; 19 (19)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to1:shipcoordinatemux_0             ; multiplex35to1         ; work         ;
 ;    |multiplex35to5:displayfinalmux_0|   ; 37 (37)     ; 0            ; 0          ; 0    ; 0            ; 37 (37)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to5:displayfinalmux_0               ; multiplex35to5         ; work         ;
-;    |shipgunner:shpart_0|                ; 4 (2)       ; 0            ; 0          ; 0    ; 0            ; 4 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0                            ; shipgunner             ; work         ;
+;    |shipgunner:shpart_0|                ; 3 (1)       ; 0            ; 0          ; 0    ; 0            ; 3 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0                            ; shipgunner             ; work         ;
 ;       |srlt_gate:glight_0|              ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:glight_0         ; srlt_gate              ; work         ;
 ;       |srlt_gate:rlight_0|              ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:rlight_0         ; srlt_gate              ; work         ;
 ;    |tablememory7by5:shotsfired_0|       ; 60 (0)      ; 0            ; 0          ; 0    ; 0            ; 60 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0                   ; tablememory7by5        ; work         ;
@@ -485,8 +486,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------+----------+---------------+
 ; Name      ; Pin Type ; Pad to Core 0 ;
 +-----------+----------+---------------+
-; BT2       ; Input    ; (0)           ;
-; BT3       ; Input    ; (0)           ;
 ; COL0      ; Output   ; --            ;
 ; COL1      ; Output   ; --            ;
 ; COL2      ; Output   ; --            ;
@@ -529,37 +528,37 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------+----------+---------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Control Signals                                                                                                                     ;
-+--------------------------------------------------+-------------+---------+-------+--------+----------------------+------------------+
-; Name                                             ; Location    ; Fan-Out ; Usage ; Global ; Global Resource Used ; Global Line Name ;
-+--------------------------------------------------+-------------+---------+-------+--------+----------------------+------------------+
-; CLKIN                                            ; PIN_12      ; 2       ; Clock ; no     ; --                   ; --               ;
-; bin2bselector:shpsel_0|tff_gate:ff00|q           ; LC_X3_Y4_N4 ; 22      ; Clock ; no     ; --                   ; --               ;
-; bin3bcount:bin3bc_0|tff_gate:ff00|q              ; LC_X4_Y2_N3 ; 17      ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q  ; LC_X2_Y1_N4 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q  ; LC_X2_Y1_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff02|q  ; LC_X3_Y1_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q  ; LC_X4_Y1_N7 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q  ; LC_X4_Y1_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q  ; LC_X5_Y2_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q  ; LC_X6_Y2_N3 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q  ; LC_X6_Y2_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q  ; LC_X5_Y4_N4 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q  ; LC_X5_Y4_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q  ; LC_X4_Y4_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q  ; LC_X5_Y3_N4 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q  ; LC_X5_Y3_N3 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q  ; LC_X4_Y3_N1 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q  ; LC_X4_Y3_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q  ; LC_X3_Y3_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q  ; LC_X2_Y3_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q  ; LC_X2_Y3_N8 ; 20      ; Clock ; yes    ; Global Clock         ; GCLK2            ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q  ; LC_X7_Y3_N9 ; 3       ; Clock ; no     ; --                   ; --               ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q  ; LC_X6_Y3_N7 ; 4       ; Clock ; no     ; --                   ; --               ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q  ; LC_X6_Y3_N3 ; 4       ; Clock ; no     ; --                   ; --               ;
-; binpower4buttonbouncer:btnbnc_0|togglecondition0 ; LC_X7_Y3_N6 ; 2       ; Clock ; no     ; --                   ; --               ;
-+--------------------------------------------------+-------------+---------+-------+--------+----------------------+------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Control Signals                                                                                                                              ;
++-----------------------------------------------------------+-------------+---------+-------+--------+----------------------+------------------+
+; Name                                                      ; Location    ; Fan-Out ; Usage ; Global ; Global Resource Used ; Global Line Name ;
++-----------------------------------------------------------+-------------+---------+-------+--------+----------------------+------------------+
+; CLKIN                                                     ; PIN_12      ; 2       ; Clock ; no     ; --                   ; --               ;
+; bin2bselector:shpsel_0|tff_gate:ff00|q                    ; LC_X4_Y1_N2 ; 22      ; Clock ; no     ; --                   ; --               ;
+; bin3bcount:bin3bc_0|tff_gate:ff00|q                       ; LC_X7_Y3_N5 ; 17      ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q           ; LC_X2_Y2_N7 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q           ; LC_X2_Y2_N8 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff02|q           ; LC_X2_Y3_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q           ; LC_X2_Y3_N8 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q           ; LC_X3_Y3_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q           ; LC_X3_Y3_N8 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q           ; LC_X3_Y4_N4 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q           ; LC_X3_Y4_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q           ; LC_X4_Y4_N5 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q           ; LC_X4_Y4_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q           ; LC_X5_Y4_N5 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q           ; LC_X5_Y4_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q           ; LC_X6_Y1_N4 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q           ; LC_X6_Y1_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q           ; LC_X5_Y1_N1 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q           ; LC_X5_Y1_N9 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q           ; LC_X2_Y1_N4 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q           ; LC_X2_Y1_N8 ; 20      ; Clock ; yes    ; Global Clock         ; GCLK2            ;
+; binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00|nor1_out~0 ; LC_X6_Y2_N2 ; 2       ; Clock ; no     ; --                   ; --               ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q           ; LC_X6_Y2_N5 ; 4       ; Clock ; no     ; --                   ; --               ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q           ; LC_X5_Y2_N7 ; 4       ; Clock ; no     ; --                   ; --               ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q           ; LC_X5_Y2_N6 ; 4       ; Clock ; no     ; --                   ; --               ;
++-----------------------------------------------------------+-------------+---------+-------+--------+----------------------+------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------+
@@ -567,8 +566,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------------------+-------------+---------+----------------------+------------------+
 ; Name                                            ; Location    ; Fan-Out ; Global Resource Used ; Global Line Name ;
 +-------------------------------------------------+-------------+---------+----------------------+------------------+
-; BT0                                             ; PIN_52      ; 4       ; Global Clock         ; GCLK3            ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; LC_X2_Y3_N8 ; 20      ; Global Clock         ; GCLK2            ;
+; WideAnd1                                        ; LC_X2_Y3_N6 ; 2       ; Global Clock         ; GCLK3            ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; LC_X2_Y1_N8 ; 20      ; Global Clock         ; GCLK2            ;
 +-------------------------------------------------+-------------+---------+----------------------+------------------+
 
 
@@ -577,30 +576,30 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+--------------------+
 ; Routing Resource Type ; Usage              ;
 +-----------------------+--------------------+
-; C4s                   ; 104 / 784 ( 13 % ) ;
-; Direct links          ; 39 / 888 ( 4 % )   ;
+; C4s                   ; 102 / 784 ( 13 % ) ;
+; Direct links          ; 42 / 888 ( 5 % )   ;
 ; Global clocks         ; 2 / 4 ( 50 % )     ;
 ; LAB clocks            ; 3 / 32 ( 9 % )     ;
-; LUT chains            ; 19 / 216 ( 9 % )   ;
-; Local interconnects   ; 251 / 888 ( 28 % ) ;
-; R4s                   ; 106 / 704 ( 15 % ) ;
+; LUT chains            ; 16 / 216 ( 7 % )   ;
+; Local interconnects   ; 255 / 888 ( 29 % ) ;
+; R4s                   ; 107 / 704 ( 15 % ) ;
 +-----------------------+--------------------+
 
 
 +---------------------------------------------------------------------------+
 ; LAB Logic Elements                                                        ;
 +--------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 8.95) ; Number of LABs  (Total = 20) ;
+; Number of Logic Elements  (Average = 9.00) ; Number of LABs  (Total = 20) ;
 +--------------------------------------------+------------------------------+
-; 1                                          ; 1                            ;
-; 2                                          ; 1                            ;
+; 1                                          ; 0                            ;
+; 2                                          ; 2                            ;
 ; 3                                          ; 0                            ;
 ; 4                                          ; 0                            ;
 ; 5                                          ; 0                            ;
 ; 6                                          ; 0                            ;
-; 7                                          ; 1                            ;
-; 8                                          ; 0                            ;
-; 9                                          ; 1                            ;
+; 7                                          ; 0                            ;
+; 8                                          ; 2                            ;
+; 9                                          ; 0                            ;
 ; 10                                         ; 16                           ;
 +--------------------------------------------+------------------------------+
 
@@ -608,28 +607,27 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 0.75) ; Number of LABs  (Total = 20) ;
+; LAB-wide Signals  (Average = 0.65) ; Number of LABs  (Total = 20) ;
 +------------------------------------+------------------------------+
-; 1 Clock                            ; 14                           ;
-; 2 Clocks                           ; 1                            ;
+; 1 Clock                            ; 13                           ;
 +------------------------------------+------------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                        ;
 +---------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 8.95) ; Number of LABs  (Total = 20) ;
+; Number of Signals Sourced  (Average = 9.00) ; Number of LABs  (Total = 20) ;
 +---------------------------------------------+------------------------------+
 ; 0                                           ; 0                            ;
-; 1                                           ; 1                            ;
-; 2                                           ; 1                            ;
+; 1                                           ; 0                            ;
+; 2                                           ; 2                            ;
 ; 3                                           ; 0                            ;
 ; 4                                           ; 0                            ;
 ; 5                                           ; 0                            ;
 ; 6                                           ; 0                            ;
-; 7                                           ; 1                            ;
-; 8                                           ; 0                            ;
-; 9                                           ; 1                            ;
+; 7                                           ; 0                            ;
+; 8                                           ; 2                            ;
+; 9                                           ; 0                            ;
 ; 10                                          ; 16                           ;
 +---------------------------------------------+------------------------------+
 
@@ -637,46 +635,44 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 4.50) ; Number of LABs  (Total = 20) ;
+; Number of Signals Sourced Out  (Average = 4.25) ; Number of LABs  (Total = 20) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
 ; 1                                               ; 2                            ;
-; 2                                               ; 2                            ;
-; 3                                               ; 2                            ;
-; 4                                               ; 5                            ;
-; 5                                               ; 3                            ;
+; 2                                               ; 1                            ;
+; 3                                               ; 3                            ;
+; 4                                               ; 4                            ;
+; 5                                               ; 6                            ;
 ; 6                                               ; 3                            ;
-; 7                                               ; 1                            ;
+; 7                                               ; 0                            ;
 ; 8                                               ; 1                            ;
-; 9                                               ; 0                            ;
-; 10                                              ; 1                            ;
 +-------------------------------------------------+------------------------------+
 
 
-+-----------------------------------------------------------------------------+
-; LAB Distinct Inputs                                                         ;
-+----------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 10.05) ; Number of LABs  (Total = 20) ;
-+----------------------------------------------+------------------------------+
-; 0                                            ; 0                            ;
-; 1                                            ; 2                            ;
-; 2                                            ; 0                            ;
-; 3                                            ; 0                            ;
-; 4                                            ; 1                            ;
-; 5                                            ; 1                            ;
-; 6                                            ; 0                            ;
-; 7                                            ; 1                            ;
-; 8                                            ; 2                            ;
-; 9                                            ; 2                            ;
-; 10                                           ; 1                            ;
-; 11                                           ; 1                            ;
-; 12                                           ; 1                            ;
-; 13                                           ; 3                            ;
-; 14                                           ; 2                            ;
-; 15                                           ; 1                            ;
-; 16                                           ; 0                            ;
-; 17                                           ; 2                            ;
-+----------------------------------------------+------------------------------+
++----------------------------------------------------------------------------+
+; LAB Distinct Inputs                                                        ;
++---------------------------------------------+------------------------------+
+; Number of Distinct Inputs  (Average = 9.80) ; Number of LABs  (Total = 20) ;
++---------------------------------------------+------------------------------+
+; 0                                           ; 0                            ;
+; 1                                           ; 3                            ;
+; 2                                           ; 0                            ;
+; 3                                           ; 0                            ;
+; 4                                           ; 0                            ;
+; 5                                           ; 0                            ;
+; 6                                           ; 1                            ;
+; 7                                           ; 0                            ;
+; 8                                           ; 4                            ;
+; 9                                           ; 0                            ;
+; 10                                          ; 3                            ;
+; 11                                          ; 1                            ;
+; 12                                          ; 2                            ;
+; 13                                          ; 1                            ;
+; 14                                          ; 2                            ;
+; 15                                          ; 0                            ;
+; 16                                          ; 2                            ;
+; 17                                          ; 1                            ;
++---------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------------+
@@ -693,27 +689,27 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+--------------------------+
 
 
-+------------------------------------------------------------+
-; Estimated Delay Added for Hold Timing Summary              ;
-+-----------------+----------------------+-------------------+
-; Source Clock(s) ; Destination Clock(s) ; Delay Added in ns ;
-+-----------------+----------------------+-------------------+
++---------------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Summary                                         ;
++-----------------+-------------------------------------------------+-------------------+
+; Source Clock(s) ; Destination Clock(s)                            ; Delay Added in ns ;
++-----------------+-------------------------------------------------+-------------------+
+; I/O             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 1.3               ;
++-----------------+-------------------------------------------------+-------------------+
 Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
 This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
 
 
-+-----------------------------------------------------------------------------------------------------------------------+
-; Estimated Delay Added for Hold Timing Details                                                                         ;
-+-------------------------------------------------+-------------------------------------------------+-------------------+
-; Source Register                                 ; Destination Register                            ; Delay Added in ns ;
-+-------------------------------------------------+-------------------------------------------------+-------------------+
-; BT1                                             ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.487             ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff03|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.463             ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.463             ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.463             ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.463             ;
-+-------------------------------------------------+-------------------------------------------------+-------------------+
-Note: This table only shows the top 5 path(s) that have the largest delay added for hold.
++---------------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Details                                         ;
++-----------------+-------------------------------------------------+-------------------+
+; Source Register ; Destination Register                            ; Delay Added in ns ;
++-----------------+-------------------------------------------------+-------------------+
+; BT1             ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 1.299             ;
+; CH1             ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 1.299             ;
+; CH0             ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 1.299             ;
++-----------------+-------------------------------------------------+-------------------+
+Note: This table only shows the top 3 path(s) that have the largest delay added for hold.
 
 
 +-----------------+
@@ -735,6 +731,9 @@ Info (176444): Device migration not selected. If you intend to use device migrat
 Warning (335093): The Timing Analyzer is analyzing 2 combinational loops as latches. For more details, run the Check Timing command in the Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'mainmodule.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
+Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
+    Warning (332126): Node "btnbnc_0|sr00|nor1_out~0|combout"
+    Warning (332126): Node "btnbnc_0|sr00|nor1_out~0|dataa"
 Warning (332125): Found combinational loop of 2 nodes File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 7
     Warning (332126): Node "shotsfired_0|cell5_4|nor1_out~1|combout"
     Warning (332126): Node "shotsfired_0|cell5_4|nor1_out~1|dataa"
@@ -890,25 +889,24 @@ Info (186079): Completed User Assigned Global Signals Promotion Operation
 Info (186216): Automatically promoted some destinations of signal "binpower18clockdivider:clkdiv_0|tff_gate:ff17|q" to use Global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tff_gate.v Line: 19
     Info (186217): Destination "CLKDIVOUT" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 37
     Info (186217): Destination "binpower18clockdivider:clkdiv_0|tff_gate:ff17|q" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tff_gate.v Line: 19
-    Info (186217): Destination "WideNand0~0" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 784
-    Info (186217): Destination "WideNand0~1" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 784
-    Info (186217): Destination "WideNand0~2" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 784
-    Info (186217): Destination "WideNand0~3" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 784
-    Info (186217): Destination "WideNand0~4" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 784
-    Info (186217): Destination "WideNand0~5" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 784
+    Info (186217): Destination "WideNand0~0" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 792
+    Info (186217): Destination "WideNand0~1" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 792
+    Info (186217): Destination "WideNand0~2" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 792
+    Info (186217): Destination "WideNand0~3" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 792
+    Info (186217): Destination "WideNand0~4" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 792
+    Info (186217): Destination "WideNand0~5" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 792
     Info (186217): Destination "multiplex35to5:displayfinalmux_0|WideOr1~4" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex35to5.v Line: 96
-    Info (186217): Destination "WideNand0~6" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 784
+    Info (186217): Destination "WideNand0~6" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 792
     Info (186218): Limited to 10 non-global destinations
-Info (186216): Automatically promoted some destinations of signal "BT0" to use Global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 23
-    Info (186217): Destination "shipgunner:shpart_0|shipshot~0" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 19
-    Info (186217): Destination "shipgunner:shpart_0|shipshot" may be non-global or may not use global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 19
-Info (186228): Pin "BT0" drives global clock, but is not placed in a dedicated clock pin position File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 23
+Info (186215): Automatically promoted signal "WideAnd1" to use Global clock File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 445
 Info (186079): Completed Auto Global Promotion Operation
 Info (176234): Starting register packing
 Info (186468): Started processing fast register assignments
 Info (186469): Finished processing fast register assignments
 Info (176235): Finished register packing
 Warning (15705): Ignored locations or region assignments to the following nodes
+    Warning (15706): Node "BT2" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "BT3" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LED0" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LED1" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LED2" is assigned to location or region, but does not exist in design
@@ -929,16 +927,16 @@ Info (170195): Router estimated average interconnect usage is 14% of the availab
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.19 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.21 seconds.
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (169174): The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
 Info (144001): Generated suppressed messages file /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/output_files/mainmodule.fit.smsg
-Info: Quartus Prime Fitter was successful. 0 errors, 134 warnings
-    Info: Peak virtual memory: 983 megabytes
-    Info: Processing ended: Fri Sep 29 17:32:03 2023
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:03
+Info: Quartus Prime Fitter was successful. 0 errors, 139 warnings
+    Info: Peak virtual memory: 988 megabytes
+    Info: Processing ended: Mon Oct  2 15:29:10 2023
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:02
 
 
 +----------------------------+

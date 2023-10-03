@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mainmodule
-Fri Sep 29 17:31:57 2023
+Mon Oct  2 15:29:03 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -55,30 +55,31 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
  47. Port Connectivity Checks: "multiplex140to35:shparrmux_0"
  48. Port Connectivity Checks: "bin2bselector:shpsel_0|tff_gate:ff01"
  49. Port Connectivity Checks: "bin2bselector:shpsel_0|tff_gate:ff00"
- 50. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff03"
- 51. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff02"
- 52. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff01"
- 53. Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff01"
- 54. Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff00"
- 55. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff17"
- 56. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff16"
- 57. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff15"
- 58. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff14"
- 59. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff13"
- 60. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff12"
- 61. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff11"
- 62. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff10"
- 63. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff09"
- 64. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff08"
- 65. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff07"
- 66. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff06"
- 67. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff05"
- 68. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff04"
- 69. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff03"
- 70. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff02"
- 71. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff01"
- 72. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff00"
- 73. Analysis & Synthesis Messages
+ 50. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00"
+ 51. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff03"
+ 52. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff02"
+ 53. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff01"
+ 54. Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff01"
+ 55. Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff00"
+ 56. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff17"
+ 57. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff16"
+ 58. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff15"
+ 59. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff14"
+ 60. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff13"
+ 61. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff12"
+ 62. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff11"
+ 63. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff10"
+ 64. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff09"
+ 65. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff08"
+ 66. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff07"
+ 67. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff06"
+ 68. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff05"
+ 69. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff04"
+ 70. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff03"
+ 71. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff02"
+ 72. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff01"
+ 73. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff00"
+ 74. Analysis & Synthesis Messages
 
 
 
@@ -105,13 +106,13 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Fri Sep 29 17:31:57 2023       ;
+; Analysis & Synthesis Status ; Successful - Mon Oct  2 15:29:03 2023       ;
 ; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name               ; mainmodule                                  ;
 ; Top-level Entity Name       ; mainmodule                                  ;
 ; Family                      ; MAX II                                      ;
-; Total logic elements        ; 179                                         ;
-; Total pins                  ; 41                                          ;
+; Total logic elements        ; 180                                         ;
+; Total pins                  ; 39                                          ;
 ; Total virtual pins          ; 0                                           ;
 ; UFM blocks                  ; 0 / 1 ( 0 % )                               ;
 +-----------------------------+---------------------------------------------+
@@ -236,20 +237,20 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Total logic elements                        ; 179   ;
-;     -- Combinational with no register       ; 153   ;
+; Total logic elements                        ; 180   ;
+;     -- Combinational with no register       ; 154   ;
 ;     -- Register only                        ; 0     ;
 ;     -- Combinational with a register        ; 26    ;
 ;                                             ;       ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 126   ;
-;     -- 3 input functions                    ; 19    ;
-;     -- 2 input functions                    ; 9     ;
+;     -- 4 input functions                    ; 129   ;
+;     -- 3 input functions                    ; 18    ;
+;     -- 2 input functions                    ; 8     ;
 ;     -- 1 input functions                    ; 25    ;
 ;     -- 0 input functions                    ; 0     ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 179   ;
+;     -- normal mode                          ; 180   ;
 ;     -- arithmetic mode                      ; 0     ;
 ;     -- qfbk mode                            ; 0     ;
 ;     -- register cascade mode                ; 0     ;
@@ -257,11 +258,11 @@ https://fpgasoftware.intel.com/eula.
 ;     -- asynchronous clear/load mode         ; 0     ;
 ;                                             ;       ;
 ; Total registers                             ; 26    ;
-; I/O pins                                    ; 41    ;
+; I/O pins                                    ; 39    ;
 ; Maximum fan-out node                        ; CH0   ;
-; Maximum fan-out                             ; 44    ;
-; Total fan-out                               ; 656   ;
-; Average fan-out                             ; 2.98  ;
+; Maximum fan-out                             ; 46    ;
+; Total fan-out                               ; 663   ;
+; Average fan-out                             ; 3.03  ;
 +---------------------------------------------+-------+
 
 
@@ -270,7 +271,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
 ; Compilation Hierarchy Node              ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                        ; Entity Name            ; Library Name ;
 +-----------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
-; |mainmodule                             ; 179 (24)    ; 26           ; 0          ; 41   ; 0            ; 153 (24)     ; 0 (0)             ; 26 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule                                                ; mainmodule             ; work         ;
+; |mainmodule                             ; 180 (25)    ; 26           ; 0          ; 39   ; 0            ; 154 (25)     ; 0 (0)             ; 26 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule                                                ; mainmodule             ; work         ;
 ;    |bin2bselector:shpsel_0|             ; 2 (0)       ; 2            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0                         ; bin2bselector          ; work         ;
 ;       |tff_gate:ff00|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0|tff_gate:ff00           ; tff_gate               ; work         ;
 ;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0|tff_gate:ff01           ; tff_gate               ; work         ;
@@ -296,8 +297,9 @@ https://fpgasoftware.intel.com/eula.
 ;       |tff_gate:ff15|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff15  ; tff_gate               ; work         ;
 ;       |tff_gate:ff16|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff16  ; tff_gate               ; work         ;
 ;       |tff_gate:ff17|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower18clockdivider:clkdiv_0|tff_gate:ff17  ; tff_gate               ; work         ;
-;    |binpower4buttonbouncer:btnbnc_0|    ; 7 (2)       ; 4            ; 0          ; 0    ; 0            ; 3 (2)        ; 0 (0)             ; 4 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0                ; binpower4buttonbouncer ; work         ;
-;       |tff_gate:ff00|                   ; 2 (2)       ; 1            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff00  ; tff_gate               ; work         ;
+;    |binpower4buttonbouncer:btnbnc_0|    ; 8 (3)       ; 4            ; 0          ; 0    ; 0            ; 4 (3)        ; 0 (0)             ; 4 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0                ; binpower4buttonbouncer ; work         ;
+;       |srlt_gate:sr00|                  ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00 ; srlt_gate              ; work         ;
+;       |tff_gate:ff00|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff00  ; tff_gate               ; work         ;
 ;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff01  ; tff_gate               ; work         ;
 ;       |tff_gate:ff02|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff02  ; tff_gate               ; work         ;
 ;       |tff_gate:ff03|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff03  ; tff_gate               ; work         ;
@@ -307,7 +309,7 @@ https://fpgasoftware.intel.com/eula.
 ;    |multiplex21to7:decmux_0|            ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex21to7:decmux_0                        ; multiplex21to7         ; work         ;
 ;    |multiplex35to1:shipcoordinatemux_0| ; 19 (19)     ; 0            ; 0          ; 0    ; 0            ; 19 (19)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to1:shipcoordinatemux_0             ; multiplex35to1         ; work         ;
 ;    |multiplex35to5:displayfinalmux_0|   ; 37 (37)     ; 0            ; 0          ; 0    ; 0            ; 37 (37)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to5:displayfinalmux_0               ; multiplex35to5         ; work         ;
-;    |shipgunner:shpart_0|                ; 4 (2)       ; 0            ; 0          ; 0    ; 0            ; 4 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0                            ; shipgunner             ; work         ;
+;    |shipgunner:shpart_0|                ; 3 (1)       ; 0            ; 0          ; 0    ; 0            ; 3 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0                            ; shipgunner             ; work         ;
 ;       |srlt_gate:glight_0|              ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:glight_0         ; srlt_gate              ; work         ;
 ;       |srlt_gate:rlight_0|              ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:rlight_0         ; srlt_gate              ; work         ;
 ;    |tablememory7by5:shotsfired_0|       ; 60 (0)      ; 0            ; 0          ; 0    ; 0            ; 60 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0                   ; tablememory7by5        ; work         ;
@@ -378,7 +380,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; tablememory7by5:shotsfired_0|srlt_gate:cell5_4|nor2_out~0 ;    ;
 ; shipgunner:shpart_0|srlt_gate:rlight_0|nor2_out~0         ;    ;
 ; shipgunner:shpart_0|srlt_gate:glight_0|nor2_out~0         ;    ;
-; Number of logic cells representing combinational loops    ; 30 ;
+; binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00|nor2_out~0 ;    ;
+; Number of logic cells representing combinational loops    ; 31 ;
 +-----------------------------------------------------------+----+
 Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
@@ -899,6 +902,15 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00"                                                          ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff03"                                                           ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
@@ -1131,7 +1143,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Fri Sep 29 17:31:46 2023
+    Info: Processing started: Mon Oct  2 15:28:52 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TEC498P2 -c mainmodule
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -1151,7 +1163,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file multipl
     Info (12023): Found entity 1: multiplex35to1 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex35to1.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex1to35.v
     Info (12023): Found entity 1: multiplex1to35 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex1to35.v Line: 1
-Warning (10275): Verilog HDL Module Instantiation warning at mainmodule.v(499): ignored dangling comma in List of Port Connections File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 499
+Warning (10275): Verilog HDL Module Instantiation warning at mainmodule.v(507): ignored dangling comma in List of Port Connections File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 507
 Info (12021): Found 1 design units, including 1 entities, in source file mainmodule.v
     Info (12023): Found entity 1: mainmodule File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file binpower20clockdivider.v
@@ -1178,10 +1190,10 @@ Info (12021): Found 1 design units, including 1 entities, in source file bin2bse
     Info (12023): Found entity 1: bin2bselector File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/bin2bselector.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex70to35.v
     Info (12023): Found entity 1: multiplex70to35 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(22): created implicit net for "NIPTART" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 22
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(22): created implicit net for "IPTART" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 22
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(29): created implicit net for "rreset" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 29
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(30): created implicit net for "greset" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(21): created implicit net for "NIPTART" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 21
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(21): created implicit net for "IPTART" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 21
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(27): created implicit net for "rreset" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 27
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(28): created implicit net for "greset" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 28
 Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(25): created implicit net for "Nconditionbit0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 25
 Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(26): created implicit net for "Nconditionbit1" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 26
 Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(27): created implicit net for "Nconditionbit2" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 27
@@ -1194,40 +1206,37 @@ Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(132): cr
 Warning (10236): Verilog HDL Implicit Net warning at multiplex70to35.v(98): created implicit net for "bitsel0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 98
 Warning (10236): Verilog HDL Implicit Net warning at multiplex70to35.v(99): created implicit net for "bitsel1" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 99
 Info (12127): Elaborating entity "mainmodule" for the top level hierarchy
-Info (12128): Elaborating entity "binpower18clockdivider" for hierarchy "binpower18clockdivider:clkdiv_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 106
+Info (12128): Elaborating entity "binpower18clockdivider" for hierarchy "binpower18clockdivider:clkdiv_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 111
 Info (12128): Elaborating entity "tff_gate" for hierarchy "binpower18clockdivider:clkdiv_0|tff_gate:ff00" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower18clockdivider.v Line: 13
-Info (12128): Elaborating entity "bin3bcount" for hierarchy "bin3bcount:bin3bc_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 113
-Info (12128): Elaborating entity "binpower4buttonbouncer" for hierarchy "binpower4buttonbouncer:btnbnc_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 123
-Info (12128): Elaborating entity "bin2bselector" for hierarchy "bin2bselector:shpsel_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 129
-Info (12128): Elaborating entity "multiplex140to35" for hierarchy "multiplex140to35:shparrmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 258
-Info (12128): Elaborating entity "tablememory7by5" for hierarchy "tablememory7by5:shotsfired_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 383
-Info (12128): Elaborating entity "srlt_gate" for hierarchy "tablememory7by5:shotsfired_0|srlt_gate:cell0_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tablememory7by5.v Line: 45
-Info (12128): Elaborating entity "multiplex35to1" for hierarchy "multiplex35to1:shipcoordinatemux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 436
-Info (12128): Elaborating entity "shipgunner" for hierarchy "shipgunner:shpart_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 446
-Info (12128): Elaborating entity "multiplex1to35" for hierarchy "multiplex1to35:artiptmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 499
-Info (12128): Elaborating entity "decodermode" for hierarchy "decodermode:modedec_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 510
-Info (12128): Elaborating entity "decodercolumn" for hierarchy "decodercolumn:columndec_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 523
-Info (12128): Elaborating entity "decoderline" for hierarchy "decoderline:linedec_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 536
-Info (12128): Elaborating entity "multiplex21to7" for hierarchy "multiplex21to7:decmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 573
-Info (12128): Elaborating entity "displayselector" for hierarchy "displayselector:sevsegdplsel_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 590
-Info (12128): Elaborating entity "multiplex70to35" for hierarchy "multiplex70to35:displayselmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 727
-Info (12128): Elaborating entity "multiplex35to5" for hierarchy "multiplex35to5:displayfinalmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 782
+Info (12128): Elaborating entity "bin3bcount" for hierarchy "bin3bcount:bin3bc_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 118
+Info (12128): Elaborating entity "binpower4buttonbouncer" for hierarchy "binpower4buttonbouncer:btnbnc_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 130
+Info (12128): Elaborating entity "srlt_gate" for hierarchy "binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 70
+Info (12128): Elaborating entity "bin2bselector" for hierarchy "bin2bselector:shpsel_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 136
+Info (12128): Elaborating entity "multiplex140to35" for hierarchy "multiplex140to35:shparrmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 265
+Info (12128): Elaborating entity "tablememory7by5" for hierarchy "tablememory7by5:shotsfired_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 390
+Info (12128): Elaborating entity "multiplex35to1" for hierarchy "multiplex35to1:shipcoordinatemux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 443
+Info (12128): Elaborating entity "shipgunner" for hierarchy "shipgunner:shpart_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 454
+Info (12128): Elaborating entity "multiplex1to35" for hierarchy "multiplex1to35:artiptmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 507
+Info (12128): Elaborating entity "decodermode" for hierarchy "decodermode:modedec_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 518
+Info (12128): Elaborating entity "decodercolumn" for hierarchy "decodercolumn:columndec_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 531
+Info (12128): Elaborating entity "decoderline" for hierarchy "decoderline:linedec_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 544
+Info (12128): Elaborating entity "multiplex21to7" for hierarchy "multiplex21to7:decmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 581
+Info (12128): Elaborating entity "displayselector" for hierarchy "displayselector:sevsegdplsel_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 598
+Info (12128): Elaborating entity "multiplex70to35" for hierarchy "multiplex70to35:displayselmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 735
+Info (12128): Elaborating entity "multiplex35to5" for hierarchy "multiplex35to5:displayfinalmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 790
 Info (13014): Ignored 45 buffer(s)
     Info (13019): Ignored 45 SOFT buffer(s)
-Warning (12241): 59 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (12241): 60 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "SGDP" is stuck at VCC File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 34
     Warning (13410): Pin "SGD1" is stuck at VCC File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 35
-Warning (21074): Design contains 2 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "BT2" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 23
-    Warning (15610): No output dependent on input pin "BT3" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 23
-Info (21057): Implemented 220 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 13 input pins
+Info (21057): Implemented 219 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 11 input pins
     Info (21059): Implemented 28 output pins
-    Info (21061): Implemented 179 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 24 warnings
+    Info (21061): Implemented 180 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 21 warnings
     Info: Peak virtual memory: 350 megabytes
-    Info: Processing ended: Fri Sep 29 17:31:58 2023
+    Info: Processing ended: Mon Oct  2 15:29:04 2023
     Info: Elapsed time: 00:00:12
     Info: Total CPU time (on all processors): 00:00:13
 

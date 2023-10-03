@@ -1,9 +1,9 @@
-Analysis & Synthesis Status : Successful - Fri Sep 29 17:31:57 2023
+Analysis & Synthesis Status : Successful - Mon Oct  2 15:29:03 2023
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : mainmodule
 Top-level Entity Name : mainmodule
 Family : MAX II
-Total logic elements : 179
-Total pins : 41
+Total logic elements : 180
+Total pins : 39
 Total virtual pins : 0
 UFM blocks : 0 / 1 ( 0 % )
