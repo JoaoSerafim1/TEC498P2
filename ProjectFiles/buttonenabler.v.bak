@@ -1,0 +1,13 @@
+module buttonenabler (
+	CH0, CH1, NCH1,
+	NBT0, NBT1,
+	
+	enableBT0, enableBT1
+);
+
+	input 
+
+
+and (NBT1OUT, NBT1, CH0, NCH1);
+
+endmodule
