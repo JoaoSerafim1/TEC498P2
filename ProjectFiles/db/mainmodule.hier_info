@@ -1,43 +1,43 @@
 |mainmodule
-CH0 => CH0.IN1
-CH1 => CH1.IN2
-CH2 => CH2.IN3
-CH3 => CH3.IN3
-CH4 => CH4.IN3
-CH5 => CH5.IN3
-CH6 => CH6.IN3
-CH7 => CH7.IN3
-BT0 => WideAnd1.IN0
-BT1 => WideAnd0.IN0
+CH0 => CH0.IN2
+CH1 => CH1.IN3
+CH2 => CH2.IN4
+CH3 => CH3.IN4
+CH4 => CH4.IN4
+CH5 => CH5.IN4
+CH6 => CH6.IN4
+CH7 => CH7.IN4
+BT0 => NBT0.IN1
+BT1 => NBT1.IN1
 CLKIN => CLKIN.IN1
-COL0 <= multiplex35to5:displayfinalmux_0.OUT0
-COL1 <= multiplex35to5:displayfinalmux_0.OUT1
-COL2 <= multiplex35to5:displayfinalmux_0.OUT2
-COL3 <= multiplex35to5:displayfinalmux_0.OUT3
-COL4 <= multiplex35to5:displayfinalmux_0.OUT4
-LIN0 <= WideNand0.DB_MAX_OUTPUT_PORT_TYPE
-LIN1 <= WideNand1.DB_MAX_OUTPUT_PORT_TYPE
-LIN2 <= WideNand2.DB_MAX_OUTPUT_PORT_TYPE
-LIN3 <= WideNand3.DB_MAX_OUTPUT_PORT_TYPE
-LIN4 <= WideNand4.DB_MAX_OUTPUT_PORT_TYPE
-LIN5 <= WideNand5.DB_MAX_OUTPUT_PORT_TYPE
-LIN6 <= WideNand6.DB_MAX_OUTPUT_PORT_TYPE
-RLED <= shipgunner:shpart_0.RLED
-GLED <= shipgunner:shpart_0.GLED
-SGDA <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SGDB <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SGDC <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SGDD <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SGDE <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SGDF <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SGDG <= comb.DB_MAX_OUTPUT_PORT_TYPE
-SGDP <= <VCC>
-SGD1 <= <VCC>
-SGD2 <= displayselector:sevsegdplsel_0.OUT2
-SGD3 <= displayselector:sevsegdplsel_0.OUT1
-SGD4 <= displayselector:sevsegdplsel_0.OUT0
-CLKOUT <= comb.DB_MAX_OUTPUT_PORT_TYPE
-CLKDIVOUT <= comb.DB_MAX_OUTPUT_PORT_TYPE
+COL0 << multiplex35to5:displayfinalmux_0.OUT0
+COL1 << multiplex35to5:displayfinalmux_0.OUT1
+COL2 << multiplex35to5:displayfinalmux_0.OUT2
+COL3 << multiplex35to5:displayfinalmux_0.OUT3
+COL4 << multiplex35to5:displayfinalmux_0.OUT4
+LIN0 << WideNand0.DB_MAX_OUTPUT_PORT_TYPE
+LIN1 << WideNand1.DB_MAX_OUTPUT_PORT_TYPE
+LIN2 << WideNand2.DB_MAX_OUTPUT_PORT_TYPE
+LIN3 << WideNand3.DB_MAX_OUTPUT_PORT_TYPE
+LIN4 << WideNand4.DB_MAX_OUTPUT_PORT_TYPE
+LIN5 << WideNand5.DB_MAX_OUTPUT_PORT_TYPE
+LIN6 << WideNand6.DB_MAX_OUTPUT_PORT_TYPE
+RLED << shipgunner:shpart_0.RLED
+GLED << shipgunner:shpart_0.GLED
+SGDA << comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDB << comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDC << comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDD << comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDE << comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDF << comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDG << comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDP << <VCC>
+SGD1 << <VCC>
+SGD2 << displayselector:sevsegdplsel_0.OUT2
+SGD3 << displayselector:sevsegdplsel_0.OUT1
+SGD4 << displayselector:sevsegdplsel_0.OUT0
+CLKOUT << comb.DB_MAX_OUTPUT_PORT_TYPE
+CLKDIVOUT << comb.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |mainmodule|binpower18clockdivider:clkdiv_0
@@ -192,6 +192,25 @@ q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|mainmodule|buttonenabler:btnebl_0
+CH0 => WideAnd0.IN0
+CH0 => WideAnd1.IN1
+CH1 => WideAnd0.IN1
+NCH0 => NCH0.IN1
+NCH1 => WideAnd1.IN2
+IPT0 => WideAnd0.IN2
+IPT1 => WideAnd1.IN3
+OUT0 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+OUT1 <= WideAnd1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|buttonenabler:btnebl_0|srlt_gate:gamestatus_0
+s => nand0_out.IN1
+r => nand1_out.IN0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
 |mainmodule|binpower4buttonbouncer:btnbnc_0
 IPTBTN => comb.IN1
 IPTBTN => comb.IN1
@@ -228,10 +247,10 @@ qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |mainmodule|binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|bin2bselector:shpsel_0
@@ -549,248 +568,248 @@ cell6_4Q <= srlt_gate:cell6_4.q
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_0
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_0
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_0
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_0
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_0
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_0
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_0
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_1
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_1
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_1
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_1
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_1
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_1
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_1
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_2
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_2
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_2
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_2
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_2
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_2
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_2
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_3
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_3
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_3
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_3
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_3
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_3
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_3
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_4
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_4
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_4
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_4
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_4
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_4
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_4
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|multiplex35to1:shipcoordinatemux_0
@@ -1042,6 +1061,76 @@ SEL5 => WideAnd33.IN6
 OUT <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|mainmodule|bin6switchregister:changedinputchk_0
+IPT0 => comb.IN0
+IPT0 => comb.IN0
+IPT1 => comb.IN0
+IPT1 => comb.IN0
+IPT2 => comb.IN0
+IPT2 => comb.IN0
+IPT3 => comb.IN0
+IPT3 => comb.IN0
+IPT4 => comb.IN0
+IPT4 => comb.IN0
+IPT5 => comb.IN0
+IPT5 => comb.IN0
+SETBTN => comb.IN1
+SETBTN => comb.IN1
+SETBTN => comb.IN1
+SETBTN => comb.IN1
+SETBTN => comb.IN1
+SETBTN => comb.IN1
+SETBTN => comb.IN1
+SETBTN => comb.IN1
+SETBTN => comb.IN1
+SETBTN => comb.IN1
+SETBTN => comb.IN1
+SETBTN => comb.IN1
+MATCHHTEST <= <GND>
+
+
+|mainmodule|bin6switchregister:changedinputchk_0|srlt_gate:reg_0
+s => nand0_out.IN1
+r => nand1_out.IN0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|bin6switchregister:changedinputchk_0|srlt_gate:reg_1
+s => nand0_out.IN1
+r => nand1_out.IN0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|bin6switchregister:changedinputchk_0|srlt_gate:reg_2
+s => nand0_out.IN1
+r => nand1_out.IN0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|bin6switchregister:changedinputchk_0|srlt_gate:reg_3
+s => nand0_out.IN1
+r => nand1_out.IN0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|bin6switchregister:changedinputchk_0|srlt_gate:reg_4
+s => nand0_out.IN1
+r => nand1_out.IN0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mainmodule|bin6switchregister:changedinputchk_0|srlt_gate:reg_5
+s => nand0_out.IN1
+r => nand1_out.IN0
+q <= comb.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
 |mainmodule|shipgunner:shpart_0
 IPTSHIP => comb.IN0
 IPTSHIP => comb.IN0
@@ -1050,22 +1139,24 @@ BTNIPT => comb.IN1
 NCH0 => comb.IN0
 NCH0 => comb.IN0
 OUT <= comb.DB_MAX_OUTPUT_PORT_TYPE
-RLED <= srlt_gate:rlight_0.q
-GLED <= srlt_gate:glight_0.q
+ENABLELED => comb.IN1
+ENABLELED => comb.IN1
+RLED <= comb.DB_MAX_OUTPUT_PORT_TYPE
+GLED <= comb.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |mainmodule|shipgunner:shpart_0|srlt_gate:rlight_0
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|shipgunner:shpart_0|srlt_gate:glight_0
+s => nand0_out.IN1
+r => nand1_out.IN0
 q <= comb.DB_MAX_OUTPUT_PORT_TYPE
 qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-s => nor2_out.IN0
-r => nor1_out.IN1
 
 
 |mainmodule|multiplex1to35:artiptmux_0

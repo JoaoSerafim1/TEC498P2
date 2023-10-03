@@ -1,6 +1,6 @@
 Analysis & Synthesis report for mainmodule
-Mon Oct  2 15:29:03 2023
-Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Tue Oct 03 10:17:27 2023
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
 ---------------------
@@ -17,69 +17,76 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   9. General Register Statistics
  10. Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:glight_0"
  11. Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:rlight_0"
- 12. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_4"
- 13. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_4"
- 14. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_4"
- 15. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_4"
- 16. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_4"
- 17. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_4"
- 18. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_4"
- 19. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_3"
- 20. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_3"
- 21. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_3"
- 22. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_3"
- 23. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_3"
- 24. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_3"
- 25. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_3"
- 26. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_2"
- 27. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_2"
- 28. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_2"
- 29. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_2"
- 30. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_2"
- 31. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_2"
- 32. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_2"
- 33. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_1"
- 34. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_1"
- 35. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_1"
- 36. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_1"
- 37. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_1"
- 38. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_1"
- 39. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_1"
- 40. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_0"
- 41. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_0"
- 42. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_0"
- 43. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_0"
- 44. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_0"
- 45. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_0"
- 46. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_0"
- 47. Port Connectivity Checks: "multiplex140to35:shparrmux_0"
- 48. Port Connectivity Checks: "bin2bselector:shpsel_0|tff_gate:ff01"
- 49. Port Connectivity Checks: "bin2bselector:shpsel_0|tff_gate:ff00"
- 50. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00"
- 51. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff03"
- 52. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff02"
- 53. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff01"
- 54. Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff01"
- 55. Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff00"
- 56. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff17"
- 57. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff16"
- 58. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff15"
- 59. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff14"
- 60. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff13"
- 61. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff12"
- 62. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff11"
- 63. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff10"
- 64. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff09"
- 65. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff08"
- 66. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff07"
- 67. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff06"
- 68. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff05"
- 69. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff04"
- 70. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff03"
- 71. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff02"
- 72. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff01"
- 73. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff00"
- 74. Analysis & Synthesis Messages
+ 12. Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_5"
+ 13. Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_4"
+ 14. Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_3"
+ 15. Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_2"
+ 16. Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_1"
+ 17. Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_0"
+ 18. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_4"
+ 19. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_4"
+ 20. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_4"
+ 21. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_4"
+ 22. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_4"
+ 23. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_4"
+ 24. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_4"
+ 25. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_3"
+ 26. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_3"
+ 27. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_3"
+ 28. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_3"
+ 29. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_3"
+ 30. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_3"
+ 31. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_3"
+ 32. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_2"
+ 33. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_2"
+ 34. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_2"
+ 35. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_2"
+ 36. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_2"
+ 37. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_2"
+ 38. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_2"
+ 39. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_1"
+ 40. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_1"
+ 41. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_1"
+ 42. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_1"
+ 43. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_1"
+ 44. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_1"
+ 45. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_1"
+ 46. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_0"
+ 47. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_0"
+ 48. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_0"
+ 49. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_0"
+ 50. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_0"
+ 51. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_0"
+ 52. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_0"
+ 53. Port Connectivity Checks: "multiplex140to35:shparrmux_0"
+ 54. Port Connectivity Checks: "bin2bselector:shpsel_0|tff_gate:ff01"
+ 55. Port Connectivity Checks: "bin2bselector:shpsel_0|tff_gate:ff00"
+ 56. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00"
+ 57. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff03"
+ 58. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff02"
+ 59. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff01"
+ 60. Port Connectivity Checks: "buttonenabler:btnebl_0|srlt_gate:gamestatus_0"
+ 61. Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff01"
+ 62. Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff00"
+ 63. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff17"
+ 64. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff16"
+ 65. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff15"
+ 66. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff14"
+ 67. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff13"
+ 68. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff12"
+ 69. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff11"
+ 70. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff10"
+ 71. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff09"
+ 72. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff08"
+ 73. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff07"
+ 74. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff06"
+ 75. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff05"
+ 76. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff04"
+ 77. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff03"
+ 78. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff02"
+ 79. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff01"
+ 80. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff00"
+ 81. Analysis & Synthesis Messages
 
 
 
@@ -106,12 +113,12 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Mon Oct  2 15:29:03 2023       ;
-; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Analysis & Synthesis Status ; Successful - Tue Oct 03 10:17:27 2023       ;
+; Quartus Prime Version       ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name               ; mainmodule                                  ;
 ; Top-level Entity Name       ; mainmodule                                  ;
 ; Family                      ; MAX II                                      ;
-; Total logic elements        ; 180                                         ;
+; Total logic elements        ; 196                                         ;
 ; Total pins                  ; 39                                          ;
 ; Total virtual pins          ; 0                                           ;
 ; UFM blocks                  ; 0 / 1 ( 0 % )                               ;
@@ -205,31 +212,33 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                          ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                            ; Library ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
-; tff_gate.v                       ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tff_gate.v               ;         ;
-; tablememory7by5.v                ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tablememory7by5.v        ;         ;
-; srlt_gate.v                      ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v              ;         ;
-; shipgunner.v                     ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v             ;         ;
-; multiplex35to5.v                 ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex35to5.v         ;         ;
-; multiplex35to1.v                 ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex35to1.v         ;         ;
-; multiplex1to35.v                 ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex1to35.v         ;         ;
-; mainmodule.v                     ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v             ;         ;
-; bin3bcount.v                     ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/bin3bcount.v             ;         ;
-; decodermode.v                    ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decodermode.v            ;         ;
-; decodercolumn.v                  ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decodercolumn.v          ;         ;
-; decoderline.v                    ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decoderline.v            ;         ;
-; multiplex21to7.v                 ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex21to7.v         ;         ;
-; displayselector.v                ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/displayselector.v        ;         ;
-; binpower18clockdivider.v         ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower18clockdivider.v ;         ;
-; binpower4buttonbouncer.v         ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v ;         ;
-; multiplex140to35.v               ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex140to35.v       ;         ;
-; bin2bselector.v                  ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/bin2bselector.v          ;         ;
-; multiplex70to35.v                ; yes             ; User Verilog HDL File  ; /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex70to35.v        ;         ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                       ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                         ; Library ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------+---------+
+; tff_gate.v                       ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/tff_gate.v               ;         ;
+; tablememory7by5.v                ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/tablememory7by5.v        ;         ;
+; srlt_gate.v                      ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/srlt_gate.v              ;         ;
+; shipgunner.v                     ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/shipgunner.v             ;         ;
+; multiplex35to5.v                 ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/multiplex35to5.v         ;         ;
+; multiplex35to1.v                 ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/multiplex35to1.v         ;         ;
+; multiplex1to35.v                 ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/multiplex1to35.v         ;         ;
+; mainmodule.v                     ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/mainmodule.v             ;         ;
+; bin3bcount.v                     ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/bin3bcount.v             ;         ;
+; decodermode.v                    ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/decodermode.v            ;         ;
+; decodercolumn.v                  ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/decodercolumn.v          ;         ;
+; decoderline.v                    ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/decoderline.v            ;         ;
+; multiplex21to7.v                 ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/multiplex21to7.v         ;         ;
+; displayselector.v                ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/displayselector.v        ;         ;
+; binpower18clockdivider.v         ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/binpower18clockdivider.v ;         ;
+; binpower4buttonbouncer.v         ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v ;         ;
+; multiplex140to35.v               ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v       ;         ;
+; bin2bselector.v                  ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/bin2bselector.v          ;         ;
+; multiplex70to35.v                ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/multiplex70to35.v        ;         ;
+; bin6switchregister.v             ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/bin6switchregister.v     ;         ;
+; buttonenabler.v                  ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/buttonenabler.v          ;         ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -237,20 +246,20 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Total logic elements                        ; 180   ;
-;     -- Combinational with no register       ; 154   ;
+; Total logic elements                        ; 196   ;
+;     -- Combinational with no register       ; 170   ;
 ;     -- Register only                        ; 0     ;
 ;     -- Combinational with a register        ; 26    ;
 ;                                             ;       ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 129   ;
-;     -- 3 input functions                    ; 18    ;
-;     -- 2 input functions                    ; 8     ;
+;     -- 4 input functions                    ; 119   ;
+;     -- 3 input functions                    ; 28    ;
+;     -- 2 input functions                    ; 24    ;
 ;     -- 1 input functions                    ; 25    ;
 ;     -- 0 input functions                    ; 0     ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 180   ;
+;     -- normal mode                          ; 196   ;
 ;     -- arithmetic mode                      ; 0     ;
 ;     -- qfbk mode                            ; 0     ;
 ;     -- register cascade mode                ; 0     ;
@@ -260,9 +269,9 @@ https://fpgasoftware.intel.com/eula.
 ; Total registers                             ; 26    ;
 ; I/O pins                                    ; 39    ;
 ; Maximum fan-out node                        ; CH0   ;
-; Maximum fan-out                             ; 46    ;
-; Total fan-out                               ; 663   ;
-; Average fan-out                             ; 3.03  ;
+; Maximum fan-out                             ; 47    ;
+; Total fan-out                               ; 683   ;
+; Average fan-out                             ; 2.91  ;
 +---------------------------------------------+-------+
 
 
@@ -271,7 +280,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
 ; Compilation Hierarchy Node              ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                        ; Entity Name            ; Library Name ;
 +-----------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
-; |mainmodule                             ; 180 (25)    ; 26           ; 0          ; 39   ; 0            ; 154 (25)     ; 0 (0)             ; 26 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule                                                ; mainmodule             ; work         ;
+; |mainmodule                             ; 196 (23)    ; 26           ; 0          ; 39   ; 0            ; 170 (23)     ; 0 (0)             ; 26 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule                                                ; mainmodule             ; work         ;
 ;    |bin2bselector:shpsel_0|             ; 2 (0)       ; 2            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0                         ; bin2bselector          ; work         ;
 ;       |tff_gate:ff00|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0|tff_gate:ff00           ; tff_gate               ; work         ;
 ;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0|tff_gate:ff01           ; tff_gate               ; work         ;
@@ -303,86 +312,100 @@ https://fpgasoftware.intel.com/eula.
 ;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff01  ; tff_gate               ; work         ;
 ;       |tff_gate:ff02|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff02  ; tff_gate               ; work         ;
 ;       |tff_gate:ff03|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff03  ; tff_gate               ; work         ;
-;    |decoderline:linedec_0|              ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|decoderline:linedec_0                          ; decoderline            ; work         ;
+;    |buttonenabler:btnebl_0|             ; 1 (0)       ; 0            ; 0          ; 0    ; 0            ; 1 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|buttonenabler:btnebl_0                         ; buttonenabler          ; work         ;
+;       |srlt_gate:gamestatus_0|          ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|buttonenabler:btnebl_0|srlt_gate:gamestatus_0  ; srlt_gate              ; work         ;
+;    |decoderline:linedec_0|              ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|decoderline:linedec_0                          ; decoderline            ; work         ;
 ;    |displayselector:sevsegdplsel_0|     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|displayselector:sevsegdplsel_0                 ; displayselector        ; work         ;
-;    |multiplex140to35:shparrmux_0|       ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex140to35:shparrmux_0                   ; multiplex140to35       ; work         ;
+;    |multiplex1to35:artiptmux_0|         ; 29 (29)     ; 0            ; 0          ; 0    ; 0            ; 29 (29)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex1to35:artiptmux_0                     ; multiplex1to35         ; work         ;
 ;    |multiplex21to7:decmux_0|            ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex21to7:decmux_0                        ; multiplex21to7         ; work         ;
-;    |multiplex35to1:shipcoordinatemux_0| ; 19 (19)     ; 0            ; 0          ; 0    ; 0            ; 19 (19)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to1:shipcoordinatemux_0             ; multiplex35to1         ; work         ;
-;    |multiplex35to5:displayfinalmux_0|   ; 37 (37)     ; 0            ; 0          ; 0    ; 0            ; 37 (37)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to5:displayfinalmux_0               ; multiplex35to5         ; work         ;
-;    |shipgunner:shpart_0|                ; 3 (1)       ; 0            ; 0          ; 0    ; 0            ; 3 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0                            ; shipgunner             ; work         ;
-;       |srlt_gate:glight_0|              ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:glight_0         ; srlt_gate              ; work         ;
-;       |srlt_gate:rlight_0|              ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:rlight_0         ; srlt_gate              ; work         ;
-;    |tablememory7by5:shotsfired_0|       ; 60 (0)      ; 0            ; 0          ; 0    ; 0            ; 60 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0                   ; tablememory7by5        ; work         ;
-;       |srlt_gate:cell0_0|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_0 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell0_3|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_3 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell0_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_4 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell1_0|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_0 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell1_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_1 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell1_2|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_2 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell1_3|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_3 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell1_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_4 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell2_0|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_0 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell2_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_1 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell2_3|               ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_3 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell2_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_4 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell3_0|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_0 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell3_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_1 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell3_2|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_2 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell3_3|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_3 ; srlt_gate              ; work         ;
+;    |multiplex35to1:shipcoordinatemux_0| ; 23 (23)     ; 0            ; 0          ; 0    ; 0            ; 23 (23)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to1:shipcoordinatemux_0             ; multiplex35to1         ; work         ;
+;    |multiplex35to5:displayfinalmux_0|   ; 46 (46)     ; 0            ; 0          ; 0    ; 0            ; 46 (46)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to5:displayfinalmux_0               ; multiplex35to5         ; work         ;
+;    |multiplex70to35:displayselmux_0|    ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex70to35:displayselmux_0                ; multiplex70to35        ; work         ;
+;    |shipgunner:shpart_0|                ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0                            ; shipgunner             ; work         ;
+;    |tablememory7by5:shotsfired_0|       ; 36 (0)      ; 0            ; 0          ; 0    ; 0            ; 36 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0                   ; tablememory7by5        ; work         ;
+;       |srlt_gate:cell0_0|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell0_1|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell0_2|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell0_3|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell0_4|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_0|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_1|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_2|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_3|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell1_4|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell1_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_0|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_1|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_2|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_3|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell2_4|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_0|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_1|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_2|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_3|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_3 ; srlt_gate              ; work         ;
 ;       |srlt_gate:cell3_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_4 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell4_0|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_0 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell4_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_1 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell4_2|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_2 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell4_3|               ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_3 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell4_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_4 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell5_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_1 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell5_2|               ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_2 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell5_3|               ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_3 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell5_4|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_4 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell6_2|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_2 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell6_3|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_0|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_1|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_2|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_3|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell4_4|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell4_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_0|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_1|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_2|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_3|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell5_4|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell5_4 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell6_0|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_0 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell6_1|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell6_2|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_2 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell6_3|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_3 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell6_4|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell6_4 ; srlt_gate              ; work         ;
 +-----------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+----------------------------------------------------------------+
-; Logic Cells Representing Combinational Loops                   ;
-+-----------------------------------------------------------+----+
-; Logic Cell Name                                           ;    ;
-+-----------------------------------------------------------+----+
-; tablememory7by5:shotsfired_0|srlt_gate:cell0_0|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell1_0|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell2_0|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell3_0|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell4_0|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell1_1|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell2_1|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell3_1|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell4_1|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell5_1|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell1_2|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell3_2|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell4_2|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell5_2|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell6_2|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell0_3|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell2_3|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell3_3|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell4_3|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell6_3|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell5_3|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell1_3|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell0_4|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell1_4|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell2_4|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell3_4|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell4_4|nor2_out~0 ;    ;
-; tablememory7by5:shotsfired_0|srlt_gate:cell5_4|nor2_out~0 ;    ;
-; shipgunner:shpart_0|srlt_gate:rlight_0|nor2_out~0         ;    ;
-; shipgunner:shpart_0|srlt_gate:glight_0|nor2_out~0         ;    ;
-; binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00|nor2_out~0 ;    ;
-; Number of logic cells representing combinational loops    ; 31 ;
-+-----------------------------------------------------------+----+
++-----------------------------------------------------------------+
+; Logic Cells Representing Combinational Loops                    ;
++------------------------------------------------------------+----+
+; Logic Cell Name                                            ;    ;
++------------------------------------------------------------+----+
+; tablememory7by5:shotsfired_0|srlt_gate:cell0_0|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell1_0|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell2_0|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell3_0|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell4_0|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell5_0|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell6_0|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell0_1|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell1_1|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell2_1|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell3_1|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell4_1|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell5_1|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell6_1|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell0_2|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell1_2|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell2_2|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell3_2|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell4_2|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell5_2|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell6_2|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell0_3|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell2_3|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell3_3|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell4_3|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell6_3|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell5_3|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell1_3|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell0_4|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell1_4|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell2_4|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell3_4|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell4_4|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell5_4|nand1_out~0 ;    ;
+; tablememory7by5:shotsfired_0|srlt_gate:cell6_4|nand1_out~0 ;    ;
+; binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00|nand1_out~0 ;    ;
+; buttonenabler:btnebl_0|srlt_gate:gamestatus_0|nand1_out~0  ;    ;
+; Number of logic cells representing combinational loops     ; 37 ;
++------------------------------------------------------------+----+
 Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
@@ -415,6 +438,66 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_5"                                                    ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_4"                                                    ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_3"                                                    ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_2"                                                    ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_1"                                                    ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
+; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_0"                                                    ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
 ; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 
@@ -939,6 +1022,15 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "buttonenabler:btnebl_0|srlt_gate:gamestatus_0"                                                           ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; q    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff01"                                                                       ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
@@ -1142,102 +1234,111 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Mon Oct  2 15:28:52 2023
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Tue Oct 03 10:17:08 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TEC498P2 -c mainmodule
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file tff_gate.v
-    Info (12023): Found entity 1: tff_gate File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tff_gate.v Line: 19
+    Info (12023): Found entity 1: tff_gate File: E:/JL/TEC498P2/ProjectFiles/tff_gate.v Line: 19
 Info (12021): Found 1 design units, including 1 entities, in source file tablememory7by5.v
-    Info (12023): Found entity 1: tablememory7by5 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/tablememory7by5.v Line: 1
+    Info (12023): Found entity 1: tablememory7by5 File: E:/JL/TEC498P2/ProjectFiles/tablememory7by5.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file srlt_gate.v
-    Info (12023): Found entity 1: srlt_gate File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file srff_gate.v
-    Info (12023): Found entity 1: srff_gate File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/srff_gate.v Line: 1
+    Info (12023): Found entity 1: srlt_gate File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file shipgunner.v
-    Info (12023): Found entity 1: shipgunner File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 1
+    Info (12023): Found entity 1: shipgunner File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex35to5.v
-    Info (12023): Found entity 1: multiplex35to5 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex35to5.v Line: 1
+    Info (12023): Found entity 1: multiplex35to5 File: E:/JL/TEC498P2/ProjectFiles/multiplex35to5.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex35to1.v
-    Info (12023): Found entity 1: multiplex35to1 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex35to1.v Line: 1
+    Info (12023): Found entity 1: multiplex35to1 File: E:/JL/TEC498P2/ProjectFiles/multiplex35to1.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex1to35.v
-    Info (12023): Found entity 1: multiplex1to35 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex1to35.v Line: 1
-Warning (10275): Verilog HDL Module Instantiation warning at mainmodule.v(507): ignored dangling comma in List of Port Connections File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 507
+    Info (12023): Found entity 1: multiplex1to35 File: E:/JL/TEC498P2/ProjectFiles/multiplex1to35.v Line: 1
+Warning (10275): Verilog HDL Module Instantiation warning at mainmodule.v(545): ignored dangling comma in List of Port Connections File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 545
 Info (12021): Found 1 design units, including 1 entities, in source file mainmodule.v
-    Info (12023): Found entity 1: mainmodule File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 2
+    Info (12023): Found entity 1: mainmodule File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file binpower20clockdivider.v
-    Info (12023): Found entity 1: binpower20clockdivider File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower20clockdivider.v Line: 1
+    Info (12023): Found entity 1: binpower20clockdivider File: E:/JL/TEC498P2/ProjectFiles/binpower20clockdivider.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bin3bcount.v
-    Info (12023): Found entity 1: bin3bcount File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/bin3bcount.v Line: 1
+    Info (12023): Found entity 1: bin3bcount File: E:/JL/TEC498P2/ProjectFiles/bin3bcount.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file decodermode.v
-    Info (12023): Found entity 1: decodermode File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decodermode.v Line: 1
+    Info (12023): Found entity 1: decodermode File: E:/JL/TEC498P2/ProjectFiles/decodermode.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file decodercolumn.v
-    Info (12023): Found entity 1: decodercolumn File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decodercolumn.v Line: 1
+    Info (12023): Found entity 1: decodercolumn File: E:/JL/TEC498P2/ProjectFiles/decodercolumn.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file decoderline.v
-    Info (12023): Found entity 1: decoderline File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/decoderline.v Line: 1
+    Info (12023): Found entity 1: decoderline File: E:/JL/TEC498P2/ProjectFiles/decoderline.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex21to7.v
-    Info (12023): Found entity 1: multiplex21to7 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex21to7.v Line: 1
+    Info (12023): Found entity 1: multiplex21to7 File: E:/JL/TEC498P2/ProjectFiles/multiplex21to7.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file displayselector.v
-    Info (12023): Found entity 1: displayselector File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/displayselector.v Line: 1
+    Info (12023): Found entity 1: displayselector File: E:/JL/TEC498P2/ProjectFiles/displayselector.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file binpower18clockdivider.v
-    Info (12023): Found entity 1: binpower18clockdivider File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower18clockdivider.v Line: 1
+    Info (12023): Found entity 1: binpower18clockdivider File: E:/JL/TEC498P2/ProjectFiles/binpower18clockdivider.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file binpower4buttonbouncer.v
-    Info (12023): Found entity 1: binpower4buttonbouncer File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 1
+    Info (12023): Found entity 1: binpower4buttonbouncer File: E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex140to35.v
-    Info (12023): Found entity 1: multiplex140to35 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 1
+    Info (12023): Found entity 1: multiplex140to35 File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bin2bselector.v
-    Info (12023): Found entity 1: bin2bselector File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/bin2bselector.v Line: 1
+    Info (12023): Found entity 1: bin2bselector File: E:/JL/TEC498P2/ProjectFiles/bin2bselector.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex70to35.v
-    Info (12023): Found entity 1: multiplex70to35 File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(21): created implicit net for "NIPTART" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 21
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(21): created implicit net for "IPTART" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 21
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(27): created implicit net for "rreset" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 27
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(28): created implicit net for "greset" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 28
-Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(25): created implicit net for "Nconditionbit0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 25
-Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(26): created implicit net for "Nconditionbit1" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(27): created implicit net for "Nconditionbit2" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 27
-Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(28): created implicit net for "Nconditionbit3" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 28
-Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(35): created implicit net for "togglecondition2" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 35
-Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(129): created implicit net for "bitsel0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 129
-Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(130): created implicit net for "bitsel1" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 130
-Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(131): created implicit net for "bitsel2" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 131
-Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(132): created implicit net for "bitsel3" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 132
-Warning (10236): Verilog HDL Implicit Net warning at multiplex70to35.v(98): created implicit net for "bitsel0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 98
-Warning (10236): Verilog HDL Implicit Net warning at multiplex70to35.v(99): created implicit net for "bitsel1" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 99
+    Info (12023): Found entity 1: multiplex70to35 File: E:/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file bin6switchregister.v
+    Info (12023): Found entity 1: bin6switchregister File: E:/JL/TEC498P2/ProjectFiles/bin6switchregister.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file buttonenabler.v
+    Info (12023): Found entity 1: buttonenabler File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(24): created implicit net for "NIPTART" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 24
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(24): created implicit net for "IPTART" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 24
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(30): created implicit net for "rreset" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(31): created implicit net for "greset" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 31
+Warning (10236): Verilog HDL Implicit Net warning at mainmodule.v(481): created implicit net for "matchlastwire" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 481
+Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(25): created implicit net for "Nconditionbit0" File: E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 25
+Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(26): created implicit net for "Nconditionbit1" File: E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 26
+Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(27): created implicit net for "Nconditionbit2" File: E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 27
+Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(28): created implicit net for "Nconditionbit3" File: E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 28
+Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(35): created implicit net for "togglecondition2" File: E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 35
+Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(129): created implicit net for "bitsel0" File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 129
+Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(130): created implicit net for "bitsel1" File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 130
+Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(131): created implicit net for "bitsel2" File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 131
+Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(132): created implicit net for "bitsel3" File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 132
+Warning (10236): Verilog HDL Implicit Net warning at multiplex70to35.v(98): created implicit net for "bitsel0" File: E:/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 98
+Warning (10236): Verilog HDL Implicit Net warning at multiplex70to35.v(99): created implicit net for "bitsel1" File: E:/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 99
+Warning (10236): Verilog HDL Implicit Net warning at bin6switchregister.v(86): created implicit net for "MATCHTEST" File: E:/JL/TEC498P2/ProjectFiles/bin6switchregister.v Line: 86
 Info (12127): Elaborating entity "mainmodule" for the top level hierarchy
-Info (12128): Elaborating entity "binpower18clockdivider" for hierarchy "binpower18clockdivider:clkdiv_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 111
-Info (12128): Elaborating entity "tff_gate" for hierarchy "binpower18clockdivider:clkdiv_0|tff_gate:ff00" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower18clockdivider.v Line: 13
-Info (12128): Elaborating entity "bin3bcount" for hierarchy "bin3bcount:bin3bc_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 118
-Info (12128): Elaborating entity "binpower4buttonbouncer" for hierarchy "binpower4buttonbouncer:btnbnc_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 130
-Info (12128): Elaborating entity "srlt_gate" for hierarchy "binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 70
-Info (12128): Elaborating entity "bin2bselector" for hierarchy "bin2bselector:shpsel_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 136
-Info (12128): Elaborating entity "multiplex140to35" for hierarchy "multiplex140to35:shparrmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 265
-Info (12128): Elaborating entity "tablememory7by5" for hierarchy "tablememory7by5:shotsfired_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 390
-Info (12128): Elaborating entity "multiplex35to1" for hierarchy "multiplex35to1:shipcoordinatemux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 443
-Info (12128): Elaborating entity "shipgunner" for hierarchy "shipgunner:shpart_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 454
-Info (12128): Elaborating entity "multiplex1to35" for hierarchy "multiplex1to35:artiptmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 507
-Info (12128): Elaborating entity "decodermode" for hierarchy "decodermode:modedec_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 518
-Info (12128): Elaborating entity "decodercolumn" for hierarchy "decodercolumn:columndec_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 531
-Info (12128): Elaborating entity "decoderline" for hierarchy "decoderline:linedec_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 544
-Info (12128): Elaborating entity "multiplex21to7" for hierarchy "multiplex21to7:decmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 581
-Info (12128): Elaborating entity "displayselector" for hierarchy "displayselector:sevsegdplsel_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 598
-Info (12128): Elaborating entity "multiplex70to35" for hierarchy "multiplex70to35:displayselmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 735
-Info (12128): Elaborating entity "multiplex35to5" for hierarchy "multiplex35to5:displayfinalmux_0" File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 790
+Info (12128): Elaborating entity "binpower18clockdivider" for hierarchy "binpower18clockdivider:clkdiv_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 125
+Info (12128): Elaborating entity "tff_gate" for hierarchy "binpower18clockdivider:clkdiv_0|tff_gate:ff00" File: E:/JL/TEC498P2/ProjectFiles/binpower18clockdivider.v Line: 13
+Info (12128): Elaborating entity "bin3bcount" for hierarchy "bin3bcount:bin3bc_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 133
+Info (12128): Elaborating entity "buttonenabler" for hierarchy "buttonenabler:btnebl_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 150
+Info (12128): Elaborating entity "srlt_gate" for hierarchy "buttonenabler:btnebl_0|srlt_gate:gamestatus_0" File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 29
+Info (12128): Elaborating entity "binpower4buttonbouncer" for hierarchy "binpower4buttonbouncer:btnbnc_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 156
+Info (12128): Elaborating entity "bin2bselector" for hierarchy "bin2bselector:shpsel_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 162
+Info (12128): Elaborating entity "multiplex140to35" for hierarchy "multiplex140to35:shparrmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 291
+Info (12128): Elaborating entity "tablememory7by5" for hierarchy "tablememory7by5:shotsfired_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 416
+Info (12128): Elaborating entity "multiplex35to1" for hierarchy "multiplex35to1:shipcoordinatemux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 469
+Info (12128): Elaborating entity "bin6switchregister" for hierarchy "bin6switchregister:changedinputchk_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 482
+Warning (10034): Output port "MATCHHTEST" at bin6switchregister.v(12) has no driver File: E:/JL/TEC498P2/ProjectFiles/bin6switchregister.v Line: 12
+Info (12128): Elaborating entity "shipgunner" for hierarchy "shipgunner:shpart_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 492
+Info (12128): Elaborating entity "multiplex1to35" for hierarchy "multiplex1to35:artiptmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 545
+Info (12128): Elaborating entity "decodermode" for hierarchy "decodermode:modedec_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 556
+Info (12128): Elaborating entity "decodercolumn" for hierarchy "decodercolumn:columndec_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 569
+Info (12128): Elaborating entity "decoderline" for hierarchy "decoderline:linedec_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 582
+Info (12128): Elaborating entity "multiplex21to7" for hierarchy "multiplex21to7:decmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 619
+Info (12128): Elaborating entity "displayselector" for hierarchy "displayselector:sevsegdplsel_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 636
+Info (12128): Elaborating entity "multiplex70to35" for hierarchy "multiplex70to35:displayselmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 773
+Info (12128): Elaborating entity "multiplex35to5" for hierarchy "multiplex35to5:displayfinalmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 828
 Info (13014): Ignored 45 buffer(s)
     Info (13019): Ignored 45 SOFT buffer(s)
-Warning (12241): 60 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (12241): 67 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "SGDP" is stuck at VCC File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 34
-    Warning (13410): Pin "SGD1" is stuck at VCC File: /media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 35
-Info (21057): Implemented 219 device resources after synthesis - the final resource count might be different
+    Warning (13410): Pin "RLED" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 33
+    Warning (13410): Pin "GLED" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 33
+    Warning (13410): Pin "SGDP" is stuck at VCC File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 37
+    Warning (13410): Pin "SGD1" is stuck at VCC File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 38
+Info (21057): Implemented 235 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 11 input pins
     Info (21059): Implemented 28 output pins
-    Info (21061): Implemented 180 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 21 warnings
-    Info: Peak virtual memory: 350 megabytes
-    Info: Processing ended: Mon Oct  2 15:29:04 2023
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:13
+    Info (21061): Implemented 196 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 26 warnings
+    Info: Peak virtual memory: 4702 megabytes
+    Info: Processing ended: Tue Oct 03 10:17:28 2023
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:29
 
 

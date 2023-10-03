@@ -1,11 +1,11 @@
-Fitter Status : Successful - Mon Oct  2 15:29:08 2023
-Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Fitter Status : Successful - Tue Oct 03 10:17:33 2023
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 Revision Name : mainmodule
 Top-level Entity Name : mainmodule
 Family : MAX II
 Device : EPM240T100C5
 Timing Models : Final
-Total logic elements : 180 / 240 ( 75 % )
+Total logic elements : 196 / 240 ( 82 % )
 Total pins : 39 / 80 ( 49 % )
 Total virtual pins : 0
 UFM blocks : 0 / 1 ( 0 % )
