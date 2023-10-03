@@ -1,15 +1,24 @@
-module srlt_gate (q, qbar, s, r);
+module srlt_gate (
+	s, r,
+	q, qbar
+);
 
-input s, r;
+	input
+	s, r;
 
-output q, qbar;
+	output
+	q, qbar;
 
-wire nor1_out; // output of nor1 
-wire nor2_out; // output of nor2
+	wire
+	ns, nr,
+	nand0_out, nand1_out;
 
-nor (nor1_out, nor2_out, r);
-nor (nor2_out, nor1_out, s);
-or (q, nor1_out);
-or (qbar, nor2_out);
+not (ns, s);
+not (nr, r);
+
+nand (nand0_out, ns, nand1_out);
+nand (nand1_out, nr, nand0_out);
+or (q, nand0_out);
+or (qbar, nand1_out);
 
 endmodule
