@@ -1,28 +1,30 @@
 module shipgunner (
 	IPTSHIP,
-	BTNIPT, NCH0,
+	NBT0, CH0, NCH0,
 	OUT,
 	RLED, GLED
 );
 
 	input
 	IPTSHIP,
-	BTNIPT, NCH0;
+	NBT0, CH0, NCH0;
 	
 	output
 	OUT,
 	RLED, GLED;
 	
 	wire
+	actionrequested,
 	watershot,
 	shipshot,
 	NIPTSHIP;
 	
 not (NIPTART, IPTART);
 not (NIPTSHIP, IPTSHIP);
+and (actionrequested, NBT0, CH0);
 	
-and (watershot, BTNIPT, NIPTSHIP);
-and (shipshot, BTNIPT, IPTSHIP);
+and (watershot, actionrequested, NIPTSHIP);
+and (shipshot, actionrequested, IPTSHIP);
 
 or (rreset, shipshot, NCH0);
 or (greset, watershot, NCH0);
