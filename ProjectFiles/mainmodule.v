@@ -124,7 +124,7 @@ binpower18clockdivider clkdiv_0 (
 		.DIVIDEDCLK (clkdivwire)
 );
 
-//Instancia do contador binario que passa mais 2 divisoes de clock (C mantem o clock atual)
+//Instancia do contador binario que faz mais 2 divisoes de clock (C mantem o clock atual)
 bin3bcount bin3bc_0 (
 		.IPTCLK (clkdivwire),
 		.A (countA),
@@ -137,6 +137,7 @@ not (NcountA, countA);
 not (NcountB, countB);
 not (NcountC, countC);
 
+//Instancia do verificador da permissao para os comandos dos botoes (mudar selecao de posicionamento das embarcacoes e atirar)
 buttonenabler btnebl_0 (
 		.CH0 (CH0),
 		.CH1 (CH1),
@@ -155,19 +156,25 @@ buttonenabler btnebl_0 (
 		.OUT1 (enableNBT1)
 );
 
+//Instancia do controlador para pressionar o botao de mudar selecao de posicionamento das embarcacoes
 binpower4buttonbouncer btnbnc_0 (
 		.IPTBTN (enableNBT1),
 		.IPTCLK (clkdivwire),
 		.OUTBTN (debouncedbutton1)
 );
 
+//Instancia da memoria de 2 bits que guarda o indice (0-3) do posicionamento desejado para as embarcacoes
 bin2bselector shpsel_0 (
 		.IPTCLK (debouncedbutton1),
 		.A (shiparrangementsel0),
 		.B (shiparrangementsel1)
 );
 
+//Instancia do multiplex que passa a frente o posicionamento das embarcacoes pixel por pixel, de acordo com o indice guardado (0-3)
+//Como os 4 posicionamentos possiveis sao fixos, este multiplex tambem esta programado diretamente com tais posiconamentos
+//(entradas referentes a pixels ativos estao conectadas ao VCC)
 multiplex140to35 shparrmux_0(
+		//Entradas do posicionamento 0 (primeiro digito 0)
 		.IPT003 (1'b1),
 		
 		.IPT012 (1'b1),
@@ -189,6 +196,7 @@ multiplex140to35 shparrmux_0(
 		.IPT062 (1'b1),
 		
 		
+		//Entradas do posicionamento 1 (primeiro digito 1)
 		.IPT110 (1'b1),
 		
 		.IPT120 (1'b1),
@@ -208,6 +216,7 @@ multiplex140to35 shparrmux_0(
 		.IPT153 (1'b1),
 		
 		
+		//Entradas do posicionamento 2 (primeiro digito 2)
 		.IPT200 (1'b1),
 		
 		.IPT210 (1'b1),
@@ -228,6 +237,7 @@ multiplex140to35 shparrmux_0(
 		.IPT253 (1'b1),
 		
 		
+		//Entradas do posicionamento 3 (primeiro digito 3)
 		.IPT304 (1'b1),
 		
 		.IPT312 (1'b1),
@@ -249,10 +259,12 @@ multiplex140to35 shparrmux_0(
 		.IPT363 (1'b1),
 		
 		
+		//Seletores (conectados a memoria do de selecao do posicionamento)
 		.SEL0 (shiparrangementsel0),
 		.SEL1 (shiparrangementsel1),
 		
 		
+		//Saidas
 		.OUT00 (A1shipcoordstomux),
 		.OUT01 (B1shipcoordstomux),
 		.OUT02 (C1shipcoordstomux),
@@ -296,8 +308,10 @@ multiplex140to35 shparrmux_0(
 		.OUT64 (E7shipcoordstomux)
 );
 
+//Instancia da memoria de 35 bits que guarda o historico de ataques realizados
 tablememory7by5 shotsfired_0 (
 		
+		//Set que vem do multiplex 1 para 35 (que por sua vez vem do modulo de artilharia)
 		.cell0_0S (A1muxtoshotsfired),
 		.cell1_0S (A2muxtoshotsfired),
 		.cell2_0S (A3muxtoshotsfired),
@@ -339,6 +353,7 @@ tablememory7by5 shotsfired_0 (
 		.cell6_4S (E7muxtoshotsfired),
 		
 		
+		//Reset que liga na negacao da Chave 0 (a Chave 0 liga ou desliga o dispositivo de batalha naval)
 		.cell0_0R (NCH0),
 		.cell1_0R (NCH0),
 		.cell2_0R (NCH0),
@@ -380,6 +395,7 @@ tablememory7by5 shotsfired_0 (
 		.cell6_4R (NCH0),
 		
 		
+		//Saida que vai para o multiplex de selecao da matriz de 7 segmentos (esse multiplex seleciona entre artilharia e posicionamento)
 		.cell0_0Q(A1artcoordstomux),
 		.cell1_0Q(A2artcoordstomux),
 		.cell2_0Q(A3artcoordstomux),
@@ -421,7 +437,10 @@ tablememory7by5 shotsfired_0 (
 		.cell6_4Q(E7artcoordstomux)
 );
 
+//Instancia do multiplex 35 para 1 que passa o valor do pixel do posicionamento das embarcaos selecionado para o modulo de artilharia.
 multiplex35to1 shipcoordinatemux_0 (
+		
+		//Entradas referentes a saida do multiplex de selecao do posicionamento das embarcacoes
 		.IN0_0 (A1shipcoordstomux),
 		.IN0_1 (B1shipcoordstomux),
 		.IN0_2 (C1shipcoordstomux),
@@ -464,6 +483,7 @@ multiplex35to1 shipcoordinatemux_0 (
 		.IN6_3 (D7shipcoordstomux),
 		.IN6_4 (E7shipcoordstomux),
 
+		//Seletores referentes as chaves que pertencem a artilharia (Chave 2 - Chave 7)
 		.SEL0 (CH7),
 		.SEL1 (CH6),
 		.SEL2 (CH5),
@@ -471,10 +491,13 @@ multiplex35to1 shipcoordinatemux_0 (
 		.SEL4 (CH3),
 		.SEL5 (CH2),
 
+		//Saida do estado do pixel selecionado
 		.OUT (shipiptwire)
 );
 
+//Instancia do modulo de memoria de 6 bits que guarda a ultima combinacao de chaves utilizada para ataque valido
 bin6switchregister changedinputchk_0 (
+	//Entradas referentes as chaves que pertencem a artilharia (Chave 2 - Chave 7)
 	.IPT0 (CH7),
 	.IPT1 (CH6),
 	.IPT2 (CH5),
@@ -482,24 +505,39 @@ bin6switchregister changedinputchk_0 (
 	.IPT4 (CH3), 
 	.IPT5 (CH2),
 	
+	//Entrada do botao (ja passado por verificacao de permissao) da artilharia
 	.SETBTN (enableNBT0),
 	
+	//Saida que diz se as chaves atuais combinam com a ultima posicao de tiro registrada
 	.MATCHHTEST (matchlastwire)
 );
 
+//Instancia do modulo de artilharia
 shipgunner shpart_0 (
+		//Entrada do status do pixel selecionado do posicionamento das embarcacoes
 		.IPTSHIP (shipiptwire),
+		
+		//Entrada do botao (ja passado por verificacao de permissao) da artilharia
 		.BTNIPT (enableNBT0),
+		//Entrada da negacao da chave 0, de modo a permitir verificar se o dispositivo esta ligado ou nao
 		.NCH0 (NCH0),
-		.OUT (gunnertoart),
+		//Entrada da permissao para exibir informacao no LED RGB (a combinacao de chaves nao mudou desde o ultimo tiro valido)
 		.ENABLELED (matchlastwire),
+		
+		//Saida do pixel da artilharia
+		.OUT (gunnertoart),
+		
+		//Saidas do LED RGB
 		.RLED (RLED),
 		.GLED (GLED)
 );
 
+//Instancia do multiplex 1 para 35 referente a passagem da informacao do modulo de artilharia para a memoria da artilharia
 multiplex1to35 artiptmux_0 (
+		//Entrada referente a saida do modulo de artilharia
 		.IPT (gunnertoart),
-	
+		
+		//Selecao referente as chaves que pertencem a artilharia (Chave 2 - Chave 7)
 		.SEL0 (CH7),
 		.SEL1 (CH6),
 		.SEL2 (CH5),
@@ -507,6 +545,7 @@ multiplex1to35 artiptmux_0 (
 		.SEL4 (CH3),
 		.SEL5 (CH2),
 		
+		//Saidas que conectam ao SET das celulas da memoria da artilharia
 		.OUT0_0 (A1muxtoshotsfired),
 		.OUT0_1 (B1muxtoshotsfired),
 		.OUT0_2 (C1muxtoshotsfired),
@@ -550,8 +589,12 @@ multiplex1to35 artiptmux_0 (
 		.OUT6_4 (E7muxtoshotsfired),
 );
 
+//Instancia do decodificador do modo do dispositivo (posicionamento ou ataque)
 decodermode modedec_0 (
+		//Entrada da chave de modo do dispositivo (Chave 1)
 		.A (CH1),
+		
+		//Saidas para os segmentos do display de 7 segmentos
 		.SEGA (SEGAmodemux),
 		.SEGB (SEGBmodemux),
 		.SEGC (SEGCmodemux),
@@ -561,10 +604,14 @@ decodermode modedec_0 (
 		.SEGG (SEGGmodemux)
 );
 
+//Instancia do decodificador da coluna selecionada (a-e) para realizar ataque
 decodercolumn columndec_0 (
+		//Entradas das chaves de selecao da coluna de ataque (Chave 5 - Chave 7)
 		.A (CH7),
 		.B (CH6),
 		.C (CH5),
+		
+		//Saidas para os segmentos do display de 7 segmentos
 		.SEGA (SEGAcolumnmux),
 		.SEGB (SEGBcolumnmux),
 		.SEGC (SEGCcolumnmux),
@@ -574,10 +621,14 @@ decodercolumn columndec_0 (
 		.SEGG (SEGGcolumnmux)
 );
 
+//Instancia do decodificador da linha selecionada (1-7) para realizar ataque
 decoderline linedec_0 (
+		//Entradas das chaves de selecao da linha de ataque (Chave 2 - Chave 4)
 		.A (CH4),
 		.B (CH3),
 		.C (CH2),
+		
+		//Saidas para os segmentos do display de 7 segmentos
 		.SEGA (SEGAlinemux),
 		.SEGB (SEGBlinemux),
 		.SEGC (SEGClinemux),
@@ -587,7 +638,9 @@ decoderline linedec_0 (
 		.SEGG (SEGGlinemux)
 );
 
+//Instancia do multiplex que seleciona qual das saidas dos decodificadores sera passada ao display de 7 segmentos
 multiplex21to7 decmux_0 (
+		//Entradas referentes as saidas do decodificador do modo do dispositivo
 		.IN00 (SEGAlinemux),
 		.IN01 (SEGBlinemux),
 		.IN02 (SEGClinemux),
@@ -596,6 +649,7 @@ multiplex21to7 decmux_0 (
 		.IN05 (SEGFlinemux),
 		.IN06 (SEGGlinemux),
 		
+		//Entradas referentes as saidas do decodificador de coluna de ataque
 		.IN07 (SEGAcolumnmux),
 		.IN08 (SEGBcolumnmux),
 		.IN09 (SEGCcolumnmux),
@@ -604,6 +658,7 @@ multiplex21to7 decmux_0 (
 		.IN12 (SEGFcolumnmux),
 		.IN13 (SEGGcolumnmux),
 		
+		//Entradas referentes as saidas do decodificador de linha de ataque
 		.IN14 (SEGAmodemux),
 		.IN15 (SEGBmodemux),
 		.IN16 (SEGCmodemux),
@@ -612,9 +667,11 @@ multiplex21to7 decmux_0 (
 		.IN19 (SEGFmodemux),
 		.IN20 (SEGGmodemux),
 		
+		//Selecao referente ao contador binario de 3 bits ligado ao clock
 		.SEL0 (countC),
 		.SEL1 (countB),
 		
+		//Saidas que ligam na verificacao de permissao do display de 7 segmentos
 		.OUT0 (SGDAenable),
 		.OUT1 (SGDBenable),
 		.OUT2 (SGDCenable),
@@ -624,6 +681,7 @@ multiplex21to7 decmux_0 (
 		.OUT6 (SGDGenable)
 );
 
+//Desliga segmentos do display se a chave principal do dispositivo (Chave 0) estiver desligada, ou se o multiplex dos decodificadores passar tal informacao
 or (SGDA, SGDAenable, NCH0);
 or (SGDB, SGDBenable, NCH0);
 or (SGDC, SGDCenable, NCH0);
@@ -632,6 +690,7 @@ or (SGDE, SGDEenable, NCH0);
 or (SGDF, SGDFenable, NCH0);
 or (SGDG, SGDGenable, NCH0);
 
+//Instancia 
 displayselector sevsegdplsel_0 (
 		.SEL0 (countC),
 		.SEL1 (countB),
@@ -641,10 +700,13 @@ displayselector sevsegdplsel_0 (
 		.OUT2 (SGD2)
 );
 
+//Mantem os segmentos do primeiro digito e do ponto sempre desligados, pois nao sao usados
 or (SGD1, 1'b1);
 or (SGDP, 1'b1);
 
+//Instancia do multiplex de selecao da informacao a ser exibida na matriz de LEDs (posiconamento OU historico da artilharia)
 multiplex70to35 displayselmux_0 (
+	//Entradas referentes ao posicionamento selecionado das embarcacoes
 	.IPT000 (A1shipcoordstomux),
 	.IPT001 (B1shipcoordstomux),
 	.IPT002 (C1shipcoordstomux),
@@ -689,6 +751,7 @@ multiplex70to35 displayselmux_0 (
 	.IPT064 (E7shipcoordstomux),
 	
 	
+	//Entradas referentes ao historico da artilharia
 	.IPT100 (A1artcoordstomux),
 	.IPT101 (B1artcoordstomux),
 	.IPT102 (C1artcoordstomux),
@@ -732,9 +795,12 @@ multiplex70to35 displayselmux_0 (
 	.IPT164 (E7artcoordstomux),
 	
 	
+	//Selecao (Chave 1 referente ao modo do dispositivo)
 	.SEL (CH1),
+	//Permissao (Chave 0 referente ao status ON/OFF do dispositivo)
 	.ENABLE (CH0),
 	
+	//Saidas referentes a qual das matrizes foi selecionada
 	.OUT00 (A1displaycoordstomux),
 	.OUT01 (B1displaycoordstomux),
 	.OUT02 (C1displaycoordstomux),
@@ -778,8 +844,10 @@ multiplex70to35 displayselmux_0 (
 	.OUT64 (E7displaycoordstomux)
 );
 
+//Instancia do multiplex 35 para 5 que seleciona qual das linhas atuais esta sendo exibida na matriz de LEDs
 multiplex35to5 displayfinalmux_0 (
 		
+		//Entradas referentes a matriz de pixels a ser exibida
 		.IN0_0 (A1displaycoordstomux),
 		.IN0_1 (B1displaycoordstomux),
 		.IN0_2 (C1displaycoordstomux),
@@ -822,10 +890,12 @@ multiplex35to5 displayfinalmux_0 (
 		.IN6_3 (D7displaycoordstomux),
 		.IN6_4 (E7displaycoordstomux),
 		
+		//Seletores referentes ao contador de 3 bits ligado ao clock
 		.SEL0 (countA),
 		.SEL1 (countB),
 		.SEL2 (countC),
 		
+		//Saidas referentes a cada uma das colunas da matriz de LEDs
 		.OUT0 (COL0),
 		.OUT1 (COL1),
 		.OUT2 (COL2),
@@ -833,6 +903,7 @@ multiplex35to5 displayfinalmux_0 (
 		.OUT4 (COL4)
 );
 
+//Permite que apenas uma linha fique ligada de cada vez, possibilitando desenhar qualquer coisa na matriz de LEDs
 nand (LIN0, NcountA, NcountB, NcountC);
 nand (LIN1, NcountA, NcountB, countC);
 nand (LIN2, NcountA, countB, NcountC);
@@ -841,8 +912,8 @@ nand (LIN4, countA, NcountB, NcountC);
 nand (LIN5, countA, NcountB, countC);
 nand (LIN6, countA, countB, NcountC);
 
+//Saidas do clock original e do divisor de clock, para testes (resolveu-se por manter tais saidas de modo a facilitar verificacoes)
 or(CLKOUT, CLKIN);
-
 or(CLKDIVOUT, clkdivwire);
 
 endmodule
