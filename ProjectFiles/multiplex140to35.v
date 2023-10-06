@@ -1,3 +1,4 @@
+//Modulo multiplex 140 para 35
 module multiplex140to35 (
 	IPT000, IPT001, IPT002, IPT003, IPT004,
 	IPT010, IPT011, IPT012, IPT013, IPT014,
@@ -41,7 +42,8 @@ module multiplex140to35 (
 	OUT50, OUT51, OUT52, OUT53, OUT54,
 	OUT60, OUT61, OUT62, OUT63, OUT64
 );
-
+	
+	//Entradas
 	input
 	IPT000, IPT001, IPT002, IPT003, IPT004,
 	IPT010, IPT011, IPT012, IPT013, IPT014,
@@ -75,8 +77,10 @@ module multiplex140to35 (
 	IPT350, IPT351, IPT352, IPT353, IPT354,
 	IPT360, IPT361, IPT362, IPT363, IPT364,
 	
+	//Seletores
 	SEL0, SEL1;
 	
+	//Saidas
 	output
 	OUT00, OUT01, OUT02, OUT03, OUT04,
 	OUT10, OUT11, OUT12, OUT13, OUT14,
@@ -85,7 +89,8 @@ module multiplex140to35 (
 	OUT40, OUT41, OUT42, OUT43, OUT44,
 	OUT50, OUT51, OUT52, OUT53, OUT54,
 	OUT60, OUT61, OUT62, OUT63, OUT64;
-
+	
+	//Fios
 	wire
 	NSEL0, NSEL1,
 	bit0sel, bit1sel, bit2sel, bit3sel,
@@ -123,14 +128,17 @@ module multiplex140to35 (
 	IPT360wire, IPT361wire, IPT362wire, IPT363wire, IPT364wire;
 	
 
+//Negacoes
 not (NSEL0, SEL0);
 not (NSEL1, SEL1);
 
+//Combinacoes possiveis para os seletores
 and (bitsel0, NSEL0, NSEL1);
 and (bitsel1, NSEL0, SEL1);
 and (bitsel2, SEL0, NSEL1);
 and (bitsel3, SEL0, SEL1);
 
+//Condicoes para cada combinacao de entradas e selecoes
 and (IPT000wire, IPT000, bitsel0);
 and (IPT001wire, IPT001, bitsel0);
 and (IPT002wire, IPT002, bitsel0);
@@ -302,6 +310,7 @@ and (IPT362wire, IPT362, bitsel3);
 and (IPT363wire, IPT363, bitsel3);
 and (IPT364wire, IPT364, bitsel3);
 
+//Repassa as saidas se qualquer condicao para cada saida estiver satisfeita
 or (OUT00, IPT000wire, IPT100wire, IPT200wire, IPT300wire);
 or (OUT01, IPT001wire, IPT101wire, IPT201wire, IPT301wire);
 or (OUT02, IPT002wire, IPT102wire, IPT202wire, IPT302wire);

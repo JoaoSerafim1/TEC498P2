@@ -1,3 +1,4 @@
+//Modulo multiplex 70 para 35
 module multiplex70to35 (
 	IPT000, IPT001, IPT002, IPT003, IPT004,
 	IPT010, IPT011, IPT012, IPT013, IPT014,
@@ -26,7 +27,8 @@ module multiplex70to35 (
 	OUT50, OUT51, OUT52, OUT53, OUT54,
 	OUT60, OUT61, OUT62, OUT63, OUT64
 );
-
+	
+	//Entradas
 	input
 	IPT000, IPT001, IPT002, IPT003, IPT004,
 	IPT010, IPT011, IPT012, IPT013, IPT014,
@@ -44,9 +46,12 @@ module multiplex70to35 (
 	IPT150, IPT151, IPT152, IPT153, IPT154,
 	IPT160, IPT161, IPT162, IPT163, IPT164,
 	
+	//Seletor
 	SEL,
+	//Enable
 	ENABLE;
 	
+	//Saidas
 	output
 	OUT00, OUT01, OUT02, OUT03, OUT04,
 	OUT10, OUT11, OUT12, OUT13, OUT14,
@@ -55,7 +60,8 @@ module multiplex70to35 (
 	OUT40, OUT41, OUT42, OUT43, OUT44,
 	OUT50, OUT51, OUT52, OUT53, OUT54,
 	OUT60, OUT61, OUT62, OUT63, OUT64;
-
+	
+	//Fios
 	wire
 	NSEL,
 	bit0sel, bit1sel,
@@ -93,8 +99,10 @@ module multiplex70to35 (
 	IPT360wire, IPT361wire, IPT362wire, IPT363wire, IPT364wire;
 	
 
+//Negacao do seletor
 not (NSEL, SEL);
 
+//Combinacoes possiveis para o seletor e o enable
 and (bitsel0, NSEL, ENABLE);
 and (bitsel1, SEL, ENABLE);
 
@@ -184,6 +192,7 @@ and (IPT163wire, IPT163, bitsel1);
 and (IPT164wire, IPT164, bitsel1);
 
 
+//Repassa as saidas se qualquer condicao para cada saida estiver satisfeita
 or (OUT00, IPT000wire, IPT100wire);
 or (OUT01, IPT001wire, IPT101wire);
 or (OUT02, IPT002wire, IPT102wire);

@@ -1,30 +1,34 @@
-/*module tff_gate (q, qbar, t, clk);
+//Modulo do T flip-flop, descrito em verilog comportamental
+module tff_gate (
+	clk,t,
+	q,
+	qbar
+);
+	
+	//Entradas do clock (clk) e do toggle (t)
+	input
+	clk, t;
+	
+	//Saida com registro (reg) q, explicita que estamos tratando de elemento sequencial
+	output reg
+	q;
+	
+	//Saida qbarra
+	output
+	qbar;
 
-input t, clk; 
-output q, qbar;
-
-wire r, s;
-wire nor1_out; // output of nor1 
-wire nor2_out; // output of nor2
-
-nor (nor1_out, nor2_out, r);
-nor (nor2_out, nor1_out, s);
-or (q, nor1_out);
-or (qbar, nor2_out);
-and (r, q, t, clk);
-and (s, qbar, t, clk);
-
-endmodule*/
-
-module tff_gate ( input clk, input t, output reg q, output qbar);  
-
-always @ (posedge clk) begin    
-	if (t)  
-		q <= ~q;  
-	else  
-		q <= q;  
+//While (always) que usa a verificacao de borda de pulso referente ao clock (clk)
+always @ (posedge clk) begin
+	
+	//Caso receba um pulso em "t", sera invertido o sinal registrado
+	if (t)
+		q <= ~q;
+	//Caso nao receba, mantem o sinal registrado
+	else
+		q <= q;
 end
 
+//Em um T flip-flop nao existe possibilidade de entrada invalida, portanto qbarra sempre e a negacao de q
 not (qbar, q);
 
 endmodule

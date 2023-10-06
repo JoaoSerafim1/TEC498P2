@@ -1,3 +1,4 @@
+//Modulo multiplex 21 para 7
 module multiplex21to7 (
 	IN00, IN01, IN02, IN03, IN04, IN05, IN06,
 	IN07, IN08, IN09, IN10, IN11, IN12, IN13,
@@ -8,16 +9,20 @@ module multiplex21to7 (
 	OUT0, OUT1, OUT2, OUT3, OUT4, OUT5, OUT6
 );
 	
+	//Entradas
 	input
 	IN00, IN01, IN02, IN03, IN04, IN05, IN06,
 	IN07, IN08, IN09, IN10, IN11, IN12, IN13,
 	IN14, IN15, IN16, IN17, IN18, IN19, IN20,
 	
+	//Seletores
 	SEL0, SEL1;
 	
+	//Saidas
 	output
 	OUT0, OUT1, OUT2, OUT3, OUT4, OUT5, OUT6;
 	
+	//Fios
 	wire
 	NSEL0, NSEL1,
 	
@@ -31,13 +36,16 @@ module multiplex21to7 (
 	OUT5wire0, OUT5wire1, OUT5wire2,
 	OUT6wire0, OUT6wire1, OUT6wire2;
 
+//Negacoes
 not (NSEL0, SEL0);
 not (NSEL1, SEL1);
 
+//Combinacoes possiveis para os seletores
 and (bitsel0, NSEL0, NSEL1);
 and (bitsel1, NSEL0, SEL1);
 and (bitsel2, SEL0, NSEL1);	
 
+//Condicoes para cada combinacao de entradas e selecoes
 and (OUT0wire0, bitsel0, IN00);
 and (OUT1wire0, bitsel0, IN01);
 and (OUT2wire0, bitsel0, IN02);
@@ -62,6 +70,7 @@ and (OUT4wire2, bitsel2, IN18);
 and (OUT5wire2, bitsel2, IN19);
 and (OUT6wire2, bitsel2, IN20);
 
+//Repassa as saidas se qualquer condicao para cada saida estiver satisfeita
 or (OUT0, OUT0wire0, OUT0wire1, OUT0wire2);
 or (OUT1, OUT1wire0, OUT1wire1, OUT1wire2);
 or (OUT2, OUT2wire0, OUT2wire1, OUT2wire2);

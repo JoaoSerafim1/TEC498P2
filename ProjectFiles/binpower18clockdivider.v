@@ -1,11 +1,22 @@
-module binpower18clockdivider (CLKTODIVIDE, DIVIDEDCLK);
+//Modulo divisor binario de clock
+//Divide por 2 elevado a 18
+module binpower18clockdivider (
+	CLKTODIVIDE,
+	DIVIDEDCLK
+);
 
+	//Entrada
 	input CLKTODIVIDE;
-
-	output DIVIDEDCLK;
-
-	wire togtoqbar00, togtoqbar01, togtoqbar02, togtoqbar03, togtoqbar04, togtoqbar05, togtoqbar06, togtoqbar07, togtoqbar08, togtoqbar09, togtoqbar10, togtoqbar11, togtoqbar12, togtoqbar13, togtoqbar14, togtoqbar15, togtoqbar16;
 	
+	//Saida
+	output DIVIDEDCLK;
+	
+	//Fios
+	wire togtoqbar00, togtoqbar01, togtoqbar02, togtoqbar03, togtoqbar04, togtoqbar05, togtoqbar06, togtoqbar07, togtoqbar08, togtoqbar09, togtoqbar10, togtoqbar11, togtoqbar12, togtoqbar13, togtoqbar14, togtoqbar15, togtoqbar16;
+
+//Inicio do bloco de instanciamento de T flip-flops
+//Cada T flip-flop divide o clock por 2, ja que o clock do proximo e a saida do T flip-flop anterior a este
+//A entrada do primeiro T flip-flop e a entrada do modulo, e a saida do ultimo T flip-flop e a saida do modulo
 tff_gate ff00 (
 		.t (1'b1),
 		.clk (CLKTODIVIDE),
@@ -113,5 +124,6 @@ tff_gate ff17 (
 		.clk (togtoqbar16),
 		.q (DIVIDEDCLK)
 );
+//Fim do bloco de instanciamento de T flip-flops
 
 endmodule
