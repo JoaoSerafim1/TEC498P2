@@ -1,5 +1,5 @@
 Fitter report for mainmodule
-Tue Oct 03 17:23:41 2023
+Fri Oct 06 06:25:19 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -57,7 +57,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------+
 ; Fitter Summary                                                      ;
 +-----------------------+---------------------------------------------+
-; Fitter Status         ; Successful - Tue Oct 03 17:23:41 2023       ;
+; Fitter Status         ; Successful - Fri Oct 06 06:25:19 2023       ;
 ; Quartus Prime Version ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name         ; mainmodule                                  ;
 ; Top-level Entity Name ; mainmodule                                  ;
@@ -133,7 +133,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   1.7%      ;
+;     Processor 2            ;   1.6%      ;
 ;     Processors 3-6         ;   1.0%      ;
 +----------------------------+-------------+
 
@@ -719,115 +719,115 @@ Info (176444): Device migration not selected. If you intend to use device migrat
     Info (176445): Device EPM570T100A5 is compatible
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'mainmodule.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "btnbnc_0|sr00|nand0_out|combout"
     Warning (332126): Node "btnbnc_0|sr00|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "btnebl_0|gamestatus_0|nand0_out~0|combout"
     Warning (332126): Node "btnebl_0|gamestatus_0|nand0_out~0|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell4_4|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell4_4|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell6_4|nand1_out|combout"
     Warning (332126): Node "shotsfired_0|cell6_4|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell5_4|nand1_out|combout"
     Warning (332126): Node "shotsfired_0|cell5_4|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell0_4|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell0_4|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell3_4|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell3_4|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell2_4|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell2_4|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell1_4|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell1_4|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell6_3|nand1_out|combout"
     Warning (332126): Node "shotsfired_0|cell6_3|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell4_3|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell4_3|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell3_3|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell3_3|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell2_3|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell2_3|nand0_out|datac"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell0_3|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell0_3|nand0_out|datac"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell1_3|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell1_3|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell5_3|nand1_out|combout"
     Warning (332126): Node "shotsfired_0|cell5_3|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell6_2|nand1_out|combout"
     Warning (332126): Node "shotsfired_0|cell6_2|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell5_2|nand1_out|combout"
     Warning (332126): Node "shotsfired_0|cell5_2|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell4_2|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell4_2|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell3_2|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell3_2|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell2_2|nand1_out|combout"
     Warning (332126): Node "shotsfired_0|cell2_2|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell1_2|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell1_2|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell0_2|nand1_out|combout"
     Warning (332126): Node "shotsfired_0|cell0_2|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell4_1|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell4_1|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell6_1|nand1_out|combout"
     Warning (332126): Node "shotsfired_0|cell6_1|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell5_1|nand1_out|combout"
     Warning (332126): Node "shotsfired_0|cell5_1|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell1_1|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell1_1|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell3_1|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell3_1|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell2_1|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell2_1|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell0_1|nand1_out|combout"
     Warning (332126): Node "shotsfired_0|cell0_1|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell2_0|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell2_0|nand0_out|datac"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell4_0|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell4_0|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell3_0|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell3_0|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell1_0|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell1_0|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell0_0|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell0_0|nand0_out|datac"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell6_0|nand1_out|combout"
     Warning (332126): Node "shotsfired_0|cell6_0|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 14
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell5_0|nand1_out|combout"
     Warning (332126): Node "shotsfired_0|cell5_0|nand1_out|datad"
 Info (332128): Timing requirements not specified -- optimizing circuit to achieve the following default global requirements
@@ -861,17 +861,17 @@ Info (332111): Found 25 clocks
     Info (332111):    1.000          BT0
     Info (332111):    1.000        CLKIN
 Info (186079): Completed User Assigned Global Signals Promotion Operation
-Info (186216): Automatically promoted some destinations of signal "binpower18clockdivider:clkdiv_0|tff_gate:ff17|q" to use Global clock File: E:/JL/TEC498P2/ProjectFiles/tff_gate.v Line: 19
+Info (186216): Automatically promoted some destinations of signal "binpower18clockdivider:clkdiv_0|tff_gate:ff17|q" to use Global clock File: E:/JL/TEC498P2/ProjectFiles/tff_gate.v Line: 14
     Info (186217): Destination "CLKDIVOUT" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 41
-    Info (186217): Destination "binpower18clockdivider:clkdiv_0|tff_gate:ff17|q" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/tff_gate.v Line: 19
-    Info (186217): Destination "WideNand0~0" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 836
-    Info (186217): Destination "WideNand0~1" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 836
-    Info (186217): Destination "WideNand0~2" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 836
-    Info (186217): Destination "WideNand0~3" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 836
-    Info (186217): Destination "WideNand0~4" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 836
-    Info (186217): Destination "WideNand0~5" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 836
-    Info (186217): Destination "WideNand0~6" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 836
-    Info (186217): Destination "multiplex35to5:displayfinalmux_0|WideOr1~1" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/multiplex35to5.v Line: 96
+    Info (186217): Destination "binpower18clockdivider:clkdiv_0|tff_gate:ff17|q" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/tff_gate.v Line: 14
+    Info (186217): Destination "WideNand0~0" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 907
+    Info (186217): Destination "WideNand0~1" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 907
+    Info (186217): Destination "WideNand0~2" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 907
+    Info (186217): Destination "WideNand0~3" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 907
+    Info (186217): Destination "WideNand0~4" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 907
+    Info (186217): Destination "WideNand0~5" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 907
+    Info (186217): Destination "WideNand0~6" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 907
+    Info (186217): Destination "multiplex35to5:displayfinalmux_0|WideOr1~1" may be non-global or may not use global clock File: E:/JL/TEC498P2/ProjectFiles/multiplex35to5.v Line: 105
     Info (186218): Limited to 10 non-global destinations
 Info (186079): Completed Auto Global Promotion Operation
 Info (176234): Starting register packing
@@ -901,15 +901,15 @@ Info (170195): Router estimated average interconnect usage is 17% of the availab
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.61 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.51 seconds.
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (169174): The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
 Info (144001): Generated suppressed messages file E:/JL/TEC498P2/ProjectFiles/output_files/mainmodule.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 126 warnings
-    Info: Peak virtual memory: 5523 megabytes
-    Info: Processing ended: Tue Oct 03 17:23:42 2023
-    Info: Elapsed time: 00:00:05
+    Info: Peak virtual memory: 5522 megabytes
+    Info: Processing ended: Fri Oct 06 06:25:21 2023
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:06
 
 

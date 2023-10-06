@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mainmodule
-Tue Oct 03 17:23:34 2023
+Fri Oct 06 06:25:13 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -113,7 +113,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Tue Oct 03 17:23:34 2023       ;
+; Analysis & Synthesis Status ; Successful - Fri Oct 06 06:25:13 2023       ;
 ; Quartus Prime Version       ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name               ; mainmodule                                  ;
 ; Top-level Entity Name       ; mainmodule                                  ;
@@ -1235,98 +1235,92 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Tue Oct 03 17:23:18 2023
+    Info: Processing started: Fri Oct 06 06:24:54 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TEC498P2 -c mainmodule
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file tff_gate.v
-    Info (12023): Found entity 1: tff_gate File: E:/JL/TEC498P2/ProjectFiles/tff_gate.v Line: 19
+    Info (12023): Found entity 1: tff_gate File: E:/JL/TEC498P2/ProjectFiles/tff_gate.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file tablememory7by5.v
-    Info (12023): Found entity 1: tablememory7by5 File: E:/JL/TEC498P2/ProjectFiles/tablememory7by5.v Line: 1
+    Info (12023): Found entity 1: tablememory7by5 File: E:/JL/TEC498P2/ProjectFiles/tablememory7by5.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file srlt_gate.v
-    Info (12023): Found entity 1: srlt_gate File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 1
+    Info (12023): Found entity 1: srlt_gate File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file shipgunner.v
-    Info (12023): Found entity 1: shipgunner File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 1
+    Info (12023): Found entity 1: shipgunner File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex35to5.v
-    Info (12023): Found entity 1: multiplex35to5 File: E:/JL/TEC498P2/ProjectFiles/multiplex35to5.v Line: 1
+    Info (12023): Found entity 1: multiplex35to5 File: E:/JL/TEC498P2/ProjectFiles/multiplex35to5.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex35to1.v
-    Info (12023): Found entity 1: multiplex35to1 File: E:/JL/TEC498P2/ProjectFiles/multiplex35to1.v Line: 1
+    Info (12023): Found entity 1: multiplex35to1 File: E:/JL/TEC498P2/ProjectFiles/multiplex35to1.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex1to35.v
-    Info (12023): Found entity 1: multiplex1to35 File: E:/JL/TEC498P2/ProjectFiles/multiplex1to35.v Line: 1
-Warning (10275): Verilog HDL Module Instantiation warning at mainmodule.v(551): ignored dangling comma in List of Port Connections File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 551
+    Info (12023): Found entity 1: multiplex1to35 File: E:/JL/TEC498P2/ProjectFiles/multiplex1to35.v Line: 2
+Warning (10275): Verilog HDL Module Instantiation warning at mainmodule.v(590): ignored dangling comma in List of Port Connections File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 590
 Info (12021): Found 1 design units, including 1 entities, in source file mainmodule.v
     Info (12023): Found entity 1: mainmodule File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 2
-Info (12021): Found 1 design units, including 1 entities, in source file binpower20clockdivider.v
-    Info (12023): Found entity 1: binpower20clockdivider File: E:/JL/TEC498P2/ProjectFiles/binpower20clockdivider.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bin3bcount.v
-    Info (12023): Found entity 1: bin3bcount File: E:/JL/TEC498P2/ProjectFiles/bin3bcount.v Line: 1
+    Info (12023): Found entity 1: bin3bcount File: E:/JL/TEC498P2/ProjectFiles/bin3bcount.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file decodermode.v
-    Info (12023): Found entity 1: decodermode File: E:/JL/TEC498P2/ProjectFiles/decodermode.v Line: 1
+    Info (12023): Found entity 1: decodermode File: E:/JL/TEC498P2/ProjectFiles/decodermode.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file decodercolumn.v
-    Info (12023): Found entity 1: decodercolumn File: E:/JL/TEC498P2/ProjectFiles/decodercolumn.v Line: 1
+    Info (12023): Found entity 1: decodercolumn File: E:/JL/TEC498P2/ProjectFiles/decodercolumn.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file decoderline.v
-    Info (12023): Found entity 1: decoderline File: E:/JL/TEC498P2/ProjectFiles/decoderline.v Line: 1
+    Info (12023): Found entity 1: decoderline File: E:/JL/TEC498P2/ProjectFiles/decoderline.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex21to7.v
-    Info (12023): Found entity 1: multiplex21to7 File: E:/JL/TEC498P2/ProjectFiles/multiplex21to7.v Line: 1
+    Info (12023): Found entity 1: multiplex21to7 File: E:/JL/TEC498P2/ProjectFiles/multiplex21to7.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file displayselector.v
-    Info (12023): Found entity 1: displayselector File: E:/JL/TEC498P2/ProjectFiles/displayselector.v Line: 1
+    Info (12023): Found entity 1: displayselector File: E:/JL/TEC498P2/ProjectFiles/displayselector.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file binpower18clockdivider.v
-    Info (12023): Found entity 1: binpower18clockdivider File: E:/JL/TEC498P2/ProjectFiles/binpower18clockdivider.v Line: 1
+    Info (12023): Found entity 1: binpower18clockdivider File: E:/JL/TEC498P2/ProjectFiles/binpower18clockdivider.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file binpower4buttonbouncer.v
-    Info (12023): Found entity 1: binpower4buttonbouncer File: E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 1
+    Info (12023): Found entity 1: binpower4buttonbouncer File: E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex140to35.v
-    Info (12023): Found entity 1: multiplex140to35 File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 1
+    Info (12023): Found entity 1: multiplex140to35 File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file bin2bselector.v
-    Info (12023): Found entity 1: bin2bselector File: E:/JL/TEC498P2/ProjectFiles/bin2bselector.v Line: 1
+    Info (12023): Found entity 1: bin2bselector File: E:/JL/TEC498P2/ProjectFiles/bin2bselector.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex70to35.v
-    Info (12023): Found entity 1: multiplex70to35 File: E:/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 1
+    Info (12023): Found entity 1: multiplex70to35 File: E:/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file bin6switchregister.v
-    Info (12023): Found entity 1: bin6switchregister File: E:/JL/TEC498P2/ProjectFiles/bin6switchregister.v Line: 1
+    Info (12023): Found entity 1: bin6switchregister File: E:/JL/TEC498P2/ProjectFiles/bin6switchregister.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file buttonenabler.v
-    Info (12023): Found entity 1: buttonenabler File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(24): created implicit net for "NIPTART" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 24
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(24): created implicit net for "IPTART" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 24
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(30): created implicit net for "rreset" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 30
-Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(31): created implicit net for "greset" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 31
-Warning (10236): Verilog HDL Implicit Net warning at mainmodule.v(487): created implicit net for "matchlastwire" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 487
-Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(25): created implicit net for "Nconditionbit0" File: E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 25
-Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(26): created implicit net for "Nconditionbit1" File: E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(27): created implicit net for "Nconditionbit2" File: E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 27
-Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(28): created implicit net for "Nconditionbit3" File: E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 28
-Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(35): created implicit net for "togglecondition2" File: E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 35
-Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(129): created implicit net for "bitsel0" File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 129
-Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(130): created implicit net for "bitsel1" File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 130
-Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(131): created implicit net for "bitsel2" File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 131
-Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(132): created implicit net for "bitsel3" File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 132
-Warning (10236): Verilog HDL Implicit Net warning at multiplex70to35.v(98): created implicit net for "bitsel0" File: E:/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 98
-Warning (10236): Verilog HDL Implicit Net warning at multiplex70to35.v(99): created implicit net for "bitsel1" File: E:/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 99
-Warning (10236): Verilog HDL Implicit Net warning at bin6switchregister.v(86): created implicit net for "MATCHTEST" File: E:/JL/TEC498P2/ProjectFiles/bin6switchregister.v Line: 86
+    Info (12023): Found entity 1: buttonenabler File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 2
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(43): created implicit net for "NIPTART" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 43
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(43): created implicit net for "IPTART" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 43
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(51): created implicit net for "rreset" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 51
+Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(52): created implicit net for "greset" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 52
+Warning (10236): Verilog HDL Implicit Net warning at mainmodule.v(512): created implicit net for "matchlastwire" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 512
+Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(55): created implicit net for "togglecondition2" File: E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 55
+Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(136): created implicit net for "bitsel0" File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 136
+Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(137): created implicit net for "bitsel1" File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 137
+Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(138): created implicit net for "bitsel2" File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 138
+Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(139): created implicit net for "bitsel3" File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 139
+Warning (10236): Verilog HDL Implicit Net warning at multiplex70to35.v(106): created implicit net for "bitsel0" File: E:/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 106
+Warning (10236): Verilog HDL Implicit Net warning at multiplex70to35.v(107): created implicit net for "bitsel1" File: E:/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 107
+Warning (10236): Verilog HDL Implicit Net warning at bin6switchregister.v(101): created implicit net for "MATCHTEST" File: E:/JL/TEC498P2/ProjectFiles/bin6switchregister.v Line: 101
 Info (12127): Elaborating entity "mainmodule" for the top level hierarchy
 Info (12128): Elaborating entity "binpower18clockdivider" for hierarchy "binpower18clockdivider:clkdiv_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 125
-Info (12128): Elaborating entity "tff_gate" for hierarchy "binpower18clockdivider:clkdiv_0|tff_gate:ff00" File: E:/JL/TEC498P2/ProjectFiles/binpower18clockdivider.v Line: 13
+Info (12128): Elaborating entity "tff_gate" for hierarchy "binpower18clockdivider:clkdiv_0|tff_gate:ff00" File: E:/JL/TEC498P2/ProjectFiles/binpower18clockdivider.v Line: 24
 Info (12128): Elaborating entity "bin3bcount" for hierarchy "bin3bcount:bin3bc_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 133
-Info (12128): Elaborating entity "buttonenabler" for hierarchy "buttonenabler:btnebl_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 156
-Info (12128): Elaborating entity "srlt_gate" for hierarchy "buttonenabler:btnebl_0|srlt_gate:gamestatus_0" File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 45
-Info (12128): Elaborating entity "binpower4buttonbouncer" for hierarchy "binpower4buttonbouncer:btnbnc_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 162
-Info (12128): Elaborating entity "bin2bselector" for hierarchy "bin2bselector:shpsel_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 168
-Info (12128): Elaborating entity "multiplex140to35" for hierarchy "multiplex140to35:shparrmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 297
-Info (12128): Elaborating entity "tablememory7by5" for hierarchy "tablememory7by5:shotsfired_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 422
-Info (12128): Elaborating entity "multiplex35to1" for hierarchy "multiplex35to1:shipcoordinatemux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 475
-Info (12128): Elaborating entity "bin6switchregister" for hierarchy "bin6switchregister:changedinputchk_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 488
-Warning (10034): Output port "MATCHHTEST" at bin6switchregister.v(12) has no driver File: E:/JL/TEC498P2/ProjectFiles/bin6switchregister.v Line: 12
-Info (12128): Elaborating entity "shipgunner" for hierarchy "shipgunner:shpart_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 498
-Info (12128): Elaborating entity "multiplex1to35" for hierarchy "multiplex1to35:artiptmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 551
-Info (12128): Elaborating entity "decodermode" for hierarchy "decodermode:modedec_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 562
-Info (12128): Elaborating entity "decodercolumn" for hierarchy "decodercolumn:columndec_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 575
-Info (12128): Elaborating entity "decoderline" for hierarchy "decoderline:linedec_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 588
-Info (12128): Elaborating entity "multiplex21to7" for hierarchy "multiplex21to7:decmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 625
-Info (12128): Elaborating entity "displayselector" for hierarchy "displayselector:sevsegdplsel_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 642
-Info (12128): Elaborating entity "multiplex70to35" for hierarchy "multiplex70to35:displayselmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 779
-Info (12128): Elaborating entity "multiplex35to5" for hierarchy "multiplex35to5:displayfinalmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 834
+Info (12128): Elaborating entity "buttonenabler" for hierarchy "buttonenabler:btnebl_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 157
+Info (12128): Elaborating entity "srlt_gate" for hierarchy "buttonenabler:btnebl_0|srlt_gate:gamestatus_0" File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 60
+Info (12128): Elaborating entity "binpower4buttonbouncer" for hierarchy "binpower4buttonbouncer:btnbnc_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 164
+Info (12128): Elaborating entity "bin2bselector" for hierarchy "bin2bselector:shpsel_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 171
+Info (12128): Elaborating entity "multiplex140to35" for hierarchy "multiplex140to35:shparrmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 309
+Info (12128): Elaborating entity "tablememory7by5" for hierarchy "tablememory7by5:shotsfired_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 438
+Info (12128): Elaborating entity "multiplex35to1" for hierarchy "multiplex35to1:shipcoordinatemux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 496
+Info (12128): Elaborating entity "bin6switchregister" for hierarchy "bin6switchregister:changedinputchk_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 513
+Warning (10034): Output port "MATCHHTEST" at bin6switchregister.v(19) has no driver File: E:/JL/TEC498P2/ProjectFiles/bin6switchregister.v Line: 19
+Info (12128): Elaborating entity "shipgunner" for hierarchy "shipgunner:shpart_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 533
+Info (12128): Elaborating entity "multiplex1to35" for hierarchy "multiplex1to35:artiptmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 590
+Info (12128): Elaborating entity "decodermode" for hierarchy "decodermode:modedec_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 605
+Info (12128): Elaborating entity "decodercolumn" for hierarchy "decodercolumn:columndec_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 622
+Info (12128): Elaborating entity "decoderline" for hierarchy "decoderline:linedec_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 639
+Info (12128): Elaborating entity "multiplex21to7" for hierarchy "multiplex21to7:decmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 682
+Info (12128): Elaborating entity "displayselector" for hierarchy "displayselector:sevsegdplsel_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 701
+Info (12128): Elaborating entity "multiplex70to35" for hierarchy "multiplex70to35:displayselmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 845
+Info (12128): Elaborating entity "multiplex35to5" for hierarchy "multiplex35to5:displayfinalmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 904
 Info (13014): Ignored 45 buffer(s)
     Info (13019): Ignored 45 SOFT buffer(s)
 Warning (19016): Clock multiplexers are found and protected
-    Warning (19017): Found clock multiplexer buttonenabler:btnebl_0|WideAnd3~0 File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 39
+    Warning (19017): Found clock multiplexer buttonenabler:btnebl_0|WideAnd3~0 File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 53
 Warning (12241): 67 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "RLED" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 33
@@ -1337,10 +1331,10 @@ Info (21057): Implemented 229 device resources after synthesis - the final resou
     Info (21058): Implemented 11 input pins
     Info (21059): Implemented 28 output pins
     Info (21061): Implemented 190 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 28 warnings
-    Info: Peak virtual memory: 4702 megabytes
-    Info: Processing ended: Tue Oct 03 17:23:35 2023
-    Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:00:30
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 24 warnings
+    Info: Peak virtual memory: 4704 megabytes
+    Info: Processing ended: Fri Oct 06 06:25:14 2023
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:31
 
 

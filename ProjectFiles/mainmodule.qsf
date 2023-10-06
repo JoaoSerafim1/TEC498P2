@@ -56,7 +56,6 @@ set_global_assignment -name VERILOG_FILE multiplex35to5.v
 set_global_assignment -name VERILOG_FILE multiplex35to1.v
 set_global_assignment -name VERILOG_FILE multiplex1to35.v
 set_global_assignment -name VERILOG_FILE mainmodule.v
-set_global_assignment -name VERILOG_FILE binpower20clockdivider.v
 set_global_assignment -name VERILOG_FILE bin3bcount.v
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH STILL AIR"
 set_location_assignment PIN_12 -to CLKIN
