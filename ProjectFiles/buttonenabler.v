@@ -27,9 +27,9 @@ module buttonenabler (
 	//Fios
 	wire
 	NCH4, NCH3, NCH2,
-	isletteractive,
-	isnumberinactive0, isnumberinactive1, isnumberinactive2,
 	isnumberactive,
+	isletterinactive0, isletterinactive1, isletterinactive2,
+	isletteractive,
 	is0ON,
 	was0alwaysOFF;
 
@@ -39,15 +39,15 @@ not (NCH4, CH4);
 not (NCH3, CH3);
 not (NCH2, CH2);
 
-//Condicoes para ser invalida a coordenada horizontal (000, 110 e 111)
-and (isnumberinactive0, NCH4, NCH3, NCH2);
-and (isnumberinactive1, CH4, CH3, NCH2);
-and (isnumberinactive2, CH4, CH3, CH2);
+//Condicoes para ser invalida a coordenada vertical (000, 110 e 111)
+and (isletterinactive0, NC7, NCH6, NCH5);
+and (isletterinactive1, CH7, CH6, NCH5);
+and (isletterinactive2, CH7, CH6, CH5);
 
-//Se ao menos 1 das entradas da coordenada vertical esta ligada, esta e valida (so exclui 000)
-or (isletteractive, CH7, CH6, CH5);
+//Se ao menos 1 das entradas da coordenada horizontal esta ligada, esta e valida (so exclui 000)
+or (isnumberactive, CH4, CH3, CH2);
 //Se nenhuma das condicoes de invalidez da coordenada horizontal e satisfeita, esta e valida (exclui 000, 110 e 111)
-nor (isnumberactive, isnumberinactive0, isnumberinactive1, isnumberinactive2);
+nor (isletteractive, isletterinactive0, isletterinactive1, isletterinactive2);
 
 //O botao 0 podera ser ligado se as coordenadas forem validas, o dispositivo estiver ligado (CH0 ligada) e modo for de ataque (CH1 ligada)
 and (is0ON, IPT0, CH0, CH1, isletteractive, isnumberactive);
