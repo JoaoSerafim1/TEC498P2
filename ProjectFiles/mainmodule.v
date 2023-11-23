@@ -91,6 +91,9 @@ module mainmodule (
 	A6muxtoshotsfired, B6muxtoshotsfired, C6muxtoshotsfired, D6muxtoshotsfired, E6muxtoshotsfired,
 	A7muxtoshotsfired, B7muxtoshotsfired, C7muxtoshotsfired, D7muxtoshotsfired, E7muxtoshotsfired,
 	
+	//Fio do verificador de coincidencia com a ultima posicao de tiro registrada (permite desligar o LED colorido caso as chaves sejam alteradas)
+	//matchlastwire,
+	
 	//Fios da entrada da possivel embarcacao no quadrado selecionado e saida do modulo de ataque
 	shipiptwire, gunnertoart,
 	
@@ -126,7 +129,8 @@ binpower18clockdivider clkdiv_0 (
 
 //Instancia do contador binario que faz mais 2 divisoes de clock (C mantem o clock atual)
 bin3bcount bin3bc_0 (
-		.IPTCLK (clkdivwire),
+		.IPTCLK (clkdivwire), //Comente esta linha e descomente a proxima para realizar testes com os arquivos .vwf
+		//.IPTCLK (CLKIN), //Descomente esta linha e comente a anterior para realizar testes com os arquivos .vwf
 		.A (countA),
 		.B (countB),
 		.C (countC)
@@ -159,7 +163,8 @@ buttonenabler btnebl_0 (
 //Instancia do controlador para pressionar o botao de mudar selecao de posicionamento das embarcacoes
 binpower4buttonbouncer btnbnc_0 (
 		.IPTBTN (enableNBT1),
-		.IPTCLK (clkdivwire),
+		.IPTCLK (clkdivwire), //Comente esta linha e descomente a proxima para realizar testes com os arquivos .vwf
+		//.IPTCLK (CLKIN), //Descomente esta linha e comente a anterior para realizar testes com os arquivos .vwf
 		.OUTBTN (debouncedbutton1)
 );
 
@@ -496,7 +501,7 @@ multiplex35to1 shipcoordinatemux_0 (
 );
 
 //Instancia do modulo de memoria de 6 bits que guarda a ultima combinacao de chaves utilizada para ataque valido
-bin6switchregister changedinputchk_0 (
+/*bin6switchregister changedinputchk_0 (
 	//Entradas referentes as chaves que pertencem a artilharia (Chave 2 - Chave 7)
 	.IPT0 (CH7),
 	.IPT1 (CH6),
@@ -510,7 +515,7 @@ bin6switchregister changedinputchk_0 (
 	
 	//Saida que diz se as chaves atuais combinam com a ultima posicao de tiro registrada
 	.MATCHHTEST (matchlastwire)
-);
+);*/
 
 //Instancia do modulo de artilharia
 shipgunner shpart_0 (
@@ -522,7 +527,7 @@ shipgunner shpart_0 (
 		//Entrada da negacao da chave 0, de modo a permitir verificar se o dispositivo esta ligado ou nao
 		.NCH0 (NCH0),
 		//Entrada da permissao para exibir informacao no LED RGB (a combinacao de chaves nao mudou desde o ultimo tiro valido)
-		.ENABLELED (matchlastwire),
+		//.ENABLELED (matchlastwire),
 		
 		//Saida do pixel da artilharia
 		.OUT (gunnertoart),
