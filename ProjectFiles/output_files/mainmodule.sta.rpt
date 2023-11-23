@@ -1,5 +1,5 @@
 Timing Analyzer report for mainmodule
-Fri Oct 06 06:25:37 2023
+Thu Nov 23 04:28:32 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -18,54 +18,54 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
  10. Minimum Pulse Width Summary
  11. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff17|q'
  12. Setup: 'binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q'
- 13. Setup: 'bin2bselector:shpsel_0|tff_gate:ff00|q'
- 14. Setup: 'bin3bcount:bin3bc_0|tff_gate:ff00|q'
- 15. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff12|q'
+ 13. Setup: 'bin3bcount:bin3bc_0|tff_gate:ff00|q'
+ 14. Setup: 'bin2bselector:shpsel_0|tff_gate:ff00|q'
+ 15. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff02|q'
  16. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff10|q'
- 17. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff14|q'
- 18. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff04|q'
- 19. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff00|q'
- 20. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff02|q'
- 21. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff08|q'
- 22. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff06|q'
- 23. Setup: 'binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q'
- 24. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff16|q'
- 25. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff11|q'
- 26. Setup: 'binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q'
- 27. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff07|q'
- 28. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff05|q'
- 29. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff09|q'
- 30. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff01|q'
+ 17. Setup: 'binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q'
+ 18. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff14|q'
+ 19. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff04|q'
+ 20. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff12|q'
+ 21. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff00|q'
+ 22. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff08|q'
+ 23. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff06|q'
+ 24. Setup: 'binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q'
+ 25. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff05|q'
+ 26. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff13|q'
+ 27. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff01|q'
+ 28. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff15|q'
+ 29. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff07|q'
+ 30. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff09|q'
  31. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff03|q'
- 32. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff15|q'
- 33. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff13|q'
+ 32. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff16|q'
+ 33. Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff11|q'
  34. Setup: 'CLKIN'
- 35. Setup: 'BT0'
- 36. Hold: 'BT0'
+ 35. Setup: 'BT1'
+ 36. Hold: 'BT1'
  37. Hold: 'binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q'
  38. Hold: 'binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q'
  39. Hold: 'binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q'
  40. Hold: 'CLKIN'
  41. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff17|q'
- 42. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff13|q'
- 43. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff15|q'
+ 42. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff11|q'
+ 43. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff16|q'
  44. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff03|q'
- 45. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff01|q'
- 46. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff09|q'
- 47. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff05|q'
- 48. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff07|q'
- 49. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff11|q'
- 50. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff16|q'
+ 45. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff09|q'
+ 46. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff07|q'
+ 47. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff15|q'
+ 48. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff01|q'
+ 49. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff13|q'
+ 50. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff05|q'
  51. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff06|q'
- 52. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff08|q'
- 53. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff02|q'
- 54. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff00|q'
+ 52. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff00|q'
+ 53. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff08|q'
+ 54. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff12|q'
  55. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff04|q'
  56. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff14|q'
  57. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff10|q'
- 58. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff12|q'
- 59. Hold: 'bin3bcount:bin3bc_0|tff_gate:ff00|q'
- 60. Hold: 'bin2bselector:shpsel_0|tff_gate:ff00|q'
+ 58. Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff02|q'
+ 59. Hold: 'bin2bselector:shpsel_0|tff_gate:ff00|q'
+ 60. Hold: 'bin3bcount:bin3bc_0|tff_gate:ff00|q'
  61. Setup Transfers
  62. Hold Transfers
  63. Report TCCS
@@ -160,7 +160,7 @@ https://fpgasoftware.intel.com/eula.
 ; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { binpower18clockdivider:clkdiv_0|tff_gate:ff15|q } ;
 ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { binpower18clockdivider:clkdiv_0|tff_gate:ff16|q } ;
 ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { binpower18clockdivider:clkdiv_0|tff_gate:ff17|q } ;
-; BT0                                             ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { BT0 }                                             ;
+; BT1                                             ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { BT1 }                                             ;
 ; CLKIN                                           ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { CLKIN }                                           ;
 +-------------------------------------------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-----------------------------------------------------+
 
@@ -170,9 +170,9 @@ https://fpgasoftware.intel.com/eula.
 +------------+-----------------+-------------------------------------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name                                      ; Note ;
 +------------+-----------------+-------------------------------------------------+------+
-; 447.63 MHz ; 447.63 MHz      ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ;      ;
-; 453.93 MHz ; 453.93 MHz      ; bin2bselector:shpsel_0|tff_gate:ff00|q          ;      ;
-; 456.0 MHz  ; 456.0 MHz       ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ;      ;
+; 446.63 MHz ; 446.63 MHz      ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ;      ;
+; 453.93 MHz ; 453.93 MHz      ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ;      ;
+; 456.0 MHz  ; 456.0 MHz       ; bin2bselector:shpsel_0|tff_gate:ff00|q          ;      ;
 +------------+-----------------+-------------------------------------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -182,31 +182,31 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +-------------------------------------------------+--------+---------------+
 ; Clock                                           ; Slack  ; End Point TNS ;
 +-------------------------------------------------+--------+---------------+
-; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -1.723 ; -1.723        ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; -1.234 ; -1.234        ;
-; bin2bselector:shpsel_0|tff_gate:ff00|q          ; -1.203 ; -1.203        ;
-; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; -1.193 ; -1.193        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; 0.432  ; 0.000         ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; 0.451  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -1.494 ; -1.494        ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; -1.239 ; -1.239        ;
+; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; -1.203 ; -1.203        ;
+; bin2bselector:shpsel_0|tff_gate:ff00|q          ; -1.193 ; -1.193        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff02|q ; 0.451  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; 0.455  ; 0.000         ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; 0.457  ; 0.000         ;
 ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; 0.461  ; 0.000         ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; 0.462  ; 0.000         ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; 0.467  ; 0.000         ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff02|q ; 0.476  ; 0.000         ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; 0.478  ; 0.000         ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; 0.485  ; 0.000         ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; 0.485  ; 0.000         ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; 0.487  ; 0.000         ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; 0.556  ; 0.000         ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.589  ; 0.000         ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; 0.775  ; 0.000         ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; 0.804  ; 0.000         ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; 0.806  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; 0.467  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; 0.468  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; 0.475  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; 0.475  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; 0.497  ; 0.000         ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.555  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; 0.776  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; 0.803  ; 0.000         ;
 ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; 0.818  ; 0.000         ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; 1.082  ; 0.000         ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q ; 1.139  ; 0.000         ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; 1.934  ; 0.000         ;
-; CLKIN                                           ; 3.271  ; 0.000         ;
-; BT0                                             ; 7.274  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q ; 0.865  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; 0.866  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; 1.167  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; 1.410  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; 1.432  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; 1.444  ; 0.000         ;
+; CLKIN                                           ; 3.024  ; 0.000         ;
+; BT1                                             ; 5.852  ; 0.000         ;
 +-------------------------------------------------+--------+---------------+
 
 
@@ -215,31 +215,31 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +-------------------------------------------------+--------+---------------+
 ; Clock                                           ; Slack  ; End Point TNS ;
 +-------------------------------------------------+--------+---------------+
-; BT0                                             ; -7.328 ; -7.328        ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; -4.569 ; -4.569        ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; -4.379 ; -4.918        ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; -3.846 ; -4.489        ;
-; CLKIN                                           ; -3.325 ; -3.325        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -2.005 ; -3.801        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; -1.988 ; -1.988        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q ; -1.193 ; -1.193        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; -1.136 ; -1.136        ;
+; BT1                                             ; -5.906 ; -5.906        ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; -4.570 ; -4.570        ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; -4.347 ; -4.858        ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; -3.816 ; -4.425        ;
+; CLKIN                                           ; -3.078 ; -3.078        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -2.283 ; -4.059        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; -1.498 ; -1.498        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; -1.486 ; -1.486        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; -1.464 ; -1.464        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; -1.221 ; -1.221        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; -0.920 ; -0.920        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q ; -0.919 ; -0.919        ;
 ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; -0.872 ; -0.872        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; -0.860 ; -0.860        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; -0.858 ; -0.858        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; -0.829 ; -0.829        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; -0.610 ; -0.610        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; -0.541 ; -0.541        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; -0.539 ; -0.539        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; -0.532 ; -0.532        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff02|q ; -0.530 ; -0.530        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; -0.521 ; -0.521        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; -0.516 ; -0.516        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; -0.857 ; -0.857        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; -0.830 ; -0.830        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; -0.551 ; -0.551        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; -0.529 ; -0.529        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; -0.529 ; -0.529        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; -0.522 ; -0.522        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; -0.521 ; -0.521        ;
 ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; -0.515 ; -0.515        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; -0.505 ; -0.505        ;
-; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; -0.486 ; -0.486        ;
-; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; 1.639  ; 0.000         ;
-; bin2bselector:shpsel_0|tff_gate:ff00|q          ; 1.649  ; 0.000         ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; -0.509 ; -0.509        ;
+; binpower18clockdivider:clkdiv_0|tff_gate:ff02|q ; -0.505 ; -0.505        ;
+; bin2bselector:shpsel_0|tff_gate:ff00|q          ; 1.639  ; 0.000         ;
+; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; 1.649  ; 0.000         ;
 +-------------------------------------------------+--------+---------------+
 
 
@@ -260,11 +260,11 @@ No paths to report.
 +-------------------------------------------------+--------+---------------+
 ; Clock                                           ; Slack  ; End Point TNS ;
 +-------------------------------------------------+--------+---------------+
-; BT0                                             ; -2.289 ; -2.289        ;
+; BT1                                             ; -2.289 ; -2.289        ;
 ; CLKIN                                           ; -2.289 ; -2.289        ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; -0.554 ; -2.260        ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; -0.554 ; -2.260        ;
-; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; -0.554 ; -2.260        ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; -0.568 ; -2.344        ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; -0.568 ; -2.344        ;
+; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; -0.566 ; -2.332        ;
 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; 0.234  ; 0.000         ;
 ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; 0.234  ; 0.000         ;
 ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; 0.234  ; 0.000         ;
@@ -293,17 +293,17 @@ No paths to report.
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -1.723 ; BT0                                             ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; BT0                                             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.500        ; 3.680      ; 5.570      ;
-; -1.680 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff03|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.500        ; 1.467      ; 3.314      ;
-; -1.223 ; BT0                                             ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; BT0                                             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 1.000        ; 3.680      ; 5.570      ;
-; -0.183 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.500        ; 3.680      ; 4.406      ;
-; 0.007  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.500        ; 3.680      ; 4.216      ;
-; 0.317  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 1.000        ; 3.680      ; 4.406      ;
-; 0.507  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 1.000        ; 3.680      ; 4.216      ;
-; 0.540  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.500        ; 3.680      ; 3.683      ;
-; 1.040  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 1.000        ; 3.680      ; 3.683      ;
-; 1.951  ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.500        ; 3.680      ; 2.272      ;
-; 2.451  ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 1.000        ; 3.680      ; 2.272      ;
+; -1.494 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff03|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.500        ; 1.423      ; 3.084      ;
+; -1.387 ; BT1                                             ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; BT1                                             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.500        ; 3.672      ; 5.226      ;
+; -0.887 ; BT1                                             ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; BT1                                             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 1.000        ; 3.672      ; 5.226      ;
+; 0.019  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.500        ; 3.672      ; 4.196      ;
+; 0.242  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.500        ; 3.672      ; 3.973      ;
+; 0.519  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 1.000        ; 3.672      ; 4.196      ;
+; 0.742  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 1.000        ; 3.672      ; 3.973      ;
+; 0.771  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.500        ; 3.672      ; 3.444      ;
+; 1.271  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 1.000        ; 3.672      ; 3.444      ;
+; 2.229  ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.500        ; 3.672      ; 1.986      ;
+; 2.729  ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 1.000        ; 3.672      ; 1.986      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -312,19 +312,10 @@ No paths to report.
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -1.234 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff03|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff03|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; 1.000        ; 0.000      ; 1.901      ;
-; 3.727  ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; 0.500        ; 5.385      ; 2.201      ;
-; 4.227  ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; 1.000        ; 5.385      ; 2.201      ;
+; -1.239 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff03|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff03|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; 1.000        ; 0.000      ; 1.906      ;
+; 3.714  ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; 0.500        ; 5.388      ; 2.217      ;
+; 4.214  ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; 1.000        ; 5.388      ; 2.217      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Setup: 'bin2bselector:shpsel_0|tff_gate:ff00|q'                                                                                                                                                                     ;
-+--------+----------------------------------------+----------------------------------------+----------------------------------------+----------------------------------------+--------------+------------+------------+
-; Slack  ; From Node                              ; To Node                                ; Launch Clock                           ; Latch Clock                            ; Relationship ; Clock Skew ; Data Delay ;
-+--------+----------------------------------------+----------------------------------------+----------------------------------------+----------------------------------------+--------------+------------+------------+
-; -1.203 ; bin2bselector:shpsel_0|tff_gate:ff01|q ; bin2bselector:shpsel_0|tff_gate:ff01|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; 1.000        ; 0.000      ; 1.870      ;
-+--------+----------------------------------------+----------------------------------------+----------------------------------------+----------------------------------------+--------------+------------+------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -332,17 +323,26 @@ No paths to report.
 +--------+-------------------------------------+-------------------------------------+-------------------------------------+-------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                           ; To Node                             ; Launch Clock                        ; Latch Clock                         ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------+-------------------------------------+-------------------------------------+-------------------------------------+--------------+------------+------------+
-; -1.193 ; bin3bcount:bin3bc_0|tff_gate:ff01|q ; bin3bcount:bin3bc_0|tff_gate:ff01|q ; bin3bcount:bin3bc_0|tff_gate:ff00|q ; bin3bcount:bin3bc_0|tff_gate:ff00|q ; 1.000        ; 0.000      ; 1.860      ;
+; -1.203 ; bin3bcount:bin3bc_0|tff_gate:ff01|q ; bin3bcount:bin3bc_0|tff_gate:ff01|q ; bin3bcount:bin3bc_0|tff_gate:ff00|q ; bin3bcount:bin3bc_0|tff_gate:ff00|q ; 1.000        ; 0.000      ; 1.870      ;
 +--------+-------------------------------------+-------------------------------------+-------------------------------------+-------------------------------------+--------------+------------+------------+
 
 
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'bin2bselector:shpsel_0|tff_gate:ff00|q'                                                                                                                                                                     ;
++--------+----------------------------------------+----------------------------------------+----------------------------------------+----------------------------------------+--------------+------------+------------+
+; Slack  ; From Node                              ; To Node                                ; Launch Clock                           ; Latch Clock                            ; Relationship ; Clock Skew ; Data Delay ;
++--------+----------------------------------------+----------------------------------------+----------------------------------------+----------------------------------------+--------------+------------+------------+
+; -1.193 ; bin2bselector:shpsel_0|tff_gate:ff01|q ; bin2bselector:shpsel_0|tff_gate:ff01|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; 1.000        ; 0.000      ; 1.860      ;
++--------+----------------------------------------+----------------------------------------+----------------------------------------+----------------------------------------+--------------+------------+------------+
+
+
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff12|q'                                                                                                                                                                                               ;
+; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff02|q'                                                                                                                                                                                               ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 0.432 ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; 0.500        ; 1.786      ; 1.897      ;
-; 0.932 ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; 1.000        ; 1.786      ; 1.897      ;
+; 0.451 ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff02|q ; 0.500        ; 1.804      ; 1.896      ;
+; 0.951 ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff02|q ; 1.000        ; 1.804      ; 1.896      ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -351,8 +351,20 @@ No paths to report.
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 0.451 ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; 0.500        ; 1.804      ; 1.896      ;
-; 0.951 ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; 1.000        ; 1.804      ; 1.896      ;
+; 0.455 ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; 0.500        ; 1.807      ; 1.895      ;
+; 0.955 ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; 1.000        ; 1.807      ; 1.895      ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q'                                                                                                                                                                                               ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; 0.457 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; 0.500        ; 1.793      ; 1.879      ;
+; 0.957 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; 1.000        ; 1.793      ; 1.879      ;
+; 3.491 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; 0.500        ; 5.165      ; 2.217      ;
+; 3.991 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; 1.000        ; 5.165      ; 2.217      ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -371,8 +383,18 @@ No paths to report.
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 0.462 ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; 0.500        ; 1.816      ; 1.897      ;
-; 0.962 ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; 1.000        ; 1.816      ; 1.897      ;
+; 0.467 ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; 0.500        ; 1.803      ; 1.879      ;
+; 0.967 ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; 1.000        ; 1.803      ; 1.879      ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff12|q'                                                                                                                                                                                               ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; 0.468 ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; 0.500        ; 1.796      ; 1.871      ;
+; 0.968 ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; 1.000        ; 1.796      ; 1.871      ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -381,18 +403,8 @@ No paths to report.
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 0.467 ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; 0.500        ; 1.784      ; 1.860      ;
-; 0.967 ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; 1.000        ; 1.784      ; 1.860      ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff02|q'                                                                                                                                                                                               ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 0.476 ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff02|q ; 0.500        ; 1.804      ; 1.871      ;
-; 0.976 ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff02|q ; 1.000        ; 1.804      ; 1.871      ;
+; 0.475 ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; 0.500        ; 1.793      ; 1.861      ;
+; 0.975 ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; 1.000        ; 1.793      ; 1.861      ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -401,8 +413,8 @@ No paths to report.
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 0.478 ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; 0.500        ; 1.814      ; 1.879      ;
-; 0.978 ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; 1.000        ; 1.814      ; 1.879      ;
+; 0.475 ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; 0.500        ; 1.793      ; 1.861      ;
+; 0.975 ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; 1.000        ; 1.793      ; 1.861      ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -411,40 +423,8 @@ No paths to report.
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 0.485 ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; 0.500        ; 1.813      ; 1.871      ;
-; 0.985 ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; 1.000        ; 1.813      ; 1.871      ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Setup: 'binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q'                                                                                                                                                                                               ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 0.485 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; 0.500        ; 1.803      ; 1.861      ;
-; 0.985 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; 1.000        ; 1.803      ; 1.861      ;
-; 3.537 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; 0.500        ; 5.195      ; 2.201      ;
-; 4.037 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; 1.000        ; 5.195      ; 2.201      ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff16|q'                                                                                                                                                                                               ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 0.487 ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; 0.500        ; 1.805      ; 1.861      ;
-; 0.987 ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; 1.000        ; 1.805      ; 1.861      ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff11|q'                                                                                                                                                                                               ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 0.556 ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; 0.500        ; 2.150      ; 2.137      ;
-; 1.056 ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; 1.000        ; 2.150      ; 2.137      ;
+; 0.497 ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; 0.500        ; 1.824      ; 1.870      ;
+; 0.997 ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; 1.000        ; 1.824      ; 1.870      ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -453,20 +433,10 @@ No paths to report.
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 0.589 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.500        ; 2.202      ; 2.156      ;
-; 1.089 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 1.000        ; 2.202      ; 2.156      ;
-; 3.004 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.500        ; 4.662      ; 2.201      ;
-; 3.504 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 1.000        ; 4.662      ; 2.201      ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff07|q'                                                                                                                                                                                               ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 0.775 ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; 0.500        ; 2.136      ; 1.904      ;
-; 1.275 ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; 1.000        ; 2.136      ; 1.904      ;
+; 0.555 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.500        ; 2.159      ; 2.147      ;
+; 1.055 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 1.000        ; 2.159      ; 2.147      ;
+; 2.962 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.500        ; 4.636      ; 2.217      ;
+; 3.462 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 1.000        ; 4.636      ; 2.217      ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -475,18 +445,18 @@ No paths to report.
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 0.804 ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; 0.500        ; 2.164      ; 1.903      ;
-; 1.304 ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; 1.000        ; 2.164      ; 1.903      ;
+; 0.776 ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; 0.500        ; 2.144      ; 1.911      ;
+; 1.276 ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; 1.000        ; 2.144      ; 1.911      ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff09|q'                                                                                                                                                                                               ;
+; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff13|q'                                                                                                                                                                                               ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 0.806 ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; 0.500        ; 2.158      ; 1.895      ;
-; 1.306 ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; 1.000        ; 2.158      ; 1.895      ;
+; 0.803 ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; 0.500        ; 2.154      ; 1.894      ;
+; 1.303 ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; 1.000        ; 2.154      ; 1.894      ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -501,32 +471,62 @@ No paths to report.
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff03|q'                                                                                                                                                                                               ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 1.082 ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; 0.500        ; 2.699      ; 2.160      ;
-; 1.582 ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; 1.000        ; 2.699      ; 2.160      ;
-+-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff15|q'                                                                                                                                                                                               ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 1.139 ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q ; 0.500        ; 2.748      ; 2.152      ;
-; 1.639 ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q ; 1.000        ; 2.748      ; 2.152      ;
+; 0.865 ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q ; 0.500        ; 2.209      ; 1.887      ;
+; 1.365 ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q ; 1.000        ; 2.209      ; 1.887      ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff13|q'                                                                                                                                                                                               ;
+; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff07|q'                                                                                                                                                                                               ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; 1.934 ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; 0.500        ; 3.543      ; 2.152      ;
-; 2.434 ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; 1.000        ; 3.543      ; 2.152      ;
+; 0.866 ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; 0.500        ; 2.210      ; 1.887      ;
+; 1.366 ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; 1.000        ; 2.210      ; 1.887      ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff09|q'                                                                                                                                                                                               ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; 1.167 ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; 0.500        ; 2.776      ; 2.152      ;
+; 1.667 ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; 1.000        ; 2.776      ; 2.152      ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff03|q'                                                                                                                                                                                               ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; 1.410 ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; 0.500        ; 2.763      ; 1.896      ;
+; 1.910 ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; 1.000        ; 2.763      ; 1.896      ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff16|q'                                                                                                                                                                                               ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; 1.432 ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; 0.500        ; 2.791      ; 1.902      ;
+; 1.932 ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; 1.000        ; 2.791      ; 1.902      ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'binpower18clockdivider:clkdiv_0|tff_gate:ff11|q'                                                                                                                                                                                               ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
++-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; 1.444 ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; 0.500        ; 3.045      ; 2.144      ;
+; 1.944 ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; 1.000        ; 3.045      ; 2.144      ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -535,28 +535,28 @@ No paths to report.
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------+--------------+------------+------------+
 ; Slack ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------+--------------+------------+------------+
-; 3.271 ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; CLKIN       ; 0.500        ; 4.607      ; 1.879      ;
-; 3.771 ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; CLKIN       ; 1.000        ; 4.607      ; 1.879      ;
+; 3.024 ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; CLKIN       ; 0.500        ; 4.368      ; 1.887      ;
+; 3.524 ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; CLKIN       ; 1.000        ; 4.368      ; 1.887      ;
 +-------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------+--------------+------------+------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Setup: 'BT0'                                                                                                                                                                            ;
+; Setup: 'BT1'                                                                                                                                                                            ;
 +-------+----------------------------------------+----------------------------------------+----------------------------------------+-------------+--------------+------------+------------+
 ; Slack ; From Node                              ; To Node                                ; Launch Clock                           ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +-------+----------------------------------------+----------------------------------------+----------------------------------------+-------------+--------------+------------+------------+
-; 7.274 ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; BT0         ; 0.500        ; 8.932      ; 2.201      ;
-; 7.774 ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; BT0         ; 1.000        ; 8.932      ; 2.201      ;
+; 5.852 ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; BT1         ; 0.500        ; 7.526      ; 2.217      ;
+; 6.352 ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; BT1         ; 1.000        ; 7.526      ; 2.217      ;
 +-------+----------------------------------------+----------------------------------------+----------------------------------------+-------------+--------------+------------+------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Hold: 'BT0'                                                                                                                                                                              ;
+; Hold: 'BT1'                                                                                                                                                                              ;
 +--------+----------------------------------------+----------------------------------------+----------------------------------------+-------------+--------------+------------+------------+
 ; Slack  ; From Node                              ; To Node                                ; Launch Clock                           ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +--------+----------------------------------------+----------------------------------------+----------------------------------------+-------------+--------------+------------+------------+
-; -7.328 ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; BT0         ; 0.000        ; 8.932      ; 2.201      ;
-; -6.828 ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; BT0         ; -0.500       ; 8.932      ; 2.201      ;
+; -5.906 ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; BT1         ; 0.000        ; 7.526      ; 2.217      ;
+; -5.406 ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; BT1         ; -0.500       ; 7.526      ; 2.217      ;
 +--------+----------------------------------------+----------------------------------------+----------------------------------------+-------------+--------------+------------+------------+
 
 
@@ -565,9 +565,9 @@ No paths to report.
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -4.569 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; 0.000        ; 6.173      ; 2.201      ;
-; -4.069 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; -0.500       ; 6.173      ; 2.201      ;
-; 1.680  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff03|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff03|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; 0.000        ; 0.000      ; 1.901      ;
+; -4.570 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; 0.000        ; 6.190      ; 2.217      ;
+; -4.070 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; -0.500       ; 6.190      ; 2.217      ;
+; 1.685  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff03|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff03|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; 0.000        ; 0.000      ; 1.906      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -576,10 +576,10 @@ No paths to report.
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -4.379 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; 0.000        ; 5.983      ; 2.201      ;
-; -3.879 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; -0.500       ; 5.983      ; 2.201      ;
-; -0.539 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; 0.000        ; 1.803      ; 1.861      ;
-; -0.039 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; -0.500       ; 1.803      ; 1.861      ;
+; -4.347 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; 0.000        ; 5.967      ; 2.217      ;
+; -3.847 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; -0.500       ; 5.967      ; 2.217      ;
+; -0.511 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; 0.000        ; 1.793      ; 1.879      ;
+; -0.011 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; -0.500       ; 1.793      ; 1.879      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -588,10 +588,10 @@ No paths to report.
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -3.846 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.000        ; 5.450      ; 2.201      ;
-; -3.346 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; -0.500       ; 5.450      ; 2.201      ;
-; -0.643 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.000        ; 2.202      ; 2.156      ;
-; -0.143 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; -0.500       ; 2.202      ; 2.156      ;
+; -3.816 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.000        ; 5.436      ; 2.217      ;
+; -3.316 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; -0.500       ; 5.436      ; 2.217      ;
+; -0.609 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; 0.000        ; 2.159      ; 2.147      ;
+; -0.109 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; -0.500       ; 2.159      ; 2.147      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -600,8 +600,8 @@ No paths to report.
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------+--------------+------------+------------+
-; -3.325 ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; CLKIN       ; 0.000        ; 4.607      ; 1.879      ;
-; -2.825 ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; CLKIN       ; -0.500       ; 4.607      ; 1.879      ;
+; -3.078 ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; CLKIN       ; 0.000        ; 4.368      ; 1.887      ;
+; -2.578 ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; CLKIN       ; -0.500       ; 4.368      ; 1.887      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------+--------------+------------+------------+
 
 
@@ -610,37 +610,37 @@ No paths to report.
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -2.005 ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.000        ; 3.680      ; 2.272      ;
-; -1.796 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.000        ; 3.680      ; 2.481      ;
-; -1.505 ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -0.500       ; 3.680      ; 2.272      ;
-; -1.296 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -0.500       ; 3.680      ; 2.481      ;
-; -0.268 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.000        ; 3.680      ; 4.009      ;
-; -0.078 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.000        ; 3.680      ; 4.199      ;
-; 0.232  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -0.500       ; 3.680      ; 4.009      ;
-; 0.422  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -0.500       ; 3.680      ; 4.199      ;
-; 1.669  ; BT0                                             ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; BT0                                             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.000        ; 3.680      ; 5.570      ;
-; 1.920  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff03|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -0.500       ; 1.467      ; 3.108      ;
-; 2.169  ; BT0                                             ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; BT0                                             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -0.500       ; 3.680      ; 5.570      ;
+; -2.283 ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.000        ; 3.672      ; 1.986      ;
+; -1.783 ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -0.500       ; 3.672      ; 1.986      ;
+; -1.776 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.000        ; 3.672      ; 2.493      ;
+; -1.276 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -0.500       ; 3.672      ; 2.493      ;
+; -0.958 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.000        ; 3.672      ; 3.311      ;
+; -0.735 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.000        ; 3.672      ; 3.534      ;
+; -0.458 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -0.500       ; 3.672      ; 3.311      ;
+; -0.235 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -0.500       ; 3.672      ; 3.534      ;
+; 1.278  ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff03|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -0.500       ; 1.423      ; 2.422      ;
+; 1.333  ; BT1                                             ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; BT1                                             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 0.000        ; 3.672      ; 5.226      ;
+; 1.833  ; BT1                                             ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; BT1                                             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; -0.500       ; 3.672      ; 5.226      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff13|q'                                                                                                                                                                                                 ;
+; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff11|q'                                                                                                                                                                                                 ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -1.988 ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; 0.000        ; 3.543      ; 2.152      ;
-; -1.488 ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; -0.500       ; 3.543      ; 2.152      ;
+; -1.498 ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; 0.000        ; 3.045      ; 2.144      ;
+; -0.998 ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; -0.500       ; 3.045      ; 2.144      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff15|q'                                                                                                                                                                                                 ;
+; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff16|q'                                                                                                                                                                                                 ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -1.193 ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q ; 0.000        ; 2.748      ; 2.152      ;
-; -0.693 ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q ; -0.500       ; 2.748      ; 2.152      ;
+; -1.486 ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; 0.000        ; 2.791      ; 1.902      ;
+; -0.986 ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; -0.500       ; 2.791      ; 1.902      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -649,8 +649,38 @@ No paths to report.
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -1.136 ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; 0.000        ; 2.699      ; 2.160      ;
-; -0.636 ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; -0.500       ; 2.699      ; 2.160      ;
+; -1.464 ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; 0.000        ; 2.763      ; 1.896      ;
+; -0.964 ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; -0.500       ; 2.763      ; 1.896      ;
++--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff09|q'                                                                                                                                                                                                 ;
++--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
++--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; -1.221 ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; 0.000        ; 2.776      ; 2.152      ;
+; -0.721 ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; -0.500       ; 2.776      ; 2.152      ;
++--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff07|q'                                                                                                                                                                                                 ;
++--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
++--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; -0.920 ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; 0.000        ; 2.210      ; 1.887      ;
+; -0.420 ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; -0.500       ; 2.210      ; 1.887      ;
++--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff15|q'                                                                                                                                                                                                 ;
++--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
++--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; -0.919 ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q ; 0.000        ; 2.209      ; 1.887      ;
+; -0.419 ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff15|q ; -0.500       ; 2.209      ; 1.887      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -665,12 +695,12 @@ No paths to report.
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff09|q'                                                                                                                                                                                                 ;
+; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff13|q'                                                                                                                                                                                                 ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -0.860 ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; 0.000        ; 2.158      ; 1.895      ;
-; -0.360 ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; -0.500       ; 2.158      ; 1.895      ;
+; -0.857 ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; 0.000        ; 2.154      ; 1.894      ;
+; -0.357 ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff14|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; -0.500       ; 2.154      ; 1.894      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -679,38 +709,8 @@ No paths to report.
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -0.858 ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; 0.000        ; 2.164      ; 1.903      ;
-; -0.358 ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; -0.500       ; 2.164      ; 1.903      ;
-+--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff07|q'                                                                                                                                                                                                 ;
-+--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
-+--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -0.829 ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; 0.000        ; 2.136      ; 1.904      ;
-; -0.329 ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; -0.500       ; 2.136      ; 1.904      ;
-+--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff11|q'                                                                                                                                                                                                 ;
-+--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
-+--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -0.610 ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; 0.000        ; 2.150      ; 2.137      ;
-; -0.110 ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; -0.500       ; 2.150      ; 2.137      ;
-+--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff16|q'                                                                                                                                                                                                 ;
-+--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
-+--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -0.541 ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; 0.000        ; 1.805      ; 1.861      ;
-; -0.041 ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff16|q ; -0.500       ; 1.805      ; 1.861      ;
+; -0.830 ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; 0.000        ; 2.144      ; 1.911      ;
+; -0.330 ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; -0.500       ; 2.144      ; 1.911      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -719,28 +719,8 @@ No paths to report.
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -0.539 ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; 0.000        ; 1.813      ; 1.871      ;
-; -0.039 ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; -0.500       ; 1.813      ; 1.871      ;
-+--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff08|q'                                                                                                                                                                                                 ;
-+--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
-+--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -0.532 ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; 0.000        ; 1.814      ; 1.879      ;
-; -0.032 ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; -0.500       ; 1.814      ; 1.879      ;
-+--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff02|q'                                                                                                                                                                                                 ;
-+--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
-+--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -0.530 ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff02|q ; 0.000        ; 1.804      ; 1.871      ;
-; -0.030 ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff02|q ; -0.500       ; 1.804      ; 1.871      ;
+; -0.551 ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; 0.000        ; 1.824      ; 1.870      ;
+; -0.051 ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff07|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff06|q ; -0.500       ; 1.824      ; 1.870      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -749,8 +729,28 @@ No paths to report.
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -0.521 ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; 0.000        ; 1.784      ; 1.860      ;
-; -0.021 ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; -0.500       ; 1.784      ; 1.860      ;
+; -0.529 ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; 0.000        ; 1.793      ; 1.861      ;
+; -0.029 ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; -0.500       ; 1.793      ; 1.861      ;
++--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff08|q'                                                                                                                                                                                                 ;
++--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
++--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; -0.529 ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; 0.000        ; 1.793      ; 1.861      ;
+; -0.029 ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff09|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff08|q ; -0.500       ; 1.793      ; 1.861      ;
++--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff12|q'                                                                                                                                                                                                 ;
++--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
++--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
+; -0.522 ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; 0.000        ; 1.796      ; 1.871      ;
+; -0.022 ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; -0.500       ; 1.796      ; 1.871      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -759,8 +759,8 @@ No paths to report.
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -0.516 ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; 0.000        ; 1.816      ; 1.897      ;
-; -0.016 ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; -0.500       ; 1.816      ; 1.897      ;
+; -0.521 ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; 0.000        ; 1.803      ; 1.879      ;
+; -0.021 ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff05|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff04|q ; -0.500       ; 1.803      ; 1.879      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
@@ -779,28 +779,19 @@ No paths to report.
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -0.505 ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; 0.000        ; 1.804      ; 1.896      ;
-; -0.005 ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; -0.500       ; 1.804      ; 1.896      ;
+; -0.509 ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; 0.000        ; 1.807      ; 1.895      ;
+; -0.009 ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff11|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff10|q ; -0.500       ; 1.807      ; 1.895      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff12|q'                                                                                                                                                                                                 ;
+; Hold: 'binpower18clockdivider:clkdiv_0|tff_gate:ff02|q'                                                                                                                                                                                                 ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
 ; Slack  ; From Node                                       ; To Node                                         ; Launch Clock                                    ; Latch Clock                                     ; Relationship ; Clock Skew ; Data Delay ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-; -0.486 ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; 0.000        ; 1.786      ; 1.897      ;
-; 0.014  ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff13|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff12|q ; -0.500       ; 1.786      ; 1.897      ;
+; -0.505 ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff02|q ; 0.000        ; 1.804      ; 1.896      ;
+; -0.005 ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff03|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff02|q ; -0.500       ; 1.804      ; 1.896      ;
 +--------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+--------------+------------+------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Hold: 'bin3bcount:bin3bc_0|tff_gate:ff00|q'                                                                                                                                                            ;
-+-------+-------------------------------------+-------------------------------------+-------------------------------------+-------------------------------------+--------------+------------+------------+
-; Slack ; From Node                           ; To Node                             ; Launch Clock                        ; Latch Clock                         ; Relationship ; Clock Skew ; Data Delay ;
-+-------+-------------------------------------+-------------------------------------+-------------------------------------+-------------------------------------+--------------+------------+------------+
-; 1.639 ; bin3bcount:bin3bc_0|tff_gate:ff01|q ; bin3bcount:bin3bc_0|tff_gate:ff01|q ; bin3bcount:bin3bc_0|tff_gate:ff00|q ; bin3bcount:bin3bc_0|tff_gate:ff00|q ; 0.000        ; 0.000      ; 1.860      ;
-+-------+-------------------------------------+-------------------------------------+-------------------------------------+-------------------------------------+--------------+------------+------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -808,8 +799,17 @@ No paths to report.
 +-------+----------------------------------------+----------------------------------------+----------------------------------------+----------------------------------------+--------------+------------+------------+
 ; Slack ; From Node                              ; To Node                                ; Launch Clock                           ; Latch Clock                            ; Relationship ; Clock Skew ; Data Delay ;
 +-------+----------------------------------------+----------------------------------------+----------------------------------------+----------------------------------------+--------------+------------+------------+
-; 1.649 ; bin2bselector:shpsel_0|tff_gate:ff01|q ; bin2bselector:shpsel_0|tff_gate:ff01|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; 0.000        ; 0.000      ; 1.870      ;
+; 1.639 ; bin2bselector:shpsel_0|tff_gate:ff01|q ; bin2bselector:shpsel_0|tff_gate:ff01|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; bin2bselector:shpsel_0|tff_gate:ff00|q ; 0.000        ; 0.000      ; 1.860      ;
 +-------+----------------------------------------+----------------------------------------+----------------------------------------+----------------------------------------+--------------+------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'bin3bcount:bin3bc_0|tff_gate:ff00|q'                                                                                                                                                            ;
++-------+-------------------------------------+-------------------------------------+-------------------------------------+-------------------------------------+--------------+------------+------------+
+; Slack ; From Node                           ; To Node                             ; Launch Clock                        ; Latch Clock                         ; Relationship ; Clock Skew ; Data Delay ;
++-------+-------------------------------------+-------------------------------------+-------------------------------------+-------------------------------------+--------------+------------+------------+
+; 1.649 ; bin3bcount:bin3bc_0|tff_gate:ff01|q ; bin3bcount:bin3bc_0|tff_gate:ff01|q ; bin3bcount:bin3bc_0|tff_gate:ff00|q ; bin3bcount:bin3bc_0|tff_gate:ff00|q ; 0.000        ; 0.000      ; 1.870      ;
++-------+-------------------------------------+-------------------------------------+-------------------------------------+-------------------------------------+--------------+------------+------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------+
@@ -846,8 +846,8 @@ No paths to report.
 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 3        ; 3        ; 0        ; 0        ;
 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 2        ; 2        ; 0        ; 0        ;
 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 2        ; 4        ; 0        ; 0        ;
-; BT0                                             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 1        ; 1        ; 0        ; 0        ;
-; bin2bselector:shpsel_0|tff_gate:ff00|q          ; BT0                                             ; 1        ; 1        ; 0        ; 0        ;
+; BT1                                             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 1        ; 1        ; 0        ; 0        ;
+; bin2bselector:shpsel_0|tff_gate:ff00|q          ; BT1                                             ; 1        ; 1        ; 0        ; 0        ;
 ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; CLKIN                                           ; 1        ; 1        ; 0        ; 0        ;
 +-------------------------------------------------+-------------------------------------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
@@ -887,8 +887,8 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 3        ; 3        ; 0        ; 0        ;
 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 2        ; 2        ; 0        ; 0        ;
 ; binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 2        ; 4        ; 0        ; 0        ;
-; BT0                                             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 1        ; 1        ; 0        ; 0        ;
-; bin2bselector:shpsel_0|tff_gate:ff00|q          ; BT0                                             ; 1        ; 1        ; 0        ; 0        ;
+; BT1                                             ; binpower18clockdivider:clkdiv_0|tff_gate:ff17|q ; 1        ; 1        ; 0        ; 0        ;
+; bin2bselector:shpsel_0|tff_gate:ff00|q          ; BT1                                             ; 1        ; 1        ; 0        ; 0        ;
 ; binpower18clockdivider:clkdiv_0|tff_gate:ff00|q ; CLKIN                                           ; 1        ; 1        ; 0        ; 0        ;
 +-------------------------------------------------+-------------------------------------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
@@ -913,10 +913,10 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +---------------------------------+-------+------+
 ; Illegal Clocks                  ; 0     ; 0    ;
 ; Unconstrained Clocks            ; 0     ; 0    ;
-; Unconstrained Input Ports       ; 11    ; 11   ;
-; Unconstrained Input Port Paths  ; 102   ; 102  ;
-; Unconstrained Output Ports      ; 24    ; 24   ;
-; Unconstrained Output Port Paths ; 160   ; 160  ;
+; Unconstrained Input Ports       ; 10    ; 10   ;
+; Unconstrained Input Port Paths  ; 140   ; 140  ;
+; Unconstrained Output Ports      ; 26    ; 26   ;
+; Unconstrained Output Port Paths ; 184   ; 184  ;
 +---------------------------------+-------+------+
 
 
@@ -925,7 +925,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +-------------------------------------------------+-------------------------------------------------+------+-------------+
 ; Target                                          ; Clock                                           ; Type ; Status      ;
 +-------------------------------------------------+-------------------------------------------------+------+-------------+
-; BT0                                             ; BT0                                             ; Base ; Constrained ;
+; BT1                                             ; BT1                                             ; Base ; Constrained ;
 ; CLKIN                                           ; CLKIN                                           ; Base ; Constrained ;
 ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; bin2bselector:shpsel_0|tff_gate:ff00|q          ; Base ; Constrained ;
 ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; bin3bcount:bin3bc_0|tff_gate:ff00|q             ; Base ; Constrained ;
@@ -959,7 +959,6 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; Input Port ; Comment                                                                              ;
 +------------+--------------------------------------------------------------------------------------+
 ; BT0        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; BT1        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; CH0        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; CH1        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; CH2        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
@@ -984,6 +983,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; COL2        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; COL3        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; COL4        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; GLED        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LIN0        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LIN1        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LIN2        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
@@ -991,6 +991,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; LIN4        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LIN5        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LIN6        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; RLED        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; SGD2        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; SGD3        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; SGD4        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
@@ -1010,7 +1011,6 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; Input Port ; Comment                                                                              ;
 +------------+--------------------------------------------------------------------------------------+
 ; BT0        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; BT1        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; CH0        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; CH1        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; CH2        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
@@ -1035,6 +1035,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; COL2        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; COL3        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; COL4        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; GLED        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LIN0        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LIN1        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LIN2        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
@@ -1042,6 +1043,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; LIN4        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LIN5        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; LIN6        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; RLED        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; SGD2        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; SGD3        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; SGD4        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
@@ -1061,7 +1063,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Fri Oct 06 06:25:26 2023
+    Info: Processing started: Thu Nov 23 04:28:20 2023
 Info: Command: quartus_sta TEC498P2 -c mainmodule
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -1070,6 +1072,7 @@ Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
+Warning (335093): The Timing Analyzer is analyzing 3 combinational loops as latches. For more details, run the Check Timing command in the Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'mainmodule.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
 Info (332105): Deriving Clocks
@@ -1078,7 +1081,7 @@ Info (332105): Deriving Clocks
     Info (332105): create_clock -period 1.000 -name binpower18clockdivider:clkdiv_0|tff_gate:ff17|q binpower18clockdivider:clkdiv_0|tff_gate:ff17|q
     Info (332105): create_clock -period 1.000 -name binpower18clockdivider:clkdiv_0|tff_gate:ff15|q binpower18clockdivider:clkdiv_0|tff_gate:ff15|q
     Info (332105): create_clock -period 1.000 -name bin2bselector:shpsel_0|tff_gate:ff00|q bin2bselector:shpsel_0|tff_gate:ff00|q
-    Info (332105): create_clock -period 1.000 -name BT0 BT0
+    Info (332105): create_clock -period 1.000 -name BT1 BT1
     Info (332105): create_clock -period 1.000 -name binpower18clockdivider:clkdiv_0|tff_gate:ff14|q binpower18clockdivider:clkdiv_0|tff_gate:ff14|q
     Info (332105): create_clock -period 1.000 -name binpower18clockdivider:clkdiv_0|tff_gate:ff13|q binpower18clockdivider:clkdiv_0|tff_gate:ff13|q
     Info (332105): create_clock -period 1.000 -name binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q
@@ -1100,79 +1103,87 @@ Info (332105): Deriving Clocks
     Info (332105): create_clock -period 1.000 -name CLKIN CLKIN
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "btnbnc_0|sr00|nand0_out|combout"
-    Warning (332126): Node "btnbnc_0|sr00|nand0_out|datab"
+    Warning (332126): Node "btnbnc_0|sr00|nand0_out|dataa"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "btnebl_0|gamestatus_0|nand0_out~0|combout"
-    Warning (332126): Node "btnebl_0|gamestatus_0|nand0_out~0|datac"
+    Warning (332126): Node "shpart_0|glight_0|nand0_out~0|combout"
+    Warning (332126): Node "shpart_0|glight_0|nand0_out~0|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell5_4|nand1_out|combout"
-    Warning (332126): Node "shotsfired_0|cell5_4|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell6_4|nand1_out|combout"
-    Warning (332126): Node "shotsfired_0|cell6_4|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell4_4|nand0_out|combout"
-    Warning (332126): Node "shotsfired_0|cell4_4|nand0_out|datac"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell0_4|nand0_out|combout"
-    Warning (332126): Node "shotsfired_0|cell0_4|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell2_4|nand0_out|combout"
-    Warning (332126): Node "shotsfired_0|cell2_4|nand0_out|datad"
+    Warning (332126): Node "shpart_0|rlight_0|nand0_out~0|combout"
+    Warning (332126): Node "shpart_0|rlight_0|nand0_out~0|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell3_4|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell3_4|nand0_out|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell1_4|nand0_out|combout"
-    Warning (332126): Node "shotsfired_0|cell1_4|nand0_out|datad"
+    Warning (332126): Node "shotsfired_0|cell2_4|nand0_out|combout"
+    Warning (332126): Node "shotsfired_0|cell2_4|nand0_out|datac"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell6_3|nand1_out|combout"
-    Warning (332126): Node "shotsfired_0|cell6_3|nand1_out|datac"
+    Warning (332126): Node "shotsfired_0|cell4_4|nand0_out|combout"
+    Warning (332126): Node "shotsfired_0|cell4_4|nand0_out|datac"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell3_3|nand0_out|combout"
-    Warning (332126): Node "shotsfired_0|cell3_3|nand0_out|datad"
+    Warning (332126): Node "shotsfired_0|cell6_4|nand1_out|combout"
+    Warning (332126): Node "shotsfired_0|cell6_4|nand1_out|datad"
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
+    Warning (332126): Node "shotsfired_0|cell5_4|nand0_out|combout"
+    Warning (332126): Node "shotsfired_0|cell5_4|nand0_out|datac"
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
+    Warning (332126): Node "shotsfired_0|cell6_3|nand0_out|combout"
+    Warning (332126): Node "shotsfired_0|cell6_3|nand0_out|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell4_3|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell4_3|nand0_out|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
+    Warning (332126): Node "shotsfired_0|cell3_3|nand0_out|combout"
+    Warning (332126): Node "shotsfired_0|cell3_3|nand0_out|datad"
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell0_3|nand0_out|combout"
-    Warning (332126): Node "shotsfired_0|cell0_3|nand0_out|datac"
+    Warning (332126): Node "shotsfired_0|cell0_3|nand0_out|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell2_3|nand0_out|combout"
-    Warning (332126): Node "shotsfired_0|cell2_3|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell5_3|nand1_out|combout"
-    Warning (332126): Node "shotsfired_0|cell5_3|nand1_out|datad"
+    Warning (332126): Node "shotsfired_0|cell2_3|nand0_out|datac"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell1_3|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell1_3|nand0_out|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell3_2|nand0_out|combout"
-    Warning (332126): Node "shotsfired_0|cell3_2|nand0_out|datad"
+    Warning (332126): Node "shotsfired_0|cell5_3|nand0_out|combout"
+    Warning (332126): Node "shotsfired_0|cell5_3|nand0_out|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell2_2|nand1_out|combout"
-    Warning (332126): Node "shotsfired_0|cell2_2|nand1_out|datad"
+    Warning (332126): Node "shotsfired_0|cell5_2|nand0_out|combout"
+    Warning (332126): Node "shotsfired_0|cell5_2|nand0_out|datac"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell4_2|nand0_out|combout"
-    Warning (332126): Node "shotsfired_0|cell4_2|nand0_out|datac"
+    Warning (332126): Node "shotsfired_0|cell6_2|nand0_out|combout"
+    Warning (332126): Node "shotsfired_0|cell6_2|nand0_out|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell0_2|nand1_out|combout"
     Warning (332126): Node "shotsfired_0|cell0_2|nand1_out|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell1_2|nand0_out|combout"
-    Warning (332126): Node "shotsfired_0|cell1_2|nand0_out|datac"
+    Warning (332126): Node "shotsfired_0|cell1_2|nand0_out|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell5_2|nand1_out|combout"
-    Warning (332126): Node "shotsfired_0|cell5_2|nand1_out|datac"
+    Warning (332126): Node "shotsfired_0|cell4_2|nand0_out|combout"
+    Warning (332126): Node "shotsfired_0|cell4_2|nand0_out|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell6_2|nand1_out|combout"
-    Warning (332126): Node "shotsfired_0|cell6_2|nand1_out|datad"
+    Warning (332126): Node "shotsfired_0|cell3_2|nand0_out|combout"
+    Warning (332126): Node "shotsfired_0|cell3_2|nand0_out|datad"
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
+    Warning (332126): Node "shotsfired_0|cell2_2|nand1_out|combout"
+    Warning (332126): Node "shotsfired_0|cell2_2|nand1_out|datac"
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
+    Warning (332126): Node "shotsfired_0|cell4_1|nand0_out|combout"
+    Warning (332126): Node "shotsfired_0|cell4_1|nand0_out|datad"
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
+    Warning (332126): Node "shotsfired_0|cell5_1|nand0_out|combout"
+    Warning (332126): Node "shotsfired_0|cell5_1|nand0_out|datad"
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
+    Warning (332126): Node "shotsfired_0|cell6_1|nand1_out|combout"
+    Warning (332126): Node "shotsfired_0|cell6_1|nand1_out|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell0_1|nand1_out|combout"
     Warning (332126): Node "shotsfired_0|cell0_1|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
+Warning (332125): Found combinational loop of 4 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell3_1|nand0_out|combout"
-    Warning (332126): Node "shotsfired_0|cell3_1|nand0_out|datac"
+    Warning (332126): Node "shotsfired_0|cell3_1|nand1_out|datad"
+    Warning (332126): Node "shotsfired_0|cell3_1|nand1_out|combout"
+    Warning (332126): Node "shotsfired_0|cell3_1|nand0_out|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell2_1|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell2_1|nand0_out|datad"
@@ -1180,104 +1191,95 @@ Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/Proje
     Warning (332126): Node "shotsfired_0|cell1_1|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell1_1|nand0_out|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell6_1|nand1_out|combout"
-    Warning (332126): Node "shotsfired_0|cell6_1|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell5_1|nand1_out|combout"
-    Warning (332126): Node "shotsfired_0|cell5_1|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell4_1|nand0_out|combout"
-    Warning (332126): Node "shotsfired_0|cell4_1|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell5_0|nand1_out|combout"
-    Warning (332126): Node "shotsfired_0|cell5_0|nand1_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell6_0|nand1_out|combout"
-    Warning (332126): Node "shotsfired_0|cell6_0|nand1_out|datad"
+    Warning (332126): Node "shotsfired_0|cell0_0|nand0_out|combout"
+    Warning (332126): Node "shotsfired_0|cell0_0|nand0_out|datac"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell1_0|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell1_0|nand0_out|datad"
 Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell0_0|nand0_out|combout"
-    Warning (332126): Node "shotsfired_0|cell0_0|nand0_out|datad"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell4_0|nand0_out|combout"
-    Warning (332126): Node "shotsfired_0|cell4_0|nand0_out|datac"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
-    Warning (332126): Node "shotsfired_0|cell3_0|nand0_out|combout"
-    Warning (332126): Node "shotsfired_0|cell3_0|nand0_out|datac"
-Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
     Warning (332126): Node "shotsfired_0|cell2_0|nand0_out|combout"
     Warning (332126): Node "shotsfired_0|cell2_0|nand0_out|datad"
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
+    Warning (332126): Node "shotsfired_0|cell4_0|nand0_out|combout"
+    Warning (332126): Node "shotsfired_0|cell4_0|nand0_out|datad"
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
+    Warning (332126): Node "shotsfired_0|cell3_0|nand0_out|combout"
+    Warning (332126): Node "shotsfired_0|cell3_0|nand0_out|datad"
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
+    Warning (332126): Node "shotsfired_0|cell6_0|nand1_out|combout"
+    Warning (332126): Node "shotsfired_0|cell6_0|nand1_out|datac"
+Warning (332125): Found combinational loop of 2 nodes File: E:/JL/TEC498P2/ProjectFiles/srlt_gate.v Line: 21
+    Warning (332126): Node "shotsfired_0|cell5_0|nand1_out|combout"
+    Warning (332126): Node "shotsfired_0|cell5_0|nand1_out|datad"
 Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Info: Can't run Report Timing Closure Recommendations. The current device family is not supported.
 Critical Warning (332148): Timing requirements not met
-Info (332146): Worst-case setup slack is -1.723
+Info (332146): Worst-case setup slack is -1.494
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -1.723              -1.723 binpower18clockdivider:clkdiv_0|tff_gate:ff17|q 
-    Info (332119):    -1.234              -1.234 binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q 
-    Info (332119):    -1.203              -1.203 bin2bselector:shpsel_0|tff_gate:ff00|q 
-    Info (332119):    -1.193              -1.193 bin3bcount:bin3bc_0|tff_gate:ff00|q 
-    Info (332119):     0.432               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff12|q 
-    Info (332119):     0.451               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff10|q 
+    Info (332119):    -1.494              -1.494 binpower18clockdivider:clkdiv_0|tff_gate:ff17|q 
+    Info (332119):    -1.239              -1.239 binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q 
+    Info (332119):    -1.203              -1.203 bin3bcount:bin3bc_0|tff_gate:ff00|q 
+    Info (332119):    -1.193              -1.193 bin2bselector:shpsel_0|tff_gate:ff00|q 
+    Info (332119):     0.451               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff02|q 
+    Info (332119):     0.455               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff10|q 
+    Info (332119):     0.457               0.000 binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q 
     Info (332119):     0.461               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff14|q 
-    Info (332119):     0.462               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff04|q 
-    Info (332119):     0.467               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff00|q 
-    Info (332119):     0.476               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff02|q 
-    Info (332119):     0.478               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff08|q 
-    Info (332119):     0.485               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff06|q 
-    Info (332119):     0.485               0.000 binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q 
-    Info (332119):     0.487               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff16|q 
-    Info (332119):     0.556               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff11|q 
-    Info (332119):     0.589               0.000 binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q 
-    Info (332119):     0.775               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff07|q 
-    Info (332119):     0.804               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff05|q 
-    Info (332119):     0.806               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff09|q 
+    Info (332119):     0.467               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff04|q 
+    Info (332119):     0.468               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff12|q 
+    Info (332119):     0.475               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff00|q 
+    Info (332119):     0.475               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff08|q 
+    Info (332119):     0.497               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff06|q 
+    Info (332119):     0.555               0.000 binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q 
+    Info (332119):     0.776               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff05|q 
+    Info (332119):     0.803               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff13|q 
     Info (332119):     0.818               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff01|q 
-    Info (332119):     1.082               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff03|q 
-    Info (332119):     1.139               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff15|q 
-    Info (332119):     1.934               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff13|q 
-    Info (332119):     3.271               0.000 CLKIN 
-    Info (332119):     7.274               0.000 BT0 
-Info (332146): Worst-case hold slack is -7.328
+    Info (332119):     0.865               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff15|q 
+    Info (332119):     0.866               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff07|q 
+    Info (332119):     1.167               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff09|q 
+    Info (332119):     1.410               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff03|q 
+    Info (332119):     1.432               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff16|q 
+    Info (332119):     1.444               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff11|q 
+    Info (332119):     3.024               0.000 CLKIN 
+    Info (332119):     5.852               0.000 BT1 
+Info (332146): Worst-case hold slack is -5.906
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -7.328              -7.328 BT0 
-    Info (332119):    -4.569              -4.569 binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q 
-    Info (332119):    -4.379              -4.918 binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q 
-    Info (332119):    -3.846              -4.489 binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q 
-    Info (332119):    -3.325              -3.325 CLKIN 
-    Info (332119):    -2.005              -3.801 binpower18clockdivider:clkdiv_0|tff_gate:ff17|q 
-    Info (332119):    -1.988              -1.988 binpower18clockdivider:clkdiv_0|tff_gate:ff13|q 
-    Info (332119):    -1.193              -1.193 binpower18clockdivider:clkdiv_0|tff_gate:ff15|q 
-    Info (332119):    -1.136              -1.136 binpower18clockdivider:clkdiv_0|tff_gate:ff03|q 
+    Info (332119):    -5.906              -5.906 BT1 
+    Info (332119):    -4.570              -4.570 binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q 
+    Info (332119):    -4.347              -4.858 binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q 
+    Info (332119):    -3.816              -4.425 binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q 
+    Info (332119):    -3.078              -3.078 CLKIN 
+    Info (332119):    -2.283              -4.059 binpower18clockdivider:clkdiv_0|tff_gate:ff17|q 
+    Info (332119):    -1.498              -1.498 binpower18clockdivider:clkdiv_0|tff_gate:ff11|q 
+    Info (332119):    -1.486              -1.486 binpower18clockdivider:clkdiv_0|tff_gate:ff16|q 
+    Info (332119):    -1.464              -1.464 binpower18clockdivider:clkdiv_0|tff_gate:ff03|q 
+    Info (332119):    -1.221              -1.221 binpower18clockdivider:clkdiv_0|tff_gate:ff09|q 
+    Info (332119):    -0.920              -0.920 binpower18clockdivider:clkdiv_0|tff_gate:ff07|q 
+    Info (332119):    -0.919              -0.919 binpower18clockdivider:clkdiv_0|tff_gate:ff15|q 
     Info (332119):    -0.872              -0.872 binpower18clockdivider:clkdiv_0|tff_gate:ff01|q 
-    Info (332119):    -0.860              -0.860 binpower18clockdivider:clkdiv_0|tff_gate:ff09|q 
-    Info (332119):    -0.858              -0.858 binpower18clockdivider:clkdiv_0|tff_gate:ff05|q 
-    Info (332119):    -0.829              -0.829 binpower18clockdivider:clkdiv_0|tff_gate:ff07|q 
-    Info (332119):    -0.610              -0.610 binpower18clockdivider:clkdiv_0|tff_gate:ff11|q 
-    Info (332119):    -0.541              -0.541 binpower18clockdivider:clkdiv_0|tff_gate:ff16|q 
-    Info (332119):    -0.539              -0.539 binpower18clockdivider:clkdiv_0|tff_gate:ff06|q 
-    Info (332119):    -0.532              -0.532 binpower18clockdivider:clkdiv_0|tff_gate:ff08|q 
-    Info (332119):    -0.530              -0.530 binpower18clockdivider:clkdiv_0|tff_gate:ff02|q 
-    Info (332119):    -0.521              -0.521 binpower18clockdivider:clkdiv_0|tff_gate:ff00|q 
-    Info (332119):    -0.516              -0.516 binpower18clockdivider:clkdiv_0|tff_gate:ff04|q 
+    Info (332119):    -0.857              -0.857 binpower18clockdivider:clkdiv_0|tff_gate:ff13|q 
+    Info (332119):    -0.830              -0.830 binpower18clockdivider:clkdiv_0|tff_gate:ff05|q 
+    Info (332119):    -0.551              -0.551 binpower18clockdivider:clkdiv_0|tff_gate:ff06|q 
+    Info (332119):    -0.529              -0.529 binpower18clockdivider:clkdiv_0|tff_gate:ff00|q 
+    Info (332119):    -0.529              -0.529 binpower18clockdivider:clkdiv_0|tff_gate:ff08|q 
+    Info (332119):    -0.522              -0.522 binpower18clockdivider:clkdiv_0|tff_gate:ff12|q 
+    Info (332119):    -0.521              -0.521 binpower18clockdivider:clkdiv_0|tff_gate:ff04|q 
     Info (332119):    -0.515              -0.515 binpower18clockdivider:clkdiv_0|tff_gate:ff14|q 
-    Info (332119):    -0.505              -0.505 binpower18clockdivider:clkdiv_0|tff_gate:ff10|q 
-    Info (332119):    -0.486              -0.486 binpower18clockdivider:clkdiv_0|tff_gate:ff12|q 
-    Info (332119):     1.639               0.000 bin3bcount:bin3bc_0|tff_gate:ff00|q 
-    Info (332119):     1.649               0.000 bin2bselector:shpsel_0|tff_gate:ff00|q 
+    Info (332119):    -0.509              -0.509 binpower18clockdivider:clkdiv_0|tff_gate:ff10|q 
+    Info (332119):    -0.505              -0.505 binpower18clockdivider:clkdiv_0|tff_gate:ff02|q 
+    Info (332119):     1.639               0.000 bin2bselector:shpsel_0|tff_gate:ff00|q 
+    Info (332119):     1.649               0.000 bin3bcount:bin3bc_0|tff_gate:ff00|q 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -2.289
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -2.289              -2.289 BT0 
+    Info (332119):    -2.289              -2.289 BT1 
     Info (332119):    -2.289              -2.289 CLKIN 
-    Info (332119):    -0.554              -2.260 binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q 
-    Info (332119):    -0.554              -2.260 binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q 
-    Info (332119):    -0.554              -2.260 binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q 
+    Info (332119):    -0.568              -2.344 binpower4buttonbouncer:btnbnc_0|tff_gate:ff01|q 
+    Info (332119):    -0.568              -2.344 binpower4buttonbouncer:btnbnc_0|tff_gate:ff02|q 
+    Info (332119):    -0.566              -2.332 binpower4buttonbouncer:btnbnc_0|tff_gate:ff00|q 
     Info (332119):     0.234               0.000 bin2bselector:shpsel_0|tff_gate:ff00|q 
     Info (332119):     0.234               0.000 bin3bcount:bin3bc_0|tff_gate:ff00|q 
     Info (332119):     0.234               0.000 binpower18clockdivider:clkdiv_0|tff_gate:ff00|q 
@@ -1303,8 +1305,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 114 warnings
     Info: Peak virtual memory: 4696 megabytes
-    Info: Processing ended: Fri Oct 06 06:25:37 2023
-    Info: Elapsed time: 00:00:11
+    Info: Processing ended: Thu Nov 23 04:28:32 2023
+    Info: Elapsed time: 00:00:12
     Info: Total CPU time (on all processors): 00:00:02
 
 

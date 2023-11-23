@@ -5,7 +5,7 @@ module shipgunner (
 	IPTSHIP,
 	BTNIPT, NCH0,
 	OUT,
-	ENABLELED,
+	//ENABLELED,
 	RLED, GLED
 );
 
@@ -17,9 +17,9 @@ module shipgunner (
 	//Botao da artilharia (ja verificada a permissao de tiro)
 	BTNIPT,
 	//Negacao da chave principal do programa (Chave 0, ON/OFF)
-	NCH0,
+	NCH0;
 	//Permissao para exibir informacao no LED RGB
-	ENABLELED;
+	//ENABLELED;
 	
 	//Saidas
 	output
@@ -69,7 +69,10 @@ srlt_gate glight_0 (
 or (OUT, shipshot);
 
 //Permite exibicao das cores do LED RGB
-and (RLED, PRLED, ENABLELED);
-and (GLED, PGLED, ENABLELED);
+or (RLED, PRLED);
+or (GLED, PGLED);
+
+//and (RLED, PRLED, ENABLELED);
+//and (GLED, PGLED, ENABLELED);
 
 endmodule

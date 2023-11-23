@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mainmodule
-Fri Oct 06 06:25:13 2023
+Thu Nov 23 04:28:08 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -17,76 +17,70 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
   9. General Register Statistics
  10. Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:glight_0"
  11. Port Connectivity Checks: "shipgunner:shpart_0|srlt_gate:rlight_0"
- 12. Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_5"
- 13. Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_4"
- 14. Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_3"
- 15. Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_2"
- 16. Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_1"
- 17. Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_0"
- 18. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_4"
- 19. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_4"
- 20. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_4"
- 21. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_4"
- 22. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_4"
- 23. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_4"
- 24. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_4"
- 25. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_3"
- 26. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_3"
- 27. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_3"
- 28. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_3"
- 29. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_3"
- 30. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_3"
- 31. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_3"
- 32. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_2"
- 33. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_2"
- 34. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_2"
- 35. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_2"
- 36. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_2"
- 37. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_2"
- 38. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_2"
- 39. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_1"
- 40. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_1"
- 41. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_1"
- 42. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_1"
- 43. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_1"
- 44. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_1"
- 45. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_1"
- 46. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_0"
- 47. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_0"
- 48. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_0"
- 49. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_0"
- 50. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_0"
- 51. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_0"
- 52. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_0"
- 53. Port Connectivity Checks: "multiplex140to35:shparrmux_0"
- 54. Port Connectivity Checks: "bin2bselector:shpsel_0|tff_gate:ff01"
- 55. Port Connectivity Checks: "bin2bselector:shpsel_0|tff_gate:ff00"
- 56. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00"
- 57. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff03"
- 58. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff02"
- 59. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff01"
- 60. Port Connectivity Checks: "buttonenabler:btnebl_0|srlt_gate:gamestatus_0"
- 61. Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff01"
- 62. Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff00"
- 63. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff17"
- 64. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff16"
- 65. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff15"
- 66. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff14"
- 67. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff13"
- 68. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff12"
- 69. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff11"
- 70. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff10"
- 71. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff09"
- 72. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff08"
- 73. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff07"
- 74. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff06"
- 75. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff05"
- 76. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff04"
- 77. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff03"
- 78. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff02"
- 79. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff01"
- 80. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff00"
- 81. Analysis & Synthesis Messages
+ 12. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_4"
+ 13. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_4"
+ 14. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_4"
+ 15. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_4"
+ 16. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_4"
+ 17. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_4"
+ 18. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_4"
+ 19. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_3"
+ 20. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_3"
+ 21. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_3"
+ 22. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_3"
+ 23. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_3"
+ 24. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_3"
+ 25. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_3"
+ 26. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_2"
+ 27. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_2"
+ 28. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_2"
+ 29. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_2"
+ 30. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_2"
+ 31. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_2"
+ 32. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_2"
+ 33. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_1"
+ 34. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_1"
+ 35. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_1"
+ 36. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_1"
+ 37. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_1"
+ 38. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_1"
+ 39. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_1"
+ 40. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell6_0"
+ 41. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell5_0"
+ 42. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell4_0"
+ 43. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell3_0"
+ 44. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell2_0"
+ 45. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell1_0"
+ 46. Port Connectivity Checks: "tablememory7by5:shotsfired_0|srlt_gate:cell0_0"
+ 47. Port Connectivity Checks: "multiplex140to35:shparrmux_0"
+ 48. Port Connectivity Checks: "bin2bselector:shpsel_0|tff_gate:ff01"
+ 49. Port Connectivity Checks: "bin2bselector:shpsel_0|tff_gate:ff00"
+ 50. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00"
+ 51. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff03"
+ 52. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff02"
+ 53. Port Connectivity Checks: "binpower4buttonbouncer:btnbnc_0|tff_gate:ff01"
+ 54. Port Connectivity Checks: "buttonenabler:btnebl_0|srlt_gate:gamestatus_0"
+ 55. Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff01"
+ 56. Port Connectivity Checks: "bin3bcount:bin3bc_0|tff_gate:ff00"
+ 57. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff17"
+ 58. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff16"
+ 59. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff15"
+ 60. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff14"
+ 61. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff13"
+ 62. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff12"
+ 63. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff11"
+ 64. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff10"
+ 65. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff09"
+ 66. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff08"
+ 67. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff07"
+ 68. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff06"
+ 69. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff05"
+ 70. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff04"
+ 71. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff03"
+ 72. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff02"
+ 73. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff01"
+ 74. Port Connectivity Checks: "binpower18clockdivider:clkdiv_0|tff_gate:ff00"
+ 75. Analysis & Synthesis Messages
 
 
 
@@ -113,12 +107,12 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Fri Oct 06 06:25:13 2023       ;
+; Analysis & Synthesis Status ; Successful - Thu Nov 23 04:28:08 2023       ;
 ; Quartus Prime Version       ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name               ; mainmodule                                  ;
 ; Top-level Entity Name       ; mainmodule                                  ;
 ; Family                      ; MAX II                                      ;
-; Total logic elements        ; 190                                         ;
+; Total logic elements        ; 203                                         ;
 ; Total pins                  ; 39                                          ;
 ; Total virtual pins          ; 0                                           ;
 ; UFM blocks                  ; 0 / 1 ( 0 % )                               ;
@@ -236,7 +230,6 @@ https://fpgasoftware.intel.com/eula.
 ; multiplex140to35.v               ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v       ;         ;
 ; bin2bselector.v                  ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/bin2bselector.v          ;         ;
 ; multiplex70to35.v                ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/multiplex70to35.v        ;         ;
-; bin6switchregister.v             ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/bin6switchregister.v     ;         ;
 ; buttonenabler.v                  ; yes             ; User Verilog HDL File  ; E:/JL/TEC498P2/ProjectFiles/buttonenabler.v          ;         ;
 +----------------------------------+-----------------+------------------------+------------------------------------------------------+---------+
 
@@ -246,20 +239,20 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Total logic elements                        ; 190   ;
-;     -- Combinational with no register       ; 164   ;
+; Total logic elements                        ; 203   ;
+;     -- Combinational with no register       ; 177   ;
 ;     -- Register only                        ; 0     ;
 ;     -- Combinational with a register        ; 26    ;
 ;                                             ;       ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 109   ;
-;     -- 3 input functions                    ; 24    ;
-;     -- 2 input functions                    ; 32    ;
+;     -- 4 input functions                    ; 124   ;
+;     -- 3 input functions                    ; 30    ;
+;     -- 2 input functions                    ; 24    ;
 ;     -- 1 input functions                    ; 25    ;
 ;     -- 0 input functions                    ; 0     ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 190   ;
+;     -- normal mode                          ; 203   ;
 ;     -- arithmetic mode                      ; 0     ;
 ;     -- qfbk mode                            ; 0     ;
 ;     -- register cascade mode                ; 0     ;
@@ -269,9 +262,9 @@ https://fpgasoftware.intel.com/eula.
 ; Total registers                             ; 26    ;
 ; I/O pins                                    ; 39    ;
 ; Maximum fan-out node                        ; CH0   ;
-; Maximum fan-out                             ; 47    ;
-; Total fan-out                               ; 647   ;
-; Average fan-out                             ; 2.83  ;
+; Maximum fan-out                             ; 48    ;
+; Total fan-out                               ; 711   ;
+; Average fan-out                             ; 2.94  ;
 +---------------------------------------------+-------+
 
 
@@ -280,7 +273,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
 ; Compilation Hierarchy Node              ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                        ; Entity Name            ; Library Name ;
 +-----------------------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------------------------------------------+------------------------+--------------+
-; |mainmodule                             ; 190 (25)    ; 26           ; 0          ; 39   ; 0            ; 164 (25)     ; 0 (0)             ; 26 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule                                                ; mainmodule             ; work         ;
+; |mainmodule                             ; 203 (23)    ; 26           ; 0          ; 39   ; 0            ; 177 (23)     ; 0 (0)             ; 26 (0)           ; 0 (0)           ; 0 (0)      ; |mainmodule                                                ; mainmodule             ; work         ;
 ;    |bin2bselector:shpsel_0|             ; 2 (0)       ; 2            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0                         ; bin2bselector          ; work         ;
 ;       |tff_gate:ff00|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0|tff_gate:ff00           ; tff_gate               ; work         ;
 ;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|bin2bselector:shpsel_0|tff_gate:ff01           ; tff_gate               ; work         ;
@@ -312,17 +305,19 @@ https://fpgasoftware.intel.com/eula.
 ;       |tff_gate:ff01|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff01  ; tff_gate               ; work         ;
 ;       |tff_gate:ff02|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff02  ; tff_gate               ; work         ;
 ;       |tff_gate:ff03|                   ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |mainmodule|binpower4buttonbouncer:btnbnc_0|tff_gate:ff03  ; tff_gate               ; work         ;
-;    |buttonenabler:btnebl_0|             ; 2 (1)       ; 0            ; 0          ; 0    ; 0            ; 2 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|buttonenabler:btnebl_0                         ; buttonenabler          ; work         ;
+;    |buttonenabler:btnebl_0|             ; 5 (4)       ; 0            ; 0          ; 0    ; 0            ; 5 (4)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|buttonenabler:btnebl_0                         ; buttonenabler          ; work         ;
 ;       |srlt_gate:gamestatus_0|          ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|buttonenabler:btnebl_0|srlt_gate:gamestatus_0  ; srlt_gate              ; work         ;
-;    |decoderline:linedec_0|              ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|decoderline:linedec_0                          ; decoderline            ; work         ;
+;    |decoderline:linedec_0|              ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|decoderline:linedec_0                          ; decoderline            ; work         ;
 ;    |displayselector:sevsegdplsel_0|     ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|displayselector:sevsegdplsel_0                 ; displayselector        ; work         ;
-;    |multiplex1to35:artiptmux_0|         ; 18 (18)     ; 0            ; 0          ; 0    ; 0            ; 18 (18)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex1to35:artiptmux_0                     ; multiplex1to35         ; work         ;
+;    |multiplex1to35:artiptmux_0|         ; 27 (27)     ; 0            ; 0          ; 0    ; 0            ; 27 (27)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex1to35:artiptmux_0                     ; multiplex1to35         ; work         ;
 ;    |multiplex21to7:decmux_0|            ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex21to7:decmux_0                        ; multiplex21to7         ; work         ;
-;    |multiplex35to1:shipcoordinatemux_0| ; 23 (23)     ; 0            ; 0          ; 0    ; 0            ; 23 (23)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to1:shipcoordinatemux_0             ; multiplex35to1         ; work         ;
+;    |multiplex35to1:shipcoordinatemux_0| ; 28 (28)     ; 0            ; 0          ; 0    ; 0            ; 28 (28)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to1:shipcoordinatemux_0             ; multiplex35to1         ; work         ;
 ;    |multiplex35to5:displayfinalmux_0|   ; 46 (46)     ; 0            ; 0          ; 0    ; 0            ; 46 (46)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex35to5:displayfinalmux_0               ; multiplex35to5         ; work         ;
-;    |multiplex70to35:displayselmux_0|    ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex70to35:displayselmux_0                ; multiplex70to35        ; work         ;
-;    |shipgunner:shpart_0|                ; 4 (4)       ; 0            ; 0          ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0                            ; shipgunner             ; work         ;
-;    |tablememory7by5:shotsfired_0|       ; 35 (0)      ; 0            ; 0          ; 0    ; 0            ; 35 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0                   ; tablememory7by5        ; work         ;
+;    |multiplex70to35:displayselmux_0|    ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|multiplex70to35:displayselmux_0                ; multiplex70to35        ; work         ;
+;    |shipgunner:shpart_0|                ; 3 (1)       ; 0            ; 0          ; 0    ; 0            ; 3 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0                            ; shipgunner             ; work         ;
+;       |srlt_gate:glight_0|              ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:glight_0         ; srlt_gate              ; work         ;
+;       |srlt_gate:rlight_0|              ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|shipgunner:shpart_0|srlt_gate:rlight_0         ; srlt_gate              ; work         ;
+;    |tablememory7by5:shotsfired_0|       ; 36 (0)      ; 0            ; 0          ; 0    ; 0            ; 36 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0                   ; tablememory7by5        ; work         ;
 ;       |srlt_gate:cell0_0|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_0 ; srlt_gate              ; work         ;
 ;       |srlt_gate:cell0_1|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_1 ; srlt_gate              ; work         ;
 ;       |srlt_gate:cell0_2|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell0_2 ; srlt_gate              ; work         ;
@@ -339,7 +334,7 @@ https://fpgasoftware.intel.com/eula.
 ;       |srlt_gate:cell2_3|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_3 ; srlt_gate              ; work         ;
 ;       |srlt_gate:cell2_4|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell2_4 ; srlt_gate              ; work         ;
 ;       |srlt_gate:cell3_0|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_0 ; srlt_gate              ; work         ;
-;       |srlt_gate:cell3_1|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_1 ; srlt_gate              ; work         ;
+;       |srlt_gate:cell3_1|               ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_1 ; srlt_gate              ; work         ;
 ;       |srlt_gate:cell3_2|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_2 ; srlt_gate              ; work         ;
 ;       |srlt_gate:cell3_3|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_3 ; srlt_gate              ; work         ;
 ;       |srlt_gate:cell3_4|               ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mainmodule|tablememory7by5:shotsfired_0|srlt_gate:cell3_4 ; srlt_gate              ; work         ;
@@ -402,9 +397,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; tablememory7by5:shotsfired_0|srlt_gate:cell4_4|nand1_out~0 ;    ;
 ; tablememory7by5:shotsfired_0|srlt_gate:cell5_4|nand1_out~0 ;    ;
 ; tablememory7by5:shotsfired_0|srlt_gate:cell6_4|nand1_out~0 ;    ;
+; shipgunner:shpart_0|srlt_gate:rlight_0|nand1_out~0         ;    ;
+; shipgunner:shpart_0|srlt_gate:glight_0|nand1_out~0         ;    ;
 ; binpower4buttonbouncer:btnbnc_0|srlt_gate:sr00|nand1_out~0 ;    ;
 ; buttonenabler:btnebl_0|srlt_gate:gamestatus_0|nand1_out~0  ;    ;
-; Number of logic cells representing combinational loops     ; 37 ;
+; Number of logic cells representing combinational loops     ; 39 ;
 +------------------------------------------------------------+----+
 Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
@@ -438,66 +435,6 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                                                  ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_5"                                                    ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
-; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_4"                                                    ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
-; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_3"                                                    ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
-; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_2"                                                    ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
-; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_1"                                                    ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
-; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "bin6switchregister:changedinputchk_0|srlt_gate:reg_0"                                                    ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                  ;
-+------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
 ; qbar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------+
 
@@ -1235,7 +1172,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Fri Oct 06 06:24:54 2023
+    Info: Processing started: Thu Nov 23 04:27:50 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TEC498P2 -c mainmodule
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -1253,7 +1190,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file multipl
     Info (12023): Found entity 1: multiplex35to1 File: E:/JL/TEC498P2/ProjectFiles/multiplex35to1.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex1to35.v
     Info (12023): Found entity 1: multiplex1to35 File: E:/JL/TEC498P2/ProjectFiles/multiplex1to35.v Line: 2
-Warning (10275): Verilog HDL Module Instantiation warning at mainmodule.v(590): ignored dangling comma in List of Port Connections File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 590
+Warning (10275): Verilog HDL Module Instantiation warning at mainmodule.v(595): ignored dangling comma in List of Port Connections File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 595
 Info (12021): Found 1 design units, including 1 entities, in source file mainmodule.v
     Info (12023): Found entity 1: mainmodule File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file bin3bcount.v
@@ -1286,7 +1223,6 @@ Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(43): created i
 Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(43): created implicit net for "IPTART" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 43
 Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(51): created implicit net for "rreset" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 51
 Warning (10236): Verilog HDL Implicit Net warning at shipgunner.v(52): created implicit net for "greset" File: E:/JL/TEC498P2/ProjectFiles/shipgunner.v Line: 52
-Warning (10236): Verilog HDL Implicit Net warning at mainmodule.v(512): created implicit net for "matchlastwire" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 512
 Warning (10236): Verilog HDL Implicit Net warning at binpower4buttonbouncer.v(55): created implicit net for "togglecondition2" File: E:/JL/TEC498P2/ProjectFiles/binpower4buttonbouncer.v Line: 55
 Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(136): created implicit net for "bitsel0" File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 136
 Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(137): created implicit net for "bitsel1" File: E:/JL/TEC498P2/ProjectFiles/multiplex140to35.v Line: 137
@@ -1295,46 +1231,46 @@ Warning (10236): Verilog HDL Implicit Net warning at multiplex140to35.v(139): cr
 Warning (10236): Verilog HDL Implicit Net warning at multiplex70to35.v(106): created implicit net for "bitsel0" File: E:/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 106
 Warning (10236): Verilog HDL Implicit Net warning at multiplex70to35.v(107): created implicit net for "bitsel1" File: E:/JL/TEC498P2/ProjectFiles/multiplex70to35.v Line: 107
 Warning (10236): Verilog HDL Implicit Net warning at bin6switchregister.v(101): created implicit net for "MATCHTEST" File: E:/JL/TEC498P2/ProjectFiles/bin6switchregister.v Line: 101
+Warning (10236): Verilog HDL Implicit Net warning at buttonenabler.v(43): created implicit net for "NC7" File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 43
+Warning (10236): Verilog HDL Implicit Net warning at buttonenabler.v(43): created implicit net for "NCH6" File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 43
+Warning (10236): Verilog HDL Implicit Net warning at buttonenabler.v(43): created implicit net for "NCH5" File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 43
 Info (12127): Elaborating entity "mainmodule" for the top level hierarchy
-Info (12128): Elaborating entity "binpower18clockdivider" for hierarchy "binpower18clockdivider:clkdiv_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 125
+Info (12128): Elaborating entity "binpower18clockdivider" for hierarchy "binpower18clockdivider:clkdiv_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 128
 Info (12128): Elaborating entity "tff_gate" for hierarchy "binpower18clockdivider:clkdiv_0|tff_gate:ff00" File: E:/JL/TEC498P2/ProjectFiles/binpower18clockdivider.v Line: 24
-Info (12128): Elaborating entity "bin3bcount" for hierarchy "bin3bcount:bin3bc_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 133
-Info (12128): Elaborating entity "buttonenabler" for hierarchy "buttonenabler:btnebl_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 157
+Info (12128): Elaborating entity "bin3bcount" for hierarchy "bin3bcount:bin3bc_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 137
+Info (12128): Elaborating entity "buttonenabler" for hierarchy "buttonenabler:btnebl_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 161
+Warning (10030): Net "NC7" at buttonenabler.v(43) has no driver or initial value, using a default initial value '0' File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 43
+Warning (10030): Net "NCH6" at buttonenabler.v(43) has no driver or initial value, using a default initial value '0' File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 43
+Warning (10030): Net "NCH5" at buttonenabler.v(43) has no driver or initial value, using a default initial value '0' File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 43
 Info (12128): Elaborating entity "srlt_gate" for hierarchy "buttonenabler:btnebl_0|srlt_gate:gamestatus_0" File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 60
-Info (12128): Elaborating entity "binpower4buttonbouncer" for hierarchy "binpower4buttonbouncer:btnbnc_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 164
-Info (12128): Elaborating entity "bin2bselector" for hierarchy "bin2bselector:shpsel_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 171
-Info (12128): Elaborating entity "multiplex140to35" for hierarchy "multiplex140to35:shparrmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 309
-Info (12128): Elaborating entity "tablememory7by5" for hierarchy "tablememory7by5:shotsfired_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 438
-Info (12128): Elaborating entity "multiplex35to1" for hierarchy "multiplex35to1:shipcoordinatemux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 496
-Info (12128): Elaborating entity "bin6switchregister" for hierarchy "bin6switchregister:changedinputchk_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 513
-Warning (10034): Output port "MATCHHTEST" at bin6switchregister.v(19) has no driver File: E:/JL/TEC498P2/ProjectFiles/bin6switchregister.v Line: 19
-Info (12128): Elaborating entity "shipgunner" for hierarchy "shipgunner:shpart_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 533
-Info (12128): Elaborating entity "multiplex1to35" for hierarchy "multiplex1to35:artiptmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 590
-Info (12128): Elaborating entity "decodermode" for hierarchy "decodermode:modedec_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 605
-Info (12128): Elaborating entity "decodercolumn" for hierarchy "decodercolumn:columndec_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 622
-Info (12128): Elaborating entity "decoderline" for hierarchy "decoderline:linedec_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 639
-Info (12128): Elaborating entity "multiplex21to7" for hierarchy "multiplex21to7:decmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 682
-Info (12128): Elaborating entity "displayselector" for hierarchy "displayselector:sevsegdplsel_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 701
-Info (12128): Elaborating entity "multiplex70to35" for hierarchy "multiplex70to35:displayselmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 845
-Info (12128): Elaborating entity "multiplex35to5" for hierarchy "multiplex35to5:displayfinalmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 904
-Info (13014): Ignored 45 buffer(s)
-    Info (13019): Ignored 45 SOFT buffer(s)
-Warning (19016): Clock multiplexers are found and protected
-    Warning (19017): Found clock multiplexer buttonenabler:btnebl_0|WideAnd3~0 File: E:/JL/TEC498P2/ProjectFiles/buttonenabler.v Line: 53
-Warning (12241): 67 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (12128): Elaborating entity "binpower4buttonbouncer" for hierarchy "binpower4buttonbouncer:btnbnc_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 169
+Info (12128): Elaborating entity "bin2bselector" for hierarchy "bin2bselector:shpsel_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 176
+Info (12128): Elaborating entity "multiplex140to35" for hierarchy "multiplex140to35:shparrmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 314
+Info (12128): Elaborating entity "tablememory7by5" for hierarchy "tablememory7by5:shotsfired_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 443
+Info (12128): Elaborating entity "multiplex35to1" for hierarchy "multiplex35to1:shipcoordinatemux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 501
+Info (12128): Elaborating entity "shipgunner" for hierarchy "shipgunner:shpart_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 538
+Info (12128): Elaborating entity "multiplex1to35" for hierarchy "multiplex1to35:artiptmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 595
+Info (12128): Elaborating entity "decodermode" for hierarchy "decodermode:modedec_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 610
+Info (12128): Elaborating entity "decodercolumn" for hierarchy "decodercolumn:columndec_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 627
+Info (12128): Elaborating entity "decoderline" for hierarchy "decoderline:linedec_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 644
+Info (12128): Elaborating entity "multiplex21to7" for hierarchy "multiplex21to7:decmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 687
+Info (12128): Elaborating entity "displayselector" for hierarchy "displayselector:sevsegdplsel_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 706
+Info (12128): Elaborating entity "multiplex70to35" for hierarchy "multiplex70to35:displayselmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 850
+Info (12128): Elaborating entity "multiplex35to5" for hierarchy "multiplex35to5:displayfinalmux_0" File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 909
+Info (13014): Ignored 49 buffer(s)
+    Info (13019): Ignored 49 SOFT buffer(s)
+Warning (12241): 61 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "RLED" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 33
-    Warning (13410): Pin "GLED" is stuck at GND File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 33
     Warning (13410): Pin "SGDP" is stuck at VCC File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 37
     Warning (13410): Pin "SGD1" is stuck at VCC File: E:/JL/TEC498P2/ProjectFiles/mainmodule.v Line: 38
-Info (21057): Implemented 229 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 242 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 11 input pins
     Info (21059): Implemented 28 output pins
-    Info (21061): Implemented 190 logic cells
+    Info (21061): Implemented 203 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 24 warnings
-    Info: Peak virtual memory: 4704 megabytes
-    Info: Processing ended: Fri Oct 06 06:25:14 2023
-    Info: Elapsed time: 00:00:20
-    Info: Total CPU time (on all processors): 00:00:31
+    Info: Peak virtual memory: 4702 megabytes
+    Info: Processing ended: Thu Nov 23 04:28:09 2023
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:30
 
 

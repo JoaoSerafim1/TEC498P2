@@ -1,0 +1,1110 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+
+HEADER
+{
+	VERSION = 1;
+	TIME_UNIT = ns;
+	DATA_OFFSET = 0.0;
+	DATA_DURATION = 64.0;
+	SIMULATION_TIME = 0.0;
+	GRID_PHASE = 0.0;
+	GRID_PERIOD = 1.0;
+	GRID_DUTY_CYCLE = 50;
+}
+
+SIGNAL("CH0")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("GLED")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("RLED")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("SGD1")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("SGD2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("SGD3")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("SGD4")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("SGDA")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("SGDB")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("SGDC")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("SGDD")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("SGDE")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("SGDF")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("SGDG")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("SGDP")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("CLKIN")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("CH1")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("CH2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("CH3")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("CH4")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("CH5")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("CH6")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("CH7")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("BT1")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("BT0")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+GROUP("UNUSED")
+{
+	MEMBERS = "CH2", "CH4", "CH5", "CH6", "BT1", "BT0";
+}
+
+TRANSITION_LIST("CH0")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 32.0;
+			LEVEL 1 FOR 31.0;
+			LEVEL 0 FOR 1.0;
+		}
+	}
+}
+
+TRANSITION_LIST("GLED")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 64.0;
+		}
+	}
+}
+
+TRANSITION_LIST("RLED")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 64.0;
+		}
+	}
+}
+
+TRANSITION_LIST("SGD1")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 1 FOR 64.0;
+		}
+	}
+}
+
+TRANSITION_LIST("SGD2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+		}
+	}
+}
+
+TRANSITION_LIST("SGD3")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 1 FOR 2.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+		}
+	}
+}
+
+TRANSITION_LIST("SGD4")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 3.0;
+		}
+	}
+}
+
+TRANSITION_LIST("SGDA")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 1 FOR 32.0;
+			LEVEL 0 FOR 2.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 2.0;
+		}
+	}
+}
+
+TRANSITION_LIST("SGDB")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 1 FOR 32.0;
+			LEVEL 0 FOR 31.0;
+			LEVEL 1 FOR 1.0;
+		}
+	}
+}
+
+TRANSITION_LIST("SGDC")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 1 FOR 33.0;
+			LEVEL 0 FOR 2.0;
+			LEVEL 1 FOR 2.0;
+			LEVEL 0 FOR 2.0;
+			LEVEL 1 FOR 2.0;
+			LEVEL 0 FOR 2.0;
+			LEVEL 1 FOR 2.0;
+			LEVEL 0 FOR 2.0;
+			LEVEL 1 FOR 2.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 2.0;
+			LEVEL 1 FOR 1.0;
+		}
+	}
+}
+
+TRANSITION_LIST("SGDD")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 1 FOR 32.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 3.0;
+			LEVEL 1 FOR 1.0;
+		}
+	}
+}
+
+TRANSITION_LIST("SGDE")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 1 FOR 32.0;
+			LEVEL 0 FOR 31.0;
+			LEVEL 1 FOR 1.0;
+		}
+	}
+}
+
+TRANSITION_LIST("SGDF")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 1 FOR 33.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 2.0;
+		}
+	}
+}
+
+TRANSITION_LIST("SGDG")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 1 FOR 32.0;
+			LEVEL 0 FOR 31.0;
+			LEVEL 1 FOR 1.0;
+		}
+	}
+}
+
+TRANSITION_LIST("SGDP")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 1 FOR 64.0;
+		}
+	}
+}
+
+TRANSITION_LIST("CLKIN")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+			LEVEL 0 FOR 1.0;
+			LEVEL 1 FOR 1.0;
+		}
+	}
+}
+
+TRANSITION_LIST("CH1")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 16.0;
+			LEVEL 1 FOR 16.0;
+			LEVEL 0 FOR 16.0;
+			LEVEL 1 FOR 16.0;
+		}
+	}
+}
+
+TRANSITION_LIST("CH2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 64.0;
+		}
+	}
+}
+
+TRANSITION_LIST("CH3")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 32.0;
+			LEVEL 1 FOR 32.0;
+		}
+	}
+}
+
+TRANSITION_LIST("CH4")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 64.0;
+		}
+	}
+}
+
+TRANSITION_LIST("CH5")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 64.0;
+		}
+	}
+}
+
+TRANSITION_LIST("CH6")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 64.0;
+		}
+	}
+}
+
+TRANSITION_LIST("CH7")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 32.0;
+			LEVEL 1 FOR 32.0;
+		}
+	}
+}
+
+TRANSITION_LIST("BT1")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 1 FOR 64.0;
+		}
+	}
+}
+
+TRANSITION_LIST("BT0")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 1 FOR 64.0;
+		}
+	}
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "UNUSED";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 0;
+	TREE_LEVEL = 0;
+	CHILDREN = 1, 2, 3, 4, 5, 6;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "CH2";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 1;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "CH4";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 2;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "CH5";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 3;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "CH6";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 4;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "BT1";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 5;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "BT0";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 6;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "CH0";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 7;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "CH3";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 8;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "CH7";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 9;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "CH1";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 10;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "CLKIN";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 11;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SGD1";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 12;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SGD2";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 13;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SGD3";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 14;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SGD4";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 15;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SGDA";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 16;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SGDB";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 17;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SGDC";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 18;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SGDD";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 19;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SGDE";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 20;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SGDF";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 21;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SGDG";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 22;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SGDP";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 23;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "GLED";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 24;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "RLED";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 25;
+	TREE_LEVEL = 0;
+}
+
+TIME_BAR
+{
+	TIME = 0;
+	MASTER = TRUE;
+}
+;

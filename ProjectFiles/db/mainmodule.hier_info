@@ -1,43 +1,43 @@
 |mainmodule
 CH0 => CH0.IN2
 CH1 => CH1.IN3
-CH2 => CH2.IN5
-CH3 => CH3.IN5
-CH4 => CH4.IN5
-CH5 => CH5.IN5
-CH6 => CH6.IN5
-CH7 => CH7.IN5
+CH2 => CH2.IN4
+CH3 => CH3.IN4
+CH4 => CH4.IN4
+CH5 => CH5.IN4
+CH6 => CH6.IN4
+CH7 => CH7.IN4
 BT0 => NBT0.IN1
 BT1 => NBT1.IN1
 CLKIN => CLKIN.IN1
-COL0 << multiplex35to5:displayfinalmux_0.OUT0
-COL1 << multiplex35to5:displayfinalmux_0.OUT1
-COL2 << multiplex35to5:displayfinalmux_0.OUT2
-COL3 << multiplex35to5:displayfinalmux_0.OUT3
-COL4 << multiplex35to5:displayfinalmux_0.OUT4
-LIN0 << WideNand0.DB_MAX_OUTPUT_PORT_TYPE
-LIN1 << WideNand1.DB_MAX_OUTPUT_PORT_TYPE
-LIN2 << WideNand2.DB_MAX_OUTPUT_PORT_TYPE
-LIN3 << WideNand3.DB_MAX_OUTPUT_PORT_TYPE
-LIN4 << WideNand4.DB_MAX_OUTPUT_PORT_TYPE
-LIN5 << WideNand5.DB_MAX_OUTPUT_PORT_TYPE
-LIN6 << WideNand6.DB_MAX_OUTPUT_PORT_TYPE
-RLED << shipgunner:shpart_0.RLED
-GLED << shipgunner:shpart_0.GLED
-SGDA << comb.DB_MAX_OUTPUT_PORT_TYPE
-SGDB << comb.DB_MAX_OUTPUT_PORT_TYPE
-SGDC << comb.DB_MAX_OUTPUT_PORT_TYPE
-SGDD << comb.DB_MAX_OUTPUT_PORT_TYPE
-SGDE << comb.DB_MAX_OUTPUT_PORT_TYPE
-SGDF << comb.DB_MAX_OUTPUT_PORT_TYPE
-SGDG << comb.DB_MAX_OUTPUT_PORT_TYPE
-SGDP << <VCC>
-SGD1 << <VCC>
-SGD2 << displayselector:sevsegdplsel_0.OUT2
-SGD3 << displayselector:sevsegdplsel_0.OUT1
-SGD4 << displayselector:sevsegdplsel_0.OUT0
-CLKOUT << comb.DB_MAX_OUTPUT_PORT_TYPE
-CLKDIVOUT << comb.DB_MAX_OUTPUT_PORT_TYPE
+COL0 <= multiplex35to5:displayfinalmux_0.OUT0
+COL1 <= multiplex35to5:displayfinalmux_0.OUT1
+COL2 <= multiplex35to5:displayfinalmux_0.OUT2
+COL3 <= multiplex35to5:displayfinalmux_0.OUT3
+COL4 <= multiplex35to5:displayfinalmux_0.OUT4
+LIN0 <= WideNand0.DB_MAX_OUTPUT_PORT_TYPE
+LIN1 <= WideNand1.DB_MAX_OUTPUT_PORT_TYPE
+LIN2 <= WideNand2.DB_MAX_OUTPUT_PORT_TYPE
+LIN3 <= WideNand3.DB_MAX_OUTPUT_PORT_TYPE
+LIN4 <= WideNand4.DB_MAX_OUTPUT_PORT_TYPE
+LIN5 <= WideNand5.DB_MAX_OUTPUT_PORT_TYPE
+LIN6 <= WideNand6.DB_MAX_OUTPUT_PORT_TYPE
+RLED <= shipgunner:shpart_0.RLED
+GLED <= shipgunner:shpart_0.GLED
+SGDA <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDB <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDC <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDD <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDE <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDF <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDG <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SGDP <= <VCC>
+SGD1 <= <VCC>
+SGD2 <= displayselector:sevsegdplsel_0.OUT2
+SGD3 <= displayselector:sevsegdplsel_0.OUT1
+SGD4 <= displayselector:sevsegdplsel_0.OUT0
+CLKOUT <= comb.DB_MAX_OUTPUT_PORT_TYPE
+CLKDIVOUT <= comb.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |mainmodule|binpower18clockdivider:clkdiv_0
@@ -196,18 +196,12 @@ qbar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 CH0 => WideAnd3.IN2
 CH0 => WideAnd4.IN1
 CH1 => WideAnd3.IN3
-CH7 => WideOr0.IN0
-CH6 => WideOr0.IN1
-CH5 => WideOr0.IN2
-CH4 => WideAnd1.IN0
-CH4 => WideAnd2.IN0
-CH4 => WideAnd0.IN0
-CH3 => WideAnd1.IN1
-CH3 => WideAnd2.IN1
-CH3 => WideAnd0.IN1
-CH2 => WideAnd2.IN2
-CH2 => WideAnd0.IN2
-CH2 => WideAnd1.IN2
+CH7 => WideAnd2.IN0
+CH6 => WideAnd2.IN1
+CH5 => WideAnd2.IN2
+CH4 => WideOr0.IN0
+CH3 => WideOr0.IN1
+CH2 => WideOr0.IN2
 NCH0 => NCH0.IN1
 NCH1 => WideAnd4.IN2
 IPT0 => WideAnd3.IN4
@@ -1073,76 +1067,6 @@ SEL5 => WideAnd33.IN6
 OUT <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|mainmodule|bin6switchregister:changedinputchk_0
-IPT0 => comb.IN0
-IPT0 => comb.IN0
-IPT1 => comb.IN0
-IPT1 => comb.IN0
-IPT2 => comb.IN0
-IPT2 => comb.IN0
-IPT3 => comb.IN0
-IPT3 => comb.IN0
-IPT4 => comb.IN0
-IPT4 => comb.IN0
-IPT5 => comb.IN0
-IPT5 => comb.IN0
-SETBTN => comb.IN1
-SETBTN => comb.IN1
-SETBTN => comb.IN1
-SETBTN => comb.IN1
-SETBTN => comb.IN1
-SETBTN => comb.IN1
-SETBTN => comb.IN1
-SETBTN => comb.IN1
-SETBTN => comb.IN1
-SETBTN => comb.IN1
-SETBTN => comb.IN1
-SETBTN => comb.IN1
-MATCHHTEST <= <GND>
-
-
-|mainmodule|bin6switchregister:changedinputchk_0|srlt_gate:reg_0
-s => nand0_out.IN1
-r => nand1_out.IN0
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|mainmodule|bin6switchregister:changedinputchk_0|srlt_gate:reg_1
-s => nand0_out.IN1
-r => nand1_out.IN0
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|mainmodule|bin6switchregister:changedinputchk_0|srlt_gate:reg_2
-s => nand0_out.IN1
-r => nand1_out.IN0
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|mainmodule|bin6switchregister:changedinputchk_0|srlt_gate:reg_3
-s => nand0_out.IN1
-r => nand1_out.IN0
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|mainmodule|bin6switchregister:changedinputchk_0|srlt_gate:reg_4
-s => nand0_out.IN1
-r => nand1_out.IN0
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|mainmodule|bin6switchregister:changedinputchk_0|srlt_gate:reg_5
-s => nand0_out.IN1
-r => nand1_out.IN0
-q <= comb.DB_MAX_OUTPUT_PORT_TYPE
-qbar <= comb.DB_MAX_OUTPUT_PORT_TYPE
-
-
 |mainmodule|shipgunner:shpart_0
 IPTSHIP => comb.IN0
 IPTSHIP => comb.IN0
@@ -1151,8 +1075,6 @@ BTNIPT => comb.IN1
 NCH0 => comb.IN0
 NCH0 => comb.IN0
 OUT <= comb.DB_MAX_OUTPUT_PORT_TYPE
-ENABLELED => comb.IN1
-ENABLELED => comb.IN1
 RLED <= comb.DB_MAX_OUTPUT_PORT_TYPE
 GLED <= comb.DB_MAX_OUTPUT_PORT_TYPE
 

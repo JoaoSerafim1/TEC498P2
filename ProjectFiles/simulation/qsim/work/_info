@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/media/aluno/AL-6U-16/JL/TEC498P2/ProjectFiles/simulation/qsim
+vmainmodule
+!s110 1700723844
+!i10b 1
+!s100 >3C:i4djl5A7RBaJ7l_:R2
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I0RnG<Jo;U;`zEFcI3;9e>2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/JL/TEC498P2/ProjectFiles/simulation/qsim
+w1700723842
+8mainmodule.vo
+Fmainmodule.vo
+!i122 7
+L0 32 8049
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1700723844.000000
+!s107 mainmodule.vo|
+!s90 -work|work|mainmodule.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vmainmodule_vlg_vec_tst
+!s110 1700723845
+!i10b 1
+!s100 D=kQhJE<iEVG63=D3RIGD2
+R0
+IziW:WZ`I_Rz:=oYfQSmkd2
+R1
+R2
+w1700723840
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+!i122 8
+L0 30 168
+R3
+r1
+!s85 0
+31
+!s108 1700723845.000000
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R4
+R5
